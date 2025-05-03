@@ -1,0 +1,163 @@
+---
+layout: default
+title: OSSM | Interieurarchitectuur en grafisch ontwerp
+seo:
+  title: OSSM | Interieurarchitectuur en grafisch ontwerp
+  description: Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. We worden dan ook graag zo vroeg mogelijk bij een project betrokken en nemen met plezier het totaalontwerp voor een renovatie of nieuwbouwproject op ons. We combineren tevens jarenlange ervaring in interieurarchitectuur met sterke grafische ontwerpen. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.
+  social_image:
+  twitter_card:
+  keywords: 
+  hide-from-google: false
+services:
+  - name-service: Gelaat
+    background_image: /images/essentie-gelaat-timexpert-radiance-1.jpg
+    follow-link: /gelaat.html
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - name-service: Pedicure
+    background_image: /images/essentie-lichaamsbehandeling-perfect-forms-4.jpg
+    follow-link: /pedicure.html
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - name-service: Lichaam
+    background_image: /images/essentie-lichaamsbehandeling-pomegranate-scrub.jpg
+    follow-link: /lichaam.html
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - name-service: Ontharing
+    background_image: /images/essentie-lichaamsbehandeling-perfect-forms-5.jpg
+    follow-link: /ontharing.html
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - name-service: Manicure
+    background_image: /images/essentie-manicure-1.jpg
+    follow-link: /manicure.html
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - name-service: Arrangementen
+    background_image: /images/essentie-lichaamsbehandeling-perfect-forms-2.jpg
+    follow-link: /arrangementen.html
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+---
+<header>
+    
+    {% include site-header-nav.html %}
+    
+    <!-------------------------- Header Banner ------------------------------->
+    <section class="grid-middle tall-60 bg-light">
+        <div class="padded-md col-6_xs-12"> 
+            <div class="text-left xs-text-center">
+                <h2> Body & </h2>
+                <h2> Beautysalon  </h2>
+                <p data-aos="fade-right" data-aos-duration="1000"><span class="border-b-dark-pink">S&ampSI</span> Bazel </p>
+                <a href="tel:0477558939" class="button"> Contacteer ons </a>
+            </div>
+        </div>
+    
+        <div class="col-6 grid hide-md">
+            <div class="col-6 padded-md demo">
+              <div class="tall-60 mdl-tall-50 bg-image bg-image-gelaat-14"> </div>   
+            </div>
+
+            <div class="col-6 padded-md demo">
+              <div class="tall-60 mdl-tall-50 bg-image bg-image-gelaat-19"> </div>   
+            </div>
+        </div> 
+
+        <div class="col-6 grid show-md hide-xs">
+          <div class="padded-md demo">
+            <div class="md-tall-50 bg-image bg-image-gelaat-14"> </div>   
+          </div>
+        </div> 
+    </section>
+</header>
+
+<!---------------------------- Index Welcome Section ------------------------->
+    <section>  
+        <div class="grid"> 
+            <div class="padded-md col-6-middle_sm-12 xs-padded-2 xs-margin-t-2 hide-sm">
+                <div class="tall-60 mdl-tall-40 md-tall-60 bg-image bg-image-lichaam-perfect-form-2"> </div>
+            </div>
+            
+            <div class="col-6-middle_sm-12 padded-lg padded-l-5 md-padded-lg md-padded-l-0 padded-r-5 md-padded-r-0 sm-text-center xs-padded-2 xs-margin-b-2"> 
+                <h2 class="editable"> Welkom </h2>
+                <h2 class="editable"> bij <span class="border-b-dark-pink">S&amp;SI</span> Bazel </h2>
+                <p class="padded-t-1 md-padded-t-0 md-padded-r-5 sm-padded-r-10 sm-padded-l-10 editable">
+                    Welkom bij S&amp;SI, uw rustpunt tussen Antwerpen en het Waasland. Wij bieden brede selectie aan ontspannende en medisch verantwoorde verzorgingen.&nbsp;Geniet van onze behandelingen en ontvang deskundig advies over schoonheids-producten die bij u passen. Of het nu voor een speciale gelegenheid is of gewoon om te ontspannen, stel bij ons een arrangement samen op maat van uw wensen en budget.
+                </p>
+            </div>
+        </div> 
+    </section>
+
+    <!---------------------------- Index Services Section ------------------------->
+    <section class="grid-center padded-md bg-light text-center xs-margin-t-2">
+        <div class="padded-sm">
+            <h2 class="editable">
+                Onze behandelingen
+            </h2>
+            <p class="editable">
+                Bij S&amp;SI bieden we een breed scala aan behandelingen om jouw natuurlijke schoonheid te accentueren. Van professionele gelaatsverzorging en medische pedicure tot lichaamsbehandelingen, ontharing en manicure – alles met de grootste zorg en expertise. Kies een arrangement of laat er eentje op maat samenstellen, volledig afgestemd op uw wensen en behoeften. Uw welzijn staat bij ons centraal.
+            </p>
+        </div>
+        
+        <nav class="grid-center padded-sm text-center"> 
+            <div class="grid-center">
+            
+                {% for item in page.services %}
+                <div class="padded-1 {{item.column-size}}"> 
+                    <a href="{{item.follow-link}}" class="clickable-box">
+                        <div class="bg-image-border" style="background-image: url('{{item.background_image}}');">
+                            <div class="overlay padded-5"> 
+                                <h3 class="title-service"> {{item.name-service}} </h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </nav>
+
+    </section>
+    
+    <!---------------------------- Banner Section ------------------------->
+
+    <!-- <section class="padded-md grid-center">
+
+        <div style="width: 100%; min-width: 300px; max-width: 800px;">
+            <div style="position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;">
+            <p><iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/7svSmK33XHg?si=2TleX9YkR370H3jL" title="YouTube video player" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" vq="hd1080"></iframe></p>
+            </div>
+        </div>
+    </section> -->
+
+    <!---------------------------- Appointment Section ------------------------->
+    {% include cta-contact.html %}
+
+    <!---------------------------- Collaboration Section ------------------------->
+    <section class="grid bg-image col-12 tall-60">
+        <div class="padded-md col-12 text-center xs-margin-t-2"> 
+            <h2 class="editable"> Germaine de capuccini &amp; AHAVA </h2>
+            <hr class="margin-auto border-current" />
+            <p class="margin-t-2 editable"> S&amp;SI is exclusieve verdeler voor de streek van Germaine de Capuccini &amp; AHAVA </p>
+        </div>
+
+        <div class="col-6_xs-12">
+            <div class="tall-10 text-center xs-margin-t-2"> 
+                <img src="/images/essentie-logo-germaine-de-capuccini.png" alt="" />
+            </div>
+            <div class="padded-md xs-padded-1 text-center">
+                <p class="editable"> Germaine de Capuccini heeft de meest exclusieve formules en baanbrekende vooruitgang in de huidverzorging ontwikkeld. De succesvolle combinatie van natuurlijke actieve ingrediënten met een toonaangevende technologie en uitstekende structuren heeft ons in staat gesteld om 's werelds meest invloedrijke producten te ontwikkelen die de schoonheidsindustrie ooit heeft gezien. </p>
+            </div>
+        </div>
+
+        <div class="col-6_xs-12">
+            <div class="tall-10 text-center"> 
+                <img src="/images/essentie-logo-ahava.png" alt="" />
+            </div>
+            <div class="padded-md xs-padded-1 text-center">
+                <p class="editable"> De professionele Ahava-producten uit de Dode Zee zijn ook geschikt voor gebruik met huidziekten zoals psoriasis, exzeem, acne, etc. </p>
+            </div>
+        </div>
+
+    </section>

@@ -1,0 +1,1866 @@
+/* Colors
+Logo pink - #A95B68
+Dark pink  - #CB9CA4
+Light pink - #F1E6E8
+Dark grey  - #5E5B5B
+Light grey - #8B8B8B 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*--------------- Temprary style for structural html ----------------*/
+
+/* * {
+    border: 2px solid rgb(225, 225, 225);
+}
+
+html {border: none;} */
+/*--------------------------- Image Styles --------------------------*/
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-border
+{
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+/*----------------------------- Images ------------------------------*/
+
+/* Header Banner */
+
+.bg-image-gelaat-1 {
+    background-image: url('/images/essentie-gelaat-1.jpg');
+    background-position: 50% 70%;
+}
+
+.bg-image-gelaat-2 {
+    background-image: url('/images/essentie-gelaat-2.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-6 {
+    background-image: url('/images/essentie-gelaat-6.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-4 {
+    background-image: url('/images/essentie-gelaat-4.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-5 {
+    background-image: url('/images/essentie-gelaat-5.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-lichaam-6 {
+    background-image: url('/images/essentie-lichaam-6.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-7 {
+    background-image: url('/images/essentie-gelaat-7.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-8 {
+    background-image: url('/images/essentie-gelaat-8.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-scrub-9 {
+    background-image: url('/images/essentie-scrub-1.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-10 {
+    background-image: url('/images/essentie-gelaat-10.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-11 {
+    background-image: url('/images/essentie-gelaat-11.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-12 {
+    background-image: url('/images/essentie-gelaat-12.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-13 {
+    background-image: url('/images/essentie-gelaat-13.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-14 {
+    background-image: url('/images/essentie-gelaat-14.png');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-15 {
+    background-image: url('/images/essentie-gelaat-15.png');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-16 {
+    background-image: url('/images/essentie-gelaat-16.png');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-17 {
+    background-image: url('/images/essentie-gelaat-17.png');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-18 {
+    background-image: url('/images/essentie-gelaat-excel-therapy-o2.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-19 {
+    background-image: url('/images/essentie-gelaat-excel-timexpert-srns.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-close-up-1 {
+    background-image: url('/images/essentie-gelaat-close-up-1.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-gelaat-close-up-2 {
+    background-image: url('/images/essentie-gelaat-close-up-2.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-lichaam-1 {
+    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-3.jpg');
+    background-position: 50% 70%;
+}
+
+.bg-image-manicure-2 {
+    background-image: url('/images/essentie-manicure.png');
+    background-position: 50% 6%;
+}
+
+
+/* Index Welcome Section */
+
+.bg-image-lichaam-perfect-form-2 {
+    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-2.jpg');
+    background-position: 50% 50%;
+}
+
+/* Index Services Section */
+.bg-image-gelaat-timeexpert-1 {
+    /* Gelaat */
+    background-image: url('/images/essentie-gelaat-timexpert-radiance-1.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-lichaamsbehandeling-5 {
+     /* Ontharing */
+    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-5.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-lichaamsbehandeling-pomgranate {
+    /* Lichaam */
+    background-image: url('/images/essentie-lichaamsbehandeling-pomegranate-scrub.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-manicure {
+    /* Manicure */
+    background-image: url('/images/essentie-manicure-1.jpg');
+    background-position: 50% 6%;
+}
+
+.bg-image-product-purexpert-2 {
+    /* Arrangementen */
+    background-image: url('/images/essentie-product-purexpert-2.jpg');
+    background-position: 50% 6%;
+}
+
+/* Index Appointment Section */
+
+.bg-image-nancy {
+    background-image: url('/images/essentie-nancy.jpg');
+    background-position: 50% 40%;
+}
+
+/* Index Collaboration Section */
+
+.bg-image-collaboration-gdc {
+    background-image: url('/images/sensi-logo-germaine-de-capuccini.png');
+    
+}
+
+.bg-image-collaboration-ahava {
+    background-image: url('/images/sensi-logo-ahava.png');
+    background-position: 50% 60%;
+}
+
+
+/* Visage  */
+.bg-image-gelaatsverzorging-dames {
+    background-image: url('/images/essentie-gelaatsverzorging-dames.jpg');
+    background-position: 50% 60%;
+}
+
+.bg-image-gelaat-carousel-1 {
+    background-image: url('/images/essentie-gelaat-carousel-1.jpg');
+    background-position: 50% 60%;
+}
+
+.bg-image-gelaat-carousel-2 {
+    background-image: url('/images/essentie-gelaat-carousel-2.jpg');
+    background-position: 50% 60%;
+}
+
+.bg-image-gelaat-carousel-3 {
+    background-image: url('/images/essentie-gelaat-carousel-3.jpg');
+    background-position: 50% 60%;
+}
+
+.bg-image-gelaat-carousel-4 {
+    background-image: url('/images/essentie-gelaat-carousel-4.jpg');
+    background-position: 50% 60%;
+}
+
+.bg-image-dermatech-pen-1 {
+    background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
+    background-position: 40% 50%;
+}
+
+
+/* Pedicure */
+.bg-image-pedicure {
+    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-4.jpg');
+    background-position: 50% 60%;
+}
+
+
+/* Body */
+
+.bg-image-zware-benen {
+    background-image: url('/images/essentie-zware-en-vermoeide-benen.png');
+    background-position: 50% 60%;
+}
+
+.bg-image-lichaamsmassages {
+    background-image: url('/images/essentie-lichaamsmassages-en-pakkingen.jpg');
+    background-position: 50% 60%;
+}
+
+
+/* Hair Removal  */
+
+.bg-image-ontharing {
+    background-image: url('/images/sensi-behandelingen-ontharingen');
+    background-position: 50% 60%;
+}
+
+
+/* Contact */
+
+.bg-image-studio {
+    background-image: url('/images/essentie-studio.jpg');
+}
+
+
+/* Contact Gallery */
+
+.gallery .gallery-item {
+    border-bottom: none;
+}
+
+/* Background of gallery when active  */
+.lg-backdrop {
+    background-color: rgb(20,20,20);
+}
+
+.lg-backdrop.in {
+    opacity: 0.95;
+}
+
+/* Footer */
+
+.bg-image-footer {
+    background-image: url('/images/essentie-footer.png');
+    background-position: 50% 60%;
+}
+
+
+/* Aspect Ratio  */
+
+.portrait-tall      { padding-bottom: 175%; }
+.portrait           { padding-bottom: 125%; }
+.square             { padding-bottom: 100%; }
+.landscape          { padding-bottom: 66%;  }
+.landscape-small    { padding-bottom: 45%;  }
+.landscape-wide     { padding-bottom: 56%;  }
+
+/*------------------------- Universal Styles -------------------------*/
+
+body {
+    border: none;
+    font-family:'Noto Sans SC', sans-serif;
+    color: #5E5B5B;
+    background-color: #F5F5F5;
+}
+
+/* Padding & Margin */
+
+.padded-sm { padding: 2.5%; }
+.padded-md { padding: 5%;   }
+.padded-lg { padding: 10%;  }
+
+.padded-0  { padding: 0;      }
+.padded-05 { padding: 0.5rem; }
+.padded-1  { padding: 1rem;   }
+.padded-2  { padding: 2rem;   }
+.padded-5  { padding: 5rem;   }
+
+.padded-t { padding-top: 5%;    }
+.padded-b { padding-bottom: 5%; }
+.padded-l { padding-left: 5%;   }
+.padded-r { padding-right: 5%;  }
+
+.padded-tb { padding-top: 5%; padding-bottom: 5%; }
+.padded-lr { padding-left: 5%; padding-right: 5%; }
+
+.padded-t-05 { padding-top: 0.5rem;    }
+.padded-b-05 { padding-bottom: 0.5rem; }
+.padded-l-05 { padding-left: 0.5rem;   }
+.padded-r-05 { padding-right: 0.5rem;  }
+
+.padded-t-1 { padding-top: 1rem;    }
+.padded-b-1 { padding-bottom: 1rem; }
+.padded-l-1 { padding-left: 1rem;   }
+.padded-r-1 { padding-right: 1rem;  }
+
+.padded-t-2 { padding-top: 2rem;    }
+.padded-b-2 { padding-bottom: 2rem; }
+.padded-l-2 { padding-left: 2rem;   }
+.padded-r-2 { padding-right: 2rem;  }
+
+.padded-t-5 { padding-top: 5rem;    }
+.padded-b-5 { padding-bottom: 5rem; }
+.padded-l-5 { padding-left: 5rem;   }
+.padded-r-5 { padding-right: 5rem;  }
+
+.padded-t-10 { padding-top: 10rem;    }
+.padded-b-10 { padding-bottom: 10rem; }
+.padded-l-10 { padding-left: 10rem;   }
+.padded-r-10 { padding-right: 10rem;  }
+
+.padded-t-0 { padding-top: 0;    }
+.padded-b-0 { padding-bottom: 0; }
+.padded-l-0 { padding-left: 0;   }
+.padded-r-0 { padding-right: 0;  }
+
+.margin-0  { margin: 0;      }
+.margin-05 { margin: 0.5rem; }
+.margin-1  { margin: 1rem;   }
+.margin-2  { margin: 2rem;   }
+.margin-5  { margin: 5rem;   }
+
+.margin-t { margin-top: 5%;    }
+.margin-b { margin-bottom: 5%; }
+.margin-l { margin-left: 5%;   }
+.margin-r { margin-right: 5%;  }
+
+.margin-t-1 { margin-top: 1rem;    }
+.margin-b-1 { margin-bottom: 1rem; }
+.margin-l-1 { margin-left: 1rem;   }
+.margin-r-1 { margin-right: 1rem;  }
+
+.margin-t-2 { margin-top: 2rem;    }
+.margin-b-2 { margin-bottom: 2rem; }
+.margin-l-2 { margin-left: 2rem;   }
+.margin-r-2 { margin-right: 2rem;  }
+
+.margin-t-3 { margin-top: 3rem;    }
+.margin-b-3 { margin-bottom: 3rem; }
+.margin-l-3 { margin-left: 3rem;   }
+.margin-r-3 { margin-right: 3rem;  }
+
+.margin-t-0 { margin-top: 0;    }
+.margin-b-0 { margin-bottom: 0; }
+.margin-l-0 { margin-left: 0;   }
+.margin-r-0 { margin-right: 0;  }
+
+.margin-tb { margin-top: 5%; margin-bottom: 5%; }
+.margin-lr { margin-left: 5%; margin-right: 5%; }
+
+.margin-auto { margin-left: auto; margin-right: auto; }
+
+/* Background Styles */
+
+.bg-dark {
+    background-color: #e6d1d5;
+    color: #5E5B5B;
+}
+
+.bg-light {
+    background-color: #F1E6E8;
+    color: #5E5B5B;
+}
+
+.bg-light-footer {
+    background-color: #F1E6E8;
+    color: #5E5B5B;
+}
+
+.bg-white {
+    background-color: white;
+    color: #6B705C;
+}
+
+.bg-fixed { background-attachment: fixed; }
+
+/* Min Height */
+
+.tall-05  { min-height: 0.5vh;}
+.tall-1   { min-height: 1vh;  }
+.tall-2   { min-height: 2vh;  }
+.tall-5   { min-height: 5vh;  }
+.tall-10  { min-height: 10vh; }
+.tall-20  { min-height: 20vh; }
+.tall-30  { min-height: 30vh; }
+.tall-40  { min-height: 40vh; }
+.tall-50  { min-height: 50vh; }
+.tall-60  { min-height: 60vh; }
+.tall-70  { min-height: 70vh; }
+.tall-80  { min-height: 80vh; }
+.tall-90  { min-height: 90vh; }
+.tall-100 { min-height: 100vh;}
+
+/* Max Width */
+
+.wide-lg  { max-width: 1024px; }
+.wide-100 { max-width: 100%;   }
+
+
+.height-10 { max-height: 10vh;}
+.height-20 { max-height: 20vh;}
+.height-40 { max-height: 40vh;}
+.height-60 { max-height: 60vh;}
+.height-80 { max-height: 80vh;}
+
+.width-20 { max-width: 20vw;}
+.width-40 { max-width: 40vw;}
+.width-60 { max-width: 60vw;}
+.width-80 { max-width: 80vw;}
+
+
+/* Text Allignment */
+
+.text-left   { text-align: left;   }
+.text-center { text-align: center; }
+.text-right  { text-align: right;  }
+
+/* Text Styles */
+
+.small-text  { font-size: 1.5rem; }
+.medium-text { font-size: 2rem;   }
+.big-text    { font-size: 4rem;   }
+
+.font-weight-light      { font-weight: 300;    }
+.font-weight-normal     { font-weight: normal; }
+.font-weight-extra-bold { font-weight: 800;    }
+
+.dark-logo-text { color: #A95B68; }
+.dark-text      { color: #CB9CA4; }
+.light-text     { color: #CB997E; }
+.white-text     { color: white;   }
+
+.bg-color-transparant { background-color: transparent; }
+
+/* links */
+a {
+    display: inline-block;
+}
+
+/*------------------------- Typography Styles ------------------------*/
+
+h1, h2, h3, h4 {
+    font-family: 'Cantata One', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+a {
+    font-weight: 200;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.2s all; 
+}
+
+a:hover {
+    color:  #CB9CA4;
+    
+}
+
+hr {
+    margin: 0.5em 0 0.5em;
+    margin-right: 0px;
+    margin-left: 0px;
+    border: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-bottom: 2px solid #78787d;
+    border-bottom-color: rgb(120, 120, 125);
+    width: 80px;
+    border-color: inherit;
+    height: 0;
+    color: #CB9CA4;
+}
+
+.border-b-dark-pink { border-bottom: 2px solid #CB9CA4; }
+
+.title-service { 
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+} 
+
+.title {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+
+.price {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.icon {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+/*---------------------------- Buttons ---------------------------*/
+.button {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    transition: 0.5s all; 
+}
+
+.button:hover {
+    border: 2px solid #CB9CA4;
+    color: white;
+    background-color: #CB9CA4;
+}
+
+/*------------------------- Header Styles ------------------------*/
+
+header h2 {
+    font-family: 'the-seasons', 'Cantata One', sans-serif;
+    font-size: 4vw;
+    line-height: 1;
+}
+
+header a {
+    font-size: 1.1rem;
+    padding: 1rem 0.5rem;
+    margin: 0 0.2rem;  
+    text-decoration: none;
+    color: inherit; 
+    transition: 0.1s all;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid #CB9CA4;
+}
+
+header p {
+    font-size: 2.1vw;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+header .button {
+    margin-top: 4rem;
+}
+
+.header-icon {
+    font-size: 1.2rem;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center; /* Horizontale uitlijning */
+    align-items: center; /* Verticale uitlijning */
+    width: 3%; /* Zorg dat de container de volledige breedte gebruikt */
+    height: auto; /* Dynamische hoogte indien nodig */
+    /* margin-top: 3rem; Ruimte boven de pijl, pas aan naar wens */
+    position: relative; 
+    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.arrow-down {
+    margin: 0 auto; /* Verwijder harde marges */
+    position: relative; /* Zorg dat positionering consistent blijft */
+    display: block; /* Zorg dat het als een blokelement werkt binnen flexbox */
+}
+
+.arrow-down:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 1%;
+    border-radius: 5px;
+    background: transparent;
+    transform: rotate(-90deg);
+    transform-origin: 0% 100%;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+    margin: 0 0rem;
+    }
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.demo {
+    width: 100%;
+}
+
+/* Hamburger menu Daniels example */
+
+
+/* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
+
+.hamburger-button {
+    position: fixed;
+    top: 3vh;
+    right: 4vh;
+    z-index: 9;
+    padding: 12px;
+}
+
+
+/*this is where you can change the color of the buttons*/
+
+.hamburger-button span {
+    width: 30px;
+    border: 1.5px solid #5E5B5B;
+    background-color: #5E5B5B;
+    display: block;
+    border-radius: 22px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.hamburger-button.active span {
+    border-color: white;
+    background-color: white;
+}
+
+.hamburger-top,
+.hamburger-bottom {
+    position: absolute;
+}
+
+.hamburger-top {
+    top: 2px;
+}
+
+.hamburger-bottom {
+    bottom: 2px;
+}
+
+
+/* make sure this has the same top as the burger button has padding*/
+
+.hamburger-button.active .hamburger-top {
+    position: absolute;
+    top: 12px;
+    transform: rotateZ(45deg);
+}
+
+.hamburger-button.active .hamburger-middle {
+    /*   transform: rotateZ(270deg); */
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.hamburger-button.active .hamburger-bottom {
+    position: absolute;
+    bottom: 12px;
+    transform: rotateZ(-45deg);
+}
+
+.mobile-menu {
+    display: flex;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    right: 0;
+    bottom: 100vh;
+    background-color: #CB9CA4;
+    padding: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 8;
+    transition: 1s;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mobile-menu.active {
+    top: 0;
+    bottom: 0;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    display: block;
+    padding: 5px 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+/*--------------------- Index Treatments Styles ---------------------*/
+
+/* clickable boxes */
+
+.clickable-box {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 rgba(0, 0, 0, 0);
+    /* so that we can add a transition */
+    transition: 0.2s all;
+    display: block;
+    border-radius: 15px;
+    max-width: 20rem;
+}
+
+.clickable-box .overlay {
+    min-height: 16rem;
+    padding: 6rem 0rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 15px;
+    max-width: 20rem;
+}
+
+.clickable-box p {
+    margin-bottom: 0;
+}
+
+.clickable-box:hover {
+    background-color: rgba(0, 0, 10, 0.6);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top: -2px;
+}
+
+
+
+/*------------------ Index Appointment Section Styles ------------------*/
+
+/*---------------- Collaboration Section Styles ------------------*/
+
+/* ------------------ Contact Section Styles ---------------------*/
+
+/* Card Styles */
+  
+form input, 
+form textarea {
+    background: inherit;
+    color: #CB9CA4;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #999797;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #CB9CA4;
+}
+
+textarea {
+    min-height: 3rem;
+}
+
+form label { 
+    margin-top: 2rem;
+    display: block;
+    color: #5E5B5B;
+    font-weight: 100;
+}
+
+form button {
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    text-align: right;
+}
+/*------------------------- Footer Styles ------------------------*/
+
+footer a {
+    font-size: 1.1rem;
+
+}
+
+footer h4 {
+    color: #CB9CA4;
+}
+
+.display-block { display: block; }
+
+
+.fab {
+    font-size: 1.5rem;
+}
+
+/* Cookie banner */
+
+#cookie-notice {
+    padding: 0.5rem 1rem;
+    display: none;
+    text-align: center;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0;
+    width: calc(100% - 2rem);
+    background: #222;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#cookie-notice a {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+#cookie-notice .button-subtle {
+    opacity: 0.8;
+}
+
+#close-cookie-banner {
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    opacity: 0.5
+}
+
+/* ---------------------- Prices Treatment Styles ----------------------- */
+
+
+/* Prices  */
+
+.price-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Precies 2 kolommen */
+    gap: 1rem 5rem; /* Ruimte tussen de items */
+}
+
+.price-item {
+    padding: 25px;
+}
+
+.price-title-price {
+    display: flex;
+    justify-content: space-between; /* Titel links en prijs rechts */
+}
+
+
+/* Accordion Styles */
+
+.accordion {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0 0 1rem 0;
+}
+  
+.tab {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: .5rem;
+    border: 1px solid #c8c8c8;
+    margin: 0 0 -1px;
+    }
+
+div {
+    background-repeat: no-repeat;
+}
+
+.tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+  
+input[type="checkbox"], input[type="radio"] {
+    display: inline;
+}
+  
+  
+input {
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+  
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+  
+.tab input[type="checkbox"]:checked + label {
+    font-weight: 700;
+}
+  
+.tab label {
+    position: relative;
+    display: block;
+    padding: .5rem .5rem .5rem 3rem;
+    margin: 0;
+    line-height: 1.8;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+  
+label {
+    display: block;
+    margin-bottom: .3rem;
+    font-weight: 600;
+}
+  
+.tab label span {
+    float: right;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-right: .5rem;
+}
+  
+.tab label::after {
+    position: absolute;
+    left: .5rem;
+    top: .3rem;
+    display: block;
+    width: 2em;
+    height: 2em;
+    line-height: 2;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+  
+.tab input:checked ~ .tab-content {
+    max-height: 100em;
+    opacity: 1;
+}
+  
+.tab .tab-content {
+    max-height: 0;
+    display: block;
+    padding-right: .5rem;
+    opacity: 0;
+    color: #505050;
+    overflow: hidden;
+    -webkit-transition: max-height .35s,padding .35s,opacity .5s;
+    -o-transition: max-height .35s,padding .35s,opacity .5s;
+    transition: max-height .35s,padding .35s,opacity .5s;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+  
+.tab .tab-content p {
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+  
+.tab-content * {
+    color: #41414d;
+
+}
+  
+.tab input[type=checkbox]+label:after, .tab input[type=radio]+label:after {
+    content: "+";
+    }
+
+.tab input[type=checkbox]:checked+label:after, .tab input[type=radio]:checked+label:after {
+transform: rotate(135deg);
+}
+    
+/* Accordion LIST Styles */
+  
+.text-list {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+  
+ul {
+    margin: .7rem 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    list-style: circle;
+}
+  
+li {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    list-style: inherit;
+    margin-left: 1.3rem;
+    margin-bottom: 0.25rem;
+}
+  
+/* --------------------- Visage Styles ------------------------ */
+.slider-item {
+    padding: 1rem;
+    display: none; /* otherwise your carousel would display as blocks;*/
+  }
+  
+.slider-item:first-child { /* this makes sure that your first image of the carousel loads */
+    display: block;
+}
+  
+.slick-next::before {
+    content: '→';
+}
+  
+.slick-next {
+    right: -30px;
+}
+  
+.slick-prev {
+    left: -30px;
+}
+  
+.slick-next::before, .slick-prev::before {
+    font-family: slick;
+    /*padding: 0.5rem;*/
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #CB9CA4;
+  }
+  
+  /* without this, the dots are not centered */ 
+  .slick-dots {
+    left: 0;
+    bottom: -20px;
+  }
+  
+  .slick-dots li, .slick-dots li button {
+      width: 10px;
+  }
+  
+  .slick-dots li button::before {
+    color: #5E5B5B;
+  }
+  
+  .slick-dots li.slick-active button::before {
+    color: #CB9CA4;
+  }
+
+
+/* Dermatech pen video facebook */
+
+.youtube-container { 
+	max-width: 50%;
+}
+
+/* This is fancy CSS that you haven't learnt yet. No need to understand it yet, but you're welcome to copy & paste */
+
+/* .embed-container { 
+	position: relative;
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; 
+  	top: 0; 
+  	left: 0; 
+  	width: 100%; 
+  	height: 100%; 
+}
+     */
+/*  ----------- Media Queries - Responsiveness Site ----------- */
+
+.show-mdl,
+.show-md,
+.show-sm,
+.show-xs,
+.show-xxs {
+    display: none;
+}
+
+
+/* ------- MDL Media Query (74em / 1194px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+
+@media (max-width: 75em) {
+    /* body {
+        border: 2px solid yellow;
+    } */
+
+    header nav a {
+        padding-right: 0.5rem;
+    }
+    
+    header a {
+        padding: 0.5rem 0.5rem;
+        font-size: 1.3vw;
+    }
+
+    header h2 {
+        font-size: 4.5vw;
+    }
+
+    header p {
+        font-size: 2.8vw;
+    }
+    
+    footer h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    footer nav a {
+        padding: 0.6rem;
+    }
+
+    footer a {
+        font-size: 1.3vw;
+    }
+
+    footer .fab {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+
+    .show-mdl { display: block; }
+    .hide-mdl { display: none;  }
+   
+    .mdl-tall-10  { min-height: 10vh; }
+    .mdl-tall-20  { min-height: 20vh; }
+    .mdl-tall-30  { min-height: 30vh; }
+    .mdl-tall-40  { min-height: 40vh; }
+    .mdl-tall-50  { min-height: 50vh; }
+    .mdl-tall-60  { min-height: 60vh; }
+    .mdl-tall-70  { min-height: 70vh; }
+    .mdl-tall-80  { min-height: 80vh; }
+    .mdl-tall-90  { min-height: 90vh; }
+    .mdl-tall-100 { min-height: 100vh; }
+    
+    .mdl-text-center { text-align: center; }
+    .mdl-text-left   {text-align: left;    }
+    .mdl-text-right  {text-align: right;   }
+    
+    .mdl-padded-05 { padding: 0.5rem; }
+    .mdl-padded-1  { padding: 1rem;   }
+    .mdl-padded-2  { padding: 2%;     }
+    .mdl-padded-5  { padding: 5%;     }
+    .mdl-padded-10 { padding: 10%;    }
+    
+    .mdl-padded-t-0 { padding-top: 0;    }
+    .mdl-padded-b-0 { padding-bottom: 0; }
+    .mdl-padded-l-0 { padding-left: 0;   }
+    .mdl-padded-r-0 { padding-right: 0;  }
+
+    .mdl-padded-t-1 { padding-top: 1rem;    }
+    .mdl-padded-b-1 { padding-bottom: 1rem; }
+    .mdl-padded-l-1 { padding-left: 1rem;   }
+    .mdl-padded-r-1 { padding-right: 1rem;  } 
+
+    .mdl-padded-t-2 { padding-top: 2rem;    }
+    .mdl-padded-b-2 { padding-bottom: 2rem; }
+    .mdl-padded-l-2 { padding-left: 2rem;   }
+    .mdl-padded-r-2 { padding-right: 2rem;  }
+
+    .mdl-margin-t-0 { margin-top: 0;    }
+    .mdl-margin-b-0 { margin-bottom: 0; }
+    .mdl-margin-l-0 { margin-left: 0;   }
+    .mdl-margin-r-0 { margin-right: 0;  }
+
+    .mdl-margin-t-1 { margin-top: 1rem;    }
+    .mdl-margin-b-1 { margin-bottom: 1rem; }
+    .mdl-margin-l-1 { margin-left: 1rem;   }
+    .mdl-margin-r-1 { margin-right: 1rem;  }
+
+    .mdl-margin-t-2 { margin-top: 2rem;    }
+    .mdl-margin-b-2 { margin-bottom: 2rem; }
+    .mdl-margin-l-2 { margin-left: 2rem1;  }
+    .mdl-margin-r-2 { margin-right: 2rem;  }
+
+    .mdl-bg-white {
+        background-color: rgba(247, 240, 240, 0.8);
+        padding: 1rem;
+    }
+
+    .big-text { font-size: 6vw; }
+
+    .mdl-banner {
+        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
+        background-size: cover;
+        background-position: -30% 50%;
+        background-repeat: no-repeat;
+        min-height:60vh;
+    }
+
+    .bg-slate-200 {
+        --tw-bg-opacity: 0.7;
+        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+    }
+
+}
+
+
+/* ------- MD Media Query (70em / 1024px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+
+@media (max-width: 64em) {
+    /* body {
+        border: 2px solid green;
+    } */
+
+    header nav a {
+        padding-right: 1.5rem;
+    }
+
+    header a {
+        padding: 0.5rem 0.5rem;
+        font-size: 1.8vw;
+    }
+
+    header h2 {
+        font-size: 4.8vw;
+    }
+
+    h2 {
+        font-size: 3.1vw;
+    }
+
+    h3 {
+        font-size: 3.1vw;
+    }
+    
+
+    header p {
+        font-size: 3.8vw;
+    }
+    
+    footer h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    footer nav a {
+        padding: 0.6rem;
+    }
+
+    footer a {
+        font-size: 1.8vw;
+    }
+
+    footer .fab {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.8vw;
+    }
+
+   
+
+    .show-md { display: block; }
+    .hide-md { display: none;  }
+   
+    .md-tall-10  { min-height: 10vh; }
+    .md-tall-20  { min-height: 20vh; }
+    .md-tall-30  { min-height: 30vh; }
+    .md-tall-40  { min-height: 40vh; }
+    .md-tall-50  { min-height: 50vh; }
+    .md-tall-60  { min-height: 60vh; }
+    .md-tall-70  { min-height: 70vh; }
+    .md-tall-80  { min-height: 80vh; }
+    .md-tall-90  { min-height: 90vh; }
+    .md-tall-100 { min-height: 100vh; }
+    
+    .md-text-center { text-align: center; }
+    .md-text-left   {text-align: left;    }
+    .md-text-right  {text-align: right;   }
+    
+    .md-padded-05 { padding: 0.5rem; }
+    .md-padded-1  { padding: 1rem;   }
+    .md-padded-2  { padding: 2%;     }
+    .md-padded-5  { padding: 5%;     }
+    .md-padded-10 { padding: 10%;    }
+    
+    .md-padded-t-0 { padding-top: 0;    }
+    .md-padded-b-0 { padding-bottom: 0; }
+    .md-padded-l-0 { padding-left: 0;   }
+    .md-padded-r-0 { padding-right: 0;  }
+
+    .md-padded-t-1 { padding-top: 1rem;    }
+    .md-padded-b-1 { padding-bottom: 1rem; }
+    .md-padded-l-1 { padding-left: 1rem;   }
+    .md-padded-r-1 { padding-right: 1rem;  } 
+
+    .md-padded-t-2 { padding-top: 2rem;    }
+    .md-padded-b-2 { padding-bottom: 2rem; }
+    .md-padded-l-2 { padding-left: 2rem;   }
+    .md-padded-r-2 { padding-right: 2rem;  }
+
+    .md-padded-t-5 { padding-top: 5rem;    }
+    .md-padded-b-5 { padding-bottom: 5rem; }
+    .md-padded-l-5 { padding-left: 5rem;   }
+    .md-padded-r-5 { padding-right: 5rem;  }
+
+    .md-margin-t-0 { margin-top: 0;    }
+    .md-margin-b-0 { margin-bottom: 0; }
+    .md-margin-l-0 { margin-left: 0;   }
+    .md-margin-r-0 { margin-right: 0;  }
+
+    .md-margin-t-1 { margin-top: 1rem;    }
+    .md-margin-b-1 { margin-bottom: 1rem; }
+    .md-margin-l-1 { margin-left: 1rem;   }
+    .md-margin-r-1 { margin-right: 1rem;  }
+
+    .md-margin-t-2 { margin-top: 2rem;    }
+    .md-margin-b-2 { margin-bottom: 2rem; }
+    .md-margin-l-2 { margin-left: 2rem1;  }
+    .md-margin-r-2 { margin-right: 2rem;  }
+
+    .md-bg-white {
+        background-color: rgba(247, 240, 240, 0.8);
+        padding: 1rem;
+    }
+
+    .big-text { font-size: 6vw; }
+
+    .md-banner {
+        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
+        background-size: cover;
+        background-position: -30% 50%;
+        background-repeat: no-repeat;
+        min-height:60vh;
+    }
+
+    .bg-slate-200 {
+        --tw-bg-opacity: 0.7;
+        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+    }
+
+    .title-service { 
+        font-size: 3.1vw;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    } 
+
+    .price-item {
+        padding: 50px;
+        padding-bottom: 0;
+    }
+
+}
+
+
+/* ------- SM Media Query (48em / 768px) --------------- */
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
+
+@media (max-width: 48em) {
+    html {
+        font-size: 14px;
+    }
+
+    /* body {
+        border: 2px solid blue;
+        padding: 0.5rem;
+    } */
+
+    header h2 {
+        font-size: 5.2vw;
+    }
+
+    h3 {
+        font-size: 3.8vw;
+    }
+
+    header p {
+        font-size: 3.8vw;
+    }
+
+    p {
+        font-size: 2.6vw;
+    }
+
+    header a {
+        font-size:2.6vw
+    }
+
+    footer a {
+        font-size:2.6vw
+    }
+
+    .show-sm { display: block; }
+    .hide-sm { display: none;  }
+    
+    .sm-tall-10  { min-height: 10vh;  }
+    .sm-tall-20  { min-height: 20vh;  }
+    .sm-tall-30  { min-height: 30vh;  }
+    .sm-tall-40  { min-height: 40vh;  }
+    .sm-tall-50  { min-height: 50vh;  }
+    .sm-tall-60  { min-height: 60vh;  }
+    .sm-tall-70  { min-height: 70vh;  }
+    .sm-tall-80  { min-height: 80vh;  }
+    .sm-tall-90  { min-height: 90vh;  }
+    .sm-tall-100 { min-height: 100vh; }
+
+    .sm-width-20 { max-width: 20vw;}
+    .sm-width-40 { max-width: 40vw;}
+    .sm-width-60 { max-width: 60vw;}
+    .sm-width-80 { max-width: 80vw;}
+    
+    .sm-text-center { text-align: center; }
+    .sm-text-left   { text-align: left  ; }
+    .sm-text-right  { text-align: right;  }
+
+    .sm-padded-05 { padding: 0.5rem; }
+    .sm-padded-1  { padding: 1rem;   }
+    .sm-padded-2  { padding: 2%;     }
+    .sm-padded-5  { padding: 5%;     }
+    .sm-padded-10 { padding: 10%;    }
+
+    .sm-padded-t-0 { padding-top: 0;    }
+    .sm-padded-b-0 { padding-bottom: 0; }
+    .sm-padded-l-0 { padding-left: 0;   }
+    .sm-padded-r-0 { padding-right: 0;  }
+
+    .sm-padded-t-10 { padding-top: 10%;    }
+    .sm-padded-b-10 { padding-bottom: 10%; }
+    .sm-padded-l-10 { padding-left: 10%;   }
+    .sm-padded-r-10 { padding-right: 10%;  }
+
+    .sm-margin-t-0 { margin-top: 0;    }
+    .sm-margin-b-0 { margin-bottom: 0; }
+    .sm-margin-l-0 { margin-left: 0;   }
+    .sm-margin-r-0 { margin-right: 0;  }
+
+    .sm-margin-t-1 { margin-top: 1rem;    }
+    .sm-margin-b-1 { margin-bottom: 1rem; }
+    .sm-margin-l-1 { margin-left: 1rem;   }
+    .sm-margin-r-1 { margin-right: 1rem;  }
+    .sm-margin-t-2 { margin-top: 2rem;    }
+    .sm-margin-b-2 { margin-bottom: 2rem; }
+    .sm-margin-l-2 { margin-left: 2rem1;  }
+    .sm-margin-r-2 { margin-right: 2rem;  }
+    
+    .hover-overlay { padding-bottom: 50%; }
+    
+    /* Header & footer  */
+    .logo { font-size: 3rem; }
+
+    /* call to action */
+    .email-signup input {
+        max-width: 400px;
+    }
+    .medium-text {
+        font-size: 1.5rem;
+    }
+    .quote-icon {
+        font-size: 4rem;
+    }
+
+    .sm-banner {
+        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
+        background-size: cover;
+        background-position: -10% 50%;
+        background-repeat: no-repeat;
+        min-height:60vh;
+    }
+
+    .bg-slate-200 {
+        --tw-bg-opacity: 0.8;
+        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+    }
+
+    .tab label {
+        position: relative;
+        display: block;
+        padding: .5rem .5rem .5rem 3rem;
+        margin: 0;
+        line-height: 1.8;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .tab label span {
+        display: block;
+        float: none;
+        line-height: 1.2rem;
+        opacity: .9;
+    }
+
+    .icon {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .title-service { 
+        font-size: 3.1vw;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    } 
+    
+    .price-item {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+}
+
+/* ------- Accordion Media Query (/ 640px) --------------- */
+
+@media (min-width: 640px) {
+    .sm\:text-columns-2 {
+      columns: 2;
+    }
+  }
+
+/* ------- XS Media Query (36em / 576px) --------------- */
+/* Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+
+@media (max-width: 36em) {
+    /* body {
+        border: 2px solid orange;
+        padding: 0.5rem;
+    } */
+
+    header a {
+        display: block;
+        margin-bottom: 0;
+        font-size: 2.8vw;
+    }
+    
+    header nav a {
+        padding-right: 1.5rem;
+        padding-right: 0;
+        font-size: 4vw;
+    }
+
+    header h2 { 
+        font-size: 7vw;
+    }
+
+    h3 {
+        font-size: 5vw;
+    }
+    
+    h2 {
+        font-size: 5vw; 
+    }
+
+    p {
+        font-size: 2.8vw;
+    }
+
+    footer a { 
+        font-size: 2.8vw;
+    }
+    
+
+    .show-xs { display: block; }
+    .hide-xs { display: none; }
+
+    .xs-tall-10  { min-height: 10vh; }
+    .xs-tall-20  { min-height: 20vh; }
+    .xs-tall-30  { min-height: 30vh; }
+    .xs-tall-40  { min-height: 40vh; }
+    .xs-tall-50  { min-height: 50vh; }
+    .xs-tall-60  { min-height: 60vh; }
+    .xs-tall-70  { min-height: 70vh; }
+    .xs-tall-80  { min-height: 80vh; }
+    .xs-tall-90  { min-height: 90vh; }
+    .xs-tall-100 { min-height: 100vh;}
+
+    .xs-tall-max-10  { max-height: 10vh; }
+    .xs-tall-max-20  { max-height: 20vh; }
+    .xs-tall-max-30  { max-height: 30vh; }
+    .xs-tall-max-40  { max-height: 40vh; }
+    .xs-tall-max-50  { max-height: 50vh; }
+    .xs-tall-max-60  { max-height: 60vh; }
+    .xs-tall-max-70  { max-height: 70vh; }
+    .xs-tall-max-80  { max-height: 80vh; }
+    .xs-tall-max-90  { max-height: 90vh; }
+    .xs-tall-max-100 { max-height: 100vh;}
+
+    .xs-height-10 { max-height: 10vh;}
+    .xs-height-20 { max-height: 20vh;}
+    .xs-height-40 { max-height: 40vh;}
+    .xs-height-60 { max-height: 60vh;}
+    .xs-height-80 { max-height: 80vh;} 
+
+    .xs-text-center { text-align: center; }
+    .xs-text-left   { text-align: left;   }
+    .xs-text-right  { text-align: right;  }
+
+    .xs-padded-05 { padding: 0.5rem; }
+    .xs-padded-1  { padding: 1rem;   }
+    .xs-padded-2  { padding: 2rem;     }
+    .xs-padded-5  { padding: 5rem;     }
+    .xs-padded-10 { padding: 10rem;    }
+
+    .xs-padded-t-0 { padding-top: 0;    }
+    .xs-padded-b-0 { padding-bottom: 0; }
+    .xs-padded-l-0 { padding-left: 0;   }
+    .xs-padded-r-0 { padding-right: 0;  }
+
+    .xs-margin-05 { margin: 0.5rem; }
+    .xs-margin-1  { margin: 1rem;   }
+    .xs-margin-2  { margin: 2rem;     }
+    .xs-margin-5  { margin: 5rem;     }
+    .xs-margin-10 { margin: 10rem;    }
+
+    .xs-margin-t-1 { margin-top: 1rem;    }
+    .xs-margin-b-1 { margin-bottom: 1rem; } 
+    .xs-margin-l-1 { margin-left: 1rem;   }
+    .xs-margin-r-1 { margin-right: 1rem;  }
+
+    .xs-margin-t-2 { margin-top: 2rem;    }
+    .xs-margin-b-2 { margin-bottom: 2rem; }
+    .xs-margin-l-2 { margin-left: 2rem;   }
+    .xs-margin-r-2 { margin-right: 2rem;  }
+
+    .bg-image-lichaam-perfect-form-2 {
+        background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-2.jpg');
+        background-position: 50% 57%;
+        min-height: 16rem;
+        padding: 3rem 1rem;
+    }
+
+    .xs-banner {
+        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
+        background-size: cover;
+        background-position: 10% 50%;
+        background-repeat: no-repeat;
+        min-height:60vh;
+    }
+
+    .xs-bg-slate-200 {
+        --tw-bg-opacity: 0.6;
+        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+    }
+
+    .title-service { 
+        font-size: 3.1vw;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    } 
+
+    .icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .arrow-container {
+        justify-content: center; /* Horizontale centrering */
+        align-items: center; /* Verticale centrering */
+        width: 100%; /* Zorg dat de container de volledige breedte gebruikt */
+        
+    }
+
+    .arrow-down {
+        margin: 0 auto;
+    }
+   
+}
+
+
+/* ------- XSS Media Query (25em / 400px) --------------- */
+
+
+/* - Styles added here will apply at devices smaller than 400px, or zoomed in equivalent */
+
+@media (max-width: 25em) {
+    html {font-size: 12px;}
+
+    /* body {
+        border: 2px solid red;
+        padding: 0.5rem;
+    } */
+
+    header a {
+        display: block;
+        margin-bottom: 0;
+        font-size: 3.8vw;
+    }
+    
+    header nav a {
+        padding-right: 1.5rem;
+        padding-right: 0;
+        font-size: 4vw;
+    }
+
+    header h2 { 
+        font-size: 8vw;
+    }
+
+    header p {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 6vw; 
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 3.8vw;
+    }
+
+    footer a { 
+        font-size: 3.8vw;
+    }
+
+    .show-xxs { display: block; }
+    .hide-xxs { display: none;  }
+
+    .xxs-text-center { text-align: center; }
+    .xxs-text-left   { text-align: left;   }
+    .xxs-text-right  { text-align: right;  }
+
+    .xxs-padded-05 { padding: 0.5rem; }
+    .xxs-padded-1  { padding: 1rem;   }
+    .xxs-padded-2  { padding: 2%;     }
+    .xxs-padded-5  { padding: 5%;     }
+    .xxs-padded-10 { padding: 10%;    }
+
+    .xxs-padded-t-0 { padding-top: 0;    }
+    .xxs-padded-b-0 { padding-bottom: 0; }
+    .xxs-padded-l-0 { padding-left: 0;   }
+    .xxs-padded-r-0 { padding-right: 0;  }
+   
+    .xxs-margin-t-1 { margin-top: 1rem;    }
+    .xxs-margin-b-1 { margin-bottom: 1rem; }
+    .xxs-margin-l-1 { margin-left: 1rem;   }
+    .xxs-margin-r-1 { margin-right: 1rem;  }
+    .xxs-margin-t-2 { margin-top: 2rem;    }
+    .xxs-margin-b-2 { margin-bottom: 2rem; }
+    .xxs-margin-l-2 { margin-left: 2rem1;  }
+    .xxs-margin-r-2 { margin-right: 2rem;  }
+
+    .arrow-container {
+        height: auto; /* Dynamisch hoogte aanpassen voor kleinere schermen */
+        margin-top: 3rem; /* Eventuele extra ruimte toevoegen */
+        width: 100%; /* Zorg dat de container de volledige breedte gebruikt */
+    }
+
+    .arrow-down {
+        margin-top: 0; /* Verwijder vaste marges */
+    }
+
+    .title-service { 
+        font-size: 4vw;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    } 
+}
+
