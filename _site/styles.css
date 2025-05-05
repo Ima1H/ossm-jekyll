@@ -1,9 +1,9 @@
 /* Colors
-Logo pink - #A95B68
-Dark pink  - #CB9CA4
-Light pink - #F1E6E8
-Dark grey  - #5E5B5B
-Light grey - #8B8B8B 
+Logo yellow - #F6EA49
+Darker grey  - #4A494B
+Dark grey - #4A4A4A
+Black  - #070808 
+Grey white - #F5F5F5
 */
 
 * {
@@ -37,237 +37,14 @@ html {border: none;} */
 
 /* Header Banner */
 
-.bg-image-gelaat-1 {
-    background-image: url('/images/essentie-gelaat-1.jpg');
+.bg-image-adviseert {
+    background-image: url('/images/bynouchka-160224-Lindsay-26.jpg');
     background-position: 50% 70%;
 }
 
-.bg-image-gelaat-2 {
-    background-image: url('/images/essentie-gelaat-2.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-6 {
-    background-image: url('/images/essentie-gelaat-6.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-4 {
-    background-image: url('/images/essentie-gelaat-4.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-5 {
-    background-image: url('/images/essentie-gelaat-5.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-lichaam-6 {
-    background-image: url('/images/essentie-lichaam-6.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-7 {
-    background-image: url('/images/essentie-gelaat-7.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-8 {
-    background-image: url('/images/essentie-gelaat-8.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-scrub-9 {
-    background-image: url('/images/essentie-scrub-1.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-10 {
-    background-image: url('/images/essentie-gelaat-10.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-11 {
-    background-image: url('/images/essentie-gelaat-11.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-12 {
-    background-image: url('/images/essentie-gelaat-12.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-13 {
-    background-image: url('/images/essentie-gelaat-13.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-14 {
-    background-image: url('/images/essentie-gelaat-14.png');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-15 {
-    background-image: url('/images/essentie-gelaat-15.png');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-16 {
-    background-image: url('/images/essentie-gelaat-16.png');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-17 {
-    background-image: url('/images/essentie-gelaat-17.png');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-18 {
-    background-image: url('/images/essentie-gelaat-excel-therapy-o2.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-19 {
-    background-image: url('/images/essentie-gelaat-excel-timexpert-srns.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-close-up-1 {
-    background-image: url('/images/essentie-gelaat-close-up-1.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-gelaat-close-up-2 {
-    background-image: url('/images/essentie-gelaat-close-up-2.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-lichaam-1 {
-    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-3.jpg');
-    background-position: 50% 70%;
-}
-
-.bg-image-manicure-2 {
-    background-image: url('/images/essentie-manicure.png');
-    background-position: 50% 6%;
-}
-
-
-/* Index Welcome Section */
-
-.bg-image-lichaam-perfect-form-2 {
-    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-2.jpg');
+.bg-image-geeft-vorm {
+    background-image: url('/images/ossm-notes.jpeg');
     background-position: 50% 50%;
-}
-
-/* Index Services Section */
-.bg-image-gelaat-timeexpert-1 {
-    /* Gelaat */
-    background-image: url('/images/essentie-gelaat-timexpert-radiance-1.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-lichaamsbehandeling-5 {
-     /* Ontharing */
-    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-5.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-lichaamsbehandeling-pomgranate {
-    /* Lichaam */
-    background-image: url('/images/essentie-lichaamsbehandeling-pomegranate-scrub.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-manicure {
-    /* Manicure */
-    background-image: url('/images/essentie-manicure-1.jpg');
-    background-position: 50% 6%;
-}
-
-.bg-image-product-purexpert-2 {
-    /* Arrangementen */
-    background-image: url('/images/essentie-product-purexpert-2.jpg');
-    background-position: 50% 6%;
-}
-
-/* Index Appointment Section */
-
-.bg-image-nancy {
-    background-image: url('/images/essentie-nancy.jpg');
-    background-position: 50% 40%;
-}
-
-/* Index Collaboration Section */
-
-.bg-image-collaboration-gdc {
-    background-image: url('/images/sensi-logo-germaine-de-capuccini.png');
-    
-}
-
-.bg-image-collaboration-ahava {
-    background-image: url('/images/sensi-logo-ahava.png');
-    background-position: 50% 60%;
-}
-
-
-/* Visage  */
-.bg-image-gelaatsverzorging-dames {
-    background-image: url('/images/essentie-gelaatsverzorging-dames.jpg');
-    background-position: 50% 60%;
-}
-
-.bg-image-gelaat-carousel-1 {
-    background-image: url('/images/essentie-gelaat-carousel-1.jpg');
-    background-position: 50% 60%;
-}
-
-.bg-image-gelaat-carousel-2 {
-    background-image: url('/images/essentie-gelaat-carousel-2.jpg');
-    background-position: 50% 60%;
-}
-
-.bg-image-gelaat-carousel-3 {
-    background-image: url('/images/essentie-gelaat-carousel-3.jpg');
-    background-position: 50% 60%;
-}
-
-.bg-image-gelaat-carousel-4 {
-    background-image: url('/images/essentie-gelaat-carousel-4.jpg');
-    background-position: 50% 60%;
-}
-
-.bg-image-dermatech-pen-1 {
-    background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
-    background-position: 40% 50%;
-}
-
-
-/* Pedicure */
-.bg-image-pedicure {
-    background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-4.jpg');
-    background-position: 50% 60%;
-}
-
-
-/* Body */
-
-.bg-image-zware-benen {
-    background-image: url('/images/essentie-zware-en-vermoeide-benen.png');
-    background-position: 50% 60%;
-}
-
-.bg-image-lichaamsmassages {
-    background-image: url('/images/essentie-lichaamsmassages-en-pakkingen.jpg');
-    background-position: 50% 60%;
-}
-
-
-/* Hair Removal  */
-
-.bg-image-ontharing {
-    background-image: url('/images/sensi-behandelingen-ontharingen');
-    background-position: 50% 60%;
 }
 
 
@@ -314,8 +91,8 @@ html {border: none;} */
 
 body {
     border: none;
-    font-family:'Noto Sans SC', sans-serif;
-    color: #5E5B5B;
+    font-family:'Work Sans', sans-serif;
+    color: #4A4A4A;
     background-color: #F5F5F5;
 }
 
@@ -338,6 +115,9 @@ body {
 
 .padded-tb { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr { padding-left: 5%; padding-right: 5%; }
+
+.padded-tb-4 { padding-top: 5%; padding-bottom: 5%; }
+.padded-lr-4 { padding-left: 5%; padding-right: 5%; }
 
 .padded-t-05 { padding-top: 0.5rem;    }
 .padded-b-05 { padding-bottom: 0.5rem; }
@@ -418,8 +198,9 @@ body {
 }
 
 .bg-light-footer {
-    background-color: #F1E6E8;
-    color: #5E5B5B;
+    background-color: #F5F5F5;
+    color: #4A4A4A;
+    border-top: 0.2px solid #e7e7e4;
 }
 
 .bg-white {
@@ -495,7 +276,7 @@ a {
 /*------------------------- Typography Styles ------------------------*/
 
 h1, h2, h3, h4 {
-    font-family: 'Cantata One', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 300;
 }
 
@@ -527,7 +308,7 @@ p {
     font-weight: 200;
     line-height: 1.5;
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 p:last-child {
@@ -544,8 +325,7 @@ a {
 }
 
 a:hover {
-    color:  #CB9CA4;
-    
+    color:#f0e547; 
 }
 
 hr {
@@ -631,7 +411,8 @@ header a {
 }
 
 header nav a:hover {
-    border-bottom: 2px solid #CB9CA4;
+    border-bottom: 2px solid #F8EC48;
+    color: #4A4A4A;
 }
 
 header p {
@@ -639,44 +420,6 @@ header p {
     font-weight: 200;
     line-height: 1;
     margin-bottom: 1rem;
-}
-
-header .button {
-    margin-top: 4rem;
-}
-
-.header-icon {
-    font-size: 1.2rem;
-}
-
-.arrow-container {
-    display: flex;
-    justify-content: center; /* Horizontale uitlijning */
-    align-items: center; /* Verticale uitlijning */
-    width: 3%; /* Zorg dat de container de volledige breedte gebruikt */
-    height: auto; /* Dynamische hoogte indien nodig */
-    /* margin-top: 3rem; Ruimte boven de pijl, pas aan naar wens */
-    position: relative; 
-    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
-}
-
-.arrow-down {
-    margin: 0 auto; /* Verwijder harde marges */
-    position: relative; /* Zorg dat positionering consistent blijft */
-    display: block; /* Zorg dat het als een blokelement werkt binnen flexbox */
-}
-
-.arrow-down:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    left: 1%;
-    border-radius: 5px;
-    background: transparent;
-    transform: rotate(-90deg);
-    transform-origin: 0% 100%;
 }
 
 [class*=grid-], [class*=grid_], [class~=grid] {
@@ -711,8 +454,8 @@ header .button {
 
 .hamburger-button span {
     width: 30px;
-    border: 1.5px solid #5E5B5B;
-    background-color: #5E5B5B;
+    border: 1.5px solid #4A4A4A;
+    background-color: #4A4A4A;
     display: block;
     border-radius: 22px;
     transition: 2s;
@@ -768,7 +511,7 @@ header .button {
     left: 0;
     right: 0;
     bottom: 100vh;
-    background-color: #CB9CA4;
+    background-color: #4A494B;
     padding: 5px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     z-index: 8;
@@ -795,41 +538,39 @@ header .button {
 }
 
 
-/*--------------------- Index Treatments Styles ---------------------*/
+/*--------------------- Index Services  ---------------------*/
 
-/* clickable boxes */
-
-.clickable-box {
-    color: inherit;
-    text-decoration: none;
-    box-shadow: 0 rgba(0, 0, 0, 0);
-    /* so that we can add a transition */
-    transition: 0.2s all;
-    display: block;
-    border-radius: 15px;
-    max-width: 20rem;
+.hover-container {
+    background-size: cover;
+    background-position: center;
 }
 
-.clickable-box .overlay {
-    min-height: 16rem;
-    padding: 6rem 0rem;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
-    border-radius: 15px;
-    max-width: 20rem;
+.hover-overlay {
+    position: relative;
+    padding-bottom: 100vh;
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
+    transition: all 0.3s;
 }
 
-.clickable-box p {
+.hover-overlay:hover {
+    background-color: rgba(210, 210, 210, 0.799);
+    color: yellow;
+    min-height: 100%;
+}
+
+.hover-inner {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.hover-inner p {
     margin-bottom: 0;
 }
-
-.clickable-box:hover {
-    background-color: rgba(0, 0, 10, 0.6);
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
-    margin-top: -2px;
-}
-
-
 
 /*------------------ Index Appointment Section Styles ------------------*/
 
@@ -879,7 +620,7 @@ form button {
 /*------------------------- Footer Styles ------------------------*/
 
 footer a {
-    font-size: 1.1rem;
+    font-size: 1rem;
 
 }
 
