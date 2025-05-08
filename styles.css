@@ -4,6 +4,7 @@ Darker grey  - #4A494B
 Dark grey - #4A4A4A
 Black  - #070808 
 Grey white - #F5F5F5
+Beige - #fbf8f0
 */
 
 * {
@@ -22,6 +23,7 @@ html {border: none;} */
 /*--------------------------- Image Styles --------------------------*/
 
 .bg-image {
+    background-color: lightblue;
     background-size: cover;
     background-position: center;
 }
@@ -31,6 +33,11 @@ html {border: none;} */
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+}
+
+.bg-image-card {
+    padding: 0.5rem;
+    padding-bottom: 50%;
 }
 
 /*----------------------------- Images ------------------------------*/
@@ -193,8 +200,13 @@ body {
 }
 
 .bg-light {
-    background-color: #F1E6E8;
+    background-color: #fbf8f0;
     color: #5E5B5B;
+}
+
+.bg-yellow {
+    background-color: #eee784;
+    color: #4A4A4A;
 }
 
 .bg-light-footer {
@@ -205,10 +217,13 @@ body {
 
 .bg-white {
     background-color: white;
-    color: #6B705C;
 }
 
 .bg-fixed { background-attachment: fixed; }
+
+  
+.bg-featured {background-color: #3833AF;}
+
 
 /* Min Height */
 
@@ -261,10 +276,13 @@ body {
 .font-weight-normal     { font-weight: normal; }
 .font-weight-extra-bold { font-weight: 800;    }
 
-.dark-logo-text { color: #A95B68; }
-.dark-text      { color: #CB9CA4; }
-.light-text     { color: #CB997E; }
+.dark-logo-text { color: #4A494B; }
+.ligt-logo-text { color: #F6EA49; }
+.dark-text      { color: #4A4A4A; }
+.light-text     { color: #F5F5F5; }
 .white-text     { color: white;   }
+.subtle-text {opacity: 0.8}
+
 
 .bg-color-transparant { background-color: transparent; }
 
@@ -572,13 +590,83 @@ header p {
     margin-bottom: 0;
 }
 
-/*------------------ Index Appointment Section Styles ------------------*/
+/*------------------ Review Section Styles ------------------*/
+/* background Image Slider */
+
+.bg-image-slider {
+    background-color: rgb(240, 240, 240);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Slider */
+
+.slider-container {
+    padding: 5%;
+}
+
+.slider-item {
+    padding: 1rem;
+    display: none;
+    /* otherwise your carousel would display as blocks;*/
+}
+
+.slider-item:first-child {
+    /* this makes sure that your first image of the carousel loads */
+    display: block;
+}
+
+.slick-next::before {
+    content: '→';
+}
+
+.slick-next {
+    right: 4px;
+}
+
+.slick-prev {
+    left: 4px;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    font-family: slick;
+    /*padding: 0.5rem;*/
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(90, 90, 90);
+}
+
+
+/* without this, the dots are not centered */
+
+.slick-dots {
+    left: 0;
+    bottom: -2px;
+}
+
+.slick-dots li,
+.slick-dots li button {
+    width: 10px;
+}
+
+.slick-dots li button::before {
+    color: #6B705C;
+}
+
+.slick-dots li.slick-active button::before {
+    color: #43463A;
+}
+
+
 
 /*---------------- Collaboration Section Styles ------------------*/
 
 /* ------------------ Contact Section Styles ---------------------*/
 
-/* Card Styles */
+/* Contact Styles */
   
 form input, 
 form textarea {
@@ -841,82 +929,54 @@ li {
     margin-bottom: 0.25rem;
 }
   
-/* --------------------- Visage Styles ------------------------ */
-.slider-item {
+
+
+/*  --------------------- Cards --------------------- */
+
+  
+  
+  
+  /* Card Styles */
+  
+  .card {
+    padding: 0;
+  }
+
+  .rounded-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+  .bg-image span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .post-info {
     padding: 1rem;
-    display: none; /* otherwise your carousel would display as blocks;*/
   }
   
-.slider-item:first-child { /* this makes sure that your first image of the carousel loads */
-    display: block;
-}
-  
-.slick-next::before {
-    content: '→';
-}
-  
-.slick-next {
-    right: -30px;
-}
-  
-.slick-prev {
-    left: -30px;
-}
-  
-.slick-next::before, .slick-prev::before {
-    font-family: slick;
-    /*padding: 0.5rem;*/
-    font-size: 20px;
-    line-height: 1;
-    opacity: .75;
-    color: #CB9CA4;
+  .date {
+    font-size: 0.8rem;
+    color: rgb(90,90,90);
   }
   
-  /* without this, the dots are not centered */ 
-  .slick-dots {
-    left: 0;
-    bottom: -20px;
+  .card a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #3833AF;
+    text-decoration: none;  
+    font-size: 0.8rem;
   }
   
-  .slick-dots li, .slick-dots li button {
-      width: 10px;
-  }
-  
-  .slick-dots li button::before {
-    color: #5E5B5B;
-  }
-  
-  .slick-dots li.slick-active button::before {
-    color: #CB9CA4;
+  .bg-image { 
+    background-color: #f0f0f5;
+    background-size: cover;
+    background-position: 50% 70%;
+    color: white;
   }
 
 
-/* Dermatech pen video facebook */
-
-.youtube-container { 
-	max-width: 50%;
-}
-
-/* This is fancy CSS that you haven't learnt yet. No need to understand it yet, but you're welcome to copy & paste */
-
-/* .embed-container { 
-	position: relative;
-	padding-bottom: 56.25%; 
-	height: 0; 
-	overflow: hidden; 
-	max-width: 100%; 
-} 
-
-.embed-container iframe, 
-.embed-container object, 
-.embed-container embed { 
-	position: absolute; 
-  	top: 0; 
-  	left: 0; 
-  	width: 100%; 
-  	height: 100%; 
-}
-     */
 /*  ----------- Media Queries - Responsiveness Site ----------- */
 
 .show-mdl,
@@ -1353,6 +1413,14 @@ li {
         padding: 20px;
         padding-bottom: 0;
     }
+
+    /* Service cards */
+    @media(max-width: 48em) {
+        .latest-news {
+          overflow-x: auto;
+          flex-wrap: nowrap;
+        }
+      }
 }
 
 /* ------- Accordion Media Query (/ 640px) --------------- */

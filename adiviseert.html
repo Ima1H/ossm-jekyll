@@ -8,28 +8,91 @@ seo:
   twitter_card:
   keywords: 
   hide-from-google: false
+reviews:
+ - author: Joshua
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate
+      atque corrupti dolorum cumque.
+   image: /images/las-flores-co-review-joshua.jpg
+ - author: Emma
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
+   image: /images/las-flores-co-review-emma.jpg
+ - author: Sylvie
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
+   image: /images/las-flores-co-review-sylvie.jpg
+ - author: Rob
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
+   image: /images/las-flores-co-review-rob.jpg
+ - author: Julie
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
+   image: /images/las-flores-co-review-julie.jpg
+ - author: Jake
+   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
+   image: /images/las-flores-co-review-jake.jpg
+services:
+ - column-size: col-4_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-17.jpg
+   name-service: Braindstormsessie
+   description: Zit je even vast? Tijdens dit kort maar krachtig gesprek bij jou thuis krijg je mondeling advies waarmee je zelf weer vooruit kunt. Zonder voorbereiding, wél meteen heldere richting.
+   follow-link: /brainstormsessie.html
+   text-button: Leer meer
+ - column-size: col-4_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-service: Adviessessie
+   description: Heb je meer nodig dan snelle tips? We duiken samen je ruimte in met voorbereiding, stalen, een verslag én een opvolgmoment. Zo krijg je echte houvast om doordacht verder te bouwen.
+   follow-link: /adviessessie.html
+   text-button: Leer meer
+ - column-size: col-4_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-26.jpg
+   name-service: Plananalyse
+   description: We analyseren je (ver)bouwplannen vóór de eerste steen, en stemmen het ontwerp af op jouw levensstijl. Zo voorkom je frustraties achteraf en leg je de basis voor een interieur dat écht klopt.
+   follow-link: /plananalyse.html
+   text-button: Leer meer
 ---
-<header>
+<section>
     
     {% include site-header-nav.html %}
     
-    <!-------------------------- Header Banner ------------------------------->
+    <!-------------------------- Banner Adiviseert ------------------------>
+    <section class="grid text-center tall-50">
+        <div class="col-12-middle">
+            <h3> Van twijfel naar thuisgevoel </h3>
+            <h2> Ontdek onze diensten </h2>
+            <h2> &#10549; </h2>
+        </div>
+    </section>
 
-    <section>
-        <div class="grid-equalHeight"> 
+    <!-------------------------- Client Reviews  -------------------------->
+    {% include reviews.html %}
+
+    <!-------------------------- Services Adiviseert ---------------------->
+
+    <section class="grid padded-5 bg-ligt "> 
+        
+        <div class="col-12-middle text-center"> 
+            <h2> Titel </h2>
+            <h3> Subtitel omschrijving </h3>
+            <a href="{{item.follow-link}}" class="button"> Meer info </a>
+        </div>
+        
+        
+        <div class="grid-center-equalHeight ">
             
-            {% for item in page.services %}
-    
-                <div class="overlay padded-t-0 {{item.padding}} {{item.column-size}}"> 
-                    <a href="{{item.follow-link}}" class=" clickable-box bg-image tall-100 mdl-tall-50" style="background-image: url('{{item.background_image}}');"> 
-                        <div class="overlay padded-5"> 
+            {% for item in page.services %} 
+                <!---- Service Cards ----->
+                <div class="{{item.column-size}}"> 
+                    <a href="{{item.follow-link}}" class="card bg-white">
+                        <div class="bg-image landscape" style="background-image: url('{{item.background_image}}');"></div>
+                        <div class="padded-2">
                             <h3> {{item.name-service}} </h3>
-                            <p> {{item.description}}  </p>
+                            <p> {{item.description}} </p>
                         </div>
                     </a>
                 </div>
-    
-                {% endfor %}
-            </div> 
+                
+            {% endfor %}
+
+        </div> 
+
     </section>
-</header>
+
+</section>
