@@ -1,21 +1,24 @@
 <!-------------------------------- Reviews  ------------------------------>
 
-<section class="text-center padded-5 {{page.review-background}} bg-yellow hide-md">
-    <h2> Reviews </h2>
-    <div class="slider-container padded-1 dark-text"> 
+<section class="text-center padded-md {{page.review-background}} hide-md">
+    <div class="bg-yellow padded-5">
+        <h2> Reviews </h2>
+    
+        <div class="slider-container padded-1 dark-text"> 
 
-        {% for item in page.reviews %}
-        
-        <!---- First Card ----->
-        <div class="slider-item text-center">
-            <div class="card-review"> 
-                <img src="{{item.image}}" class="profile">
-                <p class="author"> {{item.author}} </p>
-                <p> {{item.description}} </p>
-                <span> ★ ★ ★ ★ ★</span>
+            {% for item in page.reviews %}
+            
+            <!---- First Card ----->
+            <div class="slider-item text-center">
+                <div class="card-review"> 
+                    <!-- <img src="{{item.image}}" class="profile"> -->
+                    <p class="author"> {{item.author}} </p>
+                    <p> {{item.description}} </p>
+                    <span> ★ ★ ★ ★ ★</span>
+                </div>
             </div>
-        </div>
 
-        {% endfor %}
+            {% endfor %}
+        </div>  
     </div>
 </section>

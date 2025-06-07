@@ -8,30 +8,10 @@ seo:
   twitter_card:
   keywords: 
   hide-from-google: false
-reviews:
- - author: Joshua
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate
-      atque corrupti dolorum cumque.
-   image: /images/las-flores-co-review-joshua.jpg
- - author: Emma
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
-   image: /images/las-flores-co-review-emma.jpg
- - author: Sylvie
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
-   image: /images/las-flores-co-review-sylvie.jpg
- - author: Rob
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
-   image: /images/las-flores-co-review-rob.jpg
- - author: Julie
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
-   image: /images/las-flores-co-review-julie.jpg
- - author: Jake
-   description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate atque corrupti dolorum cumque.
-   image: /images/las-flores-co-review-jake.jpg
 services:
  - column-size: col-4_lg-8_md-12
    background_image: /images/bynouchka-160224-Lindsay-17.jpg
-   name-service: Braindstormsessie
+   name-service: Brainstormsessie
    description: Zit je even vast? Tijdens dit kort maar krachtig gesprek bij jou thuis krijg je mondeling advies waarmee je zelf weer vooruit kunt. Zonder voorbereiding, wél meteen heldere richting.
    follow-link: /brainstormsessie.html
    text-button: Leer meer
@@ -48,33 +28,26 @@ services:
    follow-link: /plananalyse.html
    text-button: Leer meer
 ---
-<section>
-    
-    {% include site-header-nav.html %}
-    
-    <!-------------------------- Banner Adiviseert ------------------------>
-    <section class="grid text-center tall-50">
-        <div class="col-12-middle">
-            <h3> Van twijfel naar thuisgevoel </h3>
-            <h2> Ontdek onze diensten </h2>
-            <h2> &#10549; </h2>
-        </div>
-    </section>
 
-    <!-------------------------- Client Reviews  -------------------------->
-    {% include reviews.html %}
+    <!-------------------------- Banner Adiviseert ------------------------>
+    <header class="grid text-center tall-50">
+        
+        {% include site-header-nav.html %}
+
+        <div class="col-12-middle">
+            <h2> Ontdek onze diensten </h2>
+            <h3> Van twijfel naar thuisgevoel </h3>
+            <h3> &#10549; </h3>
+        </div>
+
+    </header>    
+
 
     <!-------------------------- Services Adiviseert ---------------------->
 
-    <section class="grid padded-5 bg-ligt "> 
+    <section class="grid padded-5 bg-ligt padded-t-0 "> 
         
-        <div class="col-12-middle text-center"> 
-            <h2> Titel </h2>
-            <h3> Subtitel omschrijving </h3>
-            <a href="{{item.follow-link}}" class="button"> Meer info </a>
-        </div>
-        
-        
+
         <div class="grid-center-equalHeight ">
             
             {% for item in page.services %} 
@@ -85,6 +58,8 @@ services:
                         <div class="padded-2">
                             <h3> {{item.name-service}} </h3>
                             <p> {{item.description}} </p>
+                            <p class="button"> Meer info </p>
+                            <!-- <a href="{{item.follow-link}}" class="button"> Meer info </a> -->
                         </div>
                     </a>
                 </div>
@@ -94,5 +69,3 @@ services:
         </div> 
 
     </section>
-
-</section>

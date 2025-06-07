@@ -1,0 +1,85 @@
+---
+layout: default
+title: OSSM | Interieurarchitectuur en grafisch ontwerp
+seo:
+  title: OSSM | Interieurarchitectuur en grafisch ontwerp
+  description: Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. We worden dan ook graag zo vroeg mogelijk bij een project betrokken en nemen met plezier het totaalontwerp voor een renovatie of nieuwbouwproject op ons. We combineren tevens jarenlange ervaring in interieurarchitectuur met sterke grafische ontwerpen. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.
+  social_image:
+  twitter_card:
+  keywords: 
+  hide-from-google: false
+faq:
+ - id-question: tab-question-1
+   question: Welke premies en subsidies geven mijn gemeente en provincie?
+   answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, odit quod est reiciendis, rerum illum suscipit amet pariatur voluptatem adipisci voluptas eum ipsa perspiciatis sed consequatur delectus molestias. Beatae, vero!
+ - id-question: tab-question-2
+   question: Hoeveel kost een renovatie?
+   answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, odit quod est reiciendis, rerum illum suscipit amet pariatur voluptatem adipisci voluptas eum ipsa perspiciatis sed consequatur delectus molestias. Beatae, vero!
+ - id-question: tab-question-3
+   question: Hoeveel kost een interieurarchitect?
+   answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, odit quod est reiciendis, rerum illum suscipit amet pariatur voluptatem adipisci voluptas eum ipsa perspiciatis sed consequatur delectus molestias. Beatae, vero!
+ - id-question: tab-question-4 
+   question: Hoe lang duurt een renovatie? 
+   answer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, odit quod est reiciendis, rerum illum suscipit amet pariatur voluptatem adipisci voluptas eum ipsa perspiciatis sed consequatur delectus molestias. Beatae, vero!
+reviews:
+  - author: Inrichten inkomhal
+    description: Een kleine inkomhal waar bijna geen opbergruimte was, hebben we omgetoverd naar een leuke, lichte maar vooral praktische ruimte. De kast vormt ineens valbescherming voor de trap. 
+       atque corrupti dolorum cumque.
+    image: /images/ossm-reviews-sindy-sam.jpg
+  - author: Hoge keukenwand
+    description: Een niet zo alledaags keukenontwerp rekening houdend met het huidige interieur. Ook qua materiaal gingen we niet voor de standaard opties.
+    image: /images/ossm-reviews-elve-bart.jpg
+  - author: Badkamerrenovatie
+    description: Met een meubel op maat creëerden we opbergruimte, sfeer en gezelligheid. De radiator werd ook weggewerkt en er is zelfs plaats voorzien voor wat decoratie. Perfect wat de klant wou.
+    image: /images/ossm-reviews-gaelle-jeroen.jpg
+  - author: Totaalinrichting
+    description: Deze nieuwbouwwoning werd volledig ingericht op maat van de klant. Een ruime keuken met kookeiland, een gezellige tv hoek en bureauruimte. 
+    image: /images/ossm-reviews-gunther-nancy.jpg
+  - author: Inrichten gelijksvloers
+    description: Een grote ruime living, die om wat gezelligheid en een juiste indeling vroeg. Een niet zo gemakkelijke doorloopzone zorgde dat ervoor dat deze klant er zelf niet uit geraakte.
+  - author: Logo ontwerp
+    description: Een logo waarbij in één klap duidelijk maakt waar het over gaat.. en dan liefst nog eentje dat wat speels en stoer genoeg is.
+    image: images/ossm-reviews-advanced-classics.jpg
+  - author: Logo ontwerp
+    description: Eentje waar we een verwijzing maken naar de smeertechnieken, en naar de twee c's die in de naam terugkomen.
+    image: /images/ossm-reviews-con-creet.jpg
+  - author: Sophie
+    description: Hulp bij de naam, het logo, visitekaartjes, cadeaubonnen, afsprakenkaartje, drukwerk maar ook raambestickering.
+    image: /images/ossm-reviews-natuurkapster-wendy.jpg
+---
+<header>
+    
+    {% include site-header-nav.html %}
+
+    <section class="grid text-center tall-50">
+        <div class="col-12-middle">
+            <h2> Brainstormsessie </h2>
+            <h3> Van twijfel naar thuisgevoel </h3>
+            <h3> &#10549; </h3>
+        </div>
+    </section>
+
+    
+</header>   
+
+<!-------------------------- Info Brainstormsessie  ------------------------------->
+<!-- Accordion -->
+<section class="padded-md">
+    <div class="accordion">
+    
+        {% for item in page.faq %}
+
+        <div class="tab">
+            <input id="{{item.id-question}}" name="tabs" type="checkbox">
+            <label for="{{item.id-question}}">
+                {{item.question}} 
+            </label>
+            <div class="tab-content box">
+              <p> {{item.answer}}</p>
+            </div>
+        </div>
+
+        {% endfor %}   
+    
+    </div>            
+</section>

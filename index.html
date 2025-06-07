@@ -25,29 +25,31 @@ services:
 <header>
     
     {% include site-header-nav.html %}
+
+</header>    
     
-    <!-------------------------- Header Banner ------------------------------->
+<!-------------------------- Index  ------------------------------->
 
-    <section>
-        <div class="grid-equalHeight "> 
+<section>
+    <div class="grid-equalHeight "> 
             
-            {% for item in page.services %}
+        {% for item in page.services %}
 
-            <div class="{{item.padding}} {{item.column-size}}"> 
-                <div class="hover-container tall-100" style="background-image:url('{{item.background_image}}');"> 
-                    <div class="hover-overlay padded-0 margin-0"> 
-                        <div class="hover-inner padded-5">
-                            <h3> {{item.name-service}}  </h3>
-                            <p> {{item.description}}  </p>
-                        </div>
+        <div class="{{item.padding}} {{item.column-size}}"> 
+            <div class="hover-container tall-100" style="background-image:url('{{item.background_image}}');"> 
+                <div class="hover-overlay padded-0 margin-0"> 
+                    <div class="hover-inner padded-5">
+                        <h3> {{item.name-service}}  </h3>
+                        <p> {{item.description}}  </p>
                     </div>
                 </div>
             </div>
-
-            {% endfor %}
-
         </div>
-    </section>
-</header>
+
+        {% endfor %}
+
+    </div>
+</section>
+
 
 

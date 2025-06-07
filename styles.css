@@ -224,6 +224,10 @@ body {
   
 .bg-featured {background-color: #3833AF;}
 
+.bg-border-yellow {border: 1px solid #F6EA49;}
+.bg-border-white {border: 1px solid white   ;}
+
+
 
 /* Min Height */
 
@@ -365,7 +369,7 @@ hr {
     color: #CB9CA4;
 }
 
-.border-b-dark-pink { border-bottom: 2px solid #CB9CA4; }
+.border-b-dark-yellow { border-bottom: 2px solid #F6EA49; }
 
 .title-service { 
     font-size: 2rem;
@@ -406,16 +410,31 @@ hr {
 }
 
 .button:hover {
-    border: 2px solid #CB9CA4;
-    color: white;
-    background-color: #CB9CA4;
+    border: 2px solid #F6EA49;
+}
+
+.button-filled {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    transition: 0.5s all;
+    background-color: #F6EA49;
+    color: #4A4A4A;
+}
+
+.button-filled:hover {
+    background-color: #4A4A4A;
+    color: #F6EA49;
 }
 
 /*------------------------- Header Styles ------------------------*/
 
 header h2 {
-    font-family: 'the-seasons', 'Cantata One', sans-serif;
-    font-size: 4vw;
+    font-family: inherit;
+    font-size: 5vw;
     line-height: 1;
 }
 
@@ -591,6 +610,16 @@ header p {
 }
 
 /*------------------ Review Section Styles ------------------*/
+
+/* image 
+.profile {
+    width: 100%;
+    max-width: 8rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+} */
+
 /* background Image Slider */
 
 .bg-image-slider {
@@ -660,8 +689,194 @@ header p {
     color: #43463A;
 }
 
+/*-------------------- Accordion Styles ---------------*/
 
+.accordion {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0 0 1rem 0;
+}
+  
+.tab {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: .5rem;
+    border: 1px solid #c8c8c8;
+    margin: 0 0 -1px;
+    }
 
+div {
+    background-repeat: no-repeat;
+}
+
+.tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+  
+input[type="checkbox"], input[type="radio"] {
+    display: inline;
+}
+  
+  
+input {
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+  
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+  
+.tab input[type="checkbox"]:checked + label {
+    font-weight: 700;
+}
+  
+.tab label {
+    position: relative;
+    display: block;
+    padding: .5rem .5rem .5rem 3rem;
+    margin: 0;
+    line-height: 1.8;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+  
+label {
+    display: block;
+    margin-bottom: .3rem;
+    font-weight: 600;
+}
+  
+.tab label span {
+    float: right;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-right: .5rem;
+}
+  
+.tab label::after {
+    position: absolute;
+    left: .5rem;
+    top: .3rem;
+    display: block;
+    width: 2em;
+    height: 2em;
+    line-height: 2;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+  
+.tab input:checked ~ .tab-content {
+    max-height: 100em;
+    opacity: 1;
+}
+  
+.tab .tab-content {
+    max-height: 0;
+    display: block;
+    padding-right: .5rem;
+    opacity: 0;
+    color: #505050;
+    overflow: hidden;
+    -webkit-transition: max-height .35s,padding .35s,opacity .5s;
+    -o-transition: max-height .35s,padding .35s,opacity .5s;
+    transition: max-height .35s,padding .35s,opacity .5s;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+  
+.tab .tab-content p {
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+  
+.tab-content * {
+    color: #41414d;
+
+}
+  
+.tab input[type=checkbox]+label:after, .tab input[type=radio]+label:after {
+    content: "+";
+    }
+
+.tab input[type=checkbox]:checked+label:after, .tab input[type=radio]:checked+label:after {
+transform: rotate(135deg);
+}
+    
+/* Accordion LIST Styles */
+  
+.text-list {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+  
+ul {
+    margin: .7rem 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    list-style: circle;
+}
+  
+li {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    list-style: inherit;
+    margin-left: 1.3rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Dropdown styles */
+
+.dropdown { 
+    position: relative; 
+    display: inline-block;
+    border: 1px solid orange;
+  }
+  
+  .dropdown-title {
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: -1rem;
+    padding: 0.5rem;
+    display:none; 
+    background-color: white;
+    z-index: 2;
+    text-align: left;
+    min-width: 10rem;
+    border: 1px solid mediumvioletred;
+  }
+  
+  .dropdown:hover .dropdown-content{ 
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 0.2rem;
+  }
+  
 /*---------------- Collaboration Section Styles ------------------*/
 
 /* ------------------ Contact Section Styles ---------------------*/
@@ -932,8 +1147,6 @@ li {
 
 
 /*  --------------------- Cards --------------------- */
-
-  
   
   
   /* Card Styles */
@@ -942,9 +1155,22 @@ li {
     padding: 0;
   }
 
+  .card:hover {
+    box-shadow: 0 20px 25px -5px rgba(89, 89, 89, 0.2), 0 10px 10px -5px rgba(89, 89, 89, 0.2);
+    transition: all .3s;
+    transform: scale(1.02);
+    margin-top: -2px;
+    color:#41414d;
+  }
+
   .rounded-top {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+  }
+
+  .rounded-bottom {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
   
   .bg-image span {
@@ -964,11 +1190,10 @@ li {
   .card a {
     display: inline-block;
     margin-top: 1rem;
-    color: #3833AF;
     text-decoration: none;  
     font-size: 0.8rem;
   }
-  
+
   .bg-image { 
     background-color: #f0f0f5;
     background-size: cover;
