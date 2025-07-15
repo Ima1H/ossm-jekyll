@@ -64,15 +64,22 @@ projects:
    name-project: project 4
    follow-link: /adviessessie.html
 ---
-<header>
-    
-    {% include site-header-nav.html %}
 
-</header>    
-    
 <!-------------------------- Header Banner  ------------------------------->
 <section class="grid-middle tall-60 text-center padded-5 padded-t-0">
     <h2> Adviseert.</h2>
+</section>
+
+<!-- Test blog post -->
+
+ <section>
+   <h1>Welcome to your homepage!</h1>
+
+   {% for post in site.posts %}
+
+   <a href="{{post.url}}"> {{post.title}}</a>
+
+   {% endfor %}
 </section>
 
 <!-------------------------- Services  ------------------------------->
@@ -105,6 +112,8 @@ projects:
         </div> 
     </div>
 </section>
+
+
 
 
 <!-------------------------- Projects  ------------------------------->

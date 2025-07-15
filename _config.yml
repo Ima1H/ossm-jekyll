@@ -1,21 +1,4 @@
-_select_data:
-  layouts:
-    - default
-
-  aspect-ratios:
-    - Square
-    - Portrait
-    - Portrait-tall
-    - Landscape
-    - Landscape-wide
-
-  column-sizes:
-    col-6: Half Width
-    col-12: Full Width
-    col-4: One Third Width
-    col-3: One Quarter Width
-    col-6_sm-12: Half > Full (Small Screens)
-    col-4_sm-12: One Third > Full (Small Screens)
-    col-4_md-6: One Quarter > Half (Medium Screens)
-    col-3_sm-12: One Quarter > Full (Small Screens)
-    col-4_md-5_xs-6: One Third > Half (Medium Screens)
+collections:
+ posts:
+   output: true
+   permalink: /posts/:year/:slug
