@@ -44,6 +44,12 @@ html {border: none;} */
 
 /* Header Banner */
 
+.bg-image-header {
+    background-image: url('/images/ossm-banner-schets-opacity-40.png');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
 .bg-image-adviseert {
     background-image: url('/images/bynouchka-160224-Lindsay-26.jpg');
     background-position: 50% 70%;
@@ -58,7 +64,7 @@ html {border: none;} */
 /* Contact */
 
 .bg-image-studio {
-    background-image: url('/images/essentie-studio.jpg');
+    background-image: url('/images/');
 }
 
 
@@ -100,7 +106,7 @@ body {
     border: none;
     font-family:'Work Sans', sans-serif;
     color: #4A4A4A;
-    background-color: #F5F5F5;
+    background-color: #FCFCFC;
 }
 
 /* Padding & Margin */
@@ -113,6 +119,8 @@ body {
 .padded-05 { padding: 0.5rem; }
 .padded-1  { padding: 1rem;   }
 .padded-2  { padding: 2rem;   }
+.padded-3  { padding: 3rem;   }
+.padded-4  { padding: 4rem;   }
 .padded-5  { padding: 5rem;   }
 
 .padded-t { padding-top: 5%;    }
@@ -160,6 +168,8 @@ body {
 .margin-05 { margin: 0.5rem; }
 .margin-1  { margin: 1rem;   }
 .margin-2  { margin: 2rem;   }
+.margin-3  { margin: 3rem;   }
+.margin-4  { margin: 4rem;   }
 .margin-5  { margin: 5rem;   }
 
 .margin-t { margin-top: 5%;    }
@@ -224,7 +234,7 @@ body {
   
 .bg-featured {background-color: #3833AF;}
 
-.bg-border-yellow {border: 1px solid #F6EA49;}
+.bg-border-yellow {border: 2px solid #F6EA49;}
 .bg-border-white {border: 1px solid white   ;}
 
 
@@ -276,8 +286,11 @@ body {
 .medium-text { font-size: 2rem;   }
 .big-text    { font-size: 4rem;   }
 
+.uppercase {text-transform: uppercase; }
+
 .font-weight-light      { font-weight: 300;    }
 .font-weight-normal     { font-weight: normal; }
+.font-weight-bold       { font-weight: bold;    }
 .font-weight-extra-bold { font-weight: 800;    }
 
 .dark-logo-text { color: #4A494B; }
@@ -295,10 +308,15 @@ a {
     display: inline-block;
 }
 
+.inline a {
+  display:inline-block;
+  padding: 0.5rem;
+}
+
 /*------------------------- Typography Styles ------------------------*/
 
 h1, h2, h3, h4 {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -366,7 +384,15 @@ hr {
     width: 80px;
     border-color: inherit;
     height: 0;
-    color: #CB9CA4;
+    color: #f0e547;
+}
+
+.divider-left {
+    border-left: 2px solid #F6EA49;
+}
+
+.divider-right {
+    border-right: 2px solid #F6EA49;
 }
 
 .border-b-dark-yellow { border-bottom: 2px solid #F6EA49; }
@@ -378,11 +404,17 @@ hr {
 } 
 
 .title {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Works Sans', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-top: 0.5rem;
+}
 
+.title-oversized {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 6.5rem;
+    margin-top: 0.5rem;
+    color: black;
 }
 
 .price {
@@ -403,7 +435,7 @@ hr {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    border: 2px solid;
+    border: 2px solid #F6EA49;
     padding: 0.8rem 1rem;
     margin-top: 1rem;
     transition: 0.5s all; 
@@ -922,14 +954,16 @@ form button {
 }
 /*------------------------- Footer Styles ------------------------*/
 
-footer a {
-    font-size: 1rem;
-
+footer p {
+    font-size: 0.9rem;
 }
 
-footer h4 {
-    color: #CB9CA4;
+footer nav a {
+  display:block;
+  padding: 0.25rem;
+  font-size: 0.9rem;
 }
+
 
 .display-block { display: block; }
 
@@ -1153,6 +1187,7 @@ li {
   
   .card {
     padding: 0;
+    background-color: white;
   }
 
   .card:hover {

@@ -22,10 +22,10 @@
     <!-- This is our grid stylesheet  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
     
-    <!-- This is our google font stylesheet Cantata One  & Noto Sans (300, 400, 500, 600 & 700)  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- This is our google font stylesheet Montserrat & Work Sans -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
      <!-- This is our adobe font stylesheet (300, 400, 700 & 800) -->
     <link rel="stylesheet" href="https://use.typekit.net/oxk5voo.css">
@@ -69,30 +69,32 @@
 
         <header>
     
-    <section class="grid-center col-12 text-center">
+    <section class="grid-spaceBetween col-12 padded-r text-center">
     <div class="col-12-top grid">
-        <nav class="col-5-middle padded-r-2 hide-md"> 
-            <a href="/adiviseert.html"> adviseert </a>
-            <!-- <div class="dropdown">
-                <span class="dropdown-title"> Adviseert </span>
-                <div class="dropdown-content">
-                  
-                  <a href="/brainstormsessie"> Brainstormsessie </a>
-                  <a href="/adviessessie"> Adviessessie </a>
-                  <a href="/Projectanalyse"> Projectanalyse </a>
-                </div>  -->
-        </nav>
-
-        <div class="col-2 hide-mdl hide-md"> 
+        <div class="col-3 sm-text-left hide-mdl hide-sm"> 
             <a href="/index.html"> 
                 <img src="/images/ossm-primary-logo.png" style="height: 70px" class="inline-block"> 
             </a>
         </div>
     
-        <nav class="col-5-middle padded-r-2 hide-md"> 
-            <a href="/geeft-vorm.html"> geeft vorm </a>
+        <div class="col-3 sm-text-left show-mdl"> 
+            <a href="/index.html"> 
+                <img src="/images/essentie-logo-roze.png" style="height: 50px" class="inline-block"> 
+            </a>
+        </div>
+    
+        <nav class="col-6-middle text-center hide-md"> 
+            <a href="/index.html"> Home </a>
+            <a href="/over-ons.html"> Over ons </a>
+            <a href="/portfolio.html"> Portfolio </a>
+            <a href="/adiviseert.html"> Adviseert </a>
+            <a href="/ontwerpt.html"> Ontwerpt </a>
+            <a href="/contact.html"> Contact </a>
         </nav>
 
+        <nav class="col-3-middle text-right padded-r-2 hide-md"> 
+            <a class="padded-05 bg-border-yellow" href="/gelaat.html"> Plan een gesprek in &#8594; </a>
+        </nav>
     
         <nav class="col-3-middle show-md">
             <div class="hamburger-button"> 
@@ -103,8 +105,13 @@
     
             <div class="mobile-menu"> 
                 <a href="/index.html"> Home </a>
-                <a href="/adiviseert.html"> Adviseert </a>
-                <a href="/geeft-vorm.html"> Geeft vorm </a>
+                <a href="/gelaat.html"> Gelaat </a>
+                <a href="/pedicure.html"> Pedicure </a>
+                <a href="/lichaam.html"> Lichaam </a>
+                <a href="/ontharing.html"> Ontharing </a>
+                <a href="/manicure.html"> Manicure </a>
+                <a href="/arrangementen.html"> Arrangementen </a>
+                <a href="/contact.html"> Contact </a>
             </div>
         </nav>
     </div>  
@@ -181,148 +188,61 @@
         
 
         <!--- Footer -->
-        <!---------------------------- Footer ------------------------->
+        <!---------------------------- Footer --------------------------------->
+<footer class="grid-center text-center padded-1">
+  <!-- column -->
+  
 
-<footer class="padded-2 grid-spaceBetween bg-light-footer hide-mdl hide-sm">
-    
-    <!-- <div class="col-4"> 
-        <p> Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.</p>
-    </div> -->
-    
-    <div class="col-4 grid"> 
-        <div class="col-6"> 
-            <p> 
-                <a href="/index.html"> Ontwerpstudio SoulMade </a> <br>  
-                <a href="https://maps.app.goo.gl/fXP2JybURsbHDnxU6" class="border-bottom-dark-pink"> Populierenlaan 13 </a> <br>
-                2070 Burcht <br> 
-                <a href="tel:0499610604" class="display-block"> 0499 61 06 04 </a> 
-                <a href="mailto:hallo@ossm.be" class="display-block"> hallo@ossm.be </a> 
-                BTW: BE0871 640 020
-            </p>         
-        </div>
+  <!-- column -->
+  <div class="col-3 margin-2 divider-right">
+    <h4 class="title"> Leer ons kennen </h4>
+    <nav>
+      <a href="#"> Home </a>
+      <a href="#"> Over ons </a>
+      <a href="#"> Portfolio </a>
+      <a href="#"> Adviseert </a>
+      <a href="#"> Geeft vorm </a>
+    </nav>
+  </div>
+
+  <!-- column -->
+    <div class="col-3 margin-2">
+        <h2 class="title"> Ontwerpstudio soulmade </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <nav>
+            <i class="padded-r-1 fa-brands fa-facebook"></i>
+            <i class="padded-r-1 fa-brands fa-instagram"></i>
+            <i class="padded-r-1 fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </nav>
     </div>
-    <div class="col-2 text-right"> 
-        <a href="/index.html"> 
-            <img src="/images/ossm-logo-mark.png" style="height: 150px" class="inline-block"> 
-        </a>
-    </div>
 
-</footer> 
+  <!-- column -->
+  <div class="col-3 margin-2 divider-left">
+    <h4 class="title"> Informatie </h4>
+    <nav>
+      <a href="#"> Populierenlaan 13 </a>
+      <a href="#"> 2070 Burcht </a>
+      <a href="tel:0499610604"> 0499 61 06 04 </a>
+      <a href="mailto:hallo@ossm.be"> hallo@ossm.be </a>
+      <a href="#"> Contact </a>
+    </nav>
+  </div>
 
-<footer class="grid padded-5 text-center bg-light show-mdl hide-sm"> 
-    <div class="padded-5 col-12 grid-center">
-       <div class="col-6-middle">
-            <div class="text-center"> 
-                <a href="/index.html"> 
-                    <img src="/images/ossm-primary-logo.png" style="height: 60px" class="inline-block"/> 
-                </a>
-            </div>
-            <nav>
-                <a href="https://facebook.com/ontwerpstudioSoulMade">
-                    <i class="icon fab fa-facebook-square padded-r-1 padded-t-05"></i>
-                </a>
-            
-                <a href="https://instagram.com/ontwerpstudio_soulmade">
-                    <i class="icon fab fa-instagram-square padded-r-1 padded-t-05"></i>
-                </a>
-
-                <a href="https://pinterest.com/ontwerpstudioSoulMade/">
-                    <i class="icon fab fa-brands fa-square-pinterest"></i>
-                </a>
-            </nav>
-            <p class="padded-l-5 padded-r-5 md-padded-l-2 md-padded-r-2"> Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.</p>
-            <div class="inline text-center">
-                <a href="tel:0499610604" class="button"> Contacteer ons </a>
-            </div>
-        </div>
-    </div>    
-</footer>
-
-<footer class="grid padded-5 text-center bg-light show-sm hide-xs"> 
-    <div class="padded-5 col-12 grid-center">
-       <div class="col-6-middle">
-            <div class="text-center"> 
-                <a href="/index.html"> 
-                    <img src="/images/ossm-primary-logo.png" style="height: 45px" class="inline-block"/> 
-                </a>
-            </div>
-            <nav>
-                <a href="https://facebook.com/ontwerpstudioSoulMade">
-                    <i class="fab fa-facebook-square padded-r-1 padded-t-05"></i>
-                </a>
-            
-                <a href="https://instagram.com/ontwerpstudio_soulmade">
-                    <i class="fab fa-instagram-square padded-r-1 padded-t-05"></i>
-                </a>
-
-                <a href="https://pinterest.com/ontwerpstudioSoulMade/">
-                    <i class="fab fa-brands fa-square-pinterest"></i>
-                </a>
-            </nav>
-            <p> Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.</p>
-            <div class="inline text-center">
-                <a href="tel:0499610604" class="button"> Contacteer ons </a>
-            </div>
-        </div>
-    </div>    
-</footer>
-
-<footer class="padded-sm text-center bg-light show-xs hide-xxs"> 
-    <div class="padded-5">
-       <div>
-            <div class="text-center"> 
-                <a href="/index.html"> 
-                    <img src="/images/ossm-primary-logo.png" style="height: 45px" class="inline-block"/> 
-                </a>
-            </div>
-            <nav>
-                <a href="https://facebook.com/ontwerpstudioSoulMade">
-                    <i class="fab fa-facebook-square padded-r-1 padded-t-05"></i>
-                </a>
-            
-                <a href="https://instagram.com/ontwerpstudio_soulmade">
-                    <i class="fab fa-instagram-square padded-r-1 padded-t-05"></i>
-                </a>
-
-                <a href="https://pinterest.com/ontwerpstudioSoulMade/">
-                    <i class="fab fa-brands fa-square-pinterest"></i>
-                </a>
-            </nav>
-            <p class=""> Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.</p>
-            <div class="inline text-center">
-                <a href="tel:0499610604" class="button"> Contacteer ons </a>
-            </div>
-        </div>
-    </div>    
-</footer>
-
-<footer class="padded-sm text-center bg-light show-xxs"> 
-    <div class="padded-5">
-       <div>
-            <div class="text-center"> 
-                <a href="/index.html"> 
-                    <img src="/images/ossm-primary-logo.png" style="height: 35px" class="inline-block"/> 
-                </a>
-            </div>
-            <nav>
-                <a href="https://facebook.com/ontwerpstudioSoulMade">
-                    <i class="fab fa-facebook-square padded-r-1 padded-t-05"></i>
-                </a>
-            
-                <a href="https://instagram.com/ontwerpstudio_soulmade">
-                    <i class="fab fa-instagram-square padded-r-1 padded-t-05"></i>
-                </a>
-
-                <a href="https://pinterest.com/ontwerpstudioSoulMade/">
-                    <i class="fab fa-brands fa-square-pinterest"></i>
-                </a>
-            </nav>
-            <p class=""> Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.</p>
-            <div class="inline text-center">
-                <a href="tel:0499610604" class="button"> Contacteer ons </a>
-            </div>
-        </div>
-    </div>    
+  <!-- column -->
+  <div class="p-5p">
+    
+    <nav class="inline">
+      <span> &#169; 2025 Ontwerpstudio soulmade </span>|
+      <a href="#"> Privacybeleid </a>|
+      <a href="#"> Algemene voorwaarden </a>|
+      <span> BTW BE0830 698 102 </span>
+    </nav>
+    
+  </div>
+  <div>
+   
+  </div>
 </footer>
 
         <!--- Body scripts -->

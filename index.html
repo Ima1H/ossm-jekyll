@@ -9,18 +9,18 @@ seo:
   keywords: 
   hide-from-google: false
 services:
-  - column-size: col-6_md-12
-    padding: padded-l-0 padded-r-10
-    background_image: /images/bynouchka-160224-Lindsay-26.jpg
-    name-service: Brainstormsessie, adviessessie of plananlyse.
-    description: 
-    follow-link: /adiviseert.html
-  - column-size: col-6_md-12
-    padding: padded-l-10 padded-r-0
-    background_image: /images/ossm-notes.jpeg
-    name-service: (RE)Branding, totaalproject interieurarchitectuur of totaalpakket.
-    description: 
-    follow-link: /.geeft-vorm.html
+ - column-size: col-4_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-17.jpg
+   name-service: Adviseert
+   description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!
+   follow-link: /adviseert.html
+   text-button: Leer meer
+ - column-size: col-4_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-service: Ontwerpt
+   description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!
+   follow-link: /ontwerpt.html
+   text-button: Leer meer
 ---
 <header>
     
@@ -28,28 +28,52 @@ services:
 
 </header>    
     
-<!-------------------------- Index  ------------------------------->
+<!-------------------------- Header Banner  ------------------------------->
 
-<section>
-    <div class="grid-equalHeight "> 
-            
-        {% for item in page.services %}
-
-        <div class="{{item.padding}} {{item.column-size}}"> 
-            <div class="hover-container tall-100" style="background-image:url('{{item.background_image}}');"> 
-                <div class="hover-overlay padded-0 margin-0"> 
-                    <div class="hover-inner padded-5">
-                        <h3> {{item.name-service}}  </h3>
-                        <p> {{item.description}}  </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        {% endfor %}
-
+<section class="grid tall-100 bg-image-header padded-5 padded-t-0">
+    <div class>
+        <span> Ontwerpbureau voor </span>
+    </div>
+    
+    <div>
+        <h2 class="uppercase font-weight-bold"> Interieurarchitectuur & grafisch ontwerp </h2>
+    </div>
+    
+    <div class="col-12-middle text-center">
+        <h1 class="title-oversized uppercase"> Vorm gever <br> van jouw plannen </h1>
+        <img src="/images/ossm-logo-mark.png" alt="" width="30%" height="auto">
     </div>
 </section>
 
+<!-------------------------- Services  ------------------------------->
+<section class="padded-5">
+    <div class="grid-center padded-sm">
+        <div class="col-8 divider-left padded-b-0">
+            <span class="uppercase title"> Onze diensten </span>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
+        </div>
+    </div>  
+
+    <div class="grid padded-sm bg-ligt padded-t-0">
+        <div class="grid-center-equalHeight">
+            
+            {% for item in page.services %} 
+                <!---- Service Cards ----->
+                <div class="{{item.column-size}}"> 
+                    <a href="{{item.follow-link}}" class="card bg-white">
+                        <div class="bg-image landscape" style="background-image: url('{{item.background_image}}');"></div>
+                        <div class="padded-2">
+                            <h3> {{item.name-service}} </h3>
+                            <p> {{item.description}} </p>
+                            <p class="button"> Meer info </p>
+                            <!-- <a href="{{item.follow-link}}" class="button"> Meer info </a> -->
+                        </div>
+                    </a>
+                </div>
+                
+            {% endfor %}
+        </div> 
+    </div>
+</section>
 
 
