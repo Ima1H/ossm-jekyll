@@ -2,8 +2,48 @@
 layout: default
 ---
 
-<section>
+<!----------------------------- Banner ------------------------------->
+<section class="grid-center padded-5">
+   <div class="grid-center col-12">
+       <div class="col-4_xs-12 margin-r-2">
+            <p class="title-categories">{{page.categories}}</ps>
+            <h3 class="divider-left title-testimonial padded-1 padded-t-0 padded-b-0"> {{page.testimonial}} </h3>
+            <p class="project-description padded-b-2"> {{page.description}} </p>
+           <!-- <h1>{{page.title}}</h1>
+           <p>Written by {{page.author}}</p>
+           <p>{{page.date}}</p> -->
+       </div>
+      
+       <div class="col-6-right_xs-12">
+            <div class="bg-image landscape" style="background-image: url('{{post.featured_image}}');"></div>
+       </div>
 
-    {{ content }}
-    
+       <div class="col-6-right_xs-12">
+            <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"></div>
+       </div>
+       
+   </div>
+
 </section>
+
+
+
+<!----------------------------- Content ------------------------------->
+<section class="grid padded-5">
+
+    <h2 class="col-6 divider-left padded-1 padded-t-0 padded-b-0"> {{page.title}} </h2>
+    
+    <div class="col-9 padded-1 padded-t-2">
+        
+        {{content}}
+    
+    </div>
+</section>
+
+
+<!-------------------------- Social Share --------------------------->
+{% include social-share.html %}
+
+
+<!-------------------------- Related Projects --------------------------->
+{% include related-projects.html %}

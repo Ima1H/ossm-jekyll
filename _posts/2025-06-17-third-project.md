@@ -1,6 +1,19 @@
 ---
 layout: project
 title: my third project
+description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
+author: Jane Doe
+featured: true
+categories: 
+  - Grafisch ontwerp
+featured_image: /images/bynouchka-160224-Lindsay-23.jpg
+testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
+seo:
+  title:
+  description: 
+  social_image:
+  keywords:
+  hide-from-google: false
 ---
 
 ## Projects of OSSM

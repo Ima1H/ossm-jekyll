@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OSSM | Interieurarchitectuur en grafisch ontwerp
+title: OSSM | Adviseert
 seo:
   title: OSSM | Interieurarchitectuur en grafisch ontwerp
   description: Ontwerpstudio Soulmade is een bureau voor zowel particuliere als zakelijke klanten, met een warm moderne stijl en af en toe een speelse toets. We vinden het belangrijk dat zowel architectuur als interieur op elkaar afgestemd zijn en het totaalplaatje klopt. We worden dan ook graag zo vroeg mogelijk bij een project betrokken en nemen met plezier het totaalontwerp voor een renovatie of nieuwbouwproject op ons. We combineren tevens jarenlange ervaring in interieurarchitectuur met sterke grafische ontwerpen. Samen creëeren we een duidelijke look and feel voor jouw brand, voelbaar in alle facetten van je onderneming. Een ongedwongen sfeer, en besprekingen met een tasje koffie/thee mét een 'koekske'.
@@ -13,19 +13,19 @@ services:
    background_image: /images/bynouchka-160224-Lindsay-17.jpg
    name-service: brainstormsessie
    description: Zit je even vast? Tijdens dit kort maar krachtig gesprek bij jou thuis krijg je mondeling advies waarmee je zelf weer vooruit kunt. Zonder voorbereiding, wél meteen heldere richting.
-   follow-link: /brainstormsessie.html
+   follow-link: /adviseert-aanbod.html#brainstormsessie
    text-button: Leer meer
  - column-size: col-4_lg-8_md-12
    background_image: /images/bynouchka-160224-Lindsay-23.jpg
    name-service: adviessessie
    description: Heb je meer nodig dan snelle tips? We duiken samen je ruimte in met voorbereiding, stalen, een verslag én een opvolgmoment. Zo krijg je echte houvast om doordacht verder te bouwen.
-   follow-link: /adviessessie.html
+   follow-link: /adviseert-aanbod.html
    text-button: Leer meer
  - column-size: col-4_lg-8_md-12
    background_image: /images/bynouchka-160224-Lindsay-23.jpg
    name-service: plananalyse
    description: Heb je meer nodig dan snelle tips? We duiken samen je ruimte in met voorbereiding, stalen, een verslag én een opvolgmoment. Zo krijg je echte houvast om doordacht verder te bouwen.
-   follow-link: /adviessessie.html
+   follow-link: /adviseert-aanbod.html
    text-button: Leer meer
 projects:
  - column-size: col-3_lg-8_md-12
@@ -70,33 +70,22 @@ projects:
     <h2> Adviseert.</h2>
 </section>
 
-<!-- Test blog post -->
-
- <section>
-   <h1>Welcome to your homepage!</h1>
-
-   {% for post in site.posts %}
-
-   <a href="{{post.url}}"> {{post.title}}</a>
-
-   {% endfor %}
-</section>
 
 <!-------------------------- Services  ------------------------------->
 <section class="padded-5">
-    <div class="grid-center padded-sm">
+    <div class="grid-center padded-b-2">
         <div class="col-12 divider-left padded-b-0">
             <span class="uppercase title"> OSSM ADVISEERT jouw interieurachitectuur </span>
             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
         </div>
     </div>  
 
-    <div class="grid padded-sm bg-ligt padded-t-0">
+    <div class="grid padded-b-2 bg-ligt padded-t-0">
         <div class="grid-center-equalHeight">
             
             {% for item in page.services %} 
                 <!---- Service Cards ----->
-                <div class="{{item.column-size}}"> 
+                <div class="{{item.column-size}} padded-r-2"> 
                     <a href="{{item.follow-link}}" class="card bg-white">
                         <div class="bg-image landscape" style="background-image: url('{{item.background_image}}');"></div>
                         <div class="padded-2">
@@ -117,22 +106,32 @@ projects:
 
 
 <!-------------------------- Projects  ------------------------------->
-<!-- <section class="padded-5 tall-100">
-    <div class="grid-center padded-sm bg-ligt padded-t-0">
-        <div class="col-12 grid-center-equalHeight">
-                
-            {% for item in page.projects %}  -->
-                <!---- Projects Cards ----->
-                <!-- <div class="{{item.column-size}} card bg-white padded-2"> 
-                    <div class="bg-image portrait" style="background-image: url('{{item.background_image}}');"></div>
-                    <div class="padded-2">
-                        <p> {{item.name-project}} </p>
-                        <a href="{{item.follow-link}}"> Bekijk het project &#8594;</a>
-                    </div>
-                </div>
-                 
-            {% endfor %}
-             
+
+<!-- Test blog post -->
+
+ <section class="grid padded-5">
+
+     <div class="grid-center padded-b-2">
+        <div class="col-12 divider-left padded-b-0">
+            <span class="uppercase title"> PROJECTEN interieurarchitectuur </span>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
         </div>
+    </div> 
+
+    <div class="grid-equalHeight padded-b-2"></div>
+
+      {% for post in site.posts %}
+
+        <div class="col-3_xs-12 padded-r-2 padded-b-5">
+          <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"></div>
+
+          <p class="margin-b-0">{{post.title}}</p>      
+          <a href="{{post.url}}"> Bekijk het project &#8594; </a>
+        </div>
+
+      {% endfor %}
+
     </div>
-</section> -->
+</section>
+
+

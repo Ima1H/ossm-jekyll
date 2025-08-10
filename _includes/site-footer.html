@@ -1,8 +1,6 @@
 <!---------------------------- Footer --------------------------------->
 <footer class="grid-center text-center padded-1">
-  <!-- column -->
   
-
   <!-- column -->
   <div class="col-3 margin-2 divider-right">
     <h4 class="title"> Leer ons kennen </h4>
@@ -16,16 +14,16 @@
   </div>
 
   <!-- column -->
-    <div class="col-3 margin-2">
-        <h2 class="title"> Ontwerpstudio soulmade </h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <nav>
-            <i class="padded-r-1 fa-brands fa-facebook"></i>
-            <i class="padded-r-1 fa-brands fa-instagram"></i>
-            <i class="padded-r-1 fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-pinterest"></i>
-        </nav>
-    </div>
+  <div class="col-3 margin-2">
+      <h2 class="title"> Ontwerpstudio soulmade </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <nav>
+          <i class="padded-r-1 fa-brands fa-facebook"></i>
+          <i class="padded-r-1 fa-brands fa-instagram"></i>
+          <i class="padded-r-1 fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-pinterest"></i>
+      </nav>
+  </div>
 
   <!-- column -->
   <div class="col-3 margin-2 divider-left">
@@ -40,7 +38,7 @@
   </div>
 
   <!-- column -->
-  <div class="p-5p">
+  <div class="col-12 margin-2">
     
     <nav class="inline">
       <span> &#169; 2025 Ontwerpstudio soulmade </span>|
@@ -50,7 +48,21 @@
     </nav>
     
   </div>
-  <div>
-   
-  </div>
+  
+  <!-- Projects -->
+  <div class="grid-equalHeight padded-b-2"></div>
+
+      {% for post in site.posts %}
+
+        <div class="col-2_xs-12">  
+          <a href="{{post.url}}">
+            <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');">  </div>
+          </a>
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+
 </footer>

@@ -93,7 +93,10 @@ html {border: none;} */
 
 /* Aspect Ratio  */
 
+a.bg-image { display: block;}
+
 .portrait-tall      { padding-bottom: 175%; }
+.portrait-medium    { padding-bottom: 150%; }
 .portrait           { padding-bottom: 125%; }
 .square             { padding-bottom: 100%; }
 .landscape          { padding-bottom: 66%;  }
@@ -258,20 +261,27 @@ body {
 
 /* Max Width */
 
+.capped-width-wide      { max-width: 1600px; margin: auto; }
+.capped-width           { max-width: 1200px; margin: auto; }
+.capped-width-narrow    { max-width: 1000px; margin: auto; }
+.capped-width-v-narrow  { max-width: 800px;  margin: auto; }
+
 .wide-lg  { max-width: 1024px; }
 .wide-100 { max-width: 100%;   }
 
+
+.width-20 { max-width: 20vw;}
+.width-40 { max-width: 40vw;}
+.width-60 { max-width: 60vw;}
+.width-80 { max-width: 80vw;}
+
+/* Max Height */
 
 .height-10 { max-height: 10vh;}
 .height-20 { max-height: 20vh;}
 .height-40 { max-height: 40vh;}
 .height-60 { max-height: 60vh;}
 .height-80 { max-height: 80vh;}
-
-.width-20 { max-width: 20vw;}
-.width-40 { max-width: 40vw;}
-.width-60 { max-width: 60vw;}
-.width-80 { max-width: 80vw;}
 
 
 /* Text Allignment */
@@ -405,7 +415,7 @@ hr {
 
 .title {
     font-family: 'Works Sans', sans-serif;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 1.2rem;
 }
 
@@ -415,6 +425,31 @@ hr {
     font-size: 6.5rem;
     margin-top: 0.5rem;
     color: black;
+}
+
+.title-testimonial {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #4A4A4A;
+    font-style: italic;
+}
+
+.title-categories {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #4A4A4A;
+}
+
+.project-description {
+     font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #4A4A4A;
 }
 
 .price {
@@ -443,6 +478,8 @@ hr {
 
 .button:hover {
     border: 2px solid #F6EA49;
+    background-color: #F6EA49;
+    color: black
 }
 
 .button-filled {
@@ -491,9 +528,11 @@ header p {
     margin-bottom: 1rem;
 }
 
-[class*=grid-], [class*=grid_], [class~=grid] {
-    margin: 0 0rem;
-    }
+
+/* Override default gridlex padding */
+
+/* [class*=col-] { padding: 0; } */
+[class*=grid-], [class*=grid_], [class~=grid] { margin: 0; }
 
 @keyframes bounce {
     50% {
@@ -504,6 +543,7 @@ header p {
 .demo {
     width: 100%;
 }
+
 
 /* Hamburger menu Daniels example */
 
@@ -909,7 +949,12 @@ li {
     padding: 0.2rem;
   }
   
-/*---------------- Collaboration Section Styles ------------------*/
+/*---------------- Projects (Blog) Section Styles ------------------*/
+
+.social-share a {
+  padding: 0.25rem 0.5rem;
+}
+
 
 /* ------------------ Contact Section Styles ---------------------*/
 
@@ -1213,9 +1258,9 @@ li {
     font-weight: 600;
   }
   
-  .post-info {
+  /* .post-info {
     padding: 1rem;
-  }
+  } */
   
   .date {
     font-size: 0.8rem;
