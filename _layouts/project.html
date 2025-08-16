@@ -4,7 +4,9 @@ layout: default
 
 <!----------------------------- Banner ------------------------------->
 <section class="grid-center padded-5">
-   <div class="grid-center col-12">
+    
+    <div class="grid-center col-12">
+        <h2 class="col-12-left padded-2 padded-t-0 "> {{page.title}} </h2>
        <div class="col-4_xs-12 margin-r-2">
             <p class="title-categories">{{page.categories}}</ps>
             <h3 class="divider-left title-testimonial padded-1 padded-t-0 padded-b-0"> {{page.testimonial}} </h3>
@@ -21,8 +23,7 @@ layout: default
        <div class="col-6-right_xs-12">
             <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"></div>
        </div>
-       
-   </div>
+    </div>
 
 </section>
 
@@ -31,9 +32,8 @@ layout: default
 <!----------------------------- Content ------------------------------->
 <section class="grid padded-5">
 
-    <h2 class="col-6 divider-left padded-1 padded-t-0 padded-b-0"> {{page.title}} </h2>
     
-    <div class="col-9 padded-1 padded-t-2">
+    <div class="col-12-center padded-1 padded-t-2 padded-lr-8">
         
         {{content}}
     
@@ -41,9 +41,21 @@ layout: default
 </section>
 
 
+<!-------------------------- Services  ------------------------------->
+<section class="padded-md grid-center"> 
+    <div class="col-7-center">
+       <div class="container">
+        <div class="box box-1" style="--img: url(/images/bynouchka-160224-lindsay-17.jpg);" data-text="Zolder"></div>
+        <div class="box box-2" style="--img: url(/images/bynouchka-160224-lindsay-23.jpg);" data-text="Living"></div>
+        <div class="box box-3" style="--img: url(/images/bynouchka-160224-lindsay-24.jpg);" data-text="Slaapkamer"></div>
+        <div class="box box-4" style="--img: url(/images/bynouchka-160224-lindsay-17.jpg);" data-text="Wasruimte"></div>
+        <div class="box box-5" style="--img: url(/images/bynouchka-160224-lindsay-17.jpg);" data-text="Badkamer"></div>
+    </div> 
+    </div>
+</section>
+
 <!-------------------------- Social Share --------------------------->
 {% include social-share.html %}
-
 
 <!-------------------------- Related Projects --------------------------->
 {% include related-projects.html %}

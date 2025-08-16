@@ -1,6 +1,6 @@
 ---
 layout: project
-title: my first project
+title: my sixth project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
 author: Jane Doe
 featured: true
