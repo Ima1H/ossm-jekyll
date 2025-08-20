@@ -2,6 +2,7 @@
 layout: project
 title: my seventh project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
+client: Mechanics Joe
 author: Jane Doe
 featured: true
 categories: 

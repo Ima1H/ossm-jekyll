@@ -72,3 +72,25 @@ services:
 </section>
 
 
+<!-------------------------- Reviews  ------------------------------->
+<section class="padded-5">
+    <div class="grid-center padded-sm">
+        <div class="col-8 divider-left padded-b-0">
+            <span class="uppercase title"> Wat onze klanten zeggen </span>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
+        </div>
+    </div>  
+
+   <!-- Project column -->
+    <div class="project-slider margin-1">
+        <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
+        {% for post in projects limit:6 %}
+        <div class="slider-item">
+            <a href="{{ post.url }}">
+            <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
+            <p class="margin-b-0">{{ post.title }} </p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

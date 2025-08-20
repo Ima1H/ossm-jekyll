@@ -2,6 +2,7 @@
 layout: project
 title: my eigthth project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
+client: Jo & Diane
 author: Jane Doe
 featured: true
 categories: 

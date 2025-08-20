@@ -1,11 +1,13 @@
 <div id="cookie-notice"> 
     <span> We would like to use third party cookies and scripts to improve the functionality of this website.</span>
 
-    <a href="/privacy" class="button-subtle">More info</a>
-    <a id="cookie-notice-accept" class="button"> Approve </a>
+    <a href="/privacy" class="button-subtle">Meer info</a>
+    <a id="cookie-notice-accept" class="button"> Aanvaarden </a>
 
     <!-- optional close button that declines the cookies -->
-    <span id="close-cookie-banner"> X </span>
+    <span id="close-cookie-banner"> 
+        <i class="fa-solid fa-xmark"></i>
+    </span>
 </div>
 
 <script>
@@ -33,8 +35,10 @@
     }
   
     function runCookiedCodes() {
-              // Add tracking scripts here 
-              console.log("cookies ran")
+        // Add tracking scripts here 
+
+        // {% include personal-tracking-scripts.html %};
+       
         // End tracking scripts 
     }
   

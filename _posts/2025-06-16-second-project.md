@@ -2,6 +2,7 @@
 layout: project
 title: my second project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
+client: Ipsum & Lorem
 author: Jane Doe
 featured: true
 categories: 

@@ -66,13 +66,13 @@ projects:
 ---
 
 <!-------------------------- Header Banner  ------------------------------->
-<section class="grid-middle tall-60 text-center padded-5 padded-t-0">
+<section class="grid-middle tall-80 text-center padded-5 padded-t-0 bg-ontwerpt">
     <h2> Adviseert.</h2>
 </section>
 
 
 <!-------------------------- Services  ------------------------------->
-<section class="padded-5">
+<section class="padded-10">
     <div class="grid-center padded-b-2">
         <div class="col-12 divider-left padded-b-0">
             <span class="uppercase title"> OSSM ADVISEERT jouw interieurachitectuur </span>
@@ -109,32 +109,31 @@ projects:
 
 <!-- Test blog post -->
 
- <section class="grid padded-5">
+ <section class="grid padded-10">
 
-     <div class="grid-center padded-b-2">
-        <div class="col-12 divider-left padded-b-0">
-            <span class="uppercase title"> PROJECTEN interieurarchitectuur </span>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
-        </div>
+  <div class="grid-center padded-b-2">
+    <div class="col-12 divider-left padded-b-0">
+      <span class="uppercase title"> PROJECTEN interieurarchitectuur </span>
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
+    </div>
+  </div> 
+  
+  <div class="grid-equalHeight padded-b-2"></div> 
+  
+    {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %} 
+    {% for post in projects %} 
+    
+    <div class="col-3_xs-12 padded-r-2 padded-b-5 project-container"> <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"> </div> 
+    <p class="margin-b-0">{{post.title}}</p> 
+    <a href="{{post.url}}"> Bekijk het project → </a> 
+    
     </div> 
+    {% endfor %} 
+  </div>
 
-    <div class="grid-equalHeight padded-b-2"></div>
+</div>
 
   
-      {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %}
-
-      {% for post in projects %}
-
-        <div class="col-3_xs-12 padded-r-2 padded-b-5">
-          <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"></div>
-
-          <p class="margin-b-0">{{post.title}}</p>      
-          <a href="{{post.url}}"> Bekijk het project → </a>
-        </div>
-
-      {% endfor %}
-
-    </div>
 </section>
 
 

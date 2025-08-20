@@ -47,22 +47,11 @@ reviews:
     description: Hulp bij de naam, het logo, visitekaartjes, cadeaubonnen, afsprakenkaartje, drukwerk maar ook raambestickering.
     image: /images/ossm-reviews-natuurkapster-wendy.jpg
 ---
-<header>
-    
-    {% include site-header-nav.html %}
+<!-------------------------- Header Banner  ------------------------------->
+<section class="grid-middle tall-40 text-center padded-5 padded-t-0">
+    <h2> Veel gestelde vragen.</h2>
+</section>
 
-    <section class="grid text-center tall-50">
-        <div class="col-12-middle">
-            <h2> Brainstormsessie </h2>
-            <h3> Van twijfel naar thuisgevoel </h3>
-            <h3> &#10549; </h3>
-        </div>
-    </section>
-
-    
-</header>   
-
-<!-------------------------- Info Brainstormsessie  ------------------------------->
 <!-- Accordion -->
 <section class="padded-md">
     <div class="accordion">
@@ -74,7 +63,8 @@ reviews:
             <label for="{{item.id-question}}">
                 {{item.question}} 
             </label>
-            <div class="tab-content box">
+            <div class="tab-content">
+                <p>{{item.answer}}</p>
               <p> {{item.answer}}</p>
             </div>
         </div>
