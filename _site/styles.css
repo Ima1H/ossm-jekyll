@@ -139,8 +139,8 @@ html {border: none;} */
 	content: attr(data-text);
 	position: absolute;
 	bottom: 20px;
-	background: #4A494B;
-	color: #fff;
+	background: #F6EA49;
+	color: #4A494B;
 	padding: 10px 10px 10px 14px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
@@ -428,13 +428,18 @@ body {
 .wide-100 { max-width: 100%;   }
 
 
+.width-2  { max-width: 2vw;}
+.width-5  { max-width: 5vw;}
+.width-10 { max-width: 10vw;}
 .width-20 { max-width: 20vw;}
+.width-30 { max-width: 30vw;}
 .width-40 { max-width: 40vw;}
 .width-60 { max-width: 60vw;}
 .width-80 { max-width: 80vw;}
 
 /* Max Height */
 
+.height-5  { max-height: 5vh;}
 .height-10 { max-height: 10vh;}
 .height-20 { max-height: 20vh;}
 .height-40 { max-height: 40vh;}
