@@ -7,6 +7,7 @@ author: Jane Doe
 featured: true
 categories: 
   - Grafisch ontwerp
+featured_image: /images/ADS_0598.jpg
 featured_image_1: /images/ADS_0598.jpg
 featured_image_2: /images/ADS_0511.jpg
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat

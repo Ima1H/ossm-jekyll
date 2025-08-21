@@ -160,8 +160,8 @@ html {border: none;} */
   font-size: 1.5rem;
   /*this is normally not used because other elements don't know this element moves */
   position: relative;
-  bottom: 10rem;
-  left: -6rem;
+  bottom: 6rem;
+  left: -8rem;
 }
 
 /*----------------------------- Images ------------------------------*/
@@ -227,6 +227,12 @@ a.bg-image { display: block;}
 .landscape          { padding-bottom: 66%;  }
 .landscape-small    { padding-bottom: 45%;  }
 .landscape-wide     { padding-bottom: 56%;  }
+
+.portrait-project {
+    aspect-ratio: 3/4;
+    max-height: 600px;
+    object-fit: cover;
+}
 
 /*------------------------- Universal Styles -------------------------*/
 
