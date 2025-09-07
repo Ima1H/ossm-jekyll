@@ -827,6 +827,42 @@ header p {
 }
 
 
+/* Dropdown styles */
+
+.dropdown { 
+  position: relative; 
+  display: inline-block;
+}
+
+.dropdown-title {
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+  font-weight: 200;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0rem;
+  padding: 0.5rem;
+  display:none; 
+  background-color: inherit;
+  box-shadow: 0 20px 25px -5px rgba(89, 89, 89, 0.2), 0 10px 10px -5px rgba(89, 89, 89, 0.2);
+  z-index: 2;
+  text-align: left;
+  min-width: 10rem;
+}
+
+.dropdown:hover .dropdown-content{ 
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 0.2rem;
+}
+
+
 /* Hamburger menu Daniels example */
 
 
@@ -1220,40 +1256,6 @@ li {
     margin-bottom: 0.25rem;
 }
 
-/* Dropdown styles */
-
-.dropdown { 
-    position: relative; 
-    display: inline-block;
-    border: 1px solid orange;
-  }
-  
-  .dropdown-title {
-    padding: 0.25rem 0.5rem;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: -1rem;
-    padding: 0.5rem;
-    display:none; 
-    background-color: white;
-    z-index: 2;
-    text-align: left;
-    min-width: 10rem;
-    border: 1px solid mediumvioletred;
-  }
-  
-  .dropdown:hover .dropdown-content{ 
-    display: block;
-  }
-  
-  .dropdown-content a {
-    display: block;
-    padding: 0.2rem;
-  }
   
 /*---------------- Projects (Blog) Section Styles ------------------*/
 
