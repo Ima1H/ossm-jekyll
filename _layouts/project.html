@@ -6,11 +6,11 @@ layout: default
 <section class="grid-center padded-5 padded-b-0">
     
     <div class="grid-center col-12">
-       <h2 class="col-12-left padded-2 padded-t-0 padded-lr-6"> {{page.title}} </h2>
+       <h2 class="col-12-left padded-2 padded-t-0 padded-lr-6 title-medium-oversized"> {{page.title}} </h2>
        <div class="col-4_xs-12 margin-r-2">
             <p class="title-categories">{{page.categories}}</ps>
             <h3 class="divider-left title-testimonial padded-1 padded-t-0 padded-b-0"> {{page.testimonial}} </h3>
-            <p class="project-description padded-b-2"> {{page.description}} </p>
+            <!-- <p class="project-description padded-b-2"> {{page.description}} </p> -->
            <!-- <h1>{{page.title}}</h1>
            <p>Written by {{page.author}}</p>
            <p>{{page.date}}</p> -->
@@ -18,11 +18,16 @@ layout: default
       
        <div class="col-6-right_xs-12">
             <div class="bg-image landscape-wide" style="background-image: url('{{page.featured_image_1}}');"></div>
+            <hr class="padded-t-0">
        </div>
 
        <div class="col-6-right_xs-12">
-            <div class="bg-image portrait-project overlapping-img" style="background-image: url('{{page.featured_image_2}}');"></div>
+            <div class="bg-image landscape-wide overlapping-img" style="background-image: url('{{page.featured_image_2}}');"></div>
        </div>
+
+       <!-- <div class="col-6-right_xs-12">
+            <div class="bg-image portrait-project overlapping-img" style="background-image: url('{{page.featured_image_2}}');"></div>
+       </div> -->
     </div>
 
 </section>
@@ -44,18 +49,16 @@ layout: default
 <!-------------------------- Services  ------------------------------->
 <section class="padded-md grid-center"> 
     <div class="col-7-center">
-       <div class="container">
-        <div class="box box-1" style="--img: url('{{page.project_image_1}}');" data-text="{{page.project_image_1_datatext}}"></div>
-        <div class="box box-2" style="--img: url('{{page.project_image_2}}');" data-text="{{page.project_image_2_datatext}}"></div>
-        <div class="box box-3" style="--img: url('{{page.project_image_3}}');" data-text="{{page.project_image_3_datatext}}"></div>
-        <div class="box box-4" style="--img: url('{{page.project_image_4}}');" data-text="{{page.project_image_4_datatext}}"></div>
-        <div class="box box-5" style="--img: url('{{page.project_image_5}}');" data-text="{{page.project_image_5_datatext}}"></div>
-    </div> 
+       <div class="container" id="lightgallery">
+            <div class="box box-1" style="--img: url('{{page.project_image_1}}');" data-text="{{page.project_image_1_datatext}}"></div>
+            <div class="box box-2" style="--img: url('{{page.project_image_2}}');" data-text="{{page.project_image_2_datatext}}"></div>
+            <div class="box box-3" style="--img: url('{{page.project_image_3}}');" data-text="{{page.project_image_3_datatext}}"></div>
+            <div class="box box-4" style="--img: url('{{page.project_image_4}}');" data-text="{{page.project_image_4_datatext}}"></div>
+            <div class="box box-5" style="--img: url('{{page.project_image_5}}');" data-text="{{page.project_image_5_datatext}}"></div>
+        </div> 
     </div>
 </section>
 
 <!-------------------------- Social Share --------------------------->
 {% include social-share.html %}
 
-<!-------------------------- Related Projects --------------------------->
-{% include related-projects.html %}

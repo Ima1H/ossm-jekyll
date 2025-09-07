@@ -4,7 +4,7 @@
 
         <!--- Head scripts -->
         <head>
-    <title> my first project </title>
+    <title> My first project. </title>
 
     <!-- This is the head of out html external resources and metadata: gridlex, fonts, etc -->
     <!--------------------- SEO Metadata ----------------------->
@@ -58,7 +58,7 @@
     <link href="/styles.css" rel="stylesheet" />
     
     <!-- Lightgallery for pop-ups  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery-bundle.min.css" integrity="sha512-7xAjdVc23n18sYEAZKa79271IRUS1XzylIyJ8feyXvjrbbr4oId92993EiGTAP63Ob6KplRnmbNmBOg6bpLjYw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     
     <!-- This is our css stylesheet, this always goes last -->
     <link rel="stylesheet" href="/styles.css">
@@ -67,7 +67,7 @@
     </head>
     <body>
         <!--- Header -->
-        <section class="grid-spaceBetween col-12 padded-r text-center">
+        <header class="grid-spaceBetween col-12 padded-r text-center">
     <div class="col-12-top grid">
         <div class="col-3 sm-text-left hide-mdl hide-sm padded-t-1"> 
             <a href="/index.html"> 
@@ -81,17 +81,17 @@
             </a>
         </div>
     
-        <nav class="col-6-middle text-center hide-md "> 
-            <a class="padded-r-2 padded-t-1" href="/index.html"> Home </a>
-            <a class="padded-r-2 padded-t-1" href="/over-ons.html"> Over ons </a>
-            <a class="padded-r-2 padded-t-1" href="/portfolio.html"> Portfolio </a>
-            <a class="padded-r-2 padded-t-1" href="/adviseert.html"> Adviseert </a>
-            <a class="padded-r-2 padded-t-1" href="/ontwerpt.html"> Ontwerpt </a>
-            <a class="padded-r-2 padded-t-1" href="/contact.html"> Contact </a>
+        <nav class="col-6-middle text-center hide-md"> 
+            <a href="/index.html" class="padded-r-2 padded-t-1 site-header-a "> Home </a>
+            <a href="/over-ons.html"   class="padded-r-2 padded-t-1 site-header-a ">Over ons</a>
+            <a href="/portfolio.html" class="padded-r-2 padded-t-1 site-header-a " > Portfolio </a>
+            <a href="/adviseert.html" class="padded-r-2 padded-t-1 site-header-a " > Adviseert </a>
+            <a href="/ontwerpt.html" class="padded-r-2 padded-t-1 site-header-a " > Ontwerpt </a>
+            <a href="/contact.html" class="padded-r-2 padded-t-1 site-header-a " > Contact </a>
         </nav>
 
-        <nav class="col-3-middle text-right padded-r-5 hide-md padded-t-1"> 
-            <a class="padded-05 bg-border-yellow" href=""> Plan een gesprek in &#8594; </a>
+        <nav class="col-3-middle text-right padded-r-6 hide-md padded-t-1"> 
+            <a class="padded-05 bg-border-yellow button-header" href="/contact.html"> Plan een gesprek in &#8594; </a>
         </nav>
     
         <nav class="col-3-middle show-md">
@@ -111,30 +111,35 @@
             </div>
         </nav>
     </div>  
-</section>
+</header>
 
 
         <!----------------------------- Banner ------------------------------->
 <section class="grid-center padded-5 padded-b-0">
     
     <div class="grid-center col-12">
-       <h2 class="col-12-left padded-2 padded-t-0 padded-lr-6"> my first project </h2>
+       <h2 class="col-12-left padded-2 padded-t-0 padded-lr-6 title-medium-oversized"> My first project. </h2>
        <div class="col-4_xs-12 margin-r-2">
             <p class="title-categories">Grafisch ontwerp</ps>
             <h3 class="divider-left title-testimonial padded-1 padded-t-0 padded-b-0"> Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat </h3>
-            <p class="project-description padded-b-2"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis. </p>
-           <!-- <h1>my first project</h1>
+            <!-- <p class="project-description padded-b-2"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis. </p> -->
+           <!-- <h1>My first project.</h1>
            <p>Written by Jane Doe</p>
            <p>2025-06-15 00:00:00 +0000</p> -->
        </div>
       
        <div class="col-6-right_xs-12">
             <div class="bg-image landscape-wide" style="background-image: url('/images/ADS_0598.jpg');"></div>
+            <hr class="padded-t-0">
        </div>
 
        <div class="col-6-right_xs-12">
-            <div class="bg-image portrait-project overlapping-img" style="background-image: url('/images/ADS_0511.jpg');"></div>
+            <div class="bg-image landscape-wide overlapping-img" style="background-image: url('/images/ADS_0511.jpg');"></div>
        </div>
+
+       <!-- <div class="col-6-right_xs-12">
+            <div class="bg-image portrait-project overlapping-img" style="background-image: url('/images/ADS_0511.jpg');"></div>
+       </div> -->
     </div>
 
 </section>
@@ -161,13 +166,13 @@
 <!-------------------------- Services  ------------------------------->
 <section class="padded-md grid-center"> 
     <div class="col-7-center">
-       <div class="container">
-        <div class="box box-1" style="--img: url('/images/ossm-MTH-V6_1-photo.png');" data-text="living"></div>
-        <div class="box box-2" style="--img: url('/images/ossm-MTH-V6_2-photo.png');" data-text="keuken"></div>
-        <div class="box box-3" style="--img: url('/images/ossm-MTH-V6_3-photo.png');" data-text="keuken"></div>
-        <div class="box box-4" style="--img: url('/images/ossm-MTH-V6_4-photo.png');" data-text="zitplaats"></div>
-        <div class="box box-5" style="--img: url('/images/ossm-MTH-V6_5-photo.png');" data-text="keuken-living"></div>
-    </div> 
+       <div class="container" id="lightgallery">
+            <div class="box box-1" style="--img: url('/images/ossm-MTH-V6_1-photo.png');" data-text="living"></div>
+            <div class="box box-2" style="--img: url('/images/ossm-MTH-V6_2-photo.png');" data-text="keuken"></div>
+            <div class="box box-3" style="--img: url('/images/ossm-MTH-V6_3-photo.png');" data-text="keuken"></div>
+            <div class="box box-4" style="--img: url('/images/ossm-MTH-V6_4-photo.png');" data-text="zitplaats"></div>
+            <div class="box box-5" style="--img: url('/images/ossm-MTH-V6_5-photo.png');" data-text="keuken-living"></div>
+        </div> 
     </div>
 </section>
 
@@ -180,13 +185,13 @@
         <h4 class="margin-b-05"> share the love</h4>
 
         <nav>
-            <a href="https://twitter.com/intent/tweet?text=my first project&url=http://localhost:4000/projects/2025/first-project&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
+            <a href="https://twitter.com/intent/tweet?text=My first project.&url=http://localhost:4000/projects/2025/first-project&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">
                 <i class="fab fa-twitter padded-r-1"></i>
             </a>
             <a href="https://facebook.com/sharer.php?u=http://localhost:4000/projects/2025/first-project" rel="nofollow" target="_blank" title="Share on Facebook">
                 <i class="fab fa-facebook-f padded-r-1"></i>
             </a>
-            <a href="http://pinterest.com/pin/create/link/?url=/projects/2025/first-project&description=my first project" rel="nofollow" target="_blank" title="Share on Pinterest">
+            <a href="http://pinterest.com/pin/create/link/?url=/projects/2025/first-project&description=My first project." rel="nofollow" target="_blank" title="Share on Pinterest">
             <i class="fab fa-pinterest-p"></i>
             </a>
         </nav>
@@ -194,94 +199,7 @@
     </div>
 </section>
 
-<!-------------------------- Related Projects --------------------------->
-<section class="bg-light padded-5 related-posts">
 
-    <h2 class="text-center"> Related Projects </h2>
-    
-    <div class="grid-center">
-    
-    
-    
-
-    
-
-      
-
-    
-          <a href="/projects/2025/eleventh-project" class="col-2_xs-12 padded-2 post-item">
-            <div class="bg-image square margin-b-1" style="background-image: url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
-            
-                <span class="post-info">by Jane Doe //</span> 
-                <span class="post-info">06.25.2025 </span>
-            
-                <h3 class="margin-t-05"> my eleventh project </h3>
-          </a>
-          
-      
-
-    
-          <a href="/projects/2025/tenth-project-copy" class="col-2_xs-12 padded-2 post-item">
-            <div class="bg-image square margin-b-1" style="background-image: url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
-            
-                <span class="post-info">by Jane Doe //</span> 
-                <span class="post-info">06.24.2025 </span>
-            
-                <h3 class="margin-t-05"> my tenth project </h3>
-          </a>
-          
-      
-
-    
-          <a href="/projects/2025/seventh-project" class="col-2_xs-12 padded-2 post-item">
-            <div class="bg-image square margin-b-1" style="background-image: url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
-            
-                <span class="post-info">by Jane Doe //</span> 
-                <span class="post-info">06.21.2025 </span>
-            
-                <h3 class="margin-t-05"> my seventh project </h3>
-          </a>
-          
-      
-
-    
-          <a href="/projects/2025/sixth-project" class="col-2_xs-12 padded-2 post-item">
-            <div class="bg-image square margin-b-1" style="background-image: url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
-            
-                <span class="post-info">by Jane Doe //</span> 
-                <span class="post-info">06.20.2025 </span>
-            
-                <h3 class="margin-t-05"> my sixth project </h3>
-          </a>
-          
-      
-
-    
-          <a href="/projects/2025/fourth-project" class="col-2_xs-12 padded-2 post-item">
-            <div class="bg-image square margin-b-1" style="background-image: url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
-            
-                <span class="post-info">by Jane Doe //</span> 
-                <span class="post-info">06.18.2025 </span>
-            
-                <h3 class="margin-t-05"> my fourth project </h3>
-          </a>
-          
-      
-
-    
-          <a href="/projects/2025/third-project" class="col-2_xs-12 padded-2 post-item">
-            <div class="bg-image square margin-b-1" style="background-image: url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
-            
-                <span class="post-info">by Jane Doe //</span> 
-                <span class="post-info">06.17.2025 </span>
-            
-                <h3 class="margin-t-05"> my third project </h3>
-          </a>
-          
-      
-    </div>
-    
-</section>
 
 
         <!--- Footer -->
@@ -305,11 +223,19 @@
   <div class="col-3-middle margin-2">
       <h4 class="footer-title"> Ontwerpstudio soulmade </h4>
       <p class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <nav>
-          <i class="padded-r-1 fa-brands fa-facebook-f"></i>
-          <i class="padded-r-1 fa-brands fa-instagram"></i>
-          <i class="padded-r-1 fa-brands fa-linkedin-in"></i>
+      <nav class="inline">
+        <a href="https://www.facebook.com/ontwerpstudioSoulMade/" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a> 
+        <a href="https://www.instagram.com/ontwerpstudio_soulmade/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a> 
+        <a href="https://www.linkedin.com/in/lindsay-nevejans-6654814a/?originalSubdomain=be" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.pinterest.com/ontwerpstudioSoulMade/" target="_blank">
           <i class="fa-brands fa-pinterest-p"></i>
+        </a>
       </nav>
   </div>
 
@@ -317,8 +243,8 @@
   <div class="col-2 margin-2 divider-left">
     <h4 class="footer-title"> Informatie </h4>
     <nav>
-      <a href="#"> Populierenlaan 13 </a>
-      <a href="#"> 2070 Burcht </a>
+      <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> Populierenlaan 13 </a>
+      <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> 2070 Burcht </a>
       <a href="tel:0499610604"> 0499 61 06 04 </a>
       <a href="mailto:hallo@ossm.be"> hallo@ossm.be </a>
       <a href="/contact.html"> Contact </a>
@@ -331,43 +257,43 @@
         <!--  -->
         
         <div class="slider-item">
-            <a href="/projects/2025/fourtheenth-project-copy">
-            <div class="bg-image portrait" style="background-image:url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
+            <a class="project-box" href="/projects/2025/fourtheenth-project-copy">
+            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
             <p class="margin-b-0">my fourtheenth project </p>
             </a>
         </div>
         
         <div class="slider-item">
-            <a href="/projects/2025/thirteenth-project-copy-3">
-            <div class="bg-image portrait" style="background-image:url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
+            <a class="project-box" href="/projects/2025/thirteenth-project-copy-3">
+            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
             <p class="margin-b-0">my thirteenth project </p>
             </a>
         </div>
         
         <div class="slider-item">
-            <a href="/projects/2025/twelfth-project-copy-2">
-            <div class="bg-image portrait" style="background-image:url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
+            <a class="project-box" href="/projects/2025/twelfth-project-copy-2">
+            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
             <p class="margin-b-0">my twelfth project </p>
             </a>
         </div>
         
         <div class="slider-item">
-            <a href="/projects/2025/ninth-project-copy">
-            <div class="bg-image portrait" style="background-image:url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
+            <a class="project-box" href="/projects/2025/ninth-project-copy">
+            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
             <p class="margin-b-0">my ninth project </p>
             </a>
         </div>
         
         <div class="slider-item">
-            <a href="/projects/2025/eigthth-project-copy">
-            <div class="bg-image portrait" style="background-image:url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
+            <a class="project-box" href="/projects/2025/eigthth-project-copy">
+            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
             <p class="margin-b-0">my eigthth project </p>
             </a>
         </div>
         
         <div class="slider-item">
-            <a href="/projects/2025/fifth-project">
-            <div class="bg-image portrait" style="background-image:url('/images/bynouchka-160224-Lindsay-23.jpg');"></div>
+            <a class="project-box" href="/projects/2025/fifth-project">
+            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
             <p class="margin-b-0">my fifth project </p>
             </a>
         </div>
@@ -472,9 +398,12 @@
     });
   
   </script>
-        <div class="cookie-button">
-  <i class="fa-solid fa-cookie-bite"></i>
-</div>
+        <a href="/cookie.html">
+  <div class="cookie-button">
+    <i class="fa-solid fa-cookie-bite"></i>
+  </div>
+</a>
+
     
     </body>
 </html>

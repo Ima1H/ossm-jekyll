@@ -1,6 +1,6 @@
 ---
 layout: project
-title: my first project
+title: My first project.
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
 client: Company Jo
 author: Jane Doe

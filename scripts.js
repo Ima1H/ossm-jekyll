@@ -22,7 +22,7 @@ $(document).ready(function() {
   });
 
   
-  //Visage Treatment Carousel
+  //Carousel
   $('.slider-container').slick({
       autoplay: true,         // Do we want it to autoplay? true or false
       autoplaySpeed: 3000,    // How long between each slide when auto-playing
@@ -48,6 +48,34 @@ $(document).ready(function() {
       }
      ]
   });
+
+  //Review Carousel
+  $('.center').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+		
 
   //Project  Carousel
   $('.project-slider').slick({
@@ -91,6 +119,7 @@ $(document).ready(function() {
   });
 
   lightGallery(document.getElementById('lightgallery'), {
+    selector: '.box', 
     speed: 500,
     download: false
   });
@@ -99,8 +128,8 @@ $(document).ready(function() {
   AOS.init();
 
 
-  //filterable prices
-  $('#portfolio-filter span').click(function(){
+    //filterable prices
+    $('#portfolio-filter span').click(function(){
     
     // Remove class 'active' from any <span> that is currently active 
     $('#portfolio-filter .active').removeClass('active');
@@ -131,7 +160,7 @@ $(document).ready(function() {
           else {
               $(this).addClass('hidden'); // hide those that do not have the filter
             }};
-        });
+    });
       
 });
 

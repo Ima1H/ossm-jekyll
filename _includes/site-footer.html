@@ -18,11 +18,19 @@
   <div class="col-3-middle margin-2">
       <h4 class="footer-title"> Ontwerpstudio soulmade </h4>
       <p class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <nav>
-          <i class="padded-r-1 fa-brands fa-facebook-f"></i>
-          <i class="padded-r-1 fa-brands fa-instagram"></i>
-          <i class="padded-r-1 fa-brands fa-linkedin-in"></i>
+      <nav class="inline">
+        <a href="https://www.facebook.com/ontwerpstudioSoulMade/" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a> 
+        <a href="https://www.instagram.com/ontwerpstudio_soulmade/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a> 
+        <a href="https://www.linkedin.com/in/lindsay-nevejans-6654814a/?originalSubdomain=be" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.pinterest.com/ontwerpstudioSoulMade/" target="_blank">
           <i class="fa-brands fa-pinterest-p"></i>
+        </a>
       </nav>
   </div>
 
@@ -30,8 +38,8 @@
   <div class="col-2 margin-2 divider-left">
     <h4 class="footer-title"> Informatie </h4>
     <nav>
-      <a href="#"> Populierenlaan 13 </a>
-      <a href="#"> 2070 Burcht </a>
+      <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> Populierenlaan 13 </a>
+      <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> 2070 Burcht </a>
       <a href="tel:0499610604"> 0499 61 06 04 </a>
       <a href="mailto:hallo@ossm.be"> hallo@ossm.be </a>
       <a href="/contact.html"> Contact </a>
@@ -44,7 +52,7 @@
         <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
         {% for post in projects limit:6 %}
         <div class="slider-item">
-            <a href="{{ post.url }}">
+            <a class="project-box" href="{{ post.url }}">
             <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
             <p class="margin-b-0">{{ post.title }} </p>
             </a>
