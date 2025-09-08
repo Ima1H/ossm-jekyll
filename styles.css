@@ -729,7 +729,7 @@ hr {
 
 .button-filled {
     color: inherit;
-    display: inline-block;
+    
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.8rem 1rem;
