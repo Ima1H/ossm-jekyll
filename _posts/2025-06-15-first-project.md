@@ -22,10 +22,10 @@ project_image_3_datatext: keuken
 project_image_4_datatext: zitplaats
 project_image_5_datatext: keuken-living
 seo:
-  title:
-  description: 
-  social_image:
-  keywords:
+  title: My first project.
+  description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
+  social_image: /images/ADS_0598.jpg
+  keywords: Company Jo
   hide-from-google: false
 ---
 

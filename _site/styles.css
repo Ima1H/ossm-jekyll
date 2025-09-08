@@ -1270,41 +1270,39 @@ li {
   
 form input, 
 form textarea {
-    background: inherit;
-    color: #CB9CA4;
-    width: 100%;
-    margin: 0.5rem 0;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #999797;
-    outline: none;
-    font-family: inherit;
-    font-size: 0.9rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid rgb(220,220,220);
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
 }
 
 form input:focus,
 form textarea:focus {
-    border-color: #CB9CA4;
+  border-color: #F6EA49;
 }
 
 textarea {
-    min-height: 3rem;
+  min-height: 4rem;
 }
 
-form label { 
-    margin-top: 2rem;
-    display: block;
-    color: #5E5B5B;
-    font-weight: 100;
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #000000;
+  font-weight: 200;
 }
 
 form button {
-    background-color: inherit;
-    cursor: pointer;
-    display: inline-block;
-    text-align: right;
-}
+  background-color: inherit;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  letter-spacing: 0.1em;
+  margin: 0.5rem 0;
+} 
 /*------------------------- Footer Styles ------------------------*/
 
 footer p {
