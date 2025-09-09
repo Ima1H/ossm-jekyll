@@ -75,7 +75,7 @@ $(document).ready(function() {
       }
     ]
   });
-		
+
 
   //Project  Carousel
   $('.project-slider').slick({

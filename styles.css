@@ -95,6 +95,8 @@ html {border: none;} */
   filter: grayscale(100%) opacity(24%);
 }
 
+
+
 /*--------------------------- Project Specific Gallery Styles --------------------------*/
 .container {
 	position: relative;
@@ -1025,6 +1027,10 @@ header p {
     padding: 2% 5%;
 }
 
+.footer-slider {
+    margin: 2% 5%;
+}
+
 .slider-item {
     /* padding: 1rem; */
     display: none;
@@ -1102,6 +1108,20 @@ header p {
 /* (optioneel) nette gutters in Slick */
 .project-slider .slick-slide { margin: 0 12px; }
 .project-slider .slick-list  { margin: 0 -12px; } */
+
+/* Zorg dat elke kaart exact even groot is */
+.footer-slider .slider-item a { display: block; }
+
+.footer-slider .bg-image {
+  width: 100%;
+  aspect-ratio: 3 / 4;          /* kies: 3/4 (portrait), 4/3 (landscape) of 1/1 */
+  background-size: cover;
+  background-position: center;
+}
+
+/* (optioneel) nette gutters in Slick */
+.footer-slider .slick-slide { margin: 0 12px; }
+.footer-slider .slick-list  { margin: 0 -12px; } */
 
 /*-------------------- Accordion Styles ---------------*/
 
@@ -1303,6 +1323,45 @@ form button {
   letter-spacing: 0.1em;
   margin: 0.5rem 0;
 } 
+
+
+/* ---- Calender Selector contact page ---- */
+
+.select {
+  position: relative;
+  display: inline-block;
+  width: 250px; /* pas aan naar jouw design */
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 100%;
+  padding: 10px;
+  border: none;   /* border weghalen, zit al op .select */
+  background: transparent;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Custom pijltje rechts */
+.select::after {
+  content: "▾";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #bfac9d;
+  pointer-events: none;
+}
+
+
 /*------------------------- Footer Styles ------------------------*/
 
 footer p {

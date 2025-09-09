@@ -187,25 +187,36 @@
 <section class="padded-md grid-middle tall-60 padded-t-0">
   <div class="padded-4 col-6 grid hide-md ">
         <div class="col-6-top padded-4">
-            <h1 class="text-left xs-text-center title-medium-oversized"> Get in touch. </h1>
+            <h1 class="text-left xs-text-center title-medium-oversized"> Let's meet </h1>
             <hr class="padded-t-0">   
         </div>
   </div> 
   
-  <form div class="padded-md col-5_xs-12">
+  <div>
+		<label for="pakket"> Pakket </label>
+		<div class="select">
+			<select name="pakket" id="pakket" placeholder="Pakket">
+        <option value="kies-een-optie">-- Kies een optie --</option>
+        <option value="brainstormsessie">Brainstormsessie</option>
+        <option value="adviessessie">Adviessessie</option>
+        <option value="plananalyse">Plananalyse</option>  
+      </select>
+		</div>
+	</div>
   
-    <label for="_name"> Your Name </label>
-    <input type="text" name="_name" id="_name" placeholder="Name" />
+  <div div class="padded-md col-5_xs-12">
+    <select id="service-select">
+      <option value="">-- Kies een optie --</option>
+      <option value="brainstormsessie">Brainstormsessie</option>
+      <option value="plananalyse">Plananalyse</option>
+    </select>
 
-    <label for="_replyto"> Your Email </label>
-    <input type="email" name="_replyto" id="_replayto" placeholder="Email" />
+    <div class="tidycal-embed tidycal-brainstorm" data-path="3lxjp03/brainstormsessie"></div>
+    
+    <div class="tidycal-embed tidycal-plananalyse" data-path="3lxjp03/plananalyse"></div>
 
-    <label for="message"> Tell me everything about you... </label>
-    <textarea name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
-
-    <button type="submit" class="button"> Verstuur </button>
-  
-  </form> 
+    <script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
+  </div>
 </section>
 
 
@@ -219,16 +230,22 @@
         </div>
   </div> 
   
-  <form div class="padded-md col-5_xs-12">
+  <form div class="padded-md col-6_xs-12 uppercase">
   
-    <label for="_name"> Your Name </label>
-    <input type="text" name="_name" id="_name" placeholder="Name" />
+    <label for="_name"> Naam + Voornaam* </label>
+    <input required type="text" name="_name" id="_name" placeholder="John Doe" />
 
-    <label for="_replyto"> Your Email </label>
-    <input type="email" name="_replyto" id="_replayto" placeholder="Email" />
+    <label for="_adress"> Adres (straat, huisnr + gemeente)* </label>
+    <input required type="text" name="_adress" id="_adress" placeholder="Populierenlaan 13 Burcht"/>
 
-    <label for="message"> Tell me everything about you... </label>
-    <textarea name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
+     <label for="_phone-no"> GSM-nummer* </label>
+    <input required type="tel" name=”phone-no” id="_adress" placeholder="0499 61 06 04">
+    
+    <label for="_replyto"> E-mail* </label>
+    <input required type="email" name="_replyto" id="_replayto" placeholder="Email" />
+
+    <label for="message"> Bericht* </label>
+    <textarea required name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
 
     <button type="submit" class="button"> Verstuur </button>
   
@@ -239,7 +256,7 @@
         <!--- Footer -->
         <!---------------------------- Footer --------------------------------->
 <footer class="grid-center text-center padded-1">
-  
+
   <!-- column 1 -->
   <div class="col-2 margin-2 divider-right">
     <h4 class="footer-title"> Leer ons kennen </h4>
@@ -255,25 +272,27 @@
 
   <!-- column 2 -->
   <div class="col-3-middle margin-2">
-      <h4 class="footer-title"> Ontwerpstudio soulmade </h4>
-      <p class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <nav class="inline">
-        <a href="https://www.facebook.com/ontwerpstudioSoulMade/" target="_blank">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a> 
-        <a href="https://www.instagram.com/ontwerpstudio_soulmade/" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-        </a> 
-        <a href="https://www.linkedin.com/in/lindsay-nevejans-6654814a/?originalSubdomain=be" target="_blank">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-        <a href="https://www.pinterest.com/ontwerpstudioSoulMade/" target="_blank">
-          <i class="fa-brands fa-pinterest-p"></i>
-        </a>
-      </nav>
+    <h4 class="footer-title"> Ontwerpstudio soulmade </h4>
+    <p class="footer-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <nav class="inline">
+      <a href="https://www.facebook.com/ontwerpstudioSoulMade/" target="_blank">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a> 
+      <a href="https://www.instagram.com/ontwerpstudio_soulmade/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a> 
+      <a href="https://www.linkedin.com/in/lindsay-nevejans-6654814a/?originalSubdomain=be" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.pinterest.com/ontwerpstudioSoulMade/" target="_blank">
+        <i class="fa-brands fa-pinterest-p"></i>
+      </a>
+    </nav>
   </div>
 
-  <!-- column 3-->
+  <!-- column 3 -->
   <div class="col-2 margin-2 divider-left">
     <h4 class="footer-title"> Informatie </h4>
     <nav>
@@ -287,58 +306,61 @@
   </div>
 
   <!-- Project column -->
-    <div class="project-slider margin-1">
-        <!--  -->
-        
-        <div class="slider-item">
-            <a class="project-box" href="/projects/2025/fourtheenth-project-copy">
-            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
-            <p class="margin-b-0">my fourtheenth project </p>
-            </a>
-        </div>
-        
-        <div class="slider-item">
-            <a class="project-box" href="/projects/2025/thirteenth-project-copy-3">
-            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
-            <p class="margin-b-0">my thirteenth project </p>
-            </a>
-        </div>
-        
-        <div class="slider-item">
-            <a class="project-box" href="/projects/2025/twelfth-project-copy-2">
-            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
-            <p class="margin-b-0">my twelfth project </p>
-            </a>
-        </div>
-        
-        <div class="slider-item">
-            <a class="project-box" href="/projects/2025/ninth-project-copy">
-            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
-            <p class="margin-b-0">my ninth project </p>
-            </a>
-        </div>
-        
-        <div class="slider-item">
-            <a class="project-box" href="/projects/2025/eigthth-project-copy">
-            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
-            <p class="margin-b-0">my eigthth project </p>
-            </a>
-        </div>
-        
-        <div class="slider-item">
-            <a class="project-box" href="/projects/2025/fifth-project">
-            <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
-            <p class="margin-b-0">my fifth project </p>
-            </a>
-        </div>
-        
-    </div>
-
-</div>
-
-  <!-- column coprywright and terms -->
-  <div class="col-12 margin-2 text-center">
+  <div class="project-slider margin-1">
+    <!--  -->
     
+      <div class="slider-item">
+        <a class="project-box" href="/projects/2025/fourtheenth-project-copy">
+          <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
+          <!-- Titel blijft voor spacing, maar is onzichtbaar en klikt niet mee -->
+          <p class="margin-b-0 project-title-hidden">my fourtheenth project</p>
+        </a>
+      </div>
+    
+      <div class="slider-item">
+        <a class="project-box" href="/projects/2025/thirteenth-project-copy-3">
+          <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
+          <!-- Titel blijft voor spacing, maar is onzichtbaar en klikt niet mee -->
+          <p class="margin-b-0 project-title-hidden">my thirteenth project</p>
+        </a>
+      </div>
+    
+      <div class="slider-item">
+        <a class="project-box" href="/projects/2025/twelfth-project-copy-2">
+          <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
+          <!-- Titel blijft voor spacing, maar is onzichtbaar en klikt niet mee -->
+          <p class="margin-b-0 project-title-hidden">my twelfth project</p>
+        </a>
+      </div>
+    
+      <div class="slider-item">
+        <a class="project-box" href="/projects/2025/ninth-project-copy">
+          <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
+          <!-- Titel blijft voor spacing, maar is onzichtbaar en klikt niet mee -->
+          <p class="margin-b-0 project-title-hidden">my ninth project</p>
+        </a>
+      </div>
+    
+      <div class="slider-item">
+        <a class="project-box" href="/projects/2025/eigthth-project-copy">
+          <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
+          <!-- Titel blijft voor spacing, maar is onzichtbaar en klikt niet mee -->
+          <p class="margin-b-0 project-title-hidden">my eigthth project</p>
+        </a>
+      </div>
+    
+      <div class="slider-item">
+        <a class="project-box" href="/projects/2025/fifth-project">
+          <div class="bg-image portrait" style="background-image:url('/images/ADS_0598.jpg');"></div>
+          <!-- Titel blijft voor spacing, maar is onzichtbaar en klikt niet mee -->
+          <p class="margin-b-0 project-title-hidden">my fifth project</p>
+        </a>
+      </div>
+    
+  </div>
+
+  <!-- column copyright and terms -->
+  <div class="col-12 margin-2 text-center">
     <nav class="inline footer-text">
       <span class="padded-r-05"> &#169; 2025 Ontwerpstudio soulmade </span> |
       <a href="/privacy.html" class="padded-0"> Privacy </a> |
@@ -346,10 +368,10 @@
       <a href="/algemene-voorwaarden.html" class="padded-0"> Algemene voorwaarden </a> |
       <span class="padded-l-05"> BTW BE0830 698 102 </span>
     </nav>
-    
   </div>
 
 </footer>
+
 
         <!--- Body scripts -->
         <!--------------------- Add jQuery -------------------->

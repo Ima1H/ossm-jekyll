@@ -58,25 +58,36 @@ projects:
 <section class="padded-md grid-middle tall-60 padded-t-0">
   <div class="padded-4 col-6 grid hide-md ">
         <div class="col-6-top padded-4">
-            <h1 class="text-left xs-text-center title-medium-oversized"> Get in touch. </h1>
+            <h1 class="text-left xs-text-center title-medium-oversized"> Let's meet </h1>
             <hr class="padded-t-0">   
         </div>
   </div> 
   
-  <form div class="padded-md col-5_xs-12">
+  <div>
+		<label for="pakket"> Pakket </label>
+		<div class="select">
+			<select name="pakket" id="pakket" placeholder="Pakket">
+        <option value="kies-een-optie">-- Kies een optie --</option>
+        <option value="brainstormsessie">Brainstormsessie</option>
+        <option value="adviessessie">Adviessessie</option>
+        <option value="plananalyse">Plananalyse</option>  
+      </select>
+		</div>
+	</div>
   
-    <label for="_name"> Your Name </label>
-    <input type="text" name="_name" id="_name" placeholder="Name" />
+  <div div class="padded-md col-5_xs-12">
+    <select id="service-select">
+      <option value="">-- Kies een optie --</option>
+      <option value="brainstormsessie">Brainstormsessie</option>
+      <option value="plananalyse">Plananalyse</option>
+    </select>
 
-    <label for="_replyto"> Your Email </label>
-    <input type="email" name="_replyto" id="_replayto" placeholder="Email" />
+    <div class="tidycal-embed tidycal-brainstorm" data-path="3lxjp03/brainstormsessie"></div>
+    
+    <div class="tidycal-embed tidycal-plananalyse" data-path="3lxjp03/plananalyse"></div>
 
-    <label for="message"> Tell me everything about you... </label>
-    <textarea name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
-
-    <button type="submit" class="button"> Verstuur </button>
-  
-  </form> 
+    <script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
+  </div>
 </section>
 
 
@@ -90,16 +101,22 @@ projects:
         </div>
   </div> 
   
-  <form div class="padded-md col-5_xs-12">
+  <form div class="padded-md col-6_xs-12 uppercase">
   
-    <label for="_name"> Your Name </label>
-    <input type="text" name="_name" id="_name" placeholder="Name" />
+    <label for="_name"> Naam + Voornaam* </label>
+    <input required type="text" name="_name" id="_name" placeholder="John Doe" />
 
-    <label for="_replyto"> Your Email </label>
-    <input type="email" name="_replyto" id="_replayto" placeholder="Email" />
+    <label for="_adress"> Adres (straat, huisnr + gemeente)* </label>
+    <input required type="text" name="_adress" id="_adress" placeholder="Populierenlaan 13 Burcht"/>
 
-    <label for="message"> Tell me everything about you... </label>
-    <textarea name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
+     <label for="_phone-no"> GSM-nummer* </label>
+    <input required type="tel" name=”phone-no” id="_adress" placeholder="0499 61 06 04">
+    
+    <label for="_replyto"> E-mail* </label>
+    <input required type="email" name="_replyto" id="_replayto" placeholder="Email" />
+
+    <label for="message"> Bericht* </label>
+    <textarea required name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
 
     <button type="submit" class="button"> Verstuur </button>
   
