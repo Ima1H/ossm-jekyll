@@ -1027,10 +1027,6 @@ header p {
     padding: 2% 5%;
 }
 
-.footer-slider {
-    margin: 2% 5%;
-}
-
 .slider-item {
     /* padding: 1rem; */
     display: none;
@@ -1108,20 +1104,6 @@ header p {
 /* (optioneel) nette gutters in Slick */
 .project-slider .slick-slide { margin: 0 12px; }
 .project-slider .slick-list  { margin: 0 -12px; } */
-
-/* Zorg dat elke kaart exact even groot is */
-.footer-slider .slider-item a { display: block; }
-
-.footer-slider .bg-image {
-  width: 100%;
-  aspect-ratio: 3 / 4;          /* kies: 3/4 (portrait), 4/3 (landscape) of 1/1 */
-  background-size: cover;
-  background-position: center;
-}
-
-/* (optioneel) nette gutters in Slick */
-.footer-slider .slick-slide { margin: 0 12px; }
-.footer-slider .slick-list  { margin: 0 -12px; } */
 
 /*-------------------- Accordion Styles ---------------*/
 

@@ -54,8 +54,43 @@ projects:
 </section>
 
 
-<!---------------------------------- Calendar Form -------------------------------->
-<section class="padded-md grid-middle tall-60 padded-t-0">
+<!---------------------------------- Booking Calendar -------------------------------->
+<section class="booking-module padded-md grid-middle tall-60 padded-t-0" aria-labelledby="booking-title">
+  <div class="padded-4 col-6 grid hide-md ">
+        <div class="col-6-top padded-4">
+            <h1 class="text-left xs-text-center title-medium-oversized" id="booking-title"> Let's Meet </h1>
+            <hr class="padded-t-0">   
+        </div>
+  </div>
+
+  <!-- Step 1: Kies dienst -->
+  <!-- <div class="booking-step">
+    <p class="step-label">1. Kies een dienst</p>
+    <div class="service-switch" role="tablist" aria-label="Dienst">
+      <button class="service-btn is-active" role="tab" aria-selected="true" data-service="ontwerpt">Ontwerpt</button>
+      <button class="service-btn" role="tab" aria-selected="false" data-service="adviseert">Adviseert</button>
+    </div>
+  </div> -->
+
+  <!-- Step 2: Kies pakket (filtert op dienst) -->
+  <!-- <div class="booking-step">
+    <p class="step-label">2. Kies een pakket</p>
+    <div id="package-grid" class="package-grid" aria-live="polite" aria-label="Pakketten"></div>
+  </div> -->
+
+  <!-- Step 3: Agenda -->
+  <div class="booking-step">
+    <p class="step-label">3. Plan je moment</p>
+    <div id="agenda-host" class="agenda-host" aria-live="polite">
+      <div class="agenda-placeholder">
+        <p>Selecteer eerst een pakket om de agenda te laden.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="padded-md grid-middle tall-60 padded-t-0">
   <div class="padded-4 col-6 grid hide-md ">
         <div class="col-6-top padded-4">
             <h1 class="text-left xs-text-center title-medium-oversized"> Let's meet </h1>
@@ -89,7 +124,7 @@ projects:
     <script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
   </div>
 </section>
-
+ -->
 
 
 <!---------------------------------- Contact Form -------------------------------->

@@ -75,7 +75,7 @@ $(document).ready(function() {
       }
     ]
   });
-
+		
 
   //Project  Carousel
   $('.project-slider').slick({
@@ -165,4 +165,3 @@ $(document).ready(function() {
 });
 
 });
-
