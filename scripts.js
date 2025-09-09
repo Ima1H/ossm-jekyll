@@ -165,7 +165,7 @@ $(document).ready(function() {
       
 });
 
-/* ===== Booking module (default=adviseert, gele selectie, fallback link) ===== */
+/* ===== Booking module (default=adviseert, gele selectie, fallback link, deeplink) ===== */
 $(function () {
   var $mods = $('.booking-module');
   if (!$mods.length) return;
@@ -182,17 +182,14 @@ $(function () {
     $host.html('<div class="agenda-placeholder">Selecteer een dienst en pakket om de agenda te laden.</div>');
 
     function selectService(service) {
-      // highlight dienst
       $serviceBtns
         .removeClass('is-selected').attr('aria-selected','false')
         .filter('[data-service="'+service+'"]')
         .addClass('is-selected').attr('aria-selected','true');
 
-      // toon pakketten van die dienst
       $pkgs.removeClass('is-selected').addClass('hidden')
            .filter('[data-service="'+service+'"]').removeClass('hidden');
 
-      // reset agenda
       $host.html('<div class="agenda-placeholder">Kies nu een pakket om de agenda te laden.</div>');
     }
 
@@ -226,6 +223,9 @@ $(function () {
         .html('Zie je niets? <a class="agenda-fallback-link" target="_blank" rel="noopener" href="'+url+'">Open in nieuw tabblad</a>.');
 
       $host.empty().append($iframe, $fallback);
+
+      // smooth scroll (handig als je van andere pagina komt)
+      $('html, body').animate({ scrollTop: $host.offset().top - 80 }, 400);
     }
 
     // events
@@ -239,10 +239,29 @@ $(function () {
       loadAgenda($b.data('url'), $b.data('provider'), $.trim($b.text()));
     });
 
-    // default selectie
+    // --- Deeplink: ?service=adviseert&package=brainstormsessie ---
+    var params = new URLSearchParams(window.location.search);
+    var qsService = params.get('service');          // 'adviseert' | 'ontwerpt'
+    var qsPackage = params.get('package');          // bv. 'brainstormsessie'
+
+    if (qsService) {
+      selectService(qsService);
+      if (qsPackage) {
+        var $btn = $pkgs.filter('[data-service="'+qsService+'"][data-id="'+qsPackage+'"]').first();
+        if ($btn.length) {
+          selectPackage($btn);
+          loadAgenda($btn.data('url'), $btn.data('provider'), $.trim($btn.text()));
+          return; // klaar
+        }
+      }
+      return; // service stond in URL, maar geen (geldige) package → gebruiker kiest zelf pakket
+    }
+
+    // geen deeplink → normale default
     selectService(defaultService);
   });
 });
+
 
 
 
