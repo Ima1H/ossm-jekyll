@@ -118,6 +118,7 @@ $(document).ready(function() {
     ]
   });
 
+
   lightGallery(document.getElementById('lightgallery'), {
     selector: '.box', 
     speed: 500,
@@ -163,5 +164,86 @@ $(document).ready(function() {
     });
       
 });
+
+/* ===== Booking module (default=adviseert, gele selectie, fallback link) ===== */
+$(function () {
+  var $mods = $('.booking-module');
+  if (!$mods.length) return;
+
+  $mods.each(function () {
+    var $mod = $(this);
+    var defaultService = $mod.attr('data-default') || 'adviseert';
+    var $serviceBtns = $mod.find('.service-btn');
+    var $pkgs        = $mod.find('.pkg-btn');
+    var $host        = $mod.find('#agenda-host');
+
+    // init
+    $pkgs.addClass('hidden');
+    $host.html('<div class="agenda-placeholder">Selecteer een dienst en pakket om de agenda te laden.</div>');
+
+    function selectService(service) {
+      // highlight dienst
+      $serviceBtns
+        .removeClass('is-selected').attr('aria-selected','false')
+        .filter('[data-service="'+service+'"]')
+        .addClass('is-selected').attr('aria-selected','true');
+
+      // toon pakketten van die dienst
+      $pkgs.removeClass('is-selected').addClass('hidden')
+           .filter('[data-service="'+service+'"]').removeClass('hidden');
+
+      // reset agenda
+      $host.html('<div class="agenda-placeholder">Kies nu een pakket om de agenda te laden.</div>');
+    }
+
+    function selectPackage($btn) {
+      $pkgs.removeClass('is-selected');
+      $btn.addClass('is-selected');
+    }
+
+    function loadAgenda(url, provider, label) {
+      var src = url;
+      try {
+        var u = new URL(url, window.location.href);
+        if (provider === 'calendly') {
+          u.searchParams.set('embed_domain', location.host || 'localhost');
+          u.searchParams.set('embed_type', 'Inline');
+        } else if (provider === 'tidycal') {
+          u.searchParams.set('hide_title', '1');
+          u.searchParams.set('hide_gdpr_banner', '1');
+        }
+        src = u.toString();
+      } catch(e){}
+
+      var $iframe = $('<iframe/>', {
+        class: 'agenda-iframe',
+        src: src,
+        title: (label || 'Agenda') + ' – ' + provider,
+        loading: 'lazy'
+      });
+
+      var $fallback = $('<p/>', { css: { margin: '0.5rem 1rem 1rem' } })
+        .html('Zie je niets? <a class="agenda-fallback-link" target="_blank" rel="noopener" href="'+url+'">Open in nieuw tabblad</a>.');
+
+      $host.empty().append($iframe, $fallback);
+    }
+
+    // events
+    $serviceBtns.on('click', function () {
+      selectService($(this).data('service'));
+    });
+
+    $mod.find('#package-grid').on('click', '.pkg-btn', function () {
+      var $b = $(this);
+      selectPackage($b);
+      loadAgenda($b.data('url'), $b.data('provider'), $.trim($b.text()));
+    });
+
+    // default selectie
+    selectService(defaultService);
+  });
+});
+
+
 
 });

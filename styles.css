@@ -433,8 +433,7 @@ body {
 }
 
 .bg-light {
-    background-color: #D2CED5;
-    color: #5E5B5B;
+    background-color: #F8F9FC;;
 }
 
 .bg-yellow {
@@ -1298,14 +1297,36 @@ form label {
 }
 
 form button {
-  background-color: inherit;
-  color: white;
-  border: none;
-  padding: 0.5rem 2rem;
-  letter-spacing: 0.1em;
-  margin: 0.5rem 0;
+    margin-top: 1rem;
+    border:2px solid #4A4A4A; 
+    background:#fff; 
+    padding: 0.8rem 1rem;
+    cursor:pointer; 
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 0.5s all; 
+    font-weight: 100;
+    color: #4A4A4A;
+    letter-spacing: 0.1rem;
 } 
 
+::placeholder { 
+    color: #c8c8c8; 
+    opacity: 1;
+    font-weight: 200;
+    font-family: inherit;
+}
+
+/* Gele onderlijn voor de fallback-link onder de agenda */
+.booking-module .agenda-fallback-link {
+  text-decoration: none;
+  border-bottom: 1px solid #F6EA49; /* jouw geel */
+  padding-bottom: 2px;               /* beetje ruimte */
+}
+.booking-module .agenda-fallback-link:hover {
+  opacity: .85;                      /* optioneel */
+}
 
 /* ---- Calender Selector contact page ---- */
 
@@ -1341,6 +1362,95 @@ form button {
   font-size: 14px;
   color: #bfac9d;
   pointer-events: none;
+}
+
+
+/* Boooking Calendar */
+
+.step-label { 
+    margin-top: 1rem;
+    display: block;
+    font-weight: 200; 
+    color: #000000;
+    font-size: 1rem;
+}
+
+.service-switch { 
+    display:inline-flex; 
+    gap:.5rem; 
+}
+
+.service-btn { 
+    margin-top: 1rem;
+    border:1px solid #4A4A4A; 
+    background:#F8F9FC; 
+    padding: 0.8rem 1rem;
+    cursor:pointer; 
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 0.5s all; 
+    font-weight: 100;
+    color: #4A4A4A;
+    letter-spacing: 0.02rem;
+}
+  
+/* blauwe browser-outline uit */
+.service-btn:focus,
+.pkg-btn:focus { outline: none; }
+
+
+.package-grid { 
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:.6rem; 
+}
+
+.pkg-btn { 
+    margin-top: 1rem;
+    border:1px solid #4A4A4A; 
+    background:#F8F9FC; 
+    padding: 0.8rem 1rem;
+    cursor:pointer; 
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 0.5s all; 
+    font-weight: 100;
+    color: #4A4A4A;
+    letter-spacing: 0.1rem;
+}
+
+.service-btn.is-selected,
+.pkg-btn.is-selected {
+  border: 2px solid #F6EA49;
+  /* background-color: #F6EA49; */
+}
+
+
+.hidden { 
+    display:none !important; 
+}
+
+.agenda-host { 
+    border:1px solid #e6e6e6; 
+    min-height:360px; 
+    background:#F8F9FC; 
+    display:grid; 
+    place-items:center; 
+    overflow:hidden; 
+}
+
+.agenda-iframe { 
+    width:100%; 
+    height:860px; 
+    border:0; 
+}
+
+.agenda-placeholder { 
+    color:#666; 
+    padding:2rem; 
+    text-align:center; 
 }
 
 

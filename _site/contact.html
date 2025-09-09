@@ -129,7 +129,7 @@
         </nav>
 
         <nav class="col-3-middle text-right padded-r-6 hide-md padded-t-1"> 
-            <a class="padded-05 bg-border-yellow button-header" href="/contact.html"> Plan een gesprek in &#8594; </a>
+            <a class="padded-05 bg-border-yellow button-header" href="/contact.html#meeting"> Plan een gesprek in &#8594; </a>
         </nav>
     
         <nav class="col-3-middle show-md">
@@ -154,12 +154,6 @@
 
         <!---------------------------------- Header Contact -------------------------------->
 <section class="padded-md grid-middle tall-60 padded-t-0">
-  <div class="padded-4 col-6 grid hide-md ">
-    <div class="col-12 padded-4">
-        <div class="tall-70 mdl-tall-50 bg-image bg-image-lindsay-20"> </div>   
-    </div>
-  </div> 
-
   <div class="padded-md col-6_xs-12"> 
     <h1 class="text-left xs-text-center title-oversized"> Contact. </h1>
     <hr class="padded-t-0">
@@ -174,98 +168,93 @@
       </p>
 
         <nav>
-            <a href="/portfolio.html#interieurarchitectuur" class="button-dark"> Interieurarchitectuur &#8595; </a>
-            <a href="/portfolio.html#grafisch-ontwerp" class="button-dark"> Grafisch ontwerp &#8595; </a>
+            <a href="/contact.html#meeting" class="button-dark"> Afspraak inplannen &#8595; </a>
+            <a href="/contact.html#contact" class="button-dark"> Contact &#8595; </a>
         </nav>
         
     </div>
-  </div>     
-</section>
-
-
-<!---------------------------------- Booking Calendar -------------------------------->
-<section class="booking-module padded-md grid-middle tall-60 padded-t-0" aria-labelledby="booking-title">
-  <div class="padded-4 col-6 grid hide-md ">
-        <div class="col-6-top padded-4">
-            <h1 class="text-left xs-text-center title-medium-oversized" id="booking-title"> Let's Meet </h1>
-            <hr class="padded-t-0">   
-        </div>
-  </div>
-
-  <!-- Step 1: Kies dienst -->
-  <!-- <div class="booking-step">
-    <p class="step-label">1. Kies een dienst</p>
-    <div class="service-switch" role="tablist" aria-label="Dienst">
-      <button class="service-btn is-active" role="tab" aria-selected="true" data-service="ontwerpt">Ontwerpt</button>
-      <button class="service-btn" role="tab" aria-selected="false" data-service="adviseert">Adviseert</button>
-    </div>
-  </div> -->
-
-  <!-- Step 2: Kies pakket (filtert op dienst) -->
-  <!-- <div class="booking-step">
-    <p class="step-label">2. Kies een pakket</p>
-    <div id="package-grid" class="package-grid" aria-live="polite" aria-label="Pakketten"></div>
-  </div> -->
-
-  <!-- Step 3: Agenda -->
-  <div class="booking-step">
-    <p class="step-label">3. Plan je moment</p>
-    <div id="agenda-host" class="agenda-host" aria-live="polite">
-      <div class="agenda-placeholder">
-        <p>Selecteer eerst een pakket om de agenda te laden.</p>
+  </div>    
+  
+   <div class="padded-4 col-6 grid hide-md ">
+      <div class="col-12 padded-4">
+        <div class="tall-70 mdl-tall-50 bg-image bg-image-lindsay-20"> </div>   
       </div>
+    </div> 
+</section>
+<!---------------------------------- Header Contact -------------------------------->
+<section id="meeting" class="bg-light booking-module padded-md grid-middle-center tall-60 padded-t-0" data-default="adviseert">
+
+  <div class="col-12-top-middle padded-4 text-center padded-b-0">
+    <h1 class="title-medium-oversized"> Boek een afspraak </h1>
+    <hr class="padded-t-0">   
+  </div>
+
+
+  <div class="col-12 padded-4 grid hide-md">
+      
+    <div class="padded-4 col-6 grid-middle hide-md ">
+      <div class="col-12 padded-4">
+        <div class="portrait-tall mdl-tall-50 bg-image bg-image-lindsay-20"> </div>   
+      </div>
+    </div> 
+    
+    <!-- Stap 1: dienst -->
+    <div class="col-6 padded-md uppercase">
+        <div class="booking-step">
+        <p class="step-label">1. Kies een dienst</p>
+        <div class="service-switch">
+          <!-- Adviseert eerst en actief -->
+          <button type="button" class="uppercase service-btn" data-service="adviseert" aria-selected="false">Adviseert</button>
+          <button type="button" class="uppercase service-btn" data-service="ontwerpt" aria-selected="false">Ontwerpt</button>
+        </div>
+      </div>
+
+      <!-- Stap 2: pakketten -->
+      <div class="booking-step">
+        <p class="step-label">2. Kies een pakket</p>
+        <div id="package-grid" class="package-grid">
+
+          <!-- ADVISEERT (met jouw links) -->
+          <button type="button" class="pkg-btn" data-service="adviseert" data-provider="calendly"
+                  data-url="https://calendly.com/imake-tmg5/30min">Adviessessie</button>
+          <button type="button" class="pkg-btn" data-service="adviseert" data-provider="calendly"
+                  data-url="https://calendly.com/imake-tmg5/brainstorm">Brainstormsessie</button>
+          <button type="button" class="pkg-btn" data-service="adviseert" data-provider="calendly"
+                  data-url="https://calendly.com/imake-tmg5/plananalyse">Plananalyse</button>
+
+          <!-- ONTWERPT (laat staan of vervang met jouw echte links) -->
+          <button type="button" class="pkg-btn" data-service="ontwerpt" data-provider="tidycal"
+                  data-url="https://tidycal.com/3lxjp03/rebranding">(re)Branding</button>
+          <button type="button" class="pkg-btn" data-service="ontwerpt" data-provider="tidycal"
+                  data-url="https://tidycal.com/3lxjp03/totaalproject">Totaalproject</button>
+          <button type="button" class="pkg-btn" data-service="ontwerpt" data-provider="calendly"
+                  data-url="https://tidycal.com/3lxjp03/totaalpakket">Totaalpakket</button>
+        </div>
+      </div>
+
+      <!-- Stap 3: agenda -->
+      <div class="booking-step">
+        <p class="step-label">3. Plan je moment</p>
+        <div id="agenda-host" class="agenda-host">
+          <div class="agenda-placeholder">Selecteer een pakket om de agenda te laden.</div>
+        </div>
+      </div>
+
+      
+      
     </div>
   </div>
+  
 </section>
 
-
-<!-- <section class="padded-md grid-middle tall-60 padded-t-0">
-  <div class="padded-4 col-6 grid hide-md ">
-        <div class="col-6-top padded-4">
-            <h1 class="text-left xs-text-center title-medium-oversized"> Let's meet </h1>
-            <hr class="padded-t-0">   
-        </div>
-  </div> 
-  
-  <div>
-		<label for="pakket"> Pakket </label>
-		<div class="select">
-			<select name="pakket" id="pakket" placeholder="Pakket">
-        <option value="kies-een-optie">-- Kies een optie --</option>
-        <option value="brainstormsessie">Brainstormsessie</option>
-        <option value="adviessessie">Adviessessie</option>
-        <option value="plananalyse">Plananalyse</option>  
-      </select>
-		</div>
-	</div>
-  
-  <div div class="padded-md col-5_xs-12">
-    <select id="service-select">
-      <option value="">-- Kies een optie --</option>
-      <option value="brainstormsessie">Brainstormsessie</option>
-      <option value="plananalyse">Plananalyse</option>
-    </select>
-
-    <div class="tidycal-embed tidycal-brainstorm" data-path="3lxjp03/brainstormsessie"></div>
-    
-    <div class="tidycal-embed tidycal-plananalyse" data-path="3lxjp03/plananalyse"></div>
-
-    <script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
-  </div>
-</section>
- -->
 
 
 <!---------------------------------- Contact Form -------------------------------->
-<section class="padded-md grid-middle tall-60 padded-t-0">
-  <div class="padded-4 col-6 grid hide-md ">
-        <div class="col-6-top padded-4">
-            <h1 class="text-left xs-text-center title-medium-oversized"> Get in touch. </h1>
-            <hr class="padded-t-0">   
-        </div>
-  </div> 
-  
-  <form div class="padded-md col-6_xs-12 uppercase">
+<section id="contact" class="padded-md grid-middle tall-60 padded-t-0">
+  <div class="padded-md col-6_xs-12"> 
+    <h2 id="mission" class="title-medium-oversized">  Get in touch. </h2>
+    <hr class="padded-t-0">
+   <form div class="col-6_xs-12 uppercase">
   
     <label for="_name"> Naam + Voornaam* </label>
     <input required type="text" name="_name" id="_name" placeholder="John Doe" />
@@ -277,15 +266,26 @@
     <input required type="tel" name=”phone-no” id="_adress" placeholder="0499 61 06 04">
     
     <label for="_replyto"> E-mail* </label>
-    <input required type="email" name="_replyto" id="_replayto" placeholder="Email" />
+    <input required type="email" name="_replyto" id="_replayto" placeholder="john.doe@gmail.com" />
 
     <label for="message"> Bericht* </label>
-    <textarea required name="message" id="message" placeholder="Hey I want to learn to code..."></textarea>
+    <textarea required name="message" id="message" placeholder="Hey Lindsay we zouden graag eens informeren over ..."></textarea>
+
+    <label for="message"> Bestand </label>
+    <input type="file">
 
     <button type="submit" class="button"> Verstuur </button>
   
   </form> 
+  </div> 
+  
+  <div class="padded-4 col-6 grid hide-md">
+    <div class="col-12 padded-4">
+        <div class="portrait mdl-tall-50 bg-image bg-image-lindsay-26"> </div>   
+    </div>
+  </div>     
 </section>
+
 
 
         <!--- Footer -->
@@ -339,7 +339,7 @@
   </div>
 
   <!-- Project column -->
-    <div class="project-slider margin-1">
+    <div class=" padded-0 project-slider margin-1 ">
         <!--  -->
         
         <div class="slider-item">
