@@ -12,14 +12,14 @@ featured_image_1: /images/ADS_0598.jpg
 featured_image_2: /images/ADS_0511.jpg
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
 project_image_1: /images/ossm-MTH-V6_1-photo.png
-project_image_2: /images/ossm-MTH-V6_2-photo.png
-project_image_3: /images/ossm-MTH-V6_3-photo.png
-project_image_4: /images/ossm-MTH-V6_4-photo.png
-project_image_5: /images/ossm-MTH-V6_5-photo.png
 project_image_1_datatext: living
+project_image_2: /images/ossm-MTH-V6_2-photo.png
 project_image_2_datatext: keuken
+project_image_3: /images/ossm-MTH-V6_3-photo.png
 project_image_3_datatext: keuken
+project_image_4: /images/ossm-MTH-V6_4-photo.png
 project_image_4_datatext: zitplaats
+project_image_5: /images/ossm-MTH-V6_5-photo.png
 project_image_5_datatext: keuken-living
 seo:
   title: My first project.
