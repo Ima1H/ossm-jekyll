@@ -1654,9 +1654,9 @@ footer nav a {
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (max-width: 75em) {
-    /* body {
+    body {
         border: 2px solid yellow;
-    } */
+    }
 
     header nav a {
         padding-right: 0.5rem;
@@ -1777,9 +1777,9 @@ footer nav a {
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (max-width: 64em) {
-    /* body {
+    body {
         border: 2px solid green;
-    } */
+    }
 
     header nav a {
         padding-right: 1.5rem;
@@ -1907,10 +1907,10 @@ footer nav a {
         font-size: 14px;
     }
 
-    /* body {
+    body {
         border: 2px solid blue;
         padding: 0.5rem;
-    } */
+    }
 
     header h2 {
         font-size: 5.2vw;
@@ -2063,10 +2063,10 @@ footer nav a {
 /* Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (max-width: 36em) {
-    /* body {
+    body {
         border: 2px solid orange;
         padding: 0.5rem;
-    } */
+    }
 
     header a {
         display: block;
@@ -2216,10 +2216,10 @@ footer nav a {
 @media (max-width: 25em) {
     html {font-size: 12px;}
 
-    /* body {
+    body {
         border: 2px solid red;
         padding: 0.5rem;
-    } */
+    }
 
     header a {
         display: block;
