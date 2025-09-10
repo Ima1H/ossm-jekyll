@@ -8,7 +8,7 @@ layout: default
     <div class="grid-center col-12">
        <h2 class="col-12-left padded-2 padded-t-0 padded-lr-6 title-medium-oversized"> {{page.title}} </h2>
        <div class="col-4_xs-12 margin-r-2">
-            <p class="title-categories">{{page.categories}}</ps>
+            <p class="title-categories">{{page.categories}}</p>
             <h3 class="divider-left title-testimonial padded-1 padded-t-0 padded-b-0"> {{page.testimonial}} </h3>
             <!-- <p class="project-description padded-b-2"> {{page.description}} </p> -->
            <!-- <h1>{{page.title}}</h1>
@@ -50,12 +50,16 @@ layout: default
 <section class="padded-md grid-center"> 
     <div class="col-7-center">
        <div class="container" id="lightgallery">
-            <div class="box box-1" style="--img: url('{{page.project_image_1}}');" data-text="{{page.project_image_1_datatext}}"></div>
-            <div class="box box-2" style="--img: url('{{page.project_image_2}}');" data-text="{{page.project_image_2_datatext}}"></div>
-            <div class="box box-3" style="--img: url('{{page.project_image_3}}');" data-text="{{page.project_image_3_datatext}}"></div>
-            <div class="box box-4" style="--img: url('{{page.project_image_4}}');" data-text="{{page.project_image_4_datatext}}"></div>
-            <div class="box box-5" style="--img: url('{{page.project_image_5}}');" data-text="{{page.project_image_5_datatext}}"></div>
-        </div> 
+            <div class="box box-1" style="--img: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}"></div>
+
+            <div class="box box-2" style="--img: url('{{ page.project_image_2 | relative_url }}');" data-src="{{ page.project_image_2 | relative_url }}" data-sub-html="{{ page.project_image_2_datatext }}"></div>
+
+            <div class="box box-3" style="--img: url('{{ page.project_image_3 | relative_url }}');" data-src="{{ page.project_image_3 | relative_url }}" data-sub-html="{{ page.project_image_3_datatext }}"></div>
+
+            <div class="box box-4" style="--img: url('{{ page.project_image_4 | relative_url }}');" data-src="{{ page.project_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}"></div>
+
+            <div class="box box-5" style="--img: url('{{ page.project_image_5 | relative_url }}');" data-src="{{ page.project_image_5 | relative_url }}" data-sub-html="{{ page.project_image_5_datatext }}"></div>
+        </div>
     </div>
 </section>
 
