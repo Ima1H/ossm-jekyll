@@ -1,15 +1,15 @@
 ---
 layout: project
-title: my tenth project
+title: my eigthth project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
-client: Tuincentrum Cactus
+client: Jo & Diane
 author: Jane Doe
 featured: true
 categories: 
-  - Grafisch ontwerp
-featured_image: /images/ADS_0598.jpg
-featured_image_1: /images/ADS_0598.jpg
-featured_image_2: /images/ADS_0511.jpg
+  - Interieurarchitectuur
+featured_image: /images/imaginate-ossm-5.jpg
+featured_image_1: /images/imaginate-ossm-5.jpg
+featured_image_2: /images/imaginate-ossm-1.jpg
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
 project_image_1: /images/ossm-MTH-V6_1-photo.png
 project_image_2: /images/ossm-MTH-V6_2-photo.png
