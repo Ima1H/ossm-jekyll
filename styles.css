@@ -2206,6 +2206,10 @@ footer nav a {
     .arrow-down {
         margin: 0 auto;
     }
+
+    .xs-title-medium-oversized {
+    font-size: 3.1vw;
+}
    
 }
 
