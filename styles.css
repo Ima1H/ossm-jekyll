@@ -2094,6 +2094,7 @@ footer nav a {
         font-size: 5vw; 
     }
 
+
     p {
         font-size: 2.8vw;
     }
@@ -2207,9 +2208,13 @@ footer nav a {
         margin: 0 auto;
     }
 
+    .xs-title-oversized {
+        font-size: 6vw;
+    }
+
     .xs-title-medium-oversized {
-    font-size: 3.1vw;
-}
+        font-size: 3.1vw;
+    }
    
 }
 
