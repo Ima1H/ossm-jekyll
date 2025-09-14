@@ -447,7 +447,7 @@ body {
 }
 
 .bg-light {
-    background-color: #F8F9FC;;
+    background-color: #F8F9FC;
 }
 
 .bg-yellow {
@@ -1354,7 +1354,6 @@ form textarea {
   outline: none;
   font-family: inherit;
   font-size: 0.9rem;
-  background:#F8F9FC; 
 }
 
 form input:focus,
@@ -1423,7 +1422,7 @@ form button {
 .service-btn { 
     margin-top: 1rem;
     border:1px solid #4A4A4A; 
-    background:white; 
+    background:inherit
     padding: 0.8rem 1rem;
     cursor:pointer; 
     margin: 0.5rem 0;
@@ -1449,7 +1448,7 @@ form button {
 .pkg-btn { 
     margin-top: 1rem;
     border:1px solid #4A4A4A; 
-    background:white; 
+    background:inherit; 
     padding: 0.8rem 1rem;
     cursor:pointer; 
     margin: 0.5rem 0;
@@ -1474,7 +1473,7 @@ form button {
 
 .agenda-host { 
     border:1px solid #e6e6e6; 
-    background:white; 
+    background:inherit; 
     min-height:360px; 
     display:grid; 
     place-items:center; 
