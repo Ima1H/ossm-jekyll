@@ -1772,6 +1772,10 @@ footer nav a {
         background-color: rgb(240 240 240 / var(--tw-bg-opacity));
     }
 
+    .md-title-medium-oversized {
+        font-size: 6vw;
+    }
+
 }
 
 
