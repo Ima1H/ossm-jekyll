@@ -104,7 +104,7 @@ $(document).ready(function() {
       {
         breakpoint: 1024, // < 1024px
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 4,
           slidesToScroll: 1
         }
       },

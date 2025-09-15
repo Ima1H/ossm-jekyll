@@ -1924,19 +1924,6 @@ footer nav a {
         letter-spacing: -0.06rem;
     }
 
-     /* alleen beelden, geen titel */
-    .project-slider .slider-item p { 
-        display: none; 
-    }
-
-    /* kleinere vierkante thumbs (i.p.v. 3/4) */
-    .project-slider .bg-image {
-        aspect-ratio: 1 / 1;       /* vierkant */
-    }
-
-    /* kleinere gutters zodat 6 stuks passen */
-    .project-slider .slick-slide { margin: 0 6px; }
-    .project-slider .slick-list  { margin: 0 -6px; }
 }
 
 
@@ -2362,7 +2349,7 @@ footer nav a {
         margin-bottom: 1rem;
     } 
 
-    .xxs-footer-title {
+    .xs-footer-title {
         font-size: 2vw;
         font-weight: 500;
         letter-spacing: -0.06rem;
