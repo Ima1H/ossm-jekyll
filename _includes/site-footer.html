@@ -50,7 +50,7 @@
   <!-- Project column -->
     <div class=" padded-0 project-slider margin-1 ">
        <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
-      {% assign projects = site.projects | where_exp:"p","p.featured_image" | sort:"date" | reverse %}
+      {% assign projects = site.projects | sort:"date" | reverse %}
         
       <div class="grid footer-projects capped-width">
         
@@ -63,7 +63,7 @@
       </div>
 
     </div>
-    
+
   <!-- column coprywright and terms -->
   <div class="col-12 margin-2 text-center">
     
