@@ -1548,6 +1548,24 @@ footer nav a {
     position: relative;
 }
 
+/* Footer project tiles */
+
+/* Gridlex-gutters voor deze rij */
+.footer-projects { padding: 0 5%; }
+.footer-projects [class*="col-"] { padding-left: 6px; padding-right: 6px; }
+
+/* klikbare thumb */
+.footer-thumb { display: block; }
+
+/* vierkante tegels met cover */
+.footer-thumb .bg-image {
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 /* Cookie banner */
 
