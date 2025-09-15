@@ -49,20 +49,18 @@
 
   <!-- Project column -->
     <div class=" padded-0 project-slider margin-1 ">
-       <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
-      {% assign projects = site.projects | sort:"date" | reverse %}
-        
-      <div class="grid footer-projects capped-width">
-        
-      {% for post in projects limit:6 %}
-        <a href="{{ post.url }}" class="col-2_sm-4_xs-6 footer-thumb" aria-label="{{ post.title }}">
-          <span class="bg-image square" style="background-image:url('{{ post.featured_image }}')"></span>
-        </a>
-      {% endfor %}
-      
-      </div>
-
+        <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
+        {% for post in projects limit:6 %}
+        <div class="slider-item">
+            <a class="project-box" href="{{ post.url }}">
+            <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
+            <p class="margin-b-0">{{ post.title }} </p>
+            </a>
+        </div>
+        {% endfor %}
     </div>
+
+</div>
 
   <!-- column coprywright and terms -->
   <div class="col-12 margin-2 text-center">
