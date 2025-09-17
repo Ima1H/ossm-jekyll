@@ -1586,6 +1586,7 @@ footer nav a {
 #cookie-notice a {
     display: inline-block;
     cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     margin-left: 0.5rem;
 }
 
