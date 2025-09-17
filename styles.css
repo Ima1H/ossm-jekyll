@@ -658,6 +658,7 @@ hr {
 
 .border-b-dark-yellow { border-bottom: 2px solid #F6EA49; }
 .border-b-grey        { border-bottom: 1px solid #e1e0e0; }
+.border-b-grey-rgba   { border-bottom: 1px solid rgba(255, 255, 255, 0.8); }
 
 .title-service { 
     font-size: 2rem;
