@@ -734,6 +734,12 @@ hr {
     margin-bottom: 1rem;
 } 
 
+.title-project {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
 .title {
     font-family: 'Works Sans', sans-serif;
     font-weight: 200;
