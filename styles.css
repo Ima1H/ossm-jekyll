@@ -729,9 +729,10 @@ hr {
 .border-b-grey-rgba   { border-bottom: 1px solid rgba(255, 255, 255, 0.8); }
 
 .title-project {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    margin: 0.5rem 0 0.1rem 0;
 }
 
 .title-service { 
