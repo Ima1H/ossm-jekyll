@@ -2,7 +2,7 @@
 <footer class="grid-center text-center padded-1 hide-md">
   
   <!-- column 1 -->
-  <div class="col-2 margin-2 divider-right">
+  <div class="col-2 margin-2 margin-l-0 divider-right">
     <h4 class="footer-title"> Leer ons kennen </h4>
     <nav>
       <a href="/index.html"> Home </a>
@@ -14,8 +14,12 @@
     </nav>
   </div>
 
+  <div class="col-1 padded-0 margin-0">
+
+  </div>
+
   <!-- column 2 -->
-  <div class="col-3-middle margin-2">
+  <div class="col-2-middle margin-tb-2">
       <h4 class="footer-title"> Ontwerpstudio soulmade </h4>
       <p class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <nav class="inline">
@@ -34,8 +38,12 @@
       </nav>
   </div>
 
+  <div class="col-1 padded-0 margin-0">
+
+  </div>
+
   <!-- column 3-->
-  <div class="col-2 margin-2 divider-left">
+  <div class="col-2 margin-2 margin-r-0 divider-left">
     <h4 class="footer-title"> Informatie </h4>
     <nav>
       <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> Populierenlaan 13 </a>
@@ -47,20 +55,21 @@
     </nav>
   </div>
 
-  <!-- Project column -->
-    <div class=" padded-0 project-slider margin-1 ">
-        <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
-        {% for post in projects limit:6 %}
-        <div class="slider-item">
-            <a class="project-box" href="{{ post.url }}">
-            <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
-            <p class="margin-b-0">{{ post.title }} </p>
+    <!-- projects -->
+    
+    <div class="col-12">
+      <div class="grid gallery margin-10">
+        {% for post in site.posts limit:6 %}
+          <div class="col-2">
+            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+              <p class="margin-b-0 text-left">{{ post.title }}</p>
             </a>
-        </div>
+          </div>
         {% endfor %}
     </div>
-
 </div>
+
 
   <!-- column coprywright and terms -->
   <div class="col-12 margin-2 text-center">
@@ -78,8 +87,89 @@
 </footer>
 
 
-<!---------------------------- Footer Mobile--------------------------------->
-<footer class="grid-center text-center padded-1 show-md">
+<!---------------------------- Footer MD Media Query (64em / 1024px) --------------------------------->
+<footer class="grid-center text-center padded-1 show-md hide-sm">
+  
+  <!-- column 1 -->
+  <div class="col-12-center ">
+    <h4 class="footer-title md-footer-title"> Leer ons kennen </h4>
+    <nav>
+      <a href="/index.html"> Home </a>
+      <a href="/over-ons.html"> Over ons </a>
+      <a href="/portfolio.html"> Portfolio </a>
+      <a href="/adviseert.html"> Adviseert </a>
+      <a href="/ontwerpt.html"> Ontwerpt </a>
+      <a href="/faq.html"> FAQ </a>
+    </nav>
+  </div>
+
+  <!-- column 2 -->
+  <div class="col-12 md-margin-t-3">
+     <div class="grid-center">
+        <div class="col-6 text-center">
+          <h4 class="footer-title md-footer-title sm-footer-title xs-footer-title xxs-footer-title"> Ontwerpstudio soulmade </h4>
+          <p class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <nav class="inline">
+            <a href="https://www.facebook.com/ontwerpstudioSoulMade/" target="_blank">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a> 
+            <a href="https://www.instagram.com/ontwerpstudio_soulmade/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a> 
+            <a href="https://www.linkedin.com/in/lindsay-nevejans-6654814a/?originalSubdomain=be" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.pinterest.com/ontwerpstudioSoulMade/" target="_blank">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+          </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- column 3-->
+  <div class="col-12-center md-margin-t-3">
+    <h4 class="footer-title md-footer-title"> Informatie </h4>
+    <nav>
+      <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> Populierenlaan 13 </a>
+      <a href="https://maps.app.goo.gl/3C6VeHKQKuxJpRe57"> 2070 Burcht </a>
+      <a href="tel:0499610604"> 0499 61 06 04 </a>
+      <a href="mailto:hallo@ossm.be"> hallo@ossm.be </a>
+      <a href="/contact.html"> Contact </a>
+      <a href="#"> Aanmelden </a>
+    </nav>
+  </div>
+
+  <!-- projects --> 
+  <div class="col-12">
+    <div class="grid gallery margin-10">
+    {% for post in site.posts limit:6 %}
+      <div class="col-2">
+        <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+          <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+          <p class="margin-b-0 text-left">{{ post.title }}</p>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  
+  <!-- column coprywright and terms -->
+  <div class="col-12 margin-2 text-center">
+    
+    <nav class="inline footer-text">
+      <span class="padded-r-05"> &#169; 2025 Ontwerpstudio soulmade </span> |
+      <a href="/privacy.html" class="padded-0"> Privacy </a> |
+      <a href="/cookie.html" class="padded-0"> Cookies </a> |
+      <a href="/algemene-voorwaarden.html" class="padded-0"> Algemene voorwaarden </a> |
+      <span class="padded-l-05"> BTW BE0830 698 102 </span>
+    </nav>
+    
+  </div>
+
+</footer>
+  
+<!---------------------------- Footer SM Media Query (48em / 768px) --------------------------------->
+<footer class="grid-center text-center padded-1 show-sm hide-md">
   
   <!-- column 1 -->
   <div class="col-12-center ">
@@ -133,20 +223,47 @@
     </nav>
   </div>
 
-  <!-- Project column -->
-    <div class=" padded-0 project-slider margin-1 ">
-        <!-- {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %} -->
-        {% for post in projects limit:6 %}
-        <div class="slider-item">
-            <a class="project-box" href="{{ post.url }}">
-            <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
-            <p class="margin-b-0">{{ post.title }} </p>
+  <!-- projects -->
+  <!-- <div class="col-12">
+    <div class="grid gallery padded-lg">
+      <div class="col-6">
+        <div class="bg-image portrait-project bg-image-ossm-9"> </div>
+      </div>
+      
+      <div class="col-6">
+          <div class="bg-image portrait-project bg-image-ossm-9"> </div>
+      </div>
+      
+      <div class="col-6">
+          <div class="bg-image portrait-project bg-image-ossm-9"> </div>
+      </div>
+      
+      <div class="col-6">
+          <div class="bg-image portrait-project bg-image-ossm-9"> </div>
+      </div>
+      
+      <div class="col-6">
+          <div class="bg-image portrait-project bg-image-ossm-9"> </div>
+      </div>
+      
+      <div class="col-6">
+          <div class="bg-image portrait-project bg-image-ossm-9"> </div>
+      </div>
+    </div>
+  </div> -->
+
+    <div class="col-12">
+      <div class="grid gallery margin-10">
+        {% for post in site.posts limit:6 %}
+          <div class="col-6 padded-1">
+            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+              <p class="margin-b-0 text-left">{{ post.title }}</p>
             </a>
-        </div>
+          </div>
         {% endfor %}
     </div>
 
-</div>
 
   <!-- column coprywright and terms -->
   <div class="col-12 margin-2 text-center">
