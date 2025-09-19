@@ -1769,6 +1769,10 @@ footer nav a {
   .xxl-text-left   { text-align: left;   }
   .xxl-text-right  { text-align: right;  }
 
+  .xxl-padded-sm { padding: 2.5%; }
+  .xxl-padded-md { padding: 5%;   }
+  .xxl-padded-lg { padding: 10%;  }
+
   .xxl-padded-05 { padding: 0.5rem; }
   .xxl-padded-1  { padding: 1rem;   }
   .xxl-padded-2  { padding: 2%;     }
@@ -1855,15 +1859,25 @@ footer nav a {
   .xl-tall-90  { min-height: 90vh; }
   .xl-tall-100 { min-height: 100vh; }
 
+  .xl-padded-sm { padding: 2.5%; }
+  .xl-padded-md { padding: 5%;   }
+  .xl-padded-lg { padding: 10%;  }
+
   .xl-text-center { text-align: center; }
   .xl-text-left   { text-align: left;   }
   .xl-text-right  { text-align: right;  }
 
   .xl-padded-05 { padding: 0.5rem; }
   .xl-padded-1  { padding: 1rem;   }
-  .xl-padded-2  { padding: 2%;     }
-  .xl-padded-5  { padding: 5%;     }
-  .xl-padded-10 { padding: 10%;    }
+  .xl-padded-2  { padding: 2rem;   }
+  .xl-padded-3  { padding: 3rem;   }
+  .xl-padded-4  { padding: 4rem;   }
+  .xl-padded-5  { padding: 5rem;   }
+  .xl-padded-6  { padding: 6rem;   }
+  .xl-padded-7  { padding: 7rem;   }
+  .xl-padded-8  { padding: 8rem;   }
+  .xl-padded-9  { padding: 9rem;   }
+  .xl-padded-10 { padding: 10rem;  }
 
   .xl-padded-t-0 { padding-top: 0;    }
   .xl-padded-b-0 { padding-bottom: 0; }
@@ -1880,10 +1894,45 @@ footer nav a {
   .xl-padded-l-2 { padding-left: 2rem;   }
   .xl-padded-r-2 { padding-right: 2rem;  }
 
+  .xl-padded-t-3 { padding-top: 3rem;    }
+  .xl-padded-b-3 { padding-bottom: 3rem; }
+  .xl-padded-l-3 { padding-left: 3rem;   }
+  .xl-padded-r-3 { padding-right: 3rem;  }
+
+  .xl-padded-t-4 { padding-top: 4rem;    }
+  .xl-padded-b-4 { padding-bottom: 4rem; }
+  .xl-padded-l-4 { padding-left: 4rem;   }
+  .xl-padded-r-4 { padding-right: 4rem;  }
+
   .xl-padded-t-5 { padding-top: 5rem;    }
   .xl-padded-b-5 { padding-bottom: 5rem; }
   .xl-padded-l-5 { padding-left: 5rem;   }
   .xl-padded-r-5 { padding-right: 5rem;  }
+
+  .xl-padded-t-6 { padding-top: 6rem;    }
+  .xl-padded-b-6 { padding-bottom: 6rem; }
+  .xl-padded-l-6 { padding-left: 6rem;   }
+  .xl-padded-r-6 { padding-right: 6rem;  }
+
+  .xl-padded-t-7 { padding-top: 7rem;    }
+  .xl-padded-b-7 { padding-bottom: 7rem; }
+  .xl-padded-l-7 { padding-left: 7rem;   }
+  .xl-padded-r-7 { padding-right: 7rem;  }
+
+  .xl-padded-t-8 { padding-top: 8rem;    }
+  .xl-padded-b-8 { padding-bottom: 8rem; }
+  .xl-padded-l-8 { padding-left: 8rem;   }
+  .xl-padded-r-8 { padding-right: 8rem;  }
+
+  .xl-padded-t-9 { padding-top: 9rem;    }
+  .xl-padded-b-9 { padding-bottom: 9rem; }
+  .xl-padded-l-9 { padding-left: 9rem;   }
+  .xl-padded-r-9 { padding-right: 9rem;  }
+
+  .xl-padded-t-10 { padding-top: 10rem;    }
+  .xl-padded-b-10 { padding-bottom: 10rem; }
+  .xl-padded-l-10 { padding-left: 10rem;   }
+  .xl-padded-r-10 { padding-right: 10rem;  }
 
   .xl-margin-t-0 { margin-top: 0;    }
   .xl-margin-b-0 { margin-bottom: 0; }
