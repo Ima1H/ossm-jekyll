@@ -1735,139 +1735,15 @@ footer nav a {
 
 /*  ----------- Media Queries - Responsiveness Site ----------- */
 
+.show-xxl,
+.show-xl,
+.show-lg,
 .show-mdl,
 .show-md,
 .show-sm,
 .show-xs,
 .show-xxs {
     display: none;
-}
-
-
-/* ------- MDL Media Query (75em / 1194px) --------------- */
-/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
-
-@media (max-width: 75em) {
-    body {
-        border: 2px solid yellow;
-    }
-
-    header nav a {
-        padding-right: 0.5rem;
-    }
-    
-    header a {
-        padding: 0.5rem 0.5rem;
-        font-size: 1.3vw;
-    }
-
-    header h2 {
-        font-size: 4.5vw;
-    }
-
-    header p {
-        font-size: 2.8vw;
-    }
-    
-    footer h2 {
-        font-size: 3rem;
-        margin-bottom: 0;
-    }
-
-    footer nav a {
-        padding: 0.6rem;
-    }
-
-    footer a {
-        font-size: 1.3vw;
-    }
-
-    footer .fab {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 1.3vw;
-    }
-
-    .show-mdl { display: block; }
-    .hide-mdl { display: none;  }
-   
-    .mdl-tall-10  { min-height: 10vh; }
-    .mdl-tall-20  { min-height: 20vh; }
-    .mdl-tall-30  { min-height: 30vh; }
-    .mdl-tall-40  { min-height: 40vh; }
-    .mdl-tall-50  { min-height: 50vh; }
-    .mdl-tall-60  { min-height: 60vh; }
-    .mdl-tall-70  { min-height: 70vh; }
-    .mdl-tall-80  { min-height: 80vh; }
-    .mdl-tall-90  { min-height: 90vh; }
-    .mdl-tall-100 { min-height: 100vh; }
-    
-    .mdl-text-center { text-align: center; }
-    .mdl-text-left   {text-align: left;    }
-    .mdl-text-right  {text-align: right;   }
-    
-    .mdl-padded-05 { padding: 0.5rem; }
-    .mdl-padded-1  { padding: 1rem;   }
-    .mdl-padded-2  { padding: 2rem;     }
-    .mdl-padded-5  { padding: 5rem;     }
-    .mdl-padded-10 { padding: 10rem;    }
-    
-    .mdl-padded-t-0 { padding-top: 0;    }
-    .mdl-padded-b-0 { padding-bottom: 0; }
-    .mdl-padded-l-0 { padding-left: 0;   }
-    .mdl-padded-r-0 { padding-right: 0;  }
-
-    .mdl-padded-t-1 { padding-top: 1rem;    }
-    .mdl-padded-b-1 { padding-bottom: 1rem; }
-    .mdl-padded-l-1 { padding-left: 1rem;   }
-    .mdl-padded-r-1 { padding-right: 1rem;  } 
-
-    .mdl-padded-t-2 { padding-top: 2rem;    }
-    .mdl-padded-b-2 { padding-bottom: 2rem; }
-    .mdl-padded-l-2 { padding-left: 2rem;   }
-    .mdl-padded-r-2 { padding-right: 2rem;  }
-
-    .mdl-margin-t-0 { margin-top: 0;    }
-    .mdl-margin-b-0 { margin-bottom: 0; }
-    .mdl-margin-l-0 { margin-left: 0;   }
-    .mdl-margin-r-0 { margin-right: 0;  }
-
-    .mdl-margin-t-1 { margin-top: 1rem;    }
-    .mdl-margin-b-1 { margin-bottom: 1rem; }
-    .mdl-margin-l-1 { margin-left: 1rem;   }
-    .mdl-margin-r-1 { margin-right: 1rem;  }
-
-    .mdl-margin-t-2 { margin-top: 2rem;    }
-    .mdl-margin-b-2 { margin-bottom: 2rem; }
-    .mdl-margin-l-2 { margin-left: 2rem1;  }
-    .mdl-margin-r-2 { margin-right: 2rem;  }
-
-    .mdl-bg-white {
-        background-color: rgba(247, 240, 240, 0.8);
-        padding: 1rem;
-    }
-
-    .big-text { font-size: 6vw; }
-
-    .mdl-banner {
-        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
-        background-size: cover;
-        background-position: -30% 50%;
-        background-repeat: no-repeat;
-        min-height:60vh;
-    }
-
-    .bg-slate-200 {
-        --tw-bg-opacity: 0.7;
-        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
-    }
-
-    .md-title-medium-oversized {
-        font-size: 6vw;
-    }
-
 }
 
 
@@ -2141,7 +2017,131 @@ footer nav a {
   }
 }
 
+/* ------- MDL Media Query (76em / 1127 px) --------------- */
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
+@media (max-width: 76em) {
+    body {
+        border: 2px solid yellow;
+    }
+
+    header nav a {
+        padding-right: 0.5rem;
+    }
+    
+    header a {
+        padding: 0.5rem 0.5rem;
+        font-size: 1.3vw;
+    }
+
+    header h2 {
+        font-size: 4.5vw;
+    }
+
+    header p {
+        font-size: 2.8vw;
+    }
+    
+    footer h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    footer nav a {
+        padding: 0.6rem;
+    }
+
+    footer a {
+        font-size: 1.3vw;
+    }
+
+    footer .fab {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+
+    .show-mdl { display: block; }
+    .hide-mdl { display: none;  }
+   
+    .mdl-tall-10  { min-height: 10vh; }
+    .mdl-tall-20  { min-height: 20vh; }
+    .mdl-tall-30  { min-height: 30vh; }
+    .mdl-tall-40  { min-height: 40vh; }
+    .mdl-tall-50  { min-height: 50vh; }
+    .mdl-tall-60  { min-height: 60vh; }
+    .mdl-tall-70  { min-height: 70vh; }
+    .mdl-tall-80  { min-height: 80vh; }
+    .mdl-tall-90  { min-height: 90vh; }
+    .mdl-tall-100 { min-height: 100vh; }
+    
+    .mdl-text-center { text-align: center; }
+    .mdl-text-left   {text-align: left;    }
+    .mdl-text-right  {text-align: right;   }
+    
+    .mdl-padded-05 { padding: 0.5rem; }
+    .mdl-padded-1  { padding: 1rem;   }
+    .mdl-padded-2  { padding: 2rem;     }
+    .mdl-padded-5  { padding: 5rem;     }
+    .mdl-padded-10 { padding: 10rem;    }
+    
+    .mdl-padded-t-0 { padding-top: 0;    }
+    .mdl-padded-b-0 { padding-bottom: 0; }
+    .mdl-padded-l-0 { padding-left: 0;   }
+    .mdl-padded-r-0 { padding-right: 0;  }
+
+    .mdl-padded-t-1 { padding-top: 1rem;    }
+    .mdl-padded-b-1 { padding-bottom: 1rem; }
+    .mdl-padded-l-1 { padding-left: 1rem;   }
+    .mdl-padded-r-1 { padding-right: 1rem;  } 
+
+    .mdl-padded-t-2 { padding-top: 2rem;    }
+    .mdl-padded-b-2 { padding-bottom: 2rem; }
+    .mdl-padded-l-2 { padding-left: 2rem;   }
+    .mdl-padded-r-2 { padding-right: 2rem;  }
+
+    .mdl-margin-t-0 { margin-top: 0;    }
+    .mdl-margin-b-0 { margin-bottom: 0; }
+    .mdl-margin-l-0 { margin-left: 0;   }
+    .mdl-margin-r-0 { margin-right: 0;  }
+
+    .mdl-margin-t-1 { margin-top: 1rem;    }
+    .mdl-margin-b-1 { margin-bottom: 1rem; }
+    .mdl-margin-l-1 { margin-left: 1rem;   }
+    .mdl-margin-r-1 { margin-right: 1rem;  }
+
+    .mdl-margin-t-2 { margin-top: 2rem;    }
+    .mdl-margin-b-2 { margin-bottom: 2rem; }
+    .mdl-margin-l-2 { margin-left: 2rem1;  }
+    .mdl-margin-r-2 { margin-right: 2rem;  }
+
+    .mdl-bg-white {
+        background-color: rgba(247, 240, 240, 0.8);
+        padding: 1rem;
+    }
+
+    .big-text { font-size: 6vw; }
+
+    .mdl-banner {
+        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
+        background-size: cover;
+        background-position: -30% 50%;
+        background-repeat: no-repeat;
+        min-height:60vh;
+    }
+
+    .bg-slate-200 {
+        --tw-bg-opacity: 0.7;
+        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+    }
+
+    .md-title-medium-oversized {
+        font-size: 6vw;
+    }
+
+}
 
 /* ------- MD Media Query (64em / 1024px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
