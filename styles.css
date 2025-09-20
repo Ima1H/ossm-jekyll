@@ -1774,7 +1774,7 @@ footer nav a {
 /* ------- XXL Media Query (120em / 1920px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
-@media (min-width: 120em) {
+@media (max-width: 120em) {
 
   body {
         border: 2px solid black;
@@ -1873,7 +1873,7 @@ footer nav a {
 
 /* ------- XL Media Query (107em / 1710px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
-@media (min-width: 90em) {
+@media (max-width: 90em) {
 
 body {
         border: 2px solid pink;
@@ -2013,7 +2013,7 @@ body {
 
 /* ------- LG Media Query (85em / 1360px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
-@media (min-width: 85em) {
+@media (max-width: 85em) {
 
   body {
     border: 2px solid purple;
@@ -2249,7 +2249,7 @@ body {
 
     .mdl-margin-t-2 { margin-top: 2rem;    }
     .mdl-margin-b-2 { margin-bottom: 2rem; }
-    .mdl-margin-l-2 { margin-left: 2rem1;  }
+    .mdl-margin-l-2 { margin-left: 2rem;  }
     .mdl-margin-r-2 { margin-right: 2rem;  }
 
     .mdl-bg-white {
@@ -2512,7 +2512,7 @@ body {
     .sm-margin-r-1 { margin-right: 1rem;  }
     .sm-margin-t-2 { margin-top: 2rem;    }
     .sm-margin-b-2 { margin-bottom: 2rem; }
-    .sm-margin-l-2 { margin-left: 2rem1;  }
+    .sm-margin-l-2 { margin-left: 2rem;  }
     .sm-margin-r-2 { margin-right: 2rem;  }
     
     .hover-overlay { padding-bottom: 50%; }
@@ -2573,14 +2573,6 @@ body {
         letter-spacing: -0.06rem;
     }
 
-
-    /* Service cards */
-    @media(max-width: 48em) {
-        .latest-news {
-          overflow-x: auto;
-          flex-wrap: nowrap;
-        }
-      }
 }
 
 /* ------- Accordion Media Query (/ 640px) --------------- */
@@ -2834,7 +2826,7 @@ body {
     .xxs-margin-r-1 { margin-right: 1rem;  }
     .xxs-margin-t-2 { margin-top: 2rem;    }
     .xxs-margin-b-2 { margin-bottom: 2rem; }
-    .xxs-margin-l-2 { margin-left: 2rem1;  }
+    .xxs-margin-l-2 { margin-left: 2rem;  }
     .xxs-margin-r-2 { margin-right: 2rem;  }
 
     .arrow-container {
