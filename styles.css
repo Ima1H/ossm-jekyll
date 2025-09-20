@@ -1968,6 +1968,16 @@ body {
   .xl-padded-l-10 { padding-left: 10rem;   }
   .xl-padded-r-10 { padding-right: 10rem;  }
 
+  .xl-padded-t-11 { padding-top: 11rem;    }
+  .xl-padded-b-11 { padding-bottom: 11rem; }
+  .xl-padded-l-11 { padding-left: 11rem;   }
+  .xl-padded-r-11 { padding-right: 11rem;  }
+
+  .xl-padded-t-12 { padding-top: 12rem;    }
+  .xl-padded-b-12 { padding-bottom: 12rem; }
+  .xl-padded-l-12 { padding-left: 12rem;   }
+  .xl-padded-r-12 { padding-right: 12rem;  }
+
   .xl-margin-t-0 { margin-top: 0;    }
   .xl-margin-b-0 { margin-bottom: 0; }
   .xl-margin-l-0 { margin-left: 0;   }
