@@ -110,10 +110,10 @@ projects:
             {% for item in page.services %} 
                 <!---- Service Cards ----->
                 <div class="{{item.column-size}} padded-r-2"> 
-                    <a href="{{item.follow-link}}" class="card bg-white">
+                    <a href="{{item.follow-link}}" class="card bg-grey">
                         <div class="bg-image landscape" style="background-image: url('{{item.background_image}}');"></div>
                         <div class="padded-2">
-                            <h3> {{item.name-service}} </h3>
+                            <h3 class="medium-text black-text font-weight-400"> {{item.name-service}} </h3>
                             <p> {{item.description}} </p>
                             <p class="button"> Meer info </p>
                             <!-- <a href="{{item.follow-link}}" class="button"> Meer info </a> -->
