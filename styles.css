@@ -447,6 +447,26 @@ body {
 .padded-l-10 { padding-left: 10rem;   }
 .padded-r-10 { padding-right: 10rem;  }
 
+.padded-t-11 { padding-top: 11rem;    }
+.padded-b-11 { padding-bottom: 11rem; }
+.padded-l-11 { padding-left: 11rem;   }
+.padded-r-11 { padding-right: 11rem;  }
+
+.padded-t-12 { padding-top: 12rem;    }
+.padded-b-12 { padding-bottom: 12rem; }
+.padded-l-12 { padding-left: 12rem;   }
+.padded-r-12 { padding-right: 12rem;  }
+
+.padded-t-13 { padding-top: 13rem;    }
+.padded-b-13 { padding-bottom: 13rem; }
+.padded-l-13 { padding-left: 13rem;   }
+.padded-r-13 { padding-right: 13rem;  }
+
+.padded-t-14 { padding-top: 14rem;    }
+.padded-b-14 { padding-bottom: 14rem; }
+.padded-l-14 { padding-left: 14rem;   }
+.padded-r-14 { padding-right: 14rem;  }
+
 .padded-t-15 { padding-top: 15rem;    }
 .padded-b-15 { padding-bottom: 15rem; } 
 .padded-l-15 { padding-left: 15rem;   } 
@@ -1751,6 +1771,11 @@ footer nav a {
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
 @media (min-width: 120em) {
+
+  body {
+        border: 2px solid black;
+        padding: 0.5rem;
+    }
   .show-xxl { display: block; }
   .hide-xxl { display: none;  }
 
@@ -1845,6 +1870,11 @@ footer nav a {
 /* ------- XL Media Query (107em / 1710px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 @media (min-width: 107em) {
+
+body {
+        border: 2px solid pink;
+        padding: 0.5rem;
+    }
   .show-xl { display: block; }
   .hide-xl { display: none;  }
 
@@ -1980,6 +2010,18 @@ footer nav a {
 /* ------- LG Media Query (85em / 1360px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 @media (min-width: 85em) {
+
+  body {
+    border: 2px solid purple;
+    padding: 0.5rem;
+ }
+
+  footer nav a {
+  display: block;
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+
   .show-lg { display: block; }
   .hide-lg { display: none;  }
 
@@ -1993,6 +2035,10 @@ footer nav a {
   .lg-tall-80  { min-height: 80vh; }
   .lg-tall-90  { min-height: 90vh; }
   .lg-tall-100 { min-height: 100vh; }
+
+  .lg-padded-sm { padding: 2.5%; }
+  .lg-padded-md { padding: 5%;   }
+  .lg-padded-lg { padding: 10%;  }
 
   .lg-text-center { text-align: center; }
   .lg-text-left   { text-align: left;   }
@@ -2023,6 +2069,36 @@ footer nav a {
   .lg-padded-b-5 { padding-bottom: 5rem; }
   .lg-padded-l-5 { padding-left: 5rem;   }
   .lg-padded-r-5 { padding-right: 5rem;  }
+
+  .lg-padded-t-6 { padding-top: 6rem;    }
+  .lg-padded-b-6 { padding-bottom: 6rem; }
+  .lg-padded-l-6 { padding-left: 6rem;   }
+  .lg-padded-r-6 { padding-right: 6rem;  }
+
+  .lg-padded-t-7 { padding-top: 7rem;    }
+  .lg-padded-b-7 { padding-bottom: 7rem; }
+  .lg-padded-l-7 { padding-left: 7rem;   }
+  .lg-padded-r-7 { padding-right: 7rem;  }
+
+  .lg-padded-t-8 { padding-top: 8rem;    }
+  .lg-padded-b-8 { padding-bottom: 8rem; }
+  .lg-padded-l-8 { padding-left: 8rem;   }
+  .lg-padded-r-8 { padding-right: 8rem;  }
+
+  .lg-padded-t-9 { padding-top: 9rem;    }
+  .lg-padded-b-9 { padding-bottom: 9rem; }
+  .lg-padded-l-9 { padding-left: 9rem;   }
+  .lg-padded-r-9 { padding-right: 9rem;  }
+
+  .lg-padded-t-10 { padding-top: 10rem;    }
+  .lg-padded-b-10 { padding-bottom: 10rem; }
+  .lg-padded-l-10 { padding-left: 10rem;   }
+  .lg-padded-r-10 { padding-right: 10rem;  }
+
+  .lg-padded-t-11 { padding-top: 11rem;    }
+  .lg-padded-b-11 { padding-bottom: 11rem; }
+  .lg-padded-l-11 { padding-left: 11rem;   }
+  .lg-padded-r-11 { padding-right: 11rem;  }
 
   .lg-margin-t-0 { margin-top: 0;    }
   .lg-margin-b-0 { margin-bottom: 0; }
@@ -2060,10 +2136,16 @@ footer nav a {
   }
 
   .lg-footer-title {
-    font-size: 2.5vw;
+    font-size: 1.4vw;
     font-weight: 500;
     letter-spacing: -0.06rem;
   }
+
+  .footer-text {
+    font-size:  1rem;
+    font-weight: 200;
+}
+
 }
 
 /* ------- MDL Media Query (76em / 1127 px) --------------- */
@@ -2718,6 +2800,12 @@ footer nav a {
         font-size: 3.8vw;
     }
 
+    footer nav a {
+        padding-right: 1.5rem;
+        padding-right: 0;
+        font-size: 4vw;
+    }
+
     .show-xxs { display: block; }
     .hide-xxs { display: none;  }
 
@@ -2755,16 +2843,29 @@ footer nav a {
         margin-top: 0; /* Verwijder vaste marges */
     }
 
-    .title-service { 
+    .xss-small-text  { font-size: 1.5vw }
+    .xss-medium-text { font-size: 2vw   }
+    .xss-big-text    { font-size: 4vw;   }
+
+    .xss-title-service { 
         font-size: 4vw;
         line-height: 1.4;
         margin-bottom: 1rem;
     } 
 
-    .xs-footer-title {
+    .xss-title-medium-oversized {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        font-size: 1.8vw;
+        margin-top: 0.5rem;
+        color: black;
+    }
+
+    .xss-footer-title {
         font-size: 2vw;
         font-weight: 500;
         letter-spacing: -0.06rem;
     }
+
 }
 
