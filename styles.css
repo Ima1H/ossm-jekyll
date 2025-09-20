@@ -534,7 +534,7 @@ body {
     color: #5E5B5B;
 }
 
-.bg-light {
+.bg-grey {
     background-color: #F8F9FC;
 }
 
@@ -553,6 +553,9 @@ body {
     background-color: white;
 }
 
+.bg-light {
+    background-color: #F5F5F5;
+}
 
 .bg-fixed { background-attachment: fixed; }
 
