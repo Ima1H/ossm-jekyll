@@ -1873,7 +1873,7 @@ footer nav a {
 
 /* ------- XL Media Query (107em / 1710px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
-@media (min-width: 107em) {
+@media (min-width: 90em) {
 
 body {
         border: 2px solid pink;
