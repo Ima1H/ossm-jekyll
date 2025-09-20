@@ -819,7 +819,7 @@ hr {
 }
 
 /* Price tag rechtsboven, met afgeronde linkeronderhoek */
-.price-tag-right {
+/* .price-tag-right {
   position: absolute;
   top: 2rem;
   right: 0;
@@ -838,9 +838,9 @@ hr {
   color:black;
   border-radius: 1rem 0 0 1rem; 
   box-shadow: 0 0 6.86px 0 rgba(0,0,0,.1);
-}
+} */
 
-.price-tag-left {
+.price-tag-l {
   position: absolute;
   top: 2rem;
   left: 0;
@@ -856,7 +856,7 @@ hr {
 
 
   background-color:#F6EA49;
-  color:black;
+  color: #000000;
   border-radius: 0 1rem 1rem 0;  /* alleen linksonder afgerond */
   box-shadow: 0 0 6.86px 0 rgba(0,0,0,.1);
 }
