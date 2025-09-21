@@ -1458,7 +1458,7 @@ form textarea:focus {
 }
 
 textarea {
-  min-height: 4rem;
+  min-height: 5rem;
 }
 
 form label {
