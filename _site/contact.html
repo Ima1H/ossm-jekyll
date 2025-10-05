@@ -98,10 +98,10 @@
             <a href="/index.html" class="padded-r-2 padded-t-1 site-header-a "> Home </a>
             <a href="/over-ons.html"   class="padded-r-2 padded-t-1 site-header-a ">Over ons</a>
             <a href="/portfolio.html" class="padded-r-2 padded-t-1 site-header-a " > Portfolio </a>
-            <!-- <a href="/adviseert.html" class="padded-r-2 padded-t-1 site-header-a " > Adviseert </a> -->
+            <a href="/aanbod.html" class="padded-r-2 padded-t-1 site-header-a " > Aanbod </a>
 
 
-            <div class="dropdown">
+            <!-- <div class="dropdown">
                 <a href="/adviseert.html"
                     class="padded-r-2 padded-t-1 site-header-a ">
                     Adviseert
@@ -123,7 +123,7 @@
                     <a href="/ontwerpt.html">Ontwerpt</a>
                     <a href="/ontwerpt-aanbod.html">Aanbod</a>
                 </div>
-            </div>
+            </div> -->
           
             <a href="/contact.html" class="padded-r-2 padded-t-1 site-header-a  active " > Contact </a>
         </nav>
@@ -143,8 +143,7 @@
                 <a href="/index.html"> Home </a>
                 <a href="/over-ons.html"> Over Ons </a>
                 <a href="/portfolio.html"> Portfolio </a>
-                <a href="/adviseert.html"> Adviseert </a>
-                <a href="/ontwerpt.html"> Ontwerpt </a>
+                <a href="/aanbod.html"> Aanbod </a>
                 <a href="/contact.html"> Contact </a>
             </div>
         </nav>
@@ -155,11 +154,11 @@
         <!---------------------------------- Header Contact -------------------------------->
 <section class="padded-md grid-bottom tall-60 padded-t-0">
   
- <!-- <div class="padded-4 col-6 grid hide-md ">
+ <div class="padded-4 col-6 grid hide-md ">
       <div class="col-12 padded-4">
         <div class="tall-70 mdl-tall-50 bg-image bg-image-lindsay-20"> </div>   
       </div>
-    </div>  -->
+    </div> 
 
   <div class="padded-4 col-6_xs-12"> 
     <h1 class="text-left title-oversized xs-title-oversized"> Contact. </h1>
@@ -186,14 +185,14 @@
 </section>
 
 
-<!---------------------------------- Contact Form -------------------------------->
-<section id="contact" class="bg-light padded-md grid-middle tall-60 padded-t-0">
+<!---------------------------------- Contact -------------------------------->
+<section class="padded-lg grid tall-60 padded-t-0">
  
-
-  <div class="padded-md col-6_xs-12"> 
-    <h2 id="mission" class="title-medium-oversized">  Get in touch. </h2>
+  <!---------------- Form  -------------------->
+  <div id="contact" class="col-6_xs-12 padded-0"> 
+    <h1 class="title-medium-oversized">  Get in touch. </h2>
     <hr class="padded-t-0">
-   <form div class="col-6_xs-12 uppercase">
+   <form div class="padded-l-0 padded-r-5 col-6_xs-12 uppercase">
   
     <label for="_name"> Naam + Voornaam* </label>
     <input required type="text" name="_name" id="_name" placeholder="John Doe" />
@@ -217,17 +216,75 @@
   
   </form> 
   </div> 
+
+ <!---------------- Boek een afspraak  -------------------->
+
+  <div id="meeting" class="padded-l col-6_xs-12 booking-module" data-default="adviseert">
+    <div>
+      <h1 class="title-medium-oversized"> Boek een afspraak </h1>
+      <hr class="padded-t-0">   
+    </div>
+
+
+    <div class="col-12 padded-md grid hide-md">
+        
+      <!-- <div class="padded-4 col-6 grid hide-md ">
+        <div class="col-12 padded-4">
+          <div class="portrait-tall mdl-tall-50 bg-image bg-image-lindsay-20"> </div>   
+        </div>
+      </div>  -->
+      
+      <!-- Stap 1: dienst -->
+      <div class="uppercase">
+          <div class="booking-step">
+          <p class="step-label">1. Kies een dienst</p>
+          <div class="service-switch">
+            <!-- Adviseert eerst en actief -->
+            <button type="button" class="uppercase service-btn" data-service="adviseert" aria-selected="false">Adviseert</button>
+            <button type="button" class="uppercase service-btn" data-service="ontwerpt" aria-selected="false">Ontwerpt</button>
+          </div>
+        </div>
+
+        <!-- Stap 2: pakketten -->
+        <div class="booking-step">
+          <p class="step-label">2. Kies een pakket</p>
+          <div id="package-grid" class="package-grid">
+
+            <!-- ADVISEERT (met jouw links) -->
+            <button type="button" class="pkg-btn" data-id="adviessessie" data-service="adviseert" data-provider="calendly" data-url="https://calendly.com/imake-tmg5/30min">Adviessessie</button>
+            <button type="button" class="pkg-btn"  data-id="brainstormsessie" data-service="adviseert" data-provider="calendly" data-url="https://calendly.com/imake-tmg5/brainstorm">Brainstormsessie</button>
+            <button type="button" class="pkg-btn" data-id="plananalyse" data-service="adviseert" data-provider="calendly" data-url="https://calendly.com/imake-tmg5/plananalyse">Plananalyse</button>
+
+            <!-- ONTWERPT (laat staan of vervang met jouw echte links) -->
+            <button type="button" class="pkg-btn" data-id="rebranding" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/3lxjp03/rebranding">(re)Branding</button>
+            <button type="button" class="pkg-btn" data-id="totaalproject" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/3lxjp03/totaalproject">Totaalproject</button>
+            <button type="button" class="pkg-btn" data-id="totaalpakket" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/3lxjp03/totaalpakket">Totaalpakket</button>
+          </div>
+        </div>
+
+        <!-- Stap 3: agenda -->
+        <div class="booking-step">
+          <p class="step-label">3. Plan je moment</p>
+          <div id="agenda-host" class="agenda-host">
+            <div class="agenda-placeholder">Selecteer een pakket om de agenda te laden.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   
-  <div class="padded-4 col-6 grid hide-md">
+  <!-- <div class="padded-4 col-6 grid hide-md">
     <div class="col-12 padded-4">
         <div class="portrait mdl-tall-50 bg-image bg-image-lindsay-26"> </div>   
     </div>
-  </div>   
+  </div>    -->
 </section>
 
 
-<!---------------------------------- Header Contact -------------------------------->
-<section id="meeting" class="booking-module padded-md grid-center tall-60 padded-t-0" data-default="adviseert">
+<!---------------------------------- BOEK EEN AFSPRAAK  -------------------------------->
+<!-- <section id="meeting" class="booking-module padded-md grid-center tall-60 padded-t-0" data-default="adviseert">
 
   <div class="col-12-top padded-4 padded-b-0">
     <h1 class="title-medium-oversized"> Boek een afspraak </h1>
@@ -237,41 +294,40 @@
 
   <div class="col-12 padded-4 grid hide-md">
       
-    <!-- <div class="padded-4 col-6 grid hide-md ">
+    <div class="padded-4 col-6 grid hide-md ">
       <div class="col-12 padded-4">
         <div class="portrait-tall mdl-tall-50 bg-image bg-image-lindsay-20"> </div>   
       </div>
-    </div>  -->
+    </div> 
     
-    <!-- Stap 1: dienst -->
+  
     <div class="col-6 padded-md uppercase">
         <div class="booking-step">
         <p class="step-label">1. Kies een dienst</p>
         <div class="service-switch">
-          <!-- Adviseert eerst en actief -->
           <button type="button" class="uppercase service-btn" data-service="adviseert" aria-selected="false">Adviseert</button>
           <button type="button" class="uppercase service-btn" data-service="ontwerpt" aria-selected="false">Ontwerpt</button>
         </div>
       </div>
 
-      <!-- Stap 2: pakketten -->
+    
       <div class="booking-step">
         <p class="step-label">2. Kies een pakket</p>
         <div id="package-grid" class="package-grid">
 
-          <!-- ADVISEERT (met jouw links) -->
+         
           <button type="button" class="pkg-btn" data-id="adviessessie" data-service="adviseert" data-provider="calendly" data-url="https://calendly.com/imake-tmg5/30min">Adviessessie</button>
           <button type="button" class="pkg-btn"  data-id="brainstormsessie" data-service="adviseert" data-provider="calendly" data-url="https://calendly.com/imake-tmg5/brainstorm">Brainstormsessie</button>
           <button type="button" class="pkg-btn" data-id="plananalyse" data-service="adviseert" data-provider="calendly" data-url="https://calendly.com/imake-tmg5/plananalyse">Plananalyse</button>
 
-          <!-- ONTWERPT (laat staan of vervang met jouw echte links) -->
+          
           <button type="button" class="pkg-btn" data-id="rebranding" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/3lxjp03/rebranding">(re)Branding</button>
           <button type="button" class="pkg-btn" data-id="totaalproject" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/3lxjp03/totaalproject">Totaalproject</button>
           <button type="button" class="pkg-btn" data-id="totaalpakket" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/3lxjp03/totaalpakket">Totaalpakket</button>
         </div>
       </div>
 
-      <!-- Stap 3: agenda -->
+    
       <div class="booking-step">
         <p class="step-label">3. Plan je moment</p>
         <div id="agenda-host" class="agenda-host">
@@ -284,7 +340,7 @@
     </div>
   </div>
   
-</section>
+</section> -->
 
 
 
@@ -311,7 +367,7 @@
 
   <!-- column 2 -->
   <div class="col-3-middle margin-tb-2">
-      <h4 class="footer-title lg-footer-title"> Ontwerpstudio soulmade </h4>
+      <h4 class="footer-title footer-title"> Ontwerpstudio soulmade </h4>
       <p class="footer-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       <nav class="inline">
         <a href="https://www.facebook.com/ontwerpstudioSoulMade/" target="_blank">
@@ -348,7 +404,7 @@
 
     <!-- projects -->
     
-    <div class="col-12 lg-padded-md">
+    <div class="col-12 padded-md">
       <div class="grid gallery">
         
           <div class="col-2">
@@ -467,7 +523,7 @@
   </div>
 
   <!-- projects --> 
-  <div class="col-12 lg-padded-md">
+  <div class="col-12 padded-md">
     <div class="grid gallery margin-lg">
     
       <div class="col-2">
