@@ -937,7 +937,6 @@ hr {
     color: white;
 }
 
-
 .button-header {
     color: inherit;
     display: inline-block;
@@ -953,6 +952,14 @@ hr {
 }
 
 /*------------------------- Header Styles ------------------------*/
+
+.position-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
 
 header h2 {
     font-family: inherit;
@@ -986,12 +993,6 @@ header p {
     margin-bottom: 1rem;
 }
 
-
-@keyframes bounce {
-    50% {
-        transform: translateY(-15px);
-    }
-}
 
 .demo {
     width: 100%;
