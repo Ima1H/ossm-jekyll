@@ -443,6 +443,21 @@ body {
 .padded-l-6 { padding-left: 6rem;   }
 .padded-r-6 { padding-right: 6rem;  }
 
+.padded-t-7 { padding-top: 7rem;    }
+.padded-b-7 { padding-bottom: 7rem; }
+.padded-l-7 { padding-left: 7rem;   }
+.padded-r-7 { padding-right: 7rem;  }
+
+.padded-t-8 { padding-top: 8rem;    }
+.padded-b-8 { padding-bottom: 8rem; }
+.padded-l-8 { padding-left: 8rem;   }
+.padded-r-8 { padding-right: 8rem;  }
+
+.padded-t-9 { padding-top: 9rem;    }
+.padded-b-9 { padding-bottom: 9rem; }
+.padded-l-9 { padding-left: 9rem;   }
+.padded-r-9 { padding-right: 9rem;  }
+
 .padded-t-10 { padding-top: 10rem;    }
 .padded-b-10 { padding-bottom: 10rem; }
 .padded-l-10 { padding-left: 10rem;   }
