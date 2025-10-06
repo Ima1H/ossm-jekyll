@@ -2483,17 +2483,17 @@ footer nav a {
         margin-top: 0; /* Verwijder vaste marges */
     }
 
-    .xss-small-text  { font-size: 1.5vw }
-    .xss-medium-text { font-size: 2vw   }
-    .xss-big-text    { font-size: 4vw;   }
+    .xxs-small-text  { font-size: 1.5vw }
+    .xxs-medium-text { font-size: 2vw   }
+    .xxs-big-text    { font-size: 4vw;   }
 
-    .xss-title-service { 
+    .xxs-title-service { 
         font-size: 4vw;
         line-height: 1.4;
         margin-bottom: 1rem;
     } 
 
-    .xss-title-medium-oversized {
+    .xxs-title-medium-oversized {
         font-family: 'Work Sans', sans-serif;
         font-weight: bold;
         font-size: 1.8vw;
@@ -2501,7 +2501,7 @@ footer nav a {
         color: black;
     }
 
-    .xss-footer-title {
+    .xxs-footer-title {
         font-size: 2vw;
         font-weight: 500;
         letter-spacing: -0.06rem;
