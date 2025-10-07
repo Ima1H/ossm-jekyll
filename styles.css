@@ -2402,25 +2402,6 @@ footer nav a {
     .xs-margin-l-2 { margin-left: 2rem;   }
     .xs-margin-r-2 { margin-right: 2rem;  }
 
-    .bg-image-lichaam-perfect-form-2 {
-        background-image: url('/images/essentie-lichaamsbehandeling-perfect-forms-2.jpg');
-        background-position: 50% 57%;
-        min-height: 16rem;
-        padding: 3rem 1rem;
-    }
-
-    .xs-banner {
-        background-image: url('/images/essentie-gelaat-dermatech-pen-1.png');
-        background-size: cover;
-        background-position: 10% 50%;
-        background-repeat: no-repeat;
-        min-height:60vh;
-    }
-
-    .xs-bg-slate-200 {
-        --tw-bg-opacity: 0.6;
-        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
-    }
 
     .title-service { 
         font-size: 3.1vw;
