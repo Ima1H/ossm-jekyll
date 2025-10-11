@@ -2326,6 +2326,9 @@ footer nav a {
         font-size: 2.8vw;
     }
     
+    footer span { 
+        font-weight: 300
+    }
 
     .show-xs { display: block; }
     .hide-xs { display: none; }
