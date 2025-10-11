@@ -1994,9 +1994,15 @@ footer nav a {
     
     .md-padded-05 { padding: 0.5rem; }
     .md-padded-1  { padding: 1rem;   }
-    .md-padded-2  { padding: 2%;     }
-    .md-padded-5  { padding: 5%;     }
-    .md-padded-10 { padding: 10%;    }
+    .md-padded-2  { padding: 2rem;     }
+    .md-padded-3  { padding: 3rem;     }
+    .md-padded-4  { padding: 4rem;     }
+    .md-padded-5  { padding: 5rem;     }
+    .md-padded-6  { padding: 6rem;     }
+    .md-padded-7  { padding: 7rem;     }
+    .md-padded-8  { padding: 8rem;     }
+    .md-padded-9  { padding: 9rem;     }
+    .md-padded-10 { padding: 10rem;    }
     
     .md-padded-t-0 { padding-top: 0;    }
     .md-padded-b-0 { padding-bottom: 0; }
