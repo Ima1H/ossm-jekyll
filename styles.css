@@ -2138,6 +2138,8 @@ footer nav a {
     .sm-width-40 { max-width: 40vw;}
     .sm-width-60 { max-width: 60vw;}
     .sm-width-80 { max-width: 80vw;}
+
+    .sm-text     { font-size: 4vw; }
     
     .sm-text-center { text-align: center; }
     .sm-text-left   { text-align: left  ; }
