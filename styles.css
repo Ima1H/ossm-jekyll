@@ -1934,7 +1934,7 @@ footer nav a {
     }
 
     h1 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     h2 {
@@ -2105,6 +2105,8 @@ footer nav a {
         letter-spacing: -0.06rem;
     }
 
+
+
 }
 
 
@@ -2149,8 +2151,12 @@ footer nav a {
         font-size:2.6vw
     }
 
+    footer nav a {
+        font-size: 2vw
+    }
+
     a {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     .show-sm { display: block; }
@@ -2289,7 +2295,7 @@ footer nav a {
         max-width: 400px;
     }
     .medium-text {
-        font-size: 1.5rem;
+        font-size: 4vw;
     }
     .quote-icon {
         font-size: 4rem;
@@ -2331,14 +2337,14 @@ footer nav a {
         padding-bottom: 1rem;
     }
 
-    .sm-footer-title {
-        font-size: 4vw;
+    .footer-title {
+        font-size: 3vw;
         font-weight: 500;
         letter-spacing: -0.06rem;
     }
 
-    .sm-footer-text {
-        font-size:4vw;
+    .footer-text {
+        font-size:2vw;
     }
 
     #close-cookie-banner {
@@ -2567,13 +2573,13 @@ footer nav a {
         font-size: 6vw;
     }
 
-    .xs-footer-title {
+    .footer-title {
         font-size: 5vw;
         font-weight: 500;
         letter-spacing: -0.06rem;
     }
 
-     .xs-footer-text {
+     .footer-text {
         font-size: 4vw;
     }
 
