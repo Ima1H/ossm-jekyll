@@ -2166,7 +2166,7 @@ footer nav a {
     }
 
     a {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .show-sm { display: block; }
@@ -2391,6 +2391,10 @@ footer nav a {
         padding-right: 1.5rem;
         padding-right: 0;
         font-size: 4vw;
+    }
+
+    a {
+        font-size: 3.2vw;
     }
 
     header h2 { 
@@ -2636,6 +2640,10 @@ footer nav a {
         padding-right: 1.5rem;
         padding-right: 0;
         font-size: 4vw;
+    }
+
+    a {
+        font-size: 3.5vw;
     }
 
     header h2 { 
