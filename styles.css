@@ -2008,6 +2008,16 @@ footer nav a {
     .md-padded-l-2 { padding-left: 2rem;   }
     .md-padded-r-2 { padding-right: 2rem;  }
 
+    .md-padded-t-3 { padding-top: 3rem;    }
+    .md-padded-b-3 { padding-bottom: 3rem; }
+    .md-padded-l-3 { padding-left: 3rem;   }
+    .md-padded-r-3 { padding-right: 3rem;  }
+
+    .md-padded-t-4 { padding-top: 4rem;    }
+    .md-padded-b-4 { padding-bottom: 4rem; }
+    .md-padded-l-4 { padding-left: 4rem;   }
+    .md-padded-r-4 { padding-right: 4rem;  }
+
     .md-padded-t-5 { padding-top: 5rem;    }
     .md-padded-b-5 { padding-bottom: 5rem; }
     .md-padded-l-5 { padding-left: 5rem;   }
