@@ -2177,9 +2177,15 @@ footer nav a {
 
     .sm-padded-05 { padding: 0.5rem; }
     .sm-padded-1  { padding: 1rem;   }
-    .sm-padded-2  { padding: 2%;     }
-    .sm-padded-5  { padding: 5%;     }
-    .sm-padded-10 { padding: 10%;    }
+    .sm-padded-2  { padding: 2rem;     }
+    .sm-padded-3  { padding: 3rem;     }
+    .sm-padded-4  { padding: 4rem;     }
+    .sm-padded-5  { padding: 5rem;     }
+    .sm-padded-6  { padding: 6rem;     }
+    .sm-padded-7  { padding: 7rem;     }
+    .sm-padded-8  { padding: 8rem;     }
+    .sm-padded-9  { padding: 9rem;     }
+    .sm-padded-10 { padding: 10rem;    }
 
     .sm-padded-t-0 { padding-top: 0;    }
     .sm-padded-b-0 { padding-bottom: 0; }
@@ -2201,10 +2207,20 @@ footer nav a {
     .sm-padded-l-3 { padding-left: 3rem;   }
     .sm-padded-r-3 { padding-right: 3rem;  }
 
+    .sm-padded-t-3-05   { padding-top: 3.5rem;    }
+    .sm-padded-b-3-05   { padding-bottom: 3.5rem; }
+    .sm-padded-l-3-05   { padding-left: 3.5rem;   }
+    .sm-padded-r-3-05   { padding-right: 3.5rem;  }
+
     .sm-padded-t-4 { padding-top: 4rem;    }
     .sm-padded-b-4 { padding-bottom: 4rem; }
     .sm-padded-l-4 { padding-left: 4rem;   }
     .sm-padded-r-4 { padding-right: 4rem;  }
+
+    .sm-padded-t-4-05   { padding-top: 4.5rem;    }
+    .sm-padded-b-4-05   { padding-bottom: 4.5rem; }
+    .sm-padded-l-4-05   { padding-left: 4.5rem;   }
+    .sm-padded-r-4-05   { padding-right: 4.5rem;  } 
 
     .sm-padded-t-5 { padding-top: 5rem;    }
     .sm-padded-b-5 { padding-bottom: 5rem; }
