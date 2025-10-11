@@ -58,12 +58,12 @@ services:
     </div> 
 
     <div class="col-10_xs-12"> 
-    <div class="grid padded-md bg-ligt padded-r-0 xs-padded-0">
+    <div class="grid padded-md bg-ligt padded-r-0 xs-padded-3">
         <div class="grid-center-equalHeight">
             
             {% for item in page.services %} 
                 <!---- Service Cards ----->
-                <div class="{{item.column-size}}"> 
+                <div class="{{item.column-size}} xs-padded-b-2"> 
                     <a href="{{item.follow-link}}" class="card bg-white bg-border-grey">
                         <div class="bg-image landscape border-b-grey" style="background-image: url('{{item.background_image}}');"> </div>
                         <div class="padded-2">
