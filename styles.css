@@ -2100,7 +2100,7 @@ footer nav a {
     h1 {
         font-size: 6vw;
     }
-    
+
     header h2 {
         font-size: 5.2vw;
     }
@@ -2389,6 +2389,10 @@ footer nav a {
     .xs-height-60 { max-height: 60vh;}
     .xs-height-80 { max-height: 80vh;} 
 
+    .small-text  { font-size: 2.5vh; }
+    .medium-text { font-size: 3vh;   }
+    .big-text    { font-size: 6vh;   }
+
     .xs-text-center { text-align: center; }
     .xs-text-left   { text-align: left;   }
     .xs-text-right  { text-align: right;  }
@@ -2489,6 +2493,10 @@ footer nav a {
 
     .xs-border-b {
         border-bottom: 1px solid #4A4A4A;
+    }
+
+    .xs-border-b-yellow {
+        border-bottom: 2px solid #F6EA49;
     }
 
     .xs-border-b:hover {
