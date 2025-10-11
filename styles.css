@@ -2122,7 +2122,7 @@ footer nav a {
     }
 
     h1 {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     header h2 {
@@ -2381,12 +2381,16 @@ footer nav a {
         font-size: 7vw;
     }
 
-    h3 {
-        font-size: 5vw;
+    h1 {
+        font-size: 5.7vw;
     }
-    
+
     h2 {
         font-size: 5vw; 
+    }
+
+    h3 {
+        font-size: 5vw;
     }
 
 
