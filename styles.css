@@ -510,6 +510,12 @@ body {
 .margin-9  { margin: 9rem;   }
 .margin-10 { margin: 10rem;  }
 
+
+.margin-t-05 { padding-top: 0.5rem;    }
+.margin-b-05 { padding-bottom: 0.5rem; }
+.margin-l-05 { padding-left: 0.5rem;   }
+.margin-r-05 { padding-right: 0.5rem;  }
+
 .margin-t { margin-top: 5%;    }
 .margin-b { margin-bottom: 5%; }
 .margin-l { margin-left: 5%;   }
@@ -2434,7 +2440,15 @@ footer nav a {
     }
 
     .xs-border-b {
-        border-bottom: 4px solid #4A4A4A;
+        border-bottom: 1px solid #4A4A4A;
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .xs-border-b:hover {
+        border-bottom: 1px solid #F6EA49;
+        margin-top: 0rem;
+        padding-top: 0rem;
     }
 }
 
