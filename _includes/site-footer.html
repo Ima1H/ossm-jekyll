@@ -367,7 +367,7 @@
     <div class="col-12">
       <div class="grid gallery margin-md">
         {% for post in site.posts limit:4 %}
-          <div class="col-6 padded-1">
+          <div class="col-6">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
               <!-- <p class="margin-b-0 text-left">{{ post.title }}</p> -->
@@ -382,9 +382,9 @@
     
     <nav class="inline xs-footer-text">
       <span class="padded-r-05"> &#169; 2025 Ontwerpstudio soulmade </span> |
-      <a href="/privacy.html" class="padded-0"> Privacy </a> |
-      <a href="/cookie.html" class="padded-0"> Cookies </a> |
-      <a href="/algemene-voorwaarden.html" class="padded-0"> Algemene voorwaarden </a> |
+      <a href="/privacy.html" class="padded-0 xs-border-b"> Privacy </a> |
+      <a href="/cookie.html" class="padded-0 xs-border-b"> Cookies </a> |
+      <a href="/algemene-voorwaarden.html" class="padded-0 xs-border-b"> Algemene voorwaarden </a> |
       <span class="padded-l-05"> BTW BE0830 698 102 </span>
     </nav>
     

@@ -2432,6 +2432,10 @@ footer nav a {
      .xs-footer-text {
         font-size: 4vw;
     }
+
+    .xs-border-b {
+        border-bottom: 4px solid #4A4A4A;
+    }
 }
 
 /* ------- XXS Media Query (25em / 400px) --------------- */
