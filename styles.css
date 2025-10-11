@@ -1697,6 +1697,7 @@ footer nav a {
 /* Cookie banner */
 
 #cookie-notice {
+    font-weight: 200;
     padding-bottom: 0.5rem;
     display: none;
     text-align: center;
@@ -2120,6 +2121,10 @@ footer nav a {
         font-size:2.6vw
     }
 
+    a {
+        font-size: 4vw;
+    }
+
     .show-sm { display: block; }
     .hide-sm { display: none;  }
     
@@ -2281,6 +2286,11 @@ footer nav a {
     .sm-footer-text {
         font-size:4vw;
     }
+
+    #close-cookie-banner {
+        font-size: 1.5rem;
+    }
+
 
 }
 
