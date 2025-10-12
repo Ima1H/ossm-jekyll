@@ -80,6 +80,13 @@ html {border: none;} */
     /* opacity: 0.8; */
 }
 
+.bg-aanbod {
+    background-image: url('images/imaginate-ossm-aanbod.jpeg');
+    background-position: 50% 34%;
+    background-size: cover;
+    opacity: 0.8;
+}
+
 .bg-adviseert {
     background-image: url('images/imaginate-ossm-1.jpg');
     background-position: 50% 50%;
