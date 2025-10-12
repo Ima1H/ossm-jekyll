@@ -1097,8 +1097,8 @@ header p {
 }
 
 .hamburger-button.active span {
-    border-color: white;
-    background-color: white;
+    border-color: #4A4A4A;
+    background-color: #4A4A4A;
 }
 
 .hamburger-top,
