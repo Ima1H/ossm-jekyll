@@ -73,6 +73,42 @@ gallery:
  - column-size: col-12
    aspect-ratio: landscape-small
    background_image: /images/essentie-studio-2.jpg
+projects:
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-17.jpg
+   name-project: project 1
+   follow-link: /brainstormsessie.html
+   text-arrow: Leer meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   follow-link: /adviessessie.html
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 3
+   follow-link: /adviessessie.html
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 4
+   follow-link: /adviessessie.html
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-17.jpg
+   name-project: project 1
+   follow-link: /brainstormsessie.html
+   text-arrow: Leer meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 2
+   follow-link: /adviessessie.html
+   text-arrow: Leer meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 3
+   follow-link: /adviessessie.html
+   text-arrow: Leer Meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 4
+   follow-link: /adviessessie.html
 ---
 <!-------------------------- Header Banner  ------------------------------->
 <section class="padded-md grid-bottom tall-70 padded-t-0">
@@ -240,3 +276,35 @@ gallery:
 
   
 </section>
+
+<!-------------------------- Projects  ------------------------------->
+
+<!-- Test blog post -->
+
+ <section class="grid padded-9 padded-t-0">
+
+  <div class="grid padded-b-2">
+    <h2 id="projecten-interieurarchitectuur" class="title-medium-oversized"> PROJECTEN Interieurachitectuur </h2>
+    <div class="col-12 divider-left padded-b-0">
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
+    </div>
+  </div> 
+  
+  <div class="grid-equalHeight padded-b-2 project-greyed"></div> 
+  
+    {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %} 
+    {% for post in projects %} 
+    
+    <div class="col-3_xs-12 padded-r-2 padded-b-5 project-container"> <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"> </div> 
+    <p class="title-project margin-b-0">{{post.title}}</p> 
+    <a href="{{post.url}}"> Bekijk het project → </a> 
+    
+    </div> 
+    {% endfor %} 
+  </div>
+
+</div>
+
+  
+</section>
+
