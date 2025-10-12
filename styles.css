@@ -850,11 +850,15 @@ hr {
 }
 
 .project-description {
-     font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     font-size: 0.8rem;
     margin-top: 0.5rem;
     color: #4A4A4A;
+}
+
+.project-radius {
+    border-radius: 18rem 0 0 18rem;
 }
 
 /* Zorg dat de bg-image de referentie is voor absolute positioning */
