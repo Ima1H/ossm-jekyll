@@ -256,9 +256,10 @@ html {border: none;} */
     background-position: 50% 70%;
 }
 
-.bg-image-lindsay-20 {
+.bg-contact {
     background-image: url('/images/bynouchka-160224-lindsay-20.jpg');
     background-position: 50% 50%;
+    border-radius: 20rem 20rem 0rem 0rem;
 }
 
 .bg-image-lindsay-17 {
@@ -266,14 +267,16 @@ html {border: none;} */
     background-position: 50% 50%;
 }
 
-.bg-image-lindsay-4 {
+.bg-portfolio {
     background-image: url('/images/bynouchka-160224-lindsay-4.jpg');
     background-position: 50% 50%;
+    border-radius: 20rem 20rem 0rem 0rem;
 }
 
-.bg-image-ossm-8 {
+.bg-offer {
     background-image: url('/images/imaginate-ossm-8.jpg');
     background-position: 50% 34%;
+    border-radius: 20rem 20rem 0rem 0rem;
 }
 
 .bg-image-ossm-9 {
@@ -675,6 +678,10 @@ body {
 .white-text     { color: white;   }
 .subtle-text {opacity: 0.8}
 
+strong { 
+    color: #000000;
+    font-weight: 500;
+}
 
 .bg-color-transparant { background-color: transparent; }
 
