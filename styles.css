@@ -689,7 +689,13 @@ a {
 
 /*------------------------- Typography Styles ------------------------*/
 
-h1, h2, h3, h4 {
+h1 {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h3, h4 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
