@@ -26,6 +26,42 @@ services:
     name-service: totaalpakket
     description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nostrum error, modi in est praesentium at laudantium hic quo non rerum qui adipisci provident cum, ex reiciendis aut! Maxime, consequuntur?
     follow-link: /geeft-vorm.html
+projects:
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-17.jpg
+   name-project: project 1
+   follow-link: /brainstormsessie.html
+   text-arrow: Leer meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   follow-link: /adviessessie.html
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 3
+   follow-link: /adviessessie.html
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 4
+   follow-link: /adviessessie.html
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-17.jpg
+   name-project: project 1
+   follow-link: /brainstormsessie.html
+   text-arrow: Leer meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 2
+   follow-link: /adviessessie.html
+   text-arrow: Leer meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 3
+   follow-link: /adviessessie.html
+   text-arrow: Leer Meer
+ - column-size: col-3_lg-8_md-12
+   background_image: /images/bynouchka-160224-Lindsay-23.jpg
+   name-project: project 4
+   follow-link: /adviessessie.html
 ---
 <!-------------------------- Header Banner  ------------------------------->
 <section class="padded-md grid-bottom tall-70 padded-t-0">
@@ -54,6 +90,7 @@ services:
         <a href="/ontwerpt-aanbod.html#rebranding" class="button-dark"> (re)Branding &#8595; </a>
         <a href="/ontwerpt-aanbod.html#interieurproject" class="button-dark"> Interieurproject &#8595; </a>
         <a href="/ontwerpt-aanbod.html#totaalconcept" class="button-dark"> Totaalconcept &#8595; </a>
+        <a href="/ontwerpt-aanbod.html#projecten" class="button-dark"> Projecten &#8595; </a>
       </nav>
     </div>
   </div>    
@@ -202,4 +239,35 @@ services:
   </div>
 
   
+</section>
+
+<!-------------------------- Projecten  ------------------------------->
+
+ <section class="grid padded-10 padded-t-0">
+
+     <div class="grid padded-b-2">
+        <h2 id="ontwerpt-projecten" class="title-medium-oversized"> PROJECTEN Interieurachitectuur & grafisch ontwerp  </h2>
+        <div class="col-12 divider-left padded-b-0">
+            <span class="uppercase title"> PROJECTEN interieurarchitectuur </span>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
+        </div>
+    </div> 
+
+    <div class="grid-equalHeight padded-b-2"></div>
+
+  
+      {% assign projects = site.categories["Grafisch ontwerp"] | where: "layout", "project" %}
+
+      {% for post in projects %}
+
+        <div class="col-3_xs-12 padded-r-2 padded-b-5">
+          <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"></div>
+
+          <p class="title-project margin-b-0">{{post.title}}</p>      
+          <a href="{{post.url}}"> Bekijk het project → </a>
+        </div>
+
+      {% endfor %}
+
+    </div>
 </section>
