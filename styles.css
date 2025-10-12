@@ -789,8 +789,9 @@ hr {
 
 .title-project {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.6rem;
+    line-height: 1.5rem;
     color:#000000;
     margin: 0.5rem 0 0.1rem 0;
 }
@@ -1643,16 +1644,17 @@ footer p {
 footer nav a {
   display: block;
   padding: 0.1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .footer-title {
-    font-size:  0.9rem;
+    color: #000000;
+    font-size:  1.3rem;
     font-weight: 400;
 }
 
 .footer-text {
-    font-size:  0.8rem;
+    font-size:  1rem;
     font-weight: 200;
 }
 
