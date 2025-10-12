@@ -46,6 +46,13 @@ html {border: none;} */
     background-position: center;
 }
 
+.bg-image-project {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18rem 18rem 0rem 0rem;
+}
+
 .bg-image-border
 {
     background-size: cover;
