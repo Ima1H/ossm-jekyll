@@ -858,7 +858,7 @@ hr {
 }
 
 .project-radius {
-    border-radius: 18rem 0 0 18rem;
+    border-radius: 18rem 0 0 18rem !important;
 }
 
 /* Zorg dat de bg-image de referentie is voor absolute positioning */
