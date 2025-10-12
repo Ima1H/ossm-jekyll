@@ -1083,8 +1083,8 @@ header p {
 
 .hamburger-button span {
     width: 30px;
-    border: 1.5px solid #FBFCFB;
-    background-color: #FBFCFB;
+    border: 1.5px solid #4A4A4A;
+    background-color: #4A4A4A;
     display: block;
     border-radius: 22px;
     transition: 2s;
@@ -1140,7 +1140,7 @@ header p {
     left: 0;
     right: 0;
     bottom: 100vh;
-    background-color: #4A494B;
+    background-color: #FBFCFB;
     padding: 5px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     z-index: 8;
@@ -1159,7 +1159,7 @@ header p {
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
-    color: white;
+    color: #4A494B;
     display: block;
     padding: 5px 15px;
     text-align: center;
