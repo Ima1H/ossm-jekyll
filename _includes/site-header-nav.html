@@ -16,10 +16,18 @@
             <a href="/index.html" class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/' %} active {% endif %}"> Home </a>
             <a href="/over-ons.html"   class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/over-ons.html' or page.url == '/faq.html' %} active {% endif %}">Over ons</a>
             <a href="/portfolio.html" class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/portfolio.html' %} active {% endif %}" > Portfolio </a>
-            <a href="/aanbod.html" class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/aanbod.html' or page.url == '/adviseert-aanbod.html' or page.url == '/ontwerpt-aanbod.html' %} active {% endif %}" > Aanbod </a>
+            <div>
+                <a href="/aanbod.html" class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/aanbod.html' or page.url == '/adviseert-aanbod.html' or page.url == '/ontwerpt-aanbod.html' %} active {% endif %}" > Aanbod </a>
+
+                <div class="dropdown-content">
+                    <a href="/adviseert-aanbod.html">Adviseert</a>
+                    <a href="/ontwerpt-aanbod.html">Ontwerpt</a>
+                </div>
+            </div>
+            
 
 
-            <div class="dropdown">
+            <!-- <div class="dropdown">
                 <a href="/adviseert.html"
                     class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/adviseert.html' or page.url == '/adviseert-aanbod.html' %} active {% endif %}">
                     Adviseert
@@ -41,7 +49,7 @@
                     <a href="/ontwerpt.html">Ontwerpt</a>
                     <a href="/ontwerpt-aanbod.html">Aanbod</a>
                 </div>
-            </div>
+            </div> -->
           
             <a href="/contact.html" class="padded-r-2 padded-t-1 site-header-a {% if page.url == '/contact.html' %} active {% endif %}" > Contact </a>
         </nav>
