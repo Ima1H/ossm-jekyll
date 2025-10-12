@@ -690,9 +690,8 @@ a {
 /*------------------------- Typography Styles ------------------------*/
 
 h1 {
-    font-family: "freight-big-pro", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 h2, h3, h4 {
@@ -701,7 +700,7 @@ h2, h3, h4 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.1;
     margin-bottom: 1rem;
 }
@@ -1712,7 +1711,7 @@ footer nav a {
     right: 0;
     bottom: 0;
     width: calc(100% - 0rem);
-    background: #222;
+    background: #4A4A4A;
     color: rgba(255, 255, 255, 0.8);
     z-index: 2;
 }
