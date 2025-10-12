@@ -282,14 +282,14 @@ projects:
 
 <!-- Test blog post -->
 
- <section class="grid-middle padded-sm padded-b-5">
+ <section class="grid-middle padded-5 padded-b-5">
 
-  <div class="padded-lr col-12 padded-0">
+  <div class="col-12 padded-0">
         <h1  id="projecten" class="title-medium-oversized"> Projecten </h1>
         <hr class="padded-t-0">
       </div>
   
-  <div class="padded-lr grid-equalHeight padded-b-2 project-greyed"></div> 
+  <div class="grid-equalHeight padded-b-2 project-greyed"></div> 
   
     {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %} 
     {% for post in projects %} 
