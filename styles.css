@@ -982,6 +982,15 @@ hr {
     color: black
 }
 
+.button-aanbod .icon-arrow {
+  width: 1em;                    /* schaalt mee met font-size */
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;             /* voorkomt afknippen aan randen */
+  vertical-align: -0.08em;       /* baseline finetune */
+  transform: translateY(.03em);
+  transition: transform .2s ease;
+}
 
 .button-filled {
     color: inherit;
@@ -1042,6 +1051,17 @@ hr {
   transform: translateY(.03em);
   transition: transform .2s ease;
 }
+
+.button .icon-arrow {
+  width: 1em;                    /* schaalt mee met font-size */
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;             /* voorkomt afknippen aan randen */
+  vertical-align: -0.08em;       /* baseline finetune */
+  transform: translateY(.03em);
+  transition: transform .2s ease;
+}
+
 
 .icon-arrow {
     padding-top: 0.09rem;
