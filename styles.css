@@ -1032,6 +1032,17 @@ hr {
     color: black
 }
 
+.button-header .icon-arrow {
+  width: 1em;
+  height: 1em;
+  fill: currentColor; /* zorgt dat de pijl de tekstkleur overneemt */
+  transition: transform 0.2s ease;
+}
+
+.button-header:hover .icon-arrow {
+  transform: translateX(3px); /* subtiele hover-animatie naar rechts */
+}
+
 /*------------------------- Header Styles ------------------------*/
 
 header h2 {
