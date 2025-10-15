@@ -52,23 +52,19 @@ layout: default
 </section>
 <!-------------------------- Services  ------------------------------->
 <section class="padded-md grid-center">
-    <div class="gallery grid" id="lightgallery">
-        <a class="col-4" href="/images/ossm-MTH-V6_1-photo.png">
-            <div class="bg-image portrait-tall bg-img-1">  </div>
-        </a> 
-        <a class="col-4" href="/images/ossm-MTH-V6_2-photo.png">
-            <div class="bg-image portrait-tall bg-img-2 bg-pos-b"></div>
-        </a> 
-        <div class="col-4">
-            <a class="col-12" href="/images/ossm-MTH-V6_3-photo.png">
-                <div class="bg-image landscape bg-img-3"></div>
-            </a> 
-            <a class="col-12" href="/images/ossm-MTH-V6_3-photo.png">
-                <div class="bg-image landscape bg-img-4"></div>
-            </a> 
+     <div class="container" id="lightgallery">
+            <div class="col-4 portrait-tall" style="--img: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+
+            <div class="col-4 portrait-tall" style="--img: url('{{ page.project_image_2 | relative_url }}');" data-src="{{ page.project_image_2 | relative_url }}" data-text="{{ page.project_image_2_datatext }}" data-sub-html="{{ page.project_image_2_datatext }}"></div>
+
+            <div class="col-4">
+                <div class="col-12 landschape" style="--img: url('{{ page.project_image_3 | relative_url }}');" data-src="{{ page.project_image_3 | relative_url }}" data-text="{{ page.project_image_3_datatext }}" data-sub-html="{{ page.project_image_3_datatext }}"></div>
+
+                <div class="col-12 landscape" style="--img: url('{{ page.project_image_4 | relative_url }}');" data-src="{{ page.project_image_4 | relative_url }}" data-text="{{ page.project_image_4_datatext }}" data-sub-html="{{ page.project_image_4_datatext }}"></div>
+
+            </div>
+        
         </div>
-    </div>
-</section>
 
 <!-------------------------- Services Back-up ------------------------------->
 <!-- <section class="padded-md grid-center"> 
