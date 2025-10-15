@@ -838,12 +838,21 @@ hr {
     font-size: 1.2rem;
 }
 
-.title-oversized {
+/* .title-oversized {
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
     font-size: 6.5rem;
     margin-top: 0.5rem;
     color: black;
+} */
+
+.title-oversized {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 5.2rem;
+    margin-top: 0.5rem;
+    color: black;
+    text-transform: uppercase;
 }
 
 .title-medium-oversized {
@@ -1096,6 +1105,23 @@ hr {
   paint-order: stroke fill;
 }
 
+.button-filled-dark {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #4A4A4A;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    transition: 0.5s all;
+    color: #4A4A4A;
+    background-color: #4A4A4A;
+    color: white;
+}
+
+.button-filled-dark:hover {
+    border: 2px solid white;
+}
 /*------------------------- Header Styles ------------------------*/
 
 header h2 {
