@@ -187,6 +187,11 @@ html {border: none;} */
   filter: none; /* terug naar normaal */
 }
 
+.gallery-project-page [class*="col-"] {
+  padding: 0.5%;
+}
+
+
 /*--------------------------- Project Specific Gallery Styles --------------------------*/
 .container {
 	position: relative;
