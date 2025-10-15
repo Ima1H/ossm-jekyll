@@ -1043,6 +1043,10 @@ hr {
   transition: transform .2s ease;
 }
 
+.icon-arrow {
+    padding-top: 0.09rem;
+}
+
 /* Dikte + kleur (neemt tekstkleur over, ook op :hover) */
 .button-header .icon-arrow path {
   fill: currentColor;
@@ -1053,10 +1057,6 @@ hr {
   paint-order: stroke fill;
 }
 
-/* Subtiele hover-animatie (past met jouw bestaande :hover kleurwissel) */
-.button-header:hover .icon-arrow {
-  transform: translateY(.03em) translateX(2px);
-}
 /*------------------------- Header Styles ------------------------*/
 
 header h2 {
