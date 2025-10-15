@@ -1032,39 +1032,31 @@ hr {
     color: black
 }
 
-/* Zorgt dat tekst en icoon op 1 lijn netjes uitlijnen */
-.button-header{
-  display:inline-flex;                /* centreren binnen de button */
-  align-items:center;
-  gap:.5em;                           /* ruimte tussen tekst en pijltje */
-  line-height:1.2;                    /* voorkomt optische wiebel */
+/* Grootte + baseline-fix voor het icoon */
+.button-header .icon-arrow {
+  width: 1em;                    /* schaalt mee met font-size */
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;             /* voorkomt afknippen aan randen */
+  vertical-align: -0.08em;       /* baseline finetune */
+  transform: translateY(.03em);
+  transition: transform .2s ease;
 }
 
-/* Grootte + baseline-fix van het icoon */
-.button-header .icon-arrow{
-  width:1em;                          /* schaalt mee met font-size */
-  height:1em;
-  flex:0 0 auto;
-  vertical-align:-0.08em;             /* kleine correctie t.o.v. tekstlijn */
-  transform:translateY(.04em);        /* extra fine-tune; mag je weghalen */
+/* Dikte + kleur (neemt tekstkleur over, ook op :hover) */
+.button-header .icon-arrow path {
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 0.9;             /* 0.8 = dunner, 1.0 = dikker */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  paint-order: stroke fill;
 }
 
-/* Dikker laten ogen zonder het ontwerp te breken */
-.button-header .icon-arrow path{
-  fill:currentColor;                  /* neemt tekstkleur over */
-  stroke:currentColor;                /* omlijnt het pad */
-  stroke-width:.8;                    /* ↑ maak .9 of 1.0 voor nog dikker */
-  paint-order:stroke fill;            /* eerst stroke tekenen, dan vullen */
-  stroke-linecap:round;
-  stroke-linejoin:round;
+/* Subtiele hover-animatie (past met jouw bestaande :hover kleurwissel) */
+.button-header:hover .icon-arrow {
+  transform: translateY(.03em) translateX(2px);
 }
-
-/* Kleine hover voor leven in de UI (optioneel) */
-.button-header:hover .icon-arrow{
-  transform:translateY(.04em) translateX(2px);
-  transition:transform .2s ease;
-}
-
 /*------------------------- Header Styles ------------------------*/
 
 header h2 {
