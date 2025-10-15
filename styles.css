@@ -672,9 +672,10 @@ body {
 
 /* Text Allignment */
 
-.text-left   { text-align: left;   }
-.text-center { text-align: center; }
-.text-right  { text-align: right;  }
+.text-left      { text-align: left;   }
+.text-center    { text-align: center; }
+.text-right     { text-align: right;  }
+.text-justify   { text-align: justify; }
 
 /* Text Styles */
 
@@ -1026,6 +1027,15 @@ hr {
     color: white;
 }
 
+.button-dark .icon-arrow {
+  width: 1em;                    /* schaalt mee met font-size */
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;             /* voorkomt afknippen aan randen */
+  vertical-align: -0.08em;       /* baseline finetune */
+  transform: translateY(.03em);
+  transition: transform .2s ease;
+}
 
 .button-header {
     color: inherit;
