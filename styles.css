@@ -709,8 +709,8 @@ body {
 
 /* Text Styles */
 
-.small-text  { font-size: 1.5rem; }
-.medium-text { font-size: 2rem;   }
+.small-text  { font-size: 1.3rem; }
+.medium-text { font-size: 1.5rem;   }
 .big-text    { font-size: 4rem;   }
 
 .uppercase {text-transform: uppercase; }
