@@ -78,16 +78,19 @@ layout: default
 
 
 <!-------------------------- Services  ------------------------------->
-<section class="padded-10 gallery-project grid tall-80 margin-t-5" id="lightgallery"> 
-    <div class="col-4 lightgallery-img bg-img-3 portrait" style="background-image: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+<section class="padded-10 gallery-project grid tall-80 margin-t-5"> 
+    <div class="grid" id="lightgallery">
+        <div class="col-4 lightgallery-img bg-img-3 portrait" style="background-image: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
 
-    <div class="lcol-4 ightgallery-img bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_2 | relative_url }}');" data-src="{{ page.project_image_2 | relative_url }}" data-text="{{ page.project_image_2_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+        <div class="col-4 ightgallery-img bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_2 | relative_url }}');" data-src="{{ page.project_image_2 | relative_url }}" data-text="{{ page.project_image_2_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
 
-    <div class="col-4 lightgallery-img bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_3 | relative_url }}');" data-src="{{ page.project_image_3 | relative_url }}" data-text="{{ page.project_image_3_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+        <div class="col-4 lightgallery-img bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_3 | relative_url }}');" data-src="{{ page.project_image_3 | relative_url }}" data-text="{{ page.project_image_3_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
 
-    <div class="col-6 lightgallery-img bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_4 | relative_url }}');" data-src="{{ page.project_image_4 | relative_url }}" data-text="{{ page.project_image_4_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
- 
-    <div class="col-6 lightgallery-img bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_5 | relative_url }}');" data-src="{{ page.project_image_5 | relative_url }}" data-text="{{ page.project_image_5_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+        <div class="col-6 lightgallery-img bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_4 | relative_url }}');" data-src="{{ page.project_image_4 | relative_url }}" data-text="{{ page.project_image_4_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+    
+        <div class="col-6 lightgallery-img bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_5 | relative_url }}');" data-src="{{ page.project_image_5 | relative_url }}" data-text="{{ page.project_image_5_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+    </div>
+    
 </section>
 <!-------------------------- Services Back-up ------------------------------->
 <!-- <section class="padded-md grid-center"> 
