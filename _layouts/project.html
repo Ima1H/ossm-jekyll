@@ -78,14 +78,22 @@ layout: default
 
 
 <!-------------------------- Services  ------------------------------->
-<section class="padded-md grid-center">
-     <div class="gallery-project grids padded-2" id="lightgallery">
-            <div class="col-4 portrait-tall" style="background-image: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
-
-            <div class="col-4 portrait-tall" style="--img: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
-        </div>
+<section class="gallery grid tall-80 margin-t-5" id="lightgallery"> 
+  <a class="col-4" href="https://www.instituteofcode.com/houdini.jpg">
+    <div class="bg-image bg-img-3 portrait" style="background-image: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+  </a>
+   <a class="col-4" href="https://www.instituteofcode.com/nala.jpg">
+     <div class="bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_2 | relative_url }}');" data-src="{{ page.project_image_2 | relative_url }}" data-text="{{ page.project_image_2_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+  </a>
+  <a class="col-4" href="https://www.instituteofcode.com/nala.jpg">
+    <div class="bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_3 | relative_url }}');" data-src="{{ page.project_image_3 | relative_url }}" data-text="{{ page.project_image_3_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+  </a>
+ <a class="col-6" href="https://www.instituteofcode.com/nala.jpg">
+    <div class="bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_4 | relative_url }}');" data-src="{{ page.project_image_4 | relative_url }}" data-text="{{ page.project_image_4_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+  </a> <a class="col-6" href="https://www.instituteofcode.com/nala.jpg">
+    <div class="bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_5 | relative_url }}');" data-src="{{ page.project_image_5 | relative_url }}" data-text="{{ page.project_image_5_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+  </a>
 </section>
-
 <!-------------------------- Services Back-up ------------------------------->
 <!-- <section class="padded-md grid-center"> 
     <div class="col-7-center">
