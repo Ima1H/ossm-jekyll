@@ -78,22 +78,33 @@ layout: default
 
 
 <!-------------------------- Services  ------------------------------->
-<section class="padded-10 gallery-project grid tall-80 margin-t-5" id="lightgallery"> 
-  <a class="" href="">
-    <div class="lightgallery-img bg-img-3 portrait" style="background-image: url('{{ page.project_image_1 | relative_url }}');" data-src="{{ page.project_image_1 | relative_url }}" data-text="{{ page.project_image_1_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+<section class="padded-10 gallery-project grid tall-80 margin-t-5" id="lightgallery">
+  <a class="col-4" href="{{ page.project_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}">
+    <div class="lightgallery-img bg-img-3 portrait"
+         style="background-image: url('{{ page.project_image_1 | relative_url }}');"></div>
   </a>
-   <a class="col-4" href="https://www.instituteofcode.com/nala.jpg">
-     <div class="lightgallery-img bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_2 | relative_url }}');" data-src="{{ page.project_image_2 | relative_url }}" data-text="{{ page.project_image_2_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+
+  <a class="col-4" href="{{ page.project_image_2 | relative_url }}" data-sub-html="{{ page.project_image_2_datatext }}">
+    <div class="lightgallery-img bg-image bg-img-4 portrait"
+         style="background-image: url('{{ page.project_image_2 | relative_url }}');"></div>
   </a>
-  <a class="col-4" href="https://www.instituteofcode.com/nala.jpg">
-    <div class="lightgallery-img bg-image bg-img-4 portrait" style="background-image: url('{{ page.project_image_3 | relative_url }}');" data-src="{{ page.project_image_3 | relative_url }}" data-text="{{ page.project_image_3_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+
+  <a class="col-4" href="{{ page.project_image_3 | relative_url }}" data-sub-html="{{ page.project_image_3_datatext }}">
+    <div class="lightgallery-img bg-image bg-img-4 portrait"
+         style="background-image: url('{{ page.project_image_3 | relative_url }}');"></div>
   </a>
- <a class="col-6" href="https://www.instituteofcode.com/nala.jpg">
-    <div class="lightgallery-img bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_4 | relative_url }}');" data-src="{{ page.project_image_4 | relative_url }}" data-text="{{ page.project_image_4_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
-  </a> <a class="col-6" href="https://www.instituteofcode.com/nala.jpg">
-    <div class="lightgallery-img bg-image bg-img-4 landscape" style="background-image: url('{{ page.project_image_5 | relative_url }}');" data-src="{{ page.project_image_5 | relative_url }}" data-text="{{ page.project_image_5_datatext }}" data-sub-html="{{ page.project_image_1_datatext }}"> </div>
+
+  <a class="col-6" href="{{ page.project_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}">
+    <div class="lightgallery-img bg-image bg-img-4 landscape"
+         style="background-image: url('{{ page.project_image_4 | relative_url }}');"></div>
+  </a>
+
+  <a class="col-6" href="{{ page.project_image_5 | relative_url }}" data-sub-html="{{ page.project_image_5_datatext }}">
+    <div class="lightgallery-img bg-image bg-img-4 landscape"
+         style="background-image: url('{{ page.project_image_5 | relative_url }}');"></div>
   </a>
 </section>
+
 <!-------------------------- Services Back-up ------------------------------->
 <!-- <section class="padded-md grid-center"> 
     <div class="col-7-center">
