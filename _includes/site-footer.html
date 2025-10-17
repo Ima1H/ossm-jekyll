@@ -1,22 +1,6 @@
 <!---------------------------- Footer --------------------------------->
 <footer class="grid-center text-center padded-1 hide-md">
-  <!-- projects -->
-    
-    <div class="col-12 padded-md">
-      <div class="grid gallery">
-        {% for post in site.posts limit:4 %}
-          <div class="col-3">
-            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
-              <!-- <p class="margin-b-0 text-left">{{ post.title }}</p> -->
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </footer>
-
-<footer class="grid-center text-center padded-1 hide-md bg-light-grey">
+  
   <!-- column 1 -->
   <div class="col-2 margin-2 margin-l-0 divider-right">
     <h4 class="footer-title"> Leer ons kennen </h4>
@@ -70,6 +54,21 @@
       <a href="#"> Aanmelden </a>
     </nav>
   </div>
+
+    <!-- projects -->
+    
+    <div class="col-12 padded-md">
+      <div class="grid gallery">
+        {% for post in site.posts limit:6 %}
+          <div class="col-2">
+            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+              <p class="margin-b-0 text-left">{{ post.title }}</p>
+            </a>
+          </div>
+        {% endfor %}
+    </div>
+</div>
 
 
   <!-- column coprywright and terms -->
