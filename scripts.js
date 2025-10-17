@@ -120,7 +120,6 @@ $(document).ready(function() {
 
 
   lightGallery(document.getElementById('lightgallery'), {
-    selector: 'a', 
     speed: 500,
     download: false
   });
