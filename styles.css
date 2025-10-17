@@ -375,7 +375,7 @@ a.bg-image { display: block;}
 .landscape-wide     { padding-bottom: 56%;  }
 
 .portrait-project {
-    aspect-ratio: 4/5;
+    aspect-ratio: 4/6;
     max-height: 600px;
     object-fit: cover;
 }
@@ -1839,7 +1839,7 @@ footer nav a {
 /* vierkante tegels met cover */
 .footer-thumb .bg-image {
   display: block;
-  width: 100%;
+  width: 103%;
   background-size: cover;
   background-position: center;
 }
