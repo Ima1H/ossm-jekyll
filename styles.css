@@ -140,7 +140,20 @@ html {border: none;} */
     background-size: cover;
     /* opacity: 0.8; */
 }
-/*--------------------------- Project Gallery Styles --------------------------*/
+/*--------------------------- Project Styles --------------------------*/
+.position-img-1 {
+  background-color: #6B705C;
+  position: relative;
+  right: -4rem;
+}
+
+.position-img-2 {
+  background-color: #6B705C;
+  position: relative;
+  top: -4rem;
+}
+
+
 .project-container:hover .project-box {
 	filter: grayscale(100%) opacity(24%);
 }
