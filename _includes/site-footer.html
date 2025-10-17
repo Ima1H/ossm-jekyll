@@ -5,7 +5,7 @@
     
     <div class="col-12 padded-3 padded-t-5">
       <div class="grid gallery">
-        {% for post in site.posts limit:5 %}
+        {% for post in site.posts limit:6 %}
           <div class="col">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
