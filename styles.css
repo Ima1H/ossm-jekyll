@@ -210,6 +210,11 @@ html {border: none;} */
 
 
 /*--------------------------- Project Specific Gallery Styles --------------------------*/
+
+.lightgallery-img {
+    cursor: pointer;
+}
+
 /* .container {
 	position: relative;
 	display: grid;
@@ -234,6 +239,7 @@ html {border: none;} */
 	align-items: center;
     cursor: pointer;
 }
+
 
 .container .box:hover {
 	filter: grayscale(0%) opacity(100%);
