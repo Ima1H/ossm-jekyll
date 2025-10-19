@@ -1122,6 +1122,20 @@ hr {
   transition: transform .2s ease;
 }
 
+.button-filled-dark {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #4A4A4A;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    transition: 0.5s all;
+    color: #4A4A4A;
+    background-color: #4A4A4A;
+    color: white;
+}
+
 .button-filled-dark .icon-arrow {
   width: 1em;                    /* schaalt mee met font-size */
   height: 1em;
@@ -1132,7 +1146,26 @@ hr {
   transition: transform .2s ease;
 }
 
-.project .icon-arrow:hover {
+
+.button-project {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s all; 
+}
+
+.button-project .icon-arrow {
+  width: 1em;                    /* schaalt mee met font-size */
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;             /* voorkomt afknippen aan randen */
+  vertical-align: -0.08em;       /* baseline finetune */
+  transform: translateY(.03em);
+  transition: transform .2s ease;
+}
+
+
+.button-project .icon-arrow:hover {
    width: 1em;                    /* schaalt mee met font-size */
   height: 1em;
   flex: 0 0 auto;
@@ -1165,7 +1198,7 @@ hr {
   paint-order: stroke fill;
 }
 
-.project .icon-arrow path {
+.button-project .icon-arrow path {
   fill: currentColor;
   stroke: currentColor;
   stroke-width: 0.9;             /* 0.8 = dunner, 1.0 = dikker */
@@ -1174,19 +1207,7 @@ hr {
   paint-order: stroke fill;
 }
 
-.button-filled-dark {
-    color: inherit;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: 2px solid #4A4A4A;
-    padding: 0.8rem 1rem;
-    margin-top: 1rem;
-    transition: 0.5s all;
-    color: #4A4A4A;
-    background-color: #4A4A4A;
-    color: white;
-}
+
 
 /*------------------------- Header Styles ------------------------*/
 
