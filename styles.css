@@ -164,6 +164,7 @@ html {border: none;} */
 
 .project-slider:hover .project-box:not(:hover) {
   filter: grayscale(100%) opacity(24%);
+  transition: 1s ease all;
 }
 
 .gallery [class*="col-"] {
@@ -848,7 +849,7 @@ hr {
 
 .title-project {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.5rem;
     color:#000000;
@@ -879,7 +880,7 @@ hr {
 .title-oversized {
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
-    font-size: 5.2rem;
+    font-size: 4.7rem;
     margin-top: 0.5rem;
     color: black;
     text-transform: uppercase;

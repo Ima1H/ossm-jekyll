@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: branding
 title: my third project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
 client: Workspace Creative

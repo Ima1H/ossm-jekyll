@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: branding
 title: My first project.
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
 client: Company Jo

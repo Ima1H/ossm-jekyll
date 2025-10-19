@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: branding
 title: my eleventh project
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
 client: Sail Jo
