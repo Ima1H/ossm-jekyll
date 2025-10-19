@@ -4,10 +4,10 @@ layout: default
 
 <!----------------------------- Banner ------------------------------->
 <section class="padded-10 grid-bottom tall-80 padded-t-0">
-    <div class="padded-4 col-4_md-12 xs-padded-2"> 
+    <div class="col-4_md-12 xs-padded-2"> 
         <h1 class="text-left title-medium-oversized xs-title-oversized"> {{page.title}} </h1>
         <div class="col-4_xs-12">
-            <p class="title-categories">{{page.categories}}</p>
+            <p class="title-categories padded-l-0">{{page.categories}}</p>
             <!-- <h3 class="divider-left title-testimonial padded-1 padded-t-0 padded-b-0"> {{page.testimonial}} </h3> -->
             <!-- <p class="project-description padded-b-2"> {{page.description}} </p> -->
            <!-- <h1>{{page.title}}</h1>
@@ -15,21 +15,21 @@ layout: default
            <p>{{page.date}}</p> -->
        </div>
 
-       <div class="col-12-bottom padded-b-0">
+       <!-- <div class="col-12-bottom padded-b-0 padded-l-0">
             <a class="padded-05 bg-border-yellow button-header " href="/contact.html#meeting">
                 <span>Plan een gesprek in</span>
                 <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
                     <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
                 </svg>
             </a>
-        </div>
+        </div> -->
     </div>   
 
     
   
    <div class="padded-4 col-8_md-12 grid xs-padded-2">
-    <div class="col-12 padded-4 padded-r-7 md-padded-l-4 md-padded-r-4 md-padded-2 xs-padded-2">
-       <div class="tall-30 bg-image landscape-wide project-radius project-with-logo height-30" style="background-image: url('{{page.featured_image_1}}');"></div>
+    <div class="col-12 padded-4 padded-r-0 padded-b-0 md-padded-l-4 md-padded-r-4 md-padded-2 xs-padded-2">
+       <div class="tall-50 bg-image landscape-wide project-radius project-with-logo height-50" style="background-image: url('{{page.featured_image_1}}');"></div>
     </div>
   </div> 
 </section>
@@ -61,16 +61,6 @@ layout: default
   <a class="col-4" href="{{ page.project_image_3 | relative_url }}" data-sub-html="{{ page.project_image_3_datatext }}">
     <div class="lightgallery-img bg-image bg-img-4 portrait"
          style="background-image: url('{{ page.project_image_3 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-6" href="{{ page.project_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-4 landscape"
-         style="background-image: url('{{ page.project_image_4 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-6" href="{{ page.project_image_5 | relative_url }}" data-sub-html="{{ page.project_image_5_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-4 landscape"
-         style="background-image: url('{{ page.project_image_5 | relative_url }}');"></div>
   </a>
 </section>
 
