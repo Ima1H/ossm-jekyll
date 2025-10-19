@@ -73,6 +73,37 @@ html {border: none;} */
     /* opacity: 0.8; */
 }
 
+.bg-mission-1 {
+    background-image: url('images/imaginate-ossm-over-ons-1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20rem 20rem 0rem 0rem;
+    /* opacity: 0.8; */
+}
+
+.bg-mission-2 {
+    background-image: url('images/imaginate-ossm-over-ons-2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20rem 20rem 0rem 0rem;
+    /* opacity: 0.8; */
+}
+
+.bg-work-with-us {
+    background-image: url('images/imaginate-ossm-over-ons-3.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 20rem 20rem 0rem 0rem;
+    /* opacity: 0.8; */
+}
+
+.bg-waasland {
+    background-image: url('images/imaginate-ossm-waasland.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
 .bg-portfolio {
     background-image: url('images/imaginate-ossm-5.jpg');
     background-position: 50% 50%;
@@ -1295,7 +1326,7 @@ header p {
   left: 0rem;
   padding: 0.5rem;
   display:none; 
-  background-color: inherit;
+  background-color: white;
   box-shadow: 0 20px 25px -5px rgba(89, 89, 89, 0.2), 0 10px 10px -5px rgba(89, 89, 89, 0.2);
   z-index: 2;
   text-align: left;
