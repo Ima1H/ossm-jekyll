@@ -173,7 +173,7 @@ services:
 
     <!-- Carousel -->
     <div class="project-slider project-greyed">
-        {% assign projects = site.categories["Grafisch ontwerp"] | where: "layout","project" %}
+        {% assign projects = site.categories["Grafisch ontwerp"] | where: "layout","branding" %}
         {% for post in projects limit:12 %}
         <div class="slider-item">
             <a class="project-box" href="{{ post.url }}">
@@ -183,6 +183,7 @@ services:
         </div>
         {% endfor %}
     </div>
+    
 
     <!-- CTA onder carousel -->
     <div class="padded-md padded-t-0">
