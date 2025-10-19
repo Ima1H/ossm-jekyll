@@ -1007,6 +1007,18 @@ hr {
     color: black
 }
 
+.button-price {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #F6EA49;
+    background-color: #F6EA49;
+    color: white;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+}
+
 .button-aanbod {
     color: inherit;
     display: inline-block;
