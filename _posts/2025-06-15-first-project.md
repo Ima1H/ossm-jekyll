@@ -8,7 +8,7 @@ featured: true
 categories: 
   - Grafisch ontwerp
 featured_image: /images/ossm-branding-2.png
-featured_image_1: /ossm-branding-2.png
+featured_image_1: /images/ossm-branding-2.png
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
 project_image_1: /images/ossm-branding-1.png
 project_image_1_datatext: logo
