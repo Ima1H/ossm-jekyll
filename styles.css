@@ -144,11 +144,11 @@ html {border: none;} */
     background-size: cover;
 }
 
-.bg-ontwerpt {
+.bg-ontwerpt-aanbod {
     background-image: url('images/imaginate-ossm-ontwerpt-1.jpeg');
     background-position: 50% 34%;
     background-size: cover;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     border-radius: 20rem 20rem 0rem 0rem;
 }
 
