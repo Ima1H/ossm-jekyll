@@ -2083,6 +2083,19 @@ footer nav a {
     color: white;
   }
 
+  .bg-image-service-cards-1 { 
+    background-color: #f0f0f5;
+    background-size: cover;
+    background-position: 50% 29%;
+    color: white;
+  }
+
+  .bg-image-service-cards-2 {
+     background-color: #f0f0f5;
+    background-size: cover;
+    background-position: 50% 75%;
+    color: white;
+  }
 
 /*  ----------- Media Queries - Responsiveness Site ----------- */
 
