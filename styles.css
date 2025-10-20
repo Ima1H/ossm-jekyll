@@ -159,14 +159,14 @@ html {border: none;} */
 }
 
 .bg-interieurproject {
-    background-image: url('images/imaginate-ossm-interieurproject.jpg');
+    background-image: url('/images/imaginate-ossm-interieurproject.jpg');
     background-position: 50% 50%;
     background-size: cover;
     /* opacity: 0.8; */
 }
 
 .bg-totaalconcept {
-    background-image: url('images/imaginate-ossm-ontwerpt.jpeg');
+    background-image: url('/images/imaginate-ossm-ontwerpt.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     /* opacity: 0.8; */
