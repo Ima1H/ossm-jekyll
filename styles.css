@@ -145,10 +145,31 @@ html {border: none;} */
 }
 
 .bg-ontwerpt {
-    background-image: url('images/imaginate-ossm-8.jpg');
+    background-image: url('images/imaginate-ossm-ontwerpt-1.jpeg');
     background-position: 50% 34%;
     background-size: cover;
     opacity: 0.8;
+}
+
+.bg-rebranding {
+    background-image: url('imaginate-ossm-over-ons-2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.bg-interieurproject {
+    background-image: url('images/imaginate-ossm-interieurproject.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.bg-totaalconcept {
+    background-image: url('images/imaginate-ossm-ontwerpt.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    /* opacity: 0.8; */
 }
 
 .bg-faq {
@@ -166,12 +187,6 @@ html {border: none;} */
     /* opacity: 0.8; */
 }
 
-.bg-adviessessie {
-    background-image: url('images/imaginate-ossm-adviessessie.jpeg');
-    background-position: 50% 50%;
-    background-size: cover;
-    /* opacity: 0.8; */
-}
 /*--------------------------- Project Styles --------------------------*/
 .position-img-1 {
   background-color: #6B705C;
