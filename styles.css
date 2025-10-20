@@ -149,6 +149,7 @@ html {border: none;} */
     background-position: 50% 34%;
     background-size: cover;
     opacity: 0.8;
+    border-radius: 20rem 20rem 0rem 0rem;
 }
 
 .bg-rebranding {
