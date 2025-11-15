@@ -101,16 +101,61 @@ services:
         </div>
     </div> 
 
- <!-- Carousel -->
-    <!-- <div class="project-slider project-greyed">
-        {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %}
-        {% for post in projects limit:12 %}
-        <div class="slider-item">
-            <a class="project-box" href="{{ post.url }}">
-            <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
-            <p class="margin-b-0">{{ post.title }} </p>
-            </a>
+    <div class="reviews-wrapper">
+
+    <!-- Rechtergedeelte -->
+    <div class="reviews-main">
+        <div class="reviews-top">
+
+            <!-- Hoofdafbeelding -->
+            <div class="main-image-wrapper">
+                <img
+                id="main-image"
+                src=""
+                alt="Hoofdreview"
+                />
+            </div>
+
+            <!-- Tekstblok -->
+            <div class="review-text-block">
+                <div class="review-number" id="review-number">#1</div>
+
+                <h2 class="review-name" id="review-name">Titel</h2>
+
+                <p class="review-copy" id="review-copy">
+                Review tekst komt hier...
+                </p>
+
+                <a href="#" class="cta-button" id="review-cta">
+                Bekijk het project
+                </a>
+            </div>
+
+            </div>
+
+            <!-- Thumbnails: laatste 6 posts -->
+            <div class="thumbs-row" id="thumbs-row">
+            {% for post in site.posts limit:6 %}
+                <button
+                type="button"
+                class="thumb-btn{% if forloop.first %} active{% endif %}"
+                data-id="{{ forloop.index }}"
+                data-name="{{ post.title | escape }}"
+                data-copy="{{ post.review_text | default: post.excerpt | strip_html | escape }}"
+                data-image="{{ post.featured_image | escape }}"
+                data-url="{{ post.url | relative_url }}"
+                >
+                <img src="{{ post.featured_image }}" alt="{{ post.title }}">
+                </button>
+            {% endfor %}
+            </div>
+
         </div>
-        {% endfor %}
-    </div>-->
+
+    </div>
+
+
+   
+    
+    
 </section> 

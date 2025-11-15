@@ -1,4 +1,52 @@
 $(document).ready(function() {
+
+  // Reviews index page
+  $(function () {
+  const $mainImage    = $("#main-image");
+  const $reviewNumber = $("#review-number");
+  const $reviewName   = $("#review-name");
+  const $reviewCopy   = $("#review-copy");
+  const $reviewCta    = $("#review-cta");
+  const $thumbsRow    = $("#thumbs-row");
+
+  function setActiveReview($btn) {
+    const id    = $btn.data("id");
+    const name  = $btn.data("name");
+    const copy  = $btn.data("copy");
+    const image = $btn.data("image");
+    const url   = $btn.data("url");
+
+    // Fade animatie
+    $mainImage.addClass("is-fading");
+    $reviewNumber.addClass("is-fading");
+    $reviewName.addClass("is-fading");
+    $reviewCopy.addClass("is-fading");
+
+    setTimeout(() => {
+      $mainImage.attr("src", image).attr("alt", name).removeClass("is-fading");
+      $reviewNumber.text(`#${id}`).removeClass("is-fading");
+      $reviewName.text(name).removeClass("is-fading");
+      $reviewCopy.text(copy).removeClass("is-fading");
+      $reviewCta.attr("href", url);
+    }, 200);
+
+    $thumbsRow.find(".thumb-btn").removeClass("active");
+    $btn.addClass("active");
+  }
+
+  // Eerste thumbnail = eerste actieve review
+  const $firstThumb = $thumbsRow.find(".thumb-btn").first();
+  if ($firstThumb.length) {
+    setActiveReview($firstThumb);
+  }
+
+  // Klik-event
+  $thumbsRow.on("click", ".thumb-btn", function () {
+    setActiveReview($(this));});
+  });
+
+
+  // Accordion functionality
   $('.accordion input').on('change', function() {
       if ($(this).is(':checked')) {
           // Close other accordion sections
@@ -261,6 +309,7 @@ $(function () {
     selectService(defaultService);
   });
 });
+
 
 
 
