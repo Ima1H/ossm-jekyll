@@ -3,7 +3,6 @@ $(document).ready(function() {
   // Reviews index page
   $(function () {
   const $mainImage    = $("#main-image");
-  const $reviewNumber = $("#review-number");
   const $reviewName   = $("#review-name");
   const $reviewCopy   = $("#review-copy");
   const $reviewCta    = $("#review-cta");
@@ -24,7 +23,6 @@ $(document).ready(function() {
 
     setTimeout(() => {
       $mainImage.attr("src", image).attr("alt", name).removeClass("is-fading");
-      $reviewNumber.text(`#${id}`).removeClass("is-fading");
       $reviewName.text(name).removeClass("is-fading");
       $reviewCopy.text(copy).removeClass("is-fading");
       $reviewCta.attr("href", url);
