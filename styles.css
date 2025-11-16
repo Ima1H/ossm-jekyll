@@ -1525,7 +1525,6 @@ header p {
 /* Hoofdafbeelding */
 .main-image-wrapper {
   height: 340px;
-  border-radius: 16px;
   overflow: hidden;
 }
 
@@ -1593,7 +1592,6 @@ header p {
   padding: 0;
   background: transparent;
   cursor: pointer;
-  border-radius: 12px;
   overflow: hidden;
   width: 80px;
   height: 90px;
