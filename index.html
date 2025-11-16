@@ -21,6 +21,11 @@ services:
    description: Van droom tot uitvoering, zowel in interieurarchitectuur als grafisch ontwerp. We creëren, visualiseren en begeleiden je tot alles perfect samenvalt. Of je nu een thuis vormgeeft of een merk uitbouwt, wij vertalen jouw verhaal naar een beleving die klopt.
    follow-link: /aanbod.html#ontwerpt
    text-button: Leer meer
+about:
+-  column-size: col-5_md-6_sm-12
+   description: Ik ben Lindsay Nevejans, het creatief brein achter ontwerpstudio SoulMade. In 2010 studeerde ik af als Master in de Interieurarchitectuur. Maar mijn liefde voor interieur startte al op zeer jonge leeftijd. Mijn kamer en onze leefruimte hebben destijds vele transformaties moeten doorstaan. (Sorry mama en papa!) Nu help ik anderen om hun droom waar te maken. OSSM is een creatieve ontwerpstudio die staat voor maatwerk. Zowel op het gebied van interieurarchitectuur als grafisch ontwerp. Je kan voor beide oplossingen, ook los van elkaar bij ons terecht. Er zijn verschillende opties waarbij we jou graag verder helpen, vertrekkende vanuit jouw noden en wie jij bent als persoon. 
+   follow-link: /about-us.html
+   text-button: Leer meer
 ---   
     
 <!-------------------------- Header Banner  ------------------------------->
@@ -59,7 +64,9 @@ services:
      <div class="padded-4 col-2_md-12 grid">
         <div class="col-4-top padded-4 md-padded-l-1-05 sm-padded-l-4-05">
             <h1 class="text-left title-medium-oversized"> Diensten. </h1>
-            <hr class="padded-t-0">   
+            <hr class="padded-t-0">  
+            <p><strong>Als particulier nood aan hulp bij het inrichten</strong> van je woning, of totale ondersteuning bij het bouwen of renoveren? Wij helpen jou om er een gezellige woning met een logische indeling van te maken, waar elke m<sup>2</sup> optimaal benut wordt. </p> 
+            <p><strong>Of heb je als (toekomstige) zaakvoerder </strong> nood aan een logo dat jou op het lijf geschreven is? Of is je bedrijf gegroeid en heb je nood aan een volledige rebranding? </p>
         </div>
     </div> 
 
@@ -92,27 +99,66 @@ services:
   </div>     
 </section>
 
-<!-------------------------- About us ------------------------------->
+<!-------------------------- Services  ------------------------------->
 
 <section class="padded-lg grid tall-60 padded-r-0 md-padded-5 xs-padded-l-0">
 
-     <div class="padded-4 col-7_md-12 grid">
+     <div class="padded-4 col-2_md-12 grid">
         <div class="col-4-top padded-4 md-padded-l-1-05 sm-padded-l-4-05">
             <h1 class="text-left title-medium-oversized"> Wie ben ik. </h1>
             <hr class="padded-t-0">   
         </div>
     </div> 
 
+    <div class="col-10_md-12_sm-9_xs-12"> 
+    <div class="grid padded-5 bg-ligt padded-r-0 md-padded-2 sm-padded-4">
+        <div class="grid-center-equalHeight">
+            
+            {% for item in page.about %} 
+                <!---- Service Cards ----->
+                <div class="{{item.column-size}} md-padded-b-2"> 
+                    <a href="{{item.follow-link}}" class="card bg-white bg-border-grey">
+                        <div class="padded-2">
+                            <p> {{item.description}} </p>
+                            <p class="button"> <span> Meer info </span> 
+                                <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
+                                    <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
+                                </svg>
+                            </p>
+                            <!-- <a href="{{item.follow-link}}" class="button"> Meer info </a> -->
+                        </div>
+                    </a>
+                </div>
+                
+            {% endfor %}
+        </div> 
+    </div>
+    
+  </div>     
+</section>
+
+<!-------------------------- About us ------------------------------->
+
+<section class="padded-lg grid tall-60 md-padded-5 xs-padded-l-0">
+
+     <div class="padded-4 col-7_md-12 grid">
+        <div class="col-7-top padded-4 md-padded-l-1-05 sm-padded-l-4-05">
+            <h1 class="text-left title-medium-oversized"> Wie ben ik. </h1>
+            <hr class="padded-t-0">   
+        </div>
+    </div> 
+
     <div>
-        <div class="col-10_md-12_sm-9_xs-12 padded-5 bg-ligt bg-border-grey md-padded-2 sm-padded-4">
+        <div class="col-10_md-12_sm-9_xs-12 padded-4 bg-light bg-border-grey md-padded-2 sm-padded-4">
             <div class="grid-center-equalHeight">
 
                 <div class="col-5_md-12_sm-12_xs-12 padded-r-4 md-padded-r-0 sm-padded-b-2 xs-padded-b-2">
-                    <p> Ik ben Sofie, interieurarchitect en grafisch ontwerper bij OSSM. Met een achtergrond in zowel architectuur als grafisch ontwerp, help ik je graag bij het creëren van een samenhangend interieur of merkidentiteit die jouw verhaal weerspiegelt. Mijn passie ligt in het combineren van esthetiek en functionaliteit om ruimtes en merken te ontwerpen die niet alleen mooi zijn, maar ook betekenisvol en doordacht. Samen werken we aan een ontwerp dat echt bij jou past. </p>
+                    <p> Ik ben Lindsay Nevejans, het creatief brein achter ontwerpstudio SoulMade. In 2010 studeerde ik af als Master in de Interieurarchitectuur. Maar mijn liefde voor interieur startte al op zeer jonge leeftijd. Mijn kamer en onze leefruimte hebben destijds vele transformaties moeten doorstaan. (Sorry mama en papa!) Nu help ik anderen om hun droom waar te maken. OSSM is een creatieve ontwerpstudio die staat voor maatwerk. Zowel op het gebied van interieurarchitectuur als grafisch ontwerp. Je kan voor beide oplossingen, ook los van elkaar bij ons terecht. Er zijn verschillende opties waarbij we jou graag verder helpen, vertrekkende vanuit jouw noden en wie jij bent als persoon. </p>
                 </div>
 
                 <div class="col-5_md-12_sm-12_xs-12">
-                    <p> Bij OSSM geloof ik in een persoonlijke aanpak waarbij jouw wensen en visie centraal staan. Of je nu een nieuw interieur wilt creëren of je merk wilt versterken, ik sta klaar om je te begeleiden door het hele proces, van concept tot realisatie. Laten we samenwerken om iets unieks en inspirerends te creëren dat jouw persoonlijkheid en stijl weerspiegelt. </p>
+                    <h3> Kennis maken? </h3>
+                    <p> SoulMade staat voor een persoonlijke aanpak. Eentje waar vertrouwen centraal staat. Ik luister écht uitgebreid naar jouw wensen. Liefst van al ‘in person’ bij jouw thuis! (geen zoom meeting van 30 minuutjes dus). Een persoonlijk gesprek, geheel ongedwongen waarbij we al heel veel punten bespreken. We willen namelijk een ontwerp dat op maat voor jou wordt uitgewerkt, aansluitend bij jouw manier van leven. Zo eentje die je leven verrijkt, waar je gelukkiger van wordt! Ik pols onder andere naar jouw wensen, eventuele eisen, maar stel ook heel wat persoonlijke, diepgaande vragen. Zo merken we al snel of we elkaar goed aanvoelen! En niet beter dan dit te verkennen bij een thee'ke of ne koffie! </p>
                 </div>
 
             </div> 
