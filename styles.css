@@ -1529,7 +1529,7 @@ header p {
 }
 
 .main-image-wrapper img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   object-fit: cover;
 }
@@ -1545,12 +1545,6 @@ header p {
   font-weight: 700;
   color: #4b5563;
   font-size: 20px;
-}
-
-.review-name {
-  font-size: 28px;
-  font-weight: 800;
-  color: #111827;
 }
 
 .review-copy {
