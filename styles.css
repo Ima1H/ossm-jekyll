@@ -1632,6 +1632,18 @@ header p {
     transition: transform 0.3s ease;
 }
 
+
+/* Wanneer je over de gallery gaat → alle bg-images dimmen */
+.gallery:hover .col-3 .bg-image {
+  filter: grayscale(100%) opacity(0.3);
+}
+
+/* Behalve degene waar je écht over staat */
+.gallery .col-3:hover .bg-image {
+  filter: none; /* terug naar normaal */
+}
+
+
 /*------------------ Review Section Styles ------------------*/
 
 /* Wrapper */
