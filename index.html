@@ -190,6 +190,16 @@ about:
             <hr class="padded-t-0">   
         </div>
     </div> 
+</section>
+
+<!-------------------------- Reviews  ------------------------------->
+<section class="padded-lg grid tall-60 padded-t-0 md-padded-5 xs-padded-l-0">
+    <div class="padded-4 col-9 grid">
+        <div class="col-7-top padded-4 md-padded-l-1-05">
+            <h1 class="text-left xs-text-center title-medium-oversized"> Wat onze <br> klanten zeggen.</h1>
+            <hr class="padded-t-0">   
+        </div>
+    </div> 
 
     <div class="reviews-wrapper">
 
@@ -204,7 +214,7 @@ about:
 
                 <!-- Tekstblok -->
                 <div class="grid-bottom review-text-block">
-                    {% for post in site.posts}
+                    {% for post in site.posts %}
                     <p class="lowercase" id="categories"> #{{ post.categories }} </p>
                     <h2 class="uppercase medium-text black-text font-weight-200" id="client"> {{ post.client }} </h2>
 
