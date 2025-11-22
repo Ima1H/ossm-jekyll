@@ -44,6 +44,7 @@ html {border: none;} */
     background-color: lightblue;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-image-project {
