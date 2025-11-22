@@ -203,13 +203,11 @@ about:
                 </div>
 
                 <!-- Tekstblok -->
-                <div class="review-text-block">
+                <div class="grid-bottom review-text-block">
+                    <p class="lowercase"> #{{ post.categories }} </p>
+                    <h2 class="uppercase medium-text black-text font-weight-200" id="review-name"> {{ post.client }} </h2>
 
-                    <h2 class="uppercase medium-text black-text font-weight-200" id="review-name">Titel</h2>
-
-                    <p class="review-copy" id="review-copy">
-                    Review tekst komt hier...
-                    </p>
+                    <p class="testimonial" id="testimonial"> {{ post.testimonial }} </p>
 
                     <a href="#" class="button" id="review-cta">
                     <span> Bekijk het project </span>
@@ -223,7 +221,7 @@ about:
             <!-- Thumbnails: laatste 6 posts -->
             <div class="thumbs-row" id="thumbs-row">
                 {% for post in site.posts limit:6 %}
-                <button type="button" class="thumb-btn{% if forloop.first %} active{% endif %}" data-id="{{ forloop.index }}" data-name="{{ post.title | escape }}" data-copy="{{ post.review_text | default: post.excerpt | strip_html | escape }}" data-image="{{ post.featured_image | escape }}" data-url="{{ post.url | relative_url }}">
+                <button type="button" class="thumb-btn{% if forloop.first %} active{% endif %}" data-id="{{ forloop.index }}" data-name="{{ post.title }}" data-copy="{{ post.review_text | default: post.excerpt | strip_html | escape }}" data-image="{{ post.featured_image | escape }}" data-url="{{ post.url | relative_url }}">
                     <img src="{{ post.featured_image }}" alt="{{ post.title }}">
                 </button>
                 {% endfor %}

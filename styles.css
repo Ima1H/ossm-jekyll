@@ -900,6 +900,7 @@ body {
 .big-text    { font-size: 4rem;   }
 
 .uppercase {text-transform: uppercase; }
+.lowercase {text-transform: lowercase; }
 
 .font-weight-light      { font-weight: 300;    }
 .font-weight-normal     { font-weight: normal; }
@@ -1651,12 +1652,12 @@ header p {
 
 .index-bg-grey-splitter {
     position: relative;
-    bottom: 17rem;
+    bottom: 19rem;
     z-index: 1;
 }
 
 .gallery .col-3 .bg-image {
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 
@@ -1722,7 +1723,7 @@ header p {
   font-size: 20px;
 }
 
-.review-copy {
+.testimonial {
   font-size: 16px;
   line-height: 1.6;
   color: #4b5563;

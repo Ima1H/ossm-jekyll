@@ -1,9 +1,9 @@
 ---
 layout: branding
+author: Jane Doe
 title: RING PARTNERS architecten
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
 client: Company Jo
-author: Jane Doe
 featured: true
 categories: 
   - Grafisch ontwerp

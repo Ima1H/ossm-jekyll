@@ -5,7 +5,7 @@ $(document).ready(function() {
   const $mainImage    = $("#main-image");
   const $reviewNumber = $("#review-number");
   const $reviewName   = $("#review-name");
-  const $reviewCopy   = $("#review-copy");
+  const $reviewCopy   = $("#testimonial");
   const $reviewCta    = $("#review-cta");
   const $thumbsRow    = $("#thumbs-row");
 
