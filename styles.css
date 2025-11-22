@@ -1801,7 +1801,9 @@ header p {
 
 
 /* MailerLite */
-
+#mlb2-33700589.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-33700589.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+    padding: 0;
+}
 /*---------------- Background Image Slider ---------------------*/
 
 .bg-image-slider {
