@@ -1503,7 +1503,7 @@ header p {
 /* vierkante tegels met cover */
 .index-project-thumb .bg-image {
   display: block;
-  width: 103%;
+  width: 90%;
   background-size: cover;
   background-position: center;
 }
