@@ -205,8 +205,8 @@ about:
                 <!-- Tekstblok -->
                 <div class="grid-bottom review-text-block">
                     {% for post in site.posts}
-                    <p class="lowercase"> #{{ post.categories }} </p>
-                    <h2 class="uppercase medium-text black-text font-weight-200" id="review-name"> {{ post.client }} </h2>
+                    <p class="lowercase" id="categories"> #{{ post.categories }} </p>
+                    <h2 class="uppercase medium-text black-text font-weight-200" id="client"> {{ post.client }} </h2>
 
                     <p class="testimonial" id="testimonial"> {{ post.testimonial }} </p>
 

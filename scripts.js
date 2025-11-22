@@ -3,30 +3,30 @@ $(document).ready(function() {
   // Reviews index page
   $(function () {
   const $mainImage    = $("#main-image");
-  const $reviewNumber = $("#review-number");
-  const $reviewName   = $("#review-name");
-  const $reviewCopy   = $("#testimonial");
+  const $Categories   = $("#categories");
+  const $Client       = $("#client");
+  const $Testimonal   = $("#testimonial");
   const $reviewCta    = $("#review-cta");
   const $thumbsRow    = $("#thumbs-row");
 
   function setActiveReview($btn) {
-    const id    = $btn.data("id");
-    const name  = $btn.data("name");
-    const copy  = $btn.data("copy");
+    const categories    = $btn.data("categories");
+    const client  = $btn.data("client");
+    const testimonal  = $btn.data("testimonial");
     const image = $btn.data("image");
     const url   = $btn.data("url");
 
     // Fade animatie
     $mainImage.addClass("is-fading");
-    $reviewNumber.addClass("is-fading");
-    $reviewName.addClass("is-fading");
-    $reviewCopy.addClass("is-fading");
+    $Categories.addClass("is-fading");
+    $Client.addClass("is-fading");
+    $Testimonal.addClass("is-fading");
 
     setTimeout(() => {
       $mainImage.attr("src", image).attr("alt", name).removeClass("is-fading");
-      $reviewNumber.text(`#${id}`).removeClass("is-fading");
-      $reviewName.text(name).removeClass("is-fading");
-      $reviewCopy.text(copy).removeClass("is-fading");
+      $Categories.text(`#${categories}`).removeClass("is-fading");
+      $Client.text(client).removeClass("is-fading");
+      $reviewCopy.text(testimonial).removeClass("is-fading");
       $reviewCta.attr("href", url);
     }, 200);
 
