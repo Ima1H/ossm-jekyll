@@ -1502,13 +1502,18 @@ header p {
 
 /* vierkante tegels met cover */
 .index-project-thumb .bg-image {
-  display: block;
-  width: 90%;
-  background-size: cover;
-  background-position: center;
+    display: block;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
 }
 
-
+.index-bg-grey-splitter {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    z-index: 1;
+}
 /*------------------ Review Section Styles ------------------*/
 
 /* Wrapper */
