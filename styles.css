@@ -1461,8 +1461,9 @@ header p {
     white-space: nowrap;
 }
 
+/*--------------------- Index Styles  ---------------------*/
 
-/*--------------------- Index Services  ---------------------*/
+/*---- Index Services  -----*/
 
 .hover-container {
     background-size: cover;
@@ -1495,6 +1496,18 @@ header p {
 .hover-inner p {
     margin-bottom: 0;
 }
+
+
+/*---- Index Projects  -----*/
+
+/* vierkante tegels met cover */
+.index-project-thumb .bg-image {
+  display: block;
+  width: 103%;
+  background-size: cover;
+  background-position: center;
+}
+
 
 /*------------------ Review Section Styles ------------------*/
 
