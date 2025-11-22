@@ -224,7 +224,7 @@ about:
             data-categories="{{ post.categories | join: ', ' }}"
             data-client="{{ post.client | escape }}"
             data-testimonial="{{ post.testimonial | default: post.excerpt | strip_html | escape }}"
-            data-image="{{ post.featured_image | escape }}"
+            data-image="{{ post.featured_image }}"
             data-url="{{ post.url | relative_url }}"
             data-title="{{ post.title | escape }}"
           >
