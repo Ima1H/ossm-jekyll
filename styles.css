@@ -466,9 +466,11 @@ body {
 
 /* Padding & Margin */
 
-.padded-sm { padding: 2.5%; }
-.padded-md { padding: 5%;   }
-.padded-lg { padding: 10%;  }
+.padded-sm  { padding: 2.5%; }
+.padded-md  { padding: 5%;   }
+.padded-lg  { padding: 10%;  }
+.padded-xl  { padding: 15%;  }
+.padded-xxl { padding: 20%;  }
 
 .padded-0  { padding: 0;      }
 .padded-05 { padding: 0.5rem; }
