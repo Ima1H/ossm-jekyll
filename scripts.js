@@ -2,39 +2,55 @@ $(document).ready(function() {
 
   // Reviews index page
   $(function () {
-  const $mainImage    = $("#main-image");
-  const $Categories   = $("#categories");
-  const $Client       = $("#client");
-  const $Testimonal   = $("#testimonial");
-  const $reviewCta    = $("#review-cta");
-  const $thumbsRow    = $("#thumbs-row");
+  const $mainImage   = $("#main-image");
+  const $categories  = $("#categories");
+  const $client      = $("#client");
+  const $testimonial = $("#testimonial");
+  const $reviewCta   = $("#review-cta");
+  const $thumbsRow   = $("#thumbs-row");
 
   function setActiveReview($btn) {
-    const categories    = $btn.data("categories");
-    const client  = $btn.data("client");
-    const testimonal  = $btn.data("testimonial");
-    const image = $btn.data("image");
-    const url   = $btn.data("url");
+    const categories  = $btn.data("categories");   // uit data-categories
+    const client      = $btn.data("client");       // uit data-client
+    const testimonial = $btn.data("testimonial");  // uit data-testimonial
+    const image       = $btn.data("image");        // uit data-image
+    const url         = $btn.data("url");          // uit data-url
+    const title       = $btn.data("title");        // uit data-title
 
     // Fade animatie
     $mainImage.addClass("is-fading");
-    $Categories.addClass("is-fading");
-    $Client.addClass("is-fading");
-    $Testimonal.addClass("is-fading");
+    $categories.addClass("is-fading");
+    $client.addClass("is-fading");
+    $testimonial.addClass("is-fading");
 
     setTimeout(() => {
-      $mainImage.attr("src", image).attr("alt", name).removeClass("is-fading");
-      $Categories.text(`#${categories}`).removeClass("is-fading");
-      $Client.text(client).removeClass("is-fading");
-      $reviewCopy.text(testimonial).removeClass("is-fading");
-      $reviewCta.attr("href", url);
+      if (image) {
+        $mainImage
+          .attr("src", image)
+          .attr("alt", title || "Review afbeelding");
+      }
+      $mainImage.removeClass("is-fading");
+
+      $categories
+        .text(categories ? "#" + categories : "")
+        .removeClass("is-fading");
+
+      $client
+        .text(client || "")
+        .removeClass("is-fading");
+
+      $testimonial
+        .text(testimonial || "")
+        .removeClass("is-fading");
+
+      $reviewCta.attr("href", url || "#");
     }, 200);
 
     $thumbsRow.find(".thumb-btn").removeClass("active");
     $btn.addClass("active");
   }
 
-  // Eerste thumbnail = eerste actieve review
+  // Eerste thumbnail = startreview
   const $firstThumb = $thumbsRow.find(".thumb-btn").first();
   if ($firstThumb.length) {
     setActiveReview($firstThumb);
@@ -42,7 +58,7 @@ $(document).ready(function() {
 
   // Klik-event
   $thumbsRow.on("click", ".thumb-btn", function () {
-    setActiveReview($(this)); });
+    setActiveReview($(this));});
   });
 
 
