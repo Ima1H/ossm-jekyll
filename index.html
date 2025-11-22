@@ -115,8 +115,8 @@ about:
 <section class="padded-lg grid height-60 padded-t-0 md-padded-5 xs-padded-l-0 bg-light-grey relative">
     <div class="col-12 padded-4 padded-t-5 ">
         <div class="grid-center gallery index-bg-grey-splitter">
-        {% for post in site.posts limit:3 %}
-            <div class="col-4 padded-l-0">
+        {% for post in site.posts limit:4 %}
+            <div class="col-3 padded-l-0">
                 <a class="index-project-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
                     <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
                     <p class="margin-b-0 text-left title-project">{{ post.title }}</p>
