@@ -1627,6 +1627,11 @@ header p {
     bottom: 20rem;
     z-index: 1;
 }
+
+.gallery .col-3 .bg-image {
+    transition: transform 0.3s ease;
+}
+
 /*------------------ Review Section Styles ------------------*/
 
 /* Wrapper */
