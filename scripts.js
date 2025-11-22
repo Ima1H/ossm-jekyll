@@ -27,7 +27,7 @@ $(document).ready(function() {
       if (image) {
         $mainImage
           .attr("src", image)
-          .attr("alt", title || "Review afbeelding");
+          .attr("alt", title || "Review project");
       }
       $mainImage.removeClass("is-fading");
 
