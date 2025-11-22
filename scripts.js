@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // Reviews index page
   $(function () {
-  const $mainImage   = $("#featured-image");
+  const $mainImage   = $("#main-image");
   const $categories  = $("#categories");
   const $client      = $("#client");
   const $testimonial = $("#testimonial");
