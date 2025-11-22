@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // Reviews index page
-  $(function () {
+$(function () {
   const $mainImage   = $("#main-image");
   const $categories  = $("#categories");
   const $client      = $("#client");
@@ -27,7 +27,7 @@ $(document).ready(function() {
       if (image) {
         $mainImage
           .attr("src", image)
-          .attr("alt", title || "Review project");
+          .attr("alt", title || "Review afbeelding");
       }
       $mainImage.removeClass("is-fading");
 
@@ -58,8 +58,9 @@ $(document).ready(function() {
 
   // Klik-event
   $thumbsRow.on("click", ".thumb-btn", function () {
-    setActiveReview($(this));});
+    setActiveReview($(this)); });
   });
+
 
 
   // Accordion functionality
