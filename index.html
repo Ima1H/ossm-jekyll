@@ -110,14 +110,16 @@ about:
             <hr class="padded-t-0">   
         </div>
     </div> 
+</section>
 
-     <div class="col-12 padded-3 padded-t-5">
+<section class="padded-lg grid tall-60 padded-t-0 md-padded-5 xs-padded-l-0">
+ <div class="col-12 padded-3 padded-t-5 bg-light-grey">
       <div class="grid-center gallery">
         {% for post in site.posts limit:3 %}
-          <div class="col">
+          <div class="col-4">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
-              <!-- <p class="margin-b-0 text-left">{{ post.title }}</p> -->
+              <p class="margin-b-0 text-left">{{ post.title }}</p>
             </a>
           </div>
         {% endfor %}
@@ -125,6 +127,8 @@ about:
     </div>
   
 </section>
+    
+
 
 <!-------------------------- About us ------------------------------->
 
