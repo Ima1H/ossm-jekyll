@@ -65,7 +65,7 @@ about:
 
      <div class="padded-4 col-3_md-12 grid">
         <div class="col-12-top padded-4 padded-r-0 padded-r-0 md-padded-l-1-05 sm-padded-l-4-05">
-            <h1 class="text-left title-medium-oversized"> Diensten. </h1>
+            <h1 class="text-left title-medium-oversized"> Mijn diensten. </h1>
             <hr class="padded-t-0">  
             <p><strong>Als particulier nood aan hulp bij het inrichten</strong> van je woning, of totale ondersteuning bij het bouwen of renoveren?</p> 
             <p><strong>Of heb je als (toekomstige) zaakvoerder </strong> nood aan een logo dat jou op het lijf geschreven is? Of is je bedrijf gegroeid en heb je nood aan een volledige rebranding? </p>
@@ -101,6 +101,31 @@ about:
   </div>     
 </section>
 
+
+<!-------------------------- Projects ------------------------------->
+<section class="padded-lg grid tall-60 padded-t-0 md-padded-5 xs-padded-l-0">
+    <div class="padded-4 col-9 grid">
+        <div class="col-7-top padded-4 md-padded-l-1-05">
+            <h1 class="text-left xs-text-center title-medium-oversized"> Mijn projecten. </h1>
+            <hr class="padded-t-0">   
+        </div>
+    </div> 
+
+     <div class="col-12 padded-3 padded-t-5">
+      <div class="grid-center gallery">
+        {% for post in site.posts limit:3 %}
+          <div class="col">
+            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+              <!-- <p class="margin-b-0 text-left">{{ post.title }}</p> -->
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  
+</section>
+
 <!-------------------------- About us ------------------------------->
 
 <section class="padded-lg grid tall-60 padded-t-0 md-padded-5 xs-padded-l-0">
@@ -115,7 +140,7 @@ about:
     <div class="padded-t-0 tall-80">
         <div class="grid col-10_md-12_sm-9_xs-12 padded-4 padded-r-0 bg-light-grey md-padded-2 sm-padded-4">
             <div class="col-6_md-12_sm-12_xs-12 padded-4 padded-r-4 md-padded-r-0 sm-padded-b-2 xs-padded-b-2">
-                <h2 class="padded-b-2"> Hi Hello, </h2>
+                <h2 class="padded-b-2 padded-t-1"> Hi Hello, </h2>
                 <p> Ik ben Lindsay Nevejans, het creatief brein achter ontwerpstudio SoulMade. In 2010 studeerde ik af als Master in de Interieurarchitectuur. Maar mijn liefde voor interieur startte al op zeer jonge leeftijd. Mijn kamer en onze leefruimte hebben destijds vele transformaties moeten doorstaan. (Sorry mama en papa!) </p>
                 <p> Nu help ik anderen om hun droom waar te maken. OSSM is een creatieve ontwerpstudio die staat voor maatwerk. Zowel op het gebied van interieurarchitectuur als grafisch ontwerp. Je kan voor beide oplossingen, ook los van elkaar bij ons terecht.  </p>
                 <p>Er zijn verschillende opties waarbij we jou graag verder helpen, vertrekkende vanuit jouw noden en wie jij bent als persoon. </p>
