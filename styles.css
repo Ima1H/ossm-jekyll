@@ -491,7 +491,6 @@ body {
 .padded-14 { padding: 14rem;  }
 .padded-15 { padding: 15rem;  }
 
-
 .padded-t { padding-top: 5%;    }
 .padded-b { padding-bottom: 5%; }
 .padded-l { padding-left: 5%;   }
@@ -546,6 +545,8 @@ body {
 .padded-b-4 { padding-bottom: 4rem; }
 .padded-l-4 { padding-left: 4rem;   }
 .padded-r-4 { padding-right: 4rem;  }
+
+.padded-r-4-05 { padding-bottom: 4.5rem; }
 
 .padded-t-5 { padding-top: 5rem;    }
 .padded-b-5 { padding-bottom: 5rem; }
