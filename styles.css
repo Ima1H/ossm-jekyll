@@ -596,10 +596,35 @@ body {
 .padded-l-14 { padding-left: 14rem;   }
 .padded-r-14 { padding-right: 14rem;  }
 
-.padded-t-15 { padding-top: 15rem;    }
-.padded-b-15 { padding-bottom: 15rem; } 
-.padded-l-15 { padding-left: 15rem;   } 
-.padded-r-15 { padding-right: 15rem;  }
+.padded-t-15 { padding-top: 15rem; }
+.padded-b-15 { padding-bottom: 15rem; }
+.padded-l-15 { padding-left: 15rem; }
+.padded-r-15 { padding-right: 15rem; }
+
+.padded-t-16 { padding-top: 16rem; }
+.padded-b-16 { padding-bottom: 16rem; }
+.padded-l-16 { padding-left: 16rem; }
+.padded-r-16 { padding-right: 16rem; }
+
+.padded-t-17 { padding-top: 17rem; }
+.padded-b-17 { padding-bottom: 17rem; }
+.padded-l-17 { padding-left: 17rem; }
+.padded-r-17 { padding-right: 17rem; }
+
+.padded-t-18 { padding-top: 18rem; }
+.padded-b-18 { padding-bottom: 18rem; }
+.padded-l-18 { padding-left: 18rem; }
+.padded-r-18 { padding-right: 18rem; }
+
+.padded-t-19 { padding-top: 19rem; }
+.padded-b-19 { padding-bottom: 19rem; }
+.padded-l-19 { padding-left: 19rem; }
+.padded-r-19 { padding-right: 19rem; }
+
+.padded-t-20 { padding-top: 20rem; }
+.padded-b-20 { padding-bottom: 20rem; }
+.padded-l-20 { padding-left: 20rem; }
+.padded-r-20 { padding-right: 20rem; }
 
 .padded-t-0 { padding-top: 0;    }
 .padded-b-0 { padding-bottom: 0; }

@@ -120,7 +120,7 @@ about:
         <div class="grid-center gallery">
         {% for post in site.posts limit:4 %}
             <div class="col-3 padded-l-0">
-                <a class="index-project-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+                <a class="index-project-thumb display-block button-project" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
                     <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
                     <p class="margin-b-0 text-left title-project">{{ post.title }}
                         <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
