@@ -2,20 +2,23 @@ $(document).ready(function() {
 
   // Reviews index page
 $(function () {
-  const $mainImage   = $("#main-image");
-  const $categories  = $("#categories");
-  const $client      = $("#client");
-  const $testimonial = $("#testimonial");
-  const $reviewCta   = $("#review-cta");
-  const $thumbsRow   = $("#thumbs-row");
+  const $mainImage   = $("#main-image");    // div met bg-image
+  const $categories  = $("#categories");    // tekst #categorieën
+  const $client      = $("#client");        // klantnaam
+  const $testimonial = $("#testimonial");   // quote / reviewtekst
+  const $reviewCta   = $("#review-cta");    // knop "Bekijk het project"
+  const $thumbsRow   = $("#thumbs-row");    // container met thumbnail-buttons
+
+  // Als er geen thumbs zijn, niets doen
+  if (!$thumbsRow.length || !$mainImage.length) return;
 
   function setActiveReview($btn) {
     const categories  = $btn.data("categories");   // uit data-categories
     const client      = $btn.data("client");       // uit data-client
     const testimonial = $btn.data("testimonial");  // uit data-testimonial
-    const image       = $btn.data("image");        // uit data-image
+    const image       = $btn.data("image");        // uit data-image (url)
     const url         = $btn.data("url");          // uit data-url
-    const title       = $btn.data("title");        // uit data-title
+    const title       = $btn.data("title");        // uit data-title (post.title)
 
     // Fade animatie
     $mainImage.addClass("is-fading");
@@ -23,14 +26,21 @@ $(function () {
     $client.addClass("is-fading");
     $testimonial.addClass("is-fading");
 
-    setTimeout(() => {
+    setTimeout(function () {
+      // Achtergrondafbeelding zetten op de div
       if (image) {
         $mainImage
-          .attr("src", image)
-          .attr("alt", title || "Review afbeelding");
+          .css("background-image", 'url("' + image + '")')
+          .attr("aria-label", title || "Review project"); // optioneel voor toegankelijkheid
+      } else {
+        // fallback als er geen image is
+        $mainImage
+          .css("background-image", "none")
+          .removeAttr("aria-label");
       }
       $mainImage.removeClass("is-fading");
 
+      // Teksten vullen
       $categories
         .text(categories ? "#" + categories : "")
         .removeClass("is-fading");
@@ -43,22 +53,24 @@ $(function () {
         .text(testimonial || "")
         .removeClass("is-fading");
 
+      // CTA-link
       $reviewCta.attr("href", url || "#");
     }, 200);
 
+    // Active state op de thumbs
     $thumbsRow.find(".thumb-btn").removeClass("active");
     $btn.addClass("active");
   }
 
-  // Eerste thumbnail = startreview
+  // Eerste thumbnail automatisch als startreview gebruiken
   const $firstThumb = $thumbsRow.find(".thumb-btn").first();
   if ($firstThumb.length) {
     setActiveReview($firstThumb);
   }
 
-  // Klik-event
+  // Klik-event op de thumbnails
   $thumbsRow.on("click", ".thumb-btn", function () {
-    setActiveReview($(this)); });
+    setActiveReview($(this));});
   });
 
 
