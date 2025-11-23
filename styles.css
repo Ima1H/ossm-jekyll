@@ -1050,7 +1050,7 @@ hr {
     font-size: 1.3rem;
     line-height: 1.5rem;
     color:#000000;
-    margin: 0.5rem 0 0.1rem 0;
+    margin: 0.5rem 0.6rem 0.1rem 0;
 }
 
 .title-service { 
@@ -1819,8 +1819,18 @@ header p {
 
 
 /* MailerLite */
-#mlb2-33700589.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, #mlb2-33700589.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
-    padding: 0;
+#mlb2-33700589.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
+#mlb2-33700589.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+    padding: 1rem 0 0 0 !important;
+}
+
+
+.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {
+    font-size: 0.8rem;
+}
+
+.privacy-policy a {
+    font-size: 0.8rem;
 }
 /*---------------- Background Image Slider ---------------------*/
 
