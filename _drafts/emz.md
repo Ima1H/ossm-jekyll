@@ -1,5 +1,5 @@
 ---
-layout: interieurarchitectuur
+layout: project
 author: Jane Doe
 title: EMZ
 description: >-
