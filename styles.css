@@ -1044,6 +1044,15 @@ hr {
     margin: 0.5rem 0 0.1rem 0;
 }
 
+.title-project-index {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color:#000000;
+    margin: 0.5rem 0 0.1rem 0;
+}
+
 .title-service { 
     font-size: 2rem;
     line-height: 1.4;
