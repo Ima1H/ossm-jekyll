@@ -8,24 +8,43 @@ seo:
   twitter_card:
   keywords: 
   hide-from-google: false
-services:
-  - column-size: col-4_lg-8_md-12
-    background_image: /images/bynouchka-160224-Lindsay-23.jpg
-    name-service: re(branding)
-    description: Heb je meer nodig dan snelle tips? We duiken samen je ruimte in met voorbereiding, stalen, een verslag én een opvolgmoment. Zo krijg je echte houvast om doordacht verder te bouwen.
-    follow-link: /adviessessie.html
-    text-button: Leer meer
-  - column-size: col-4_lg-8_md-12
-    background_image: /images/bynouchka-160224-Lindsay-26.jpg
-    name-service: Interieurproject interieurarchitectuur 
-    description: We analyseren je (ver)bouwplannen vóór de eerste steen, en stemmen het ontwerp af op jouw levensstijl. Zo voorkom je frustraties achteraf en leg je de basis voor een interieur dat écht klopt.
-    follow-link: /interieurproject.html
-    text-button: Leer meer
-  - column-size: col-4_lg-8_md-12
-    background_image: /images/bynouchka-160224-Lindsay-17.jpg
-    name-service: totaalpakket
-    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nostrum error, modi in est praesentium at laudantium hic quo non rerum qui adipisci provident cum, ex reiciendis aut! Maxime, consequuntur?
-    follow-link: /geeft-vorm.html
+sessies:
+  - id: rebranding
+    title: "(re)Branding"
+    bg_class: "bg-rebranding"
+    package: "rebranding"
+    price: "€345"
+    for_who_title: "Voor wie?"
+    for_who_text: >
+      (re)Branding — een verhaal dat klopt van binnen én van buiten. Of je nu aan de start staat van een nieuw avontuur of je bestaande merk nieuw leven wil inblazen, wij helpen je om een visuele identiteit te creëren die echt klopt met wie jij bent en waar je voor staat. Geen losse onderdelen, maar een sterk geheel waarin alles elkaar versterkt: jouw logo, huisstijl, website, sociale media en fotografie. We vertalen jouw verhaal, missie en persoonlijkheid in een branding die voelt als een natuurlijke verlenging van jou en je bedrijf. Samen zorgen we ervoor dat elk detail juist zit, van naam en baseline tot vormgeving, tone of voice en online uitstraling, zodat je merk niet alleen gezien wordt maar ook echt gevoeld.
+    what_title: "Wat houdt het in?"
+    what_items:
+      - "VOORBEREIDING: niet nodig"
+      - "SESSIE: We plannen samen een traject op maat uit, afgestemd op jouw verhaal, noden en groeifase. We denken mee van eerste idee tot uitgewerkt concept."
+  - id: interieurproject
+    title: "Interieurproject"
+    bg_class: "bg-interieurproject"
+    package: "totaalproject"
+    price: "€345"
+    for_who_title: "Voor wie?"
+    for_who_text: >
+      Heb je een ruimte waarbij je niet goed weet welke richting je uit moet gaan, of twijfel je over indeling, stijl en materialen? We analyseren je (ver)bouwplannen en stemmen het ontwerp af op jouw levensstijl, zodat je doordachte keuzes kan maken en frustraties achteraf vermijdt. Zo leg je de basis voor een interieur dat echt klopt voor jou.
+    what_title: "Wat houdt het in?"
+    what_items:
+      - "VOORBEREIDING: niet nodig"
+      - "SESSIE: We overlopen samen je plannen, wensen en vragen. Jij toont waar je tegenaan loopt, wij denken gericht mee en geven concreet advies waarmee je verder kan."
+  - id: totaalconcept
+    title: "Totaalconcept"
+    bg_class: "bg-totaalconcept"
+    package: "totaalconcept"
+    price: "€345"
+    for_who_title: "Voor wie?"
+    for_who_text: >
+      Wil je dat interieur, branding en beleving één verhaal vormen? Een totaalconcept is ideaal voor wie zijn merk of interieur als geheel wil benaderen, van eerste indruk tot laatste detail. We kijken naar de volledige context: ruimte, merk, doelgroep en gevoel, zodat alles op elkaar afgestemd is.
+    what_title: "Wat houdt het in?"
+    what_items:
+      - "VOORBEREIDING: niet nodig"
+      - "SESSIE: We bekijken je project in zijn geheel en denken mee over de grote lijnen en belangrijke keuzes. Zo ontstaat er een duidelijk kader waarbinnen alle verdere stappen passen."
 ---
 <!-------------------------- Header Banner  ------------------------------->
 <section class="padded-md grid-bottom tall-70 padded-t-0">
@@ -71,6 +90,51 @@ services:
   </div>  -->
 </section>
 
+
+<!-------------------------- Ontwerpt aanbod  ------------------------------->
+{% for sessie in page.sessies %}
+<section class="grid-middle padded-md padded-b-10">  
+
+  <div class="col-6-bottom grid">
+    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
+      <div class="tall-80 md-tall-50 md-tall-40 bg-image {{ sessie.bg_class }} has-price">
+        <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
+      </div>
+    </div>
+  </div>
+
+  <div id="{{ sessie.id }}" class="padded-5 col-6-bottom padded-b-0">           
+    <div class="col-12 sm-text-center padded-b-0"> 
+
+      <div class="col-12 padded-0">
+        <h1 class="title-medium-oversized"> {{ sessie.title }} </h1>
+        <hr class="padded-t-0">
+      </div>
+
+      <h2 class="black-text"> {{ sessie.for_who_title }}</h2>
+      <p> {{ sessie.for_who_text }} </p>
+
+      <h3 class="black-text"> {{ sessie.what_title }} </h3>
+      <ul class="margin-0 padded-b-2">
+        {% for item in sessie.what_items %}
+          <li class="text-list">
+            {{ item }}
+          </li>
+        {% endfor %}
+      </ul>
+      
+      <a href="/contact.html?service=ontwerpt&package={{ sessie.package }}#meeting" class="button-aanbod">
+        <span>Ga naar afspraak</span>
+        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
+          <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
+        </svg>
+      </a>
+
+      <div class="button-price"> {{ sessie.price }} </div>
+    </div>
+  </div>
+
+</section>
 
 <!-------------------------- Info (re)Branding  ------------------------------->
 <section class="grid-middle padded-md padded-b-10">  
