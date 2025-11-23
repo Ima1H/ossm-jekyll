@@ -1677,7 +1677,7 @@ header p {
 }
 
 .gallery .col-3 .bg-image {
-    transition: transform 0.5s ease;
+  transition: filter 0.3s ease, transform 0.5s ease;
 }
 
 
