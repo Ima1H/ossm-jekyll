@@ -260,6 +260,38 @@ html {border: none;} */
 }
 
 
+/* Project container hover */
+.project-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-container:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Afbeelding hover effect (consistent met andere projecten) */
+.project-container .bg-image {
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.project-container:hover .bg-image {
+  transform: scale(1.04);
+  filter: grayscale(0) opacity(1);
+}
+
+/* Link hover */
+.project-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-container:hover span,
+.project-container:hover p.title-project {
+  opacity: 1;
+}
+
+
 /*--------------------------- Project Specific Gallery Styles --------------------------*/
 
 .lightgallery-img {
