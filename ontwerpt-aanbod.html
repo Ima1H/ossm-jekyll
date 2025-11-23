@@ -46,6 +46,7 @@ sessies:
       - "VOORBEREIDING: niet nodig"
       - "SESSIE: We bekijken je project in zijn geheel en denken mee over de grote lijnen en belangrijke keuzes. Zo ontstaat er een duidelijk kader waarbinnen alle verdere stappen passen."
 ---
+
 <!-------------------------- Header Banner  ------------------------------->
 <section class="padded-md grid-bottom tall-70 padded-t-0">
 
@@ -54,7 +55,6 @@ sessies:
         <div class="tall-70 md-tall-50 bg-image bg-ontwerpt-aanbod"> </div>   
     </div>
   </div> 
-
 
   <div class="padded-4 col-6_xs-12"> 
     <h1 class="text-left title-oversized xs-title-oversized"> Ontwerpt. </h1>
@@ -82,16 +82,10 @@ sessies:
       </nav>
     </div>
   </div>    
-  
-  <!-- <div class="padded-4 col-6 grid hide-md">
-    <div class="col-12-middle padded-4">
-        <div class="tall-70 md-tall-50 bg-image bg-image-lindsay-26"> </div>   
-    </div>
-  </div>  -->
 </section>
 
 
-<!-------------------------- Ontwerpt aanbod  ------------------------------->
+<!-------------------------- Ontwerpt aanbod (loop)  ------------------------------->
 {% for sessie in page.sessies %}
 <section class="grid-middle padded-md padded-b-10">  
 
@@ -112,7 +106,7 @@ sessies:
       </div>
 
       <h2 class="black-text"> {{ sessie.for_who_title }}</h2>
-      <p> {{ sessie.for_who_text }} </p>
+      <p>{{ sessie.for_who_text }}</p>
 
       <h3 class="black-text"> {{ sessie.what_title }} </h3>
       <ul class="margin-0 padded-b-2">
@@ -135,192 +129,36 @@ sessies:
   </div>
 
 </section>
+{% endfor %}
 
-<!-------------------------- Info (re)Branding  ------------------------------->
-<section class="grid-middle padded-md padded-b-10">  
-
-  <div class="col-6-bottom grid">
-    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 md-tall-50 md-tall-40 bg-image bg-rebranding has-price">
-        <!-- <span class="price-tag-l">€345</span> -->
-      </div>
-    </div>
-  </div>
-
-
-  <div  id="rebranding" class="padded-5 col-6-bottom padded-b-0">           
-    <div class="col-12 sm-text-center padded-b-0"> 
-
-      <div class="col-12 padded-0">
-        <h1 class="title-medium-oversized"> (re)Branding </h1>
-        <hr class="padded-t-0">
-      </div>
-
-      <h2 class="editable black-text"> Voor wie?</h2>
-      <p class="editable"> <strong>(re)Branding — een verhaal dat klopt van binnen én van buiten </strong>. Of je nu aan de start staat van een nieuw avontuur of je bestaande merk nieuw leven wil inblazen, wij helpen je om een visuele identiteit te creëren die écht klopt met wie jij bent en waar je voor staat. Geen losse onderdelen, maar een sterk geheel waarin alles elkaar versterkt: jouw logo, huisstijl, website, sociale media, fotografie, … </p>
-
-      <p>We vertalen jouw verhaal, missie en persoonlijkheid in een branding die voelt als een natuurlijke verlenging van jou en je bedrijf. Een merk dat vertrouwen uitstraalt, raakt en blijft hangen omdat het oprecht is.</p>
-    
-      <p> Samen zorgen we ervoor dat elk detail juist zit: van het verfijnen van je naam of baseline, tot de vormgeving van je branding, tone of voice en online uitstraling. Zo bouw je aan een merk dat niet alleen gezien wordt, maar ook gevoeld. We starten met een vrijblijvend gesprek om jouw verhaal en noden te ontdekken. Van daaruit werken we een traject op maat uit? Helder, persoonlijk en helemaal afgestemd op jouw groeifase.</p>
- 
-
-      <h3 class="editable black-text">  Wat houdt het in? </h3>
-      <ul class="margin-0 padded-b-2">
-        <li class="text-list"> VOORBEREIDING: niet nodig
-        <!-- <span class="pl-2 opacity-50">// 11 mins </span> -->
-        </li>
-                        
-        <li class="text-list"> SESSIE: We komen (max) 2u lang ter plaatse, jij stelt je vragen of toont waar je momenteel tegen aan loopt. * Terwijl wij ons advies mondeling geven, mag jij gerust notities maken.
-          <!-- <span class="pl-2 opacity-50">// 20 mins </span> -->
-        </li>
-      </ul>
-      
-      <a href="/contact.html?service=ontwerpt&package=rebranding#meeting" class="button-aanbod editable ">
-        <span>Ga naar afspraak</span>
-        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
-          <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
-        </svg>
-      </a>
-      <div class="button-price"> €345 </div>
-    </div>
-    
-
-
-  </div>
-
-  
-</section>
-
-
-
-<!-------------------------- Info Interieurproject  ------------------------------->
-<section class="grid-middle padded-md padded-b-10">  
-
-  <div class="col-6-bottom grid">
-    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 md-tall-50 md-tall-40 bg-image bg-interieurproject has-price">
-        <!-- <span class="price-tag-l">€345</span> -->
-      </div>
-    </div>
-  </div>
-    
-  <div id="interieurproject" class="padded-5 col-6-bottom padded-b-0"> 
-    <div class="col-12 sm-text-center padded-b-0"> 
-
-      <div class="col-12 padded-0">
-        <h1 class="title-medium-oversized"> Interieurproject </h1>
-        <hr class="padded-t-0">
-      </div>
-
-      <h2 class="editable black-text"> Voor wie?</h2>
-      <p class="editable"> Heb je een ruimte waarbij je niet goed weet welke richting je uit moet gaan maar ook niet zo veel budget? Je hebt geen idee hoe je de indeling van je ruimte moet maken, of in welke stijl je nu graag verder wilt gaan, om nog maar te zwijgen over de materialenkeuze. Na onze mondelinge adviezen bij jou thuis kan je doelgericht verder gaan! </p>
-
-      
-      <h3 class="editable black-text"> Wat houdt het in? </h3>
-      <ul class="margin-0 padded-b-2">
-        <li class="text-list"> VOORBEREIDING: niet nodig
-        <!-- <span class="pl-2 opacity-50">// 11 mins </span> -->
-        </li>
-                        
-        <li class="text-list"> SESSIE: We komen (max) 2u lang ter plaatse, jij stelt je vragen of toont waar je momenteel tegen aan loopt. * Terwijl wij ons advies mondeling geven, mag jij gerust notities maken.
-          <!-- <span class="pl-2 opacity-50">// 20 mins </span> -->
-        </li>
-      </ul>
-      
-      <a href="/contact.html?service=ontwerpt&package=totaalproject#meeting" class="button-aanbod editable "> 
-        <span>Ga naar afspraak</span>
-        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
-          <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
-        </svg>
-      </a>
-      <div class="button-price"> €345 </div>
-    </div>
-
-  
-</section>
-
-<!-------------------------- Info Totaalconcept  ------------------------------->
-<section class="grid-middle padded-md padded-b-10">  
-
-  <div class="col-6-bottom grid">
-    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 md-tall-50 md-tall-40 bg-image bg-totaalconcept has-price">
-        <!-- <span class="price-tag-l">€345</span> -->
-      </div>
-    </div>
-  </div>
-
-
-  <div id="totaalconcept" class="padded-5 col-6-bottom padded-b-0">           
-    <div class="col-12 sm-text-center padded-b-0"> 
-
-      <div class="col-12 padded-0">
-        <h1 class="title-medium-oversized"> Totaalconcept </h1>
-        <hr class="padded-t-0">
-      </div>
-
-      <h2 class="editable black-text"> Voor wie?</h2>
-      <p class="editable"> Heb je een ruimte waarbij je niet goed weet welke richting je uit moet gaan maar ook niet zo veel budget? Je hebt geen idee hoe je de indeling van je ruimte moet maken, of in welke stijl je nu graag verder wilt gaan, om nog maar te zwijgen over de materialenkeuze. Na onze mondelinge adviezen bij jou thuis kan je doelgericht verder gaan! </p>
-
-      <h3 class="editable black-text">  Wat houdt het in? </h3>
-      <ul class="margin-0 padded-b-2">
-        <li class="text-list"> VOORBEREIDING: niet nodig
-        <!-- <span class="pl-2 opacity-50">// 11 mins </span> -->
-        </li>
-                        
-        <li class="text-list"> SESSIE: We komen (max) 2u lang ter plaatse, jij stelt je vragen of toont waar je momenteel tegen aan loopt. * Terwijl wij ons advies mondeling geven, mag jij gerust notities maken.
-          <!-- <span class="pl-2 opacity-50">// 20 mins </span> -->
-        </li>
-      </ul>
-      
-      <a href="/contact.html?service=ontwerpt&package=totaalconcept#meeting" class="button-aanbod editable "> 
-        <span>Ga naar afspraak</span>
-        <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
-          <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
-        </svg>
-      </a>
-      <div class="button-price"> €345 </div>
-    </div>
-    
-
-
-  </div>
-
-  
-</section>
 
 <!-------------------------- Projecten  ------------------------------->
+<section id="projecten" class="grid padded-10 padded-t-2">
 
- <section id="projecten" class="grid padded-10 padded-t-2">
-
-     <div class="grid padded-b-2">
-        <h2  class="title-medium-oversized"> PROJECTEN Interieurachitectuur & grafisch ontwerp  </h2>
-        <div class="col-12 divider-left padded-b-0">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!</p>
-        </div>
-    </div> 
-
-    <div class="grid-equalHeight padded-b-2"></div>
-
-  
-      {% assign projects = site.categories["Grafisch ontwerp"] | where: "layout", "branding" %}
-
-      {% for post in projects %}
-
-        <div class="col-3_xs-12 padded-r-2 padded-b-5">
-          <div class="bg-image portrait" style="background-image: url('{{post.featured_image}}');"></div>
-
-          <p class="title-project margin-b-0">{{post.title}}</p>      
-          <a class="margin-t-1 button-project icon-arrow" href="{{post.url}}"> 
-            <span> Bekijk het project </span>   
-            <svg class="project icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
-              <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
-            </svg>
-          </a>
+  <div class="grid padded-b-2">
+    <h2 class="title-medium-oversized"> PROJECTEN Interieurachitectuur & grafisch ontwerp</h2>
+    <div class="col-12 divider-left padded-b-0">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!
+      </p>
     </div>
-        </div>
+  </div> 
 
-      {% endfor %}
+  <div class="grid-equalHeight padded-b-2"></div>
 
+  {% assign projects = site.categories["Grafisch ontwerp"] | where: "layout", "branding" %}
+  {% for post in projects %}
+    <div class="col-3_xs-12 padded-r-2 padded-b-5">
+      <div class="bg-image portrait" style="background-image: url('{{ post.featured_image }}');"></div>
+
+      <p class="title-project margin-b-0">{{ post.title }}</p>      
+      <a class="margin-t-1 button-project icon-arrow" href="{{ post.url }}"> 
+        <span> Bekijk het project </span>   
+        <svg class="project icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
+          <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
+        </svg>
+      </a>
     </div>
+  {% endfor %}
+
 </section>
