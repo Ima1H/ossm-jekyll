@@ -184,7 +184,7 @@ about:
 
 <!-------------------------- Reviews  ----------------------------->
 <section class="grid padded-lg tall-50 padded-t-0 md-padded-5 xs-padded-l-0">
-  <div class="padded-4 col-12 grid">
+  <div class="padded-4 col-9 grid">
     <div class="col-7-top padded-4 md-padded-l-1-05">
       <h1 class="text-left xs-text-center title-medium-oversized">
         Wat <br> klanten zeggen.
@@ -192,7 +192,7 @@ about:
       <hr class="padded-t-0">
     </div>
 
-    <div class="col-4-right">
+    <div class="col-4">
       <div class="col-7-top padded-4 padded-b-0 md-padded-l-1-05">
         <script async src="https://static.trustlocal.be/widget/widget_v2.js"></script>
         <div class="trustlocal-widget" data-id="207807" data-language-code="nl" data-country-code="BE" data-badge="hidden" data-quote="hidden" data-size="small" data-type="landscape" data-border="default" data-theme="light" data-background="transparent" data-google="default"></div>
@@ -202,85 +202,49 @@ about:
 
   <div class="grid-bottom col-12_md-12_sm-9_xs-12 padded-4 padded-r-0 md-padded-2 sm-padded-4">
 
-  <div class="review-carousel">
-
-    <!-- Pijlen links/rechts -->
-    <button
-      class="review-arrow prev"
-      type="button"
-      aria-label="Vorige review"
-    >
-      &#10094;
-    </button>
-
-    <button
-      class="review-arrow next"
-      type="button"
-      aria-label="Volgende review"
-    >
-      &#10095;
-    </button>
-
-    <!-- Slides -->
-    <div class="review-track">
-      {% for post in site.posts limit:11 %}
-      <article
-        class="review-slide{% if forloop.first %} is-active{% endif %}"
-        data-index="{{ forloop.index0 }}"
-      >
-        <div class="grid">
-
-          <!-- Foto links -->
-          <div class="col-6_md-12_sm-12_xs-12 padded-4 padded-b-0 padded-t-0">
-            <div
-              class="tall-50 md-tall-40 bg-image review-photo project-radius"
-              style="background-image:url('{{ post.featured_image | relative_url }}');"
-              aria-hidden="true"
-            ></div>
-          </div>
-
-          <!-- Tekst rechts -->
-          <div class="col-6_md-12_sm-12_xs-12 padded-4 padded-l-0 padded-r-4-05 padded-b-0 md-padded-r-0 sm-padded-b-2 xs-padded-b-2">
-            <p class="lowercase title-categories">
-              {{ post.categories | join: ', ' }}
-            </p>
-
-            <h2 class="uppercase title-medium-oversized black-text font-weight-200">
-              {{ post.client | default: post.title }}
-            </h2>
-
-            <p class="testimonial">
-              {{ post.testimonial | default: post.excerpt | strip_html }}
-            </p>
-
-            <a href="{{ post.url | relative_url }}" class="button">
-              <span> Bekijk het project </span>
-              <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
-                <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
-              </svg>
-            </a>
-          </div>
-
+        <div class="col-6_md-12_sm-12_xs-12 padded-4 padded-b-0 padded-t-0">
+        <div id="main-image" class="tall-50 md-tall-40 bg-image review-photo"></div>
         </div>
-      </article>
-      {% endfor %}
+
+        <div class="col-6_md-12_sm-12_xs-12 padded-4 padded-l-0 padded-r-4-05 padded-b-0 md-padded-r-0 sm-padded-b-2 xs-padded-b-2">
+        <p class="lowercase" id="categories"></p>
+        <h2 class="uppercase title-medium-oversized black-text font-weight-200" id="client"></h2>
+
+        <p class="testimonial" id="testimonial"></p>
+
+        <a href="#" class="button" id="review-cta">
+            <span> Bekijk het project </span>
+            <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
+            <path d="M9.7,38.7h45.2c1.8,0,3.8.1,6,.2,2.2,0,4.2.1,6,.2l1.4,1-1.4,1c-1.9,0-3.9.1-6,.2-2.2,0-4.2,0-6,0H9.7c0,0,0-2.6,0-2.6ZM39.5,13.1l2.3-1.6c2.8,4,5.6,7.6,8.4,10.8,2.9,3.3,5.9,6.3,9.1,9.1,3.2,2.8,6.8,5.7,10.6,8.5v.2c-3.9,2.8-7.5,5.6-10.7,8.5-3.2,2.8-6.3,5.8-9.1,9.1-2.9,3.2-5.7,6.8-8.5,10.9l-2.3-1.6c2.3-3.2,4.7-6.2,7.1-8.9,2.5-2.8,4.9-5.3,7.4-7.6,2.4-2.3,4.9-4.4,7.2-6.2,2.4-1.8,4.7-3.3,6.9-4.5v.7c-2.2-1.2-4.5-2.7-6.9-4.5-2.4-1.8-4.8-3.9-7.2-6.2-2.4-2.3-4.9-4.9-7.3-7.6-2.5-2.8-4.8-5.8-7.1-8.9Z"/>
+            </svg>
+        </a>
+        </div>
+
+        <!-- Thumbnails in extra rij, nog altijd Gridlex -->
+        <div class="col-12 padded-4 padded-t-3 thumbs-row" id="thumbs-row">
+        <div class="grid">
+            {% for post in site.posts limit:11 %}
+            <div class="col_md-3_sm-4_xs-6 padded-l-0">
+            <button
+                type="button"
+                class="thumb-btn{% if forloop.first %} active{% endif %}"
+                data-categories="{{ post.categories | join: ', ' }}"
+                data-client="{{ post.client | escape }}"
+                data-testimonial="{{ post.testimonial | default: post.excerpt | strip_html | escape }}"
+                data-image="{{ post.featured_image | relative_url }}"
+                data-url="{{ post.url | relative_url }}"
+                data-title="{{ post.title | escape }}"
+            >
+                <img src="{{ post.featured_image }}" alt="{{ post.title }}">
+            </button>
+            </div>
+            {% endfor %}
+        </div>
+        </div>
     </div>
 
-    <!-- Dots onderaan -->
-    <div class="review-dots" aria-label="Review navigatie">
-      {% for post in site.posts limit:11 %}
-      <button
-        type="button"
-        class="review-dot{% if forloop.first %} is-active{% endif %}"
-        data-index="{{ forloop.index0 }}"
-        aria-label="Ga naar review {{ forloop.index }}"
-      ></button>
-      {% endfor %}
-    </div>
-
-  </div>
-</div>
-
+   
+</section>
 
 
 <!-- MailerLite -->

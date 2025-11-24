@@ -1,47 +1,76 @@
 $(document).ready(function() {
 
-  //Review carousel
-  document.addEventListener('DOMContentLoaded', function () {
-  const slides = Array.from(document.querySelectorAll('.review-slide'));
-  const dots   = Array.from(document.querySelectorAll('.review-dot'));
-  const prev   = document.querySelector('.review-arrow.prev');
-  const next   = document.querySelector('.review-arrow.next');
+  // Reviews index page
+  $(function () {
+  const $mainImage   = $("#main-image");    // div met bg-image
+  const $categories  = $("#categories");    // #categorieën
+  const $client      = $("#client");        // klantnaam
+  const $testimonial = $("#testimonial");   // quote
+  const $reviewCta   = $("#review-cta");    // knop
+  const $thumbsRow   = $("#thumbs-row");    // thumbnails
 
-  if (!slides.length) return;
+  if (!$thumbsRow.length || !$mainImage.length) return;
 
-  let currentIndex = 0;
+  function setActiveReview($btn) {
+    const categories  = $btn.data("categories");
+    const client      = $btn.data("client");
+    const testimonial = $btn.data("testimonial");
+    let   image       = $btn.data("image");
+    const url         = $btn.data("url");
+    const title       = $btn.data("title");
 
-  function goToSlide(index) {
-    // bounds
-    if (index < 0) index = slides.length - 1;
-    if (index >= slides.length) index = 0;
+    // veiligheid: eventuele losse quotes rond image weghalen
+    if (image) {
+      image = image.toString().replace(/^"+|"+$/g, "");
+    }
 
-    // active class updaten
-    slides[currentIndex].classList.remove('is-active');
-    dots[currentIndex].classList.remove('is-active');
+    $mainImage.addClass("is-fading");
+    $categories.addClass("is-fading");
+    $client.addClass("is-fading");
+    $testimonial.addClass("is-fading");
 
-    currentIndex = index;
+    setTimeout(function () {
+      // HIER gebeurt de magie: background-image
+      if (image) {
+        $mainImage
+          .css("background-image", 'url("' + image + '")')
+          .attr("aria-label", title || "Review project");
+      } else {
+        $mainImage
+          .css("background-image", "none")
+          .removeAttr("aria-label");
+      }
+      $mainImage.removeClass("is-fading");
 
-    slides[currentIndex].classList.add('is-active');
-    dots[currentIndex].classList.add('is-active');
+      $categories
+        .text(categories ? "#" + categories : "")
+        .removeClass("is-fading");
+
+      $client
+        .text(client || "")
+        .removeClass("is-fading");
+
+      $testimonial
+        .text(testimonial || "")
+        .removeClass("is-fading");
+
+      $reviewCta.attr("href", url || "#");
+    }, 200);
+
+    $thumbsRow.find(".thumb-btn").removeClass("active");
+    $btn.addClass("active");
   }
 
-  // pijlen
-  if (prev) prev.addEventListener('click', () => goToSlide(currentIndex - 1));
-  if (next) next.addEventListener('click', () => goToSlide(currentIndex + 1));
+  const $firstThumb = $thumbsRow.find(".thumb-btn").first();
+  if ($firstThumb.length) {
+    setActiveReview($firstThumb);
+  }
 
-  // dots
-  dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-      const index = Number(dot.getAttribute('data-index')) || 0;
-      goToSlide(index);
-    });
+  $thumbsRow.on("click", ".thumb-btn", function () {
+    setActiveReview($(this));});
   });
 
-  // initial state (veiligheid, mocht HTML-classes ooit wegvallen)
-  slides[0].classList.add('is-active');
-  dots[0].classList.add('is-active');
-  });
+
 
 
   // Accordion functionality
