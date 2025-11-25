@@ -1674,11 +1674,11 @@ header p {
 .index-project-thumb { display: block; }
 
 
-.index-bg-grey-splitter {
+/* .index-bg-grey-splitter {
     position: relative;
     bottom: 19rem;
     z-index: 1;
-}
+} */
 
 .gallery .col-3 .bg-image {
   transition: filter 0.3s ease, transform 0.5s ease;
