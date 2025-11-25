@@ -1894,7 +1894,7 @@ header p {
 }
 
 ._ABCz .purd9 {
-    border: 1px solid #F6EA49 !important;
+    border: 1px solid #4A4A4A !important;
 }
 
 
@@ -1944,7 +1944,15 @@ header p {
 }
 
 
-/* MailerLite */
+/* ------- MailerLite -----------*/
+/* Pop-up */
+
+.ml-popup .ml-popup-col {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+}
+
+/* Embedded */
 #mlb2-33780468.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
 #mlb2-33780468.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
     padding: 1rem 0 0 0 !important;
