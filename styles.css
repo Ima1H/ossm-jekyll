@@ -1956,6 +1956,8 @@ header p {
 .ml-popup .ml-popup-col {
     padding-left: 4rem !important;
     padding-right: 4rem !important;
+    padding-bottom: 4rem !important;
+    padding-top: 4rem !important;
 }
 
 /* Embedded */
