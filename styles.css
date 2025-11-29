@@ -3352,6 +3352,7 @@ footer nav a {
     .sm-text-left   { text-align: left  ; }
     .sm-text-right  { text-align: right;  }
 
+    .sm-padded-0  { padding: 0rem !important;     }
     .sm-padded-05 { padding: 0.5rem; }
     .sm-padded-1  { padding: 1rem;   }
     .sm-padded-2  { padding: 2rem;     }
@@ -3583,11 +3584,6 @@ footer nav a {
     body {
         border: 2px solid orange;
         padding: 0.5rem;
-    }
-
-    h1 img {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
     }
 
     header a {
@@ -3883,6 +3879,10 @@ footer nav a {
         font-size: 6vw;
     }
 
+    h1 {
+        font-size: 4.5vw !important;
+    }
+
     h2 {
         font-size: 6vw; 
     }
@@ -3969,5 +3969,9 @@ footer nav a {
     .xxs-footer-text {
         font-size:4vw;
     }
-}
 
+    #close-cookie-banner {
+        font-size: 3vw !important; 
+    }
+
+}
