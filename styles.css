@@ -3413,6 +3413,7 @@ footer nav a {
     .xs-padded-l-10 { padding-left: 10rem;   }
     .xs-padded-r-10 { padding-right: 10rem;  }
     
+    .xs-margin-0 { margin: 0;    }
 
     .xs-margin-05 { margin: 0.5rem; }
     .xs-margin-1  { margin: 1rem;   }
@@ -3429,6 +3430,27 @@ footer nav a {
     .xs-margin-b-2 { margin-bottom: 2rem; }
     .xs-margin-l-2 { margin-left: 2rem;   }
     .xs-margin-r-2 { margin-right: 2rem;  }
+
+    .xs-margin-t-3 { margin-top: 3rem;    }
+    .xs-margin-b-3 { margin-bottom: 3rem; }
+    .xs-margin-l-3 { margin-left: 3rem;   }
+    .xs-margin-r-3 { margin-right: 3rem;  }
+
+    .xs-margin-t-4 { margin-top: 4rem;    }
+    .xs-margin-b-4 { margin-bottom: 4rem; }
+    .xs-margin-l-4 { margin-left: 4rem;   }
+    .xs-margin-r-4 { margin-right: 4rem;  }
+
+    .xs-margin-t-5 { margin-top: 5rem;    }
+    .xs-margin-b-5 { margin-bottom: 5rem; }
+    .xs-margin-l-5 { margin-left: 5rem;   }
+    .xs-margin-r-5 { margin-right: 5rem;  }
+
+    .xs-margin-t-6 { margin-top: 6rem;    }
+    .xs-margin-b-6 { margin-bottom: 6rem; }
+    .xs-margin-l-6 { margin-left: 6rem;   }
+    .xs-margin-r-6 { margin-right: 6rem;  }
+
 
     .small-text    { text-align: center; }
 
