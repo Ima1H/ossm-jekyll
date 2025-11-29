@@ -1995,13 +1995,13 @@ header p {
 
 
 .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
     font-family: 'Work Sans', sans-serif !important;
     font-weight: 200;
 }
 
 .privacy-policy a {
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
     font-family: 'Work Sans', sans-serif !important;
     font-weight: 200;
 }
@@ -2624,6 +2624,7 @@ footer nav a {
         font-size: 4.5vw;
     }
 
+
     header p {
         font-size: 2.8vw;
     }
@@ -2776,6 +2777,15 @@ footer nav a {
     .title-header-index {
         font-size: 3vw;
     }
+
+    .ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent.privacy-policy p {
+    font-size: 2.8vw !important;
+    }
+
+    .privacy-policy a {
+        font-size: 2.8vw !important;
+    }
+
 
 }
 
