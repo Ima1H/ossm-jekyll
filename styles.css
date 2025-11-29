@@ -2864,8 +2864,9 @@ footer nav a {
     .md-text-left   {text-align: left;    }
     .md-text-right  {text-align: right;   }
     
-    .md-padded-05 { padding: 0.5rem; }
-    .md-padded-1  { padding: 1rem;   }
+    .md-padded-0  { padding: 0rem;     }
+    .md-padded-05 { padding: 0.5rem;   }
+    .md-padded-1  { padding: 1rem;     }
     .md-padded-2  { padding: 2rem;     }
     .md-padded-3  { padding: 3rem;     }
     .md-padded-4  { padding: 4rem;     }
