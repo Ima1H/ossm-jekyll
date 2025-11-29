@@ -89,6 +89,20 @@
 
 <!---------------------------- Footer MD Media Query (64em / 1024px) --------------------------------->
 <footer class="grid-center text-center padded-1 show-md hide-sm">
+
+  <!-- projects --> 
+  <div class="col-12 padded-md">
+    <div class="grid gallery margin-lg">
+    {% for post in site.posts limit:6 %}
+      <div class="col-2">
+        <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+          <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+          <p class="margin-b-0 text-left">{{ post.title }}</p>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
   
   <!-- column 1 -->
   <div class="col-12-center ">
@@ -140,19 +154,6 @@
     </nav>
   </div>
 
-  <!-- projects --> 
-  <div class="col-12 padded-md">
-    <div class="grid gallery margin-lg">
-    {% for post in site.posts limit:6 %}
-      <div class="col-2">
-        <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-          <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
-          <p class="margin-b-0 text-left">{{ post.title }}</p>
-        </a>
-      </div>
-    {% endfor %}
-    </div>
-  
   <!-- column coprywright and terms -->
   <div class="col-12 margin-2 margin-t-0 text-center">
     
@@ -170,6 +171,20 @@
   
 <!---------------------------- Footer SM Media Query (48em / 768px) --------------------------------->
 <footer class="grid-center text-center padded-1 show-sm hide-md hide-xs">
+
+  <div class="col-12">
+    <div class="grid gallery margin-md">
+        {% for post in site.posts limit:6 %}
+          <div class="col-6 padded-1">
+            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+              <p class="margin-b-0 text-left">{{ post.title }}</p>
+            </a>
+          </div>
+        {% endfor %}
+    </div>
+  </div>
+
   
   <!-- column 1 -->
   <div class="col-12-center ">
@@ -251,18 +266,6 @@
       </div>
     </div>
   </div> -->
-
-    <div class="col-12">
-      <div class="grid gallery margin-md">
-        {% for post in site.posts limit:6 %}
-          <div class="col-6 padded-1">
-            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
-              <p class="margin-b-0 text-left">{{ post.title }}</p>
-            </a>
-          </div>
-        {% endfor %}
-    </div>
 
 
   <!-- column coprywright and terms -->
