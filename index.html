@@ -105,7 +105,7 @@ about:
     <div class="col-12 padded-4">
         <div class="grid-center gallery hide-mdl">
         {% for post in site.posts limit:6 %}
-            <div class="col-3 padded-l-0">
+            <div class="col padded-l-0">
                 <a class="index-project-thumb display-block button-project" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
                     <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
                     <p class="margin-b-0 text-left title-project-index">{{ post.title }}
