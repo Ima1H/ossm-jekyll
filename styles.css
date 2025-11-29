@@ -495,6 +495,17 @@ body {
 .padded-13 { padding: 13rem;  }
 .padded-14 { padding: 14rem;  }
 .padded-15 { padding: 15rem;  }
+.padded-16 { padding: 16rem;  }
+.padded-17 { padding: 17rem;  }
+.padded-18 { padding: 18rem;  }
+.padded-19 { padding: 19rem;  }
+.padded-20 { padding: 20rem;  }
+.padded-21 { padding: 21rem;  }
+.padded-22 { padding: 22rem;  }
+.padded-23 { padding: 23rem;  }
+.padded-24 { padding: 24rem;  }
+.padded-25 { padding: 25rem;  }
+
 
 .padded-t { padding-top: 5%;    }
 .padded-b { padding-bottom: 5%; }
@@ -1443,6 +1454,7 @@ hr {
     padding: 0.5rem 0.8rem;
     transition: 0.5s all;
     font-size: 1rem;
+    margin: 0.5rem;
 }
 
 .button-cookie-consent:hover {
@@ -3248,7 +3260,7 @@ footer nav a {
     }
 
     #close-cookie-banner {
-        font-size: 1.5vw;
+        font-size: 2.2vw;
     }
 
 
@@ -3271,6 +3283,11 @@ footer nav a {
     body {
         border: 2px solid orange;
         padding: 0.5rem;
+    }
+
+    h1 img {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     header a {
