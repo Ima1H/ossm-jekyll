@@ -3430,6 +3430,7 @@ footer nav a {
     .xs-margin-l-2 { margin-left: 2rem;   }
     .xs-margin-r-2 { margin-right: 2rem;  }
 
+    .small-text    { text-align: center; }
 
     .title-service { 
         font-size: 3.1vw;
