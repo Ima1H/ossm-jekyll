@@ -53,7 +53,7 @@ about:
 
 <section class="padded-lg grid tall-60 padded-r-0 md-padded-5 sm-padded-0">
 
-     <div class="padded-4 col-3_md-12 grid">
+    <div class="padded-4 col-3_md-12 grid">
         <div class="col-12-top padded-4 padded-r-0 padded-r-0 sm-padded-5">
             <h1 class="text-left title-medium-oversized"> Diensten. </h1>
             <hr class="padded-t-0">  
@@ -62,7 +62,7 @@ about:
         </div>
     </div> 
 
-    <div class="col-9_md-12 md-padded-0 sm-padded-4"> 
+    <div class="col-9_md-12 md-padded-4"> 
         <div class="grid padded-4 padded-r-0 md-padded-0 sm-padded-4">
             <div class="grid-center-equalHeight">
                 
@@ -93,10 +93,10 @@ about:
 
 
 <!-------------------------- Projects ------------------------------->
-<section class="padded-lg padded-t-5 grid padded-8 md-padded-5 xs-padded-l-0">
-    <div class="padded-4 col-9 grid">
-        <div class="col-7-top padded-4 padded-b-0 md-padded-l-1-05">
-            <h1 class="text-left xs-text-center title-medium-oversized"> Projecten. </h1>
+<section class="padded-lg grid tall-60 padded-r-0 md-padded-5 sm-padded-0">
+    <div class="padded-4 col-3_md-12 grid">
+        <div class="col-12-top padded-4 padded-r-0 padded-r-0 sm-padded-5">
+            <h1 class="text-left title-medium-oversized"> Projecten. </h1>
             <hr class="padded-t-0">   
         </div>
     </div> 
@@ -122,7 +122,7 @@ about:
     <div class="col-12 show-mdl">
         <div class="grid-center gallery">
         {% for post in site.posts limit:4 %}
-            <div class="col-3 padded-l-0">
+            <div class="col padded-l-0">
                 <a class="index-project-thumb display-block button-project" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
                     <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
                     <p class="margin-b-0 text-left title-project-index">{{ post.title }}
