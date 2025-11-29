@@ -1264,7 +1264,6 @@ hr {
 
 .button-filled {
     color: inherit;
-    
     text-decoration: none;
     text-transform: uppercase;
     padding: 0.8rem 1rem;
@@ -1435,6 +1434,22 @@ hr {
   paint-order: stroke fill;
 }
 
+.button-cookie-consent {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #F6EA49;
+    padding: 0.5rem 0.8rem;
+    transition: 0.5s all;
+    font-size: 1rem;
+}
+
+.button-cookie-consent:hover {
+    border: 2px solid #F6EA49;
+    background-color: #F6EA49;
+    color: black
+}
 
 
 /*------------------------- Header Styles ------------------------*/
@@ -2487,10 +2502,12 @@ footer nav a {
 #cookie-notice .button-subtle {
     opacity: 0.8;
     border-bottom: 1px solid #4A4A4A;
+    font-size: 1rem;
 }
 
 #close-cookie-banner {
     padding: 1rem;
+    padding-right: 0;
     cursor: pointer;
     font-size: 0.8rem;
     opacity: 0.5
@@ -3058,8 +3075,6 @@ footer nav a {
     .sm-width-40 { max-width: 40vw;}
     .sm-width-60 { max-width: 60vw;}
     .sm-width-80 { max-width: 80vw;}
-
-    .sm-text     { font-size: 4vw; }
     
     .sm-text-center { text-align: center; }
     .sm-text-left   { text-align: left  ; }
