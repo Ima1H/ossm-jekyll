@@ -94,7 +94,7 @@
 
   <div class="col-12">
     <div class="grid gallery margin-md">
-        {% for post in site.posts limit:6 %}
+        {% for post in site.posts limit:4 %}
           <div class="col-6 padded-1">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
