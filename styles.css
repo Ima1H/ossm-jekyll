@@ -3282,9 +3282,9 @@ footer nav a {
 
     .bg-about-us {
         background-image: url('images/imaginate-ossm-over-ons.jpeg');
-        background-position: 50% 50%;
+        background-position: 50% 30%;
         background-size: cover;
-        border-radius: 20rem 20rem 0rem 0rem;
+        border-radius: 0rem !important;
         /* opacity: 0.8; */
     }
     
