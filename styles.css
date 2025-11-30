@@ -1862,50 +1862,7 @@ header p {
   opacity: 0;
 }
 
-
-/* Nieuw */
-/* ============================
-   REVIEW SLIDER LAYOUT
-   ============================ */
-
-.review-slider {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto 4rem;
-  padding: 4rem 0 3rem;
-}
-
-/* Slick-slide zelf als flex */
-.review-slider .slick-slide {
-  display: flex !important;
-}
-
-/* Eén slide = foto + tekst naast elkaar */
-.review-slider .review-slide {
-  display: flex !important;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  column-gap: 4rem;
-  width: 100%;
-}
-
-/* Kolommen in de slider: foto ±50%, tekst ±50% */
-.review-slider .review-slide > .col-6_md-12_sm-12_xs-12 {
-  float: none !important;
-  max-width: none !important;
-  width: auto !important;
-  flex: 0 0 50% !important;
-  box-sizing: border-box;
-}
-
-
-.review-photo {
-  width: 100%;
-  min-height: 55vh;
-  background-size: cover;
-  background-position: center;
-}
+/* ONDERAAN REVIEW */
 
 
 /* Trustlocal badges */
@@ -4110,5 +4067,76 @@ footer nav a {
     #close-cookie-banner {
         font-size: 3vw !important; 
     }
+
+    /* =========================================
+   REVIEW SLIDER – DEFINITIEVE FIX
+   ========================================= */
+
+@media (min-width: 769px) {
+
+  /* Slider zelf iets breder en gecentreerd */
+  .review-slider {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto 4rem;
+    padding: 4rem 0 4rem;
+  }
+
+  /* Eén review-slide = 2 kolommen: foto + tekst */
+  .review-slider .review-slide {
+    display: grid !important; /* Grid wint van Gridlex-flex */
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+    width: 100%;
+  }
+
+  /* Binnen de slide: alle col-… classes neutraliseren */
+  .review-slider .review-slide > [class*="col-"] {
+    float: none !important;
+    width: auto !important;
+    max-width: none !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* Foto links: breed en hoog genoeg */
+  .review-photo {
+    width: 100%;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Pijlen in het midden van de content */
+  .review-slider .slick-prev,
+  .review-slider .slick-next {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .review-slider .slick-prev { left: 2rem; }
+  .review-slider .slick-next { right: 2rem; }
+
+  /* Dots netjes onder foto + tekst */
+  .review-slider .slick-dots {
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+
+/* Op mobiel alles gewoon onder elkaar laten staan */
+@media (max-width: 768px) {
+  .review-slider .review-slide {
+    display: block !important; /* terug naar blokken onder elkaar */
+  }
+
+  .review-photo {
+    min-height: 50vh;
+  }
+}
+
 
 }
