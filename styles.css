@@ -2996,6 +2996,11 @@ footer nav a {
 
     .big-text { font-size: 6vw; }
 
+    .position-img-1 {
+        background-color: #6B705C;
+        position: relative;
+        right: -4rem;
+    }
 
     .title-oversized {
         font-size: 6vw;
