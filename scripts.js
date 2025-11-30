@@ -201,6 +201,23 @@ $(document).ready(function() {
     ]
   });
 
+  // Review carousel (index page)
+  $('.review-slider').slick({
+    autoplay: false,
+    autoplaySpeed: 3000,
+    speed: 1000,
+    arrows: true,
+    accessibility: true,
+    dots: true,
+    fade: false,
+    infinite: true,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true
+  });
+
 
   lightGallery(document.getElementById('lightgallery'), {
     selector: 'a', 
