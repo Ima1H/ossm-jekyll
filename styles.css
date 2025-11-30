@@ -1123,6 +1123,14 @@ hr {
     text-transform: uppercase;
 }
 
+.title-header-index-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
 .title-testimonial {
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
@@ -3022,6 +3030,7 @@ footer nav a {
         font-size: 2.5vw;
     }
 
+
     h2 {
         font-size: 3.1vw;
     }
@@ -3280,6 +3289,10 @@ footer nav a {
     .md-margin-b-5 { margin-bottom: 5rem; }
     .md-margin-l-5 { margin-left: 5rem;  }
     .md-margin-r-5 { margin-right: 5rem;  }
+
+    .title-header-index-caption {
+        font-size: 2.5vw;
+    }
 
     .bg-about-us {
         background-image: url('images/imaginate-ossm-over-ons.jpeg');
@@ -3548,6 +3561,10 @@ footer nav a {
     .title-header-index {
         font-size: 5vw;
     }
+
+    .title-header-index-caption {
+        font-size: 3.1vw;
+    }
   
     /* Header & footer  */
     .logo { font-size: 3rem; }
@@ -3656,7 +3673,7 @@ footer nav a {
     }
 
     h1 {
-        font-size: 6.3vw !important; 
+        font-size: 6.3; 
     }
 
     h2 {
@@ -3834,6 +3851,10 @@ footer nav a {
 
     .small-text    { text-align: center; }
 
+    .title-header-index-caption {
+        font-size: 6.3vw;
+    }
+
     .title-service { 
         font-size: 3.1vw;
         line-height: 1.4;
@@ -3928,7 +3949,7 @@ footer nav a {
     }
 
     h1 {
-        font-size: 4.5vw !important;
+        font-size: 4.5vw;
     }
 
     h2 {
@@ -4011,6 +4032,10 @@ footer nav a {
 
     .title-header-index {
         font-size: 6vw;
+    }
+
+    .title-header-index-caption {
+        font-size: 4.5vw;
     }
 
     .title-service { 
