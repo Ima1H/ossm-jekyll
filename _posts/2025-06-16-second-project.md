@@ -21,6 +21,16 @@ project_image_2_datatext: keuken
 project_image_3_datatext: keuken
 project_image_4_datatext: zitplaats
 project_image_5_datatext: keuken-living
+project_voor_image_1: /images/ossm-MTH-V6_1-photo.png
+project_voor_image_2: /images/ossm-MTH-V6_2-photo.png
+project_voor_image_3: /images/ossm-MTH-V6_3-photo.png
+project_voor_image_4: /images/ossm-MTH-V6_4-photo.png
+project_voor_image_5: /images/ossm-MTH-V6_5-photo.png
+project_voor_image_1_datatext: living
+project_voor_image_2_datatext: keuken
+project_voor_image_3_datatext: keuken
+project_voor_image_4_datatext: zitplaats
+project_voor_image_5_datatext: keuken-living
 seo:
   title:
   description: 
