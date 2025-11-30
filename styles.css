@@ -3309,6 +3309,15 @@ footer nav a {
         /* opacity: 0.8; */
     }
 
+    .bg-contact {
+        background-image: url('images/imaginate-ossm-over-ons.jpeg');
+        background-position: 50% 30%;
+        background-size: cover;
+        border-radius: 20rem 20rem 0rem 0rem;
+        /* opacity: 0.8; */
+    }
+
+
     .bg-aanbod {
         background-image: url('images/imaginate-ossm-aanbod.jpeg');
         background-position: 50% 34%;
