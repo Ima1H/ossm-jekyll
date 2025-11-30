@@ -3296,6 +3296,11 @@ footer nav a {
         border-radius: 0rem !important;
     }
     
+    .bg-portfolio {
+        background-image: url('/images/bynouchka-160224-lindsay-4.jpg');
+        background-position: 50% 50%;
+        border-radius: 0rem !important;
+    }
     
     .md-bg-white {
         background-color: rgba(247, 240, 240, 0.8);
