@@ -120,7 +120,7 @@ services:
     </div>
 
     <!-- CTA boven carousel -->
-    <div class="padded-r-4 padded-b-0 text-right">
+    <div class="padded-r-4 padded-b-0 text-right hide-sm">
         <a class="button-project" href="/adviseert-aanbod.html#projecten">
             <span> Bekijk alle onze projecten  </span>
             <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
@@ -136,7 +136,7 @@ services:
         <div class="slider-item">
             <a class="project-box" href="{{ post.url }}">
             <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
-            <p class="margin-b-0">{{ post.title }} </p>
+            <p class="margin-b-0 hide-sm">{{ post.title }} </p>
             </a>
         </div>
         {% endfor %}
@@ -172,7 +172,7 @@ services:
     </div>
 
     <!-- CTA boven carousel -->
-    <div class="padded-r-4 padded-b-0 text-right">
+    <div class="padded-r-4 padded-b-0 text-right hide-sm">
         <a class="button-project" href="/ontwerpt-aanbod.html#projecten">
             <span> Bekijk alle onze projecten  </span>
             <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
@@ -188,7 +188,7 @@ services:
         <div class="slider-item">
             <a class="project-box" href="{{ post.url }}">
             <div class="bg-image portrait" style="background-image:url('{{ post.featured_image }}');"></div>
-            <p class="margin-b-0">{{ post.title }} </p>
+            <p class="margin-b-0 hide-sm">{{ post.title }} </p>
             </a>
         </div>
         {% endfor %}
