@@ -1865,34 +1865,96 @@ header p {
 
 /* Nieuw */
 
-/* --- FIX REVIEW SLIDER LAYOUT (Safari-proof) --- */
+/* ============================
+   REVIEW SLIDER LAYOUT
+   ============================ */
 
-/* Zorg dat elke slide zelf flex is */
+.review-slider {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto 4rem;       /* center in de pagina */
+  padding: 4rem 0 3rem;      /* wat ruimte boven/onder content */
+}
+
+/* Slick-slide zelf als flex, anders breekt Gridlex het soms */
+.review-slider .slick-slide {
+  display: flex !important;
+}
+
+/* Eén slide = foto + tekst naast elkaar, mooi gecentreerd */
 .review-slider .review-slide {
   display: flex !important;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;       /* verticaal centreren t.o.v. pijlen */
+  justify-content: center;   /* horizontaal centreren */
+  column-gap: 4rem;          /* ruimte tussen foto en tekst */
   width: 100%;
 }
 
-/* Override Gridlex columns binnen de slider */
-.review-slider .review-slide > div {
-  float: none !important;            /* override Gridlex float */
-  display: block !important;
-  width: 50% !important;             /* forceer 2 kolommen */
-  max-width: 50% !important;
+/* Override Gridlex kolommen binnen de review-slider */
+.review-slider .review-slide > .col-6_md-12_sm-12_xs-12 {
+  float: none !important;
+  max-width: none !important;
+  width: auto !important;
+  flex: 0 0 45% !important;  /* foto ±45%, tekst ±45% → meer plek */
   box-sizing: border-box;
 }
 
-/* voorkom dat Gridlex padding collapses veroorzaakt binnen slick */
-.review-slider .review-slide > div[class*="padded"] {
+/* Mobiel: netjes onder elkaar */
+@media (max-width: 768px) {
+  .review-slider {
+    padding: 2rem 0 3rem;
+  }
+
+  .review-slider .review-slide {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .review-slider .review-slide > .col-6_md-12_sm-12_xs-12 {
+    flex: 0 0 100% !important;
+  }
+}
+
+/* Pijlen netjes in het midden van de content */
+
+.review-slider .slick-prev,
+.review-slider .slick-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.review-slider .slick-prev {
+  left: 2rem;
+}
+
+.review-slider .slick-next {
+  right: 2rem;
+}
+
+/* Pijlen zonder gele cirkel voor de review-slider */
+
+.review-slider .slick-prev::before,
+.review-slider .slick-next::before {
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 1;
+  opacity: .8;
+  color: #4A494B;
+  border: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
   display: block;
 }
 
-/* Safari bugfix: slick plaatst width inline → dit verhindert het stacken */
-.review-slider .slick-slide {
-  display: flex !important;
+/* Dots direct onder foto + tekst */
+
+.review-slider .slick-dots {
+  bottom: -30px;       /* lager dan de globale -2px */
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 
