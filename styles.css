@@ -1864,7 +1864,6 @@ header p {
 
 
 /* Nieuw */
-
 /* ============================
    REVIEW SLIDER LAYOUT
    ============================ */
@@ -1872,31 +1871,31 @@ header p {
 .review-slider {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto 4rem;       /* center in de pagina */
-  padding: 4rem 0 3rem;      /* wat ruimte boven/onder content */
+  margin: 0 auto 4rem;
+  padding: 4rem 0 3rem;
 }
 
-/* Slick-slide zelf als flex, anders breekt Gridlex het soms */
+/* Slick-slide zelf als flex */
 .review-slider .slick-slide {
   display: flex !important;
 }
 
-/* Eén slide = foto + tekst naast elkaar, mooi gecentreerd */
+/* Eén slide = foto + tekst naast elkaar */
 .review-slider .review-slide {
   display: flex !important;
   flex-direction: row;
-  align-items: center;       /* verticaal centreren t.o.v. pijlen */
-  justify-content: center;   /* horizontaal centreren */
-  column-gap: 4rem;          /* ruimte tussen foto en tekst */
+  align-items: center;
+  justify-content: center;
+  column-gap: 4rem;
   width: 100%;
 }
 
-/* Override Gridlex kolommen binnen de review-slider */
+/* Kolommen in de slider: foto ±50%, tekst ±50% */
 .review-slider .review-slide > .col-6_md-12_sm-12_xs-12 {
   float: none !important;
   max-width: none !important;
   width: auto !important;
-  flex: 0 0 45% !important;  /* foto ±45%, tekst ±45% → meer plek */
+  flex: 0 0 50% !important;
   box-sizing: border-box;
 }
 
@@ -1916,45 +1915,11 @@ header p {
   }
 }
 
-/* Pijlen netjes in het midden van de content */
-
-.review-slider .slick-prev,
-.review-slider .slick-next {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.review-slider .slick-prev {
-  left: 2rem;
-}
-
-.review-slider .slick-next {
-  right: 2rem;
-}
-
-/* Pijlen zonder gele cirkel voor de review-slider */
-
-.review-slider .slick-prev::before,
-.review-slider .slick-next::before {
-  font-family: inherit;
-  font-size: 24px;
-  line-height: 1;
-  opacity: .8;
-  color: #4A494B;
-  border: none;
-  border-radius: 0;
-  width: auto;
-  height: auto;
-  display: block;
-}
-
-/* Dots direct onder foto + tekst */
-
-.review-slider .slick-dots {
-  bottom: -30px;       /* lager dan de globale -2px */
-  left: 0;
-  right: 0;
-  text-align: center;
+.review-photo {
+  width: 100%;
+  min-height: 55vh;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -4114,15 +4079,6 @@ footer nav a {
     .xxs-margin-b-2 { margin-bottom: 2rem; }
     .xxs-margin-l-2 { margin-left: 2rem;  }
     .xxs-margin-r-2 { margin-right: 2rem;  }
-
-    .review-slider .review-slide {
-    flex-direction: column !important;
-    }
-
-    .review-slider .review-slide > div {
-    width: 100% !important;
-    max-width: 100% !important;
-    }
 
     .arrow-container {
         height: auto; /* Dynamisch hoogte aanpassen voor kleinere schermen */
