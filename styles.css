@@ -3572,6 +3572,8 @@ footer nav a {
     .sm-margin-l-2 { margin-left: 2rem;  }
     .sm-margin-r-2 { margin-right: 2rem;  }
     
+
+    .slick-dots { bottom: -40px; }
     .hover-overlay { padding-bottom: 50%; }
   
     .title-header-index {
