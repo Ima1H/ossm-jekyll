@@ -3633,6 +3633,9 @@ footer nav a {
         font-size: 7vw;
     }
 
+    h1 {
+        font-size: 6.3vw !important; 
+    }
 
     h2 {
         font-size: 5vw; 
@@ -3831,12 +3834,8 @@ footer nav a {
         margin: 0 auto;
     }
 
-    .xs-title-oversized {
+    .title-oversized {
         font-size: 14vw;
-    }
-
-    .xs-title-medium-oversized {
-        font-size: 6vw;
     }
 
     .footer-title {
@@ -3849,15 +3848,15 @@ footer nav a {
         font-size: 3vw;
     }
 
-    .xs-border-b {
+    .border-b {
         border-bottom: 1px solid #4A4A4A;
     }
 
-    .xs-border-b-yellow {
+    .border-b-yellow {
         border-bottom: 2px solid #F6EA49;
     }
 
-    .xs-border-b:hover {
+    .border-b:hover {
         border-bottom: 1px solid #F6EA49;
     }
 
@@ -3980,6 +3979,10 @@ footer nav a {
     .medium-text { font-size: 2vw   }
     .big-text    { font-size: 4vw;   }
 
+    .title-header-index {
+        font-size: 6vw;
+    }
+
     .title-service { 
         font-size: 4vw;
         line-height: 1.4;
@@ -4001,8 +4004,9 @@ footer nav a {
     }
 
     .footer-text {
-        font-size:4vw;
+        font-size: 4vw !important;
     }
+
 
     #close-cookie-banner {
         font-size: 3vw !important; 
