@@ -3976,17 +3976,17 @@ footer nav a {
         margin-top: 0; /* Verwijder vaste marges */
     }
 
-    .xxs-small-text  { font-size: 1.5vw }
-    .xxs-medium-text { font-size: 2vw   }
-    .xxs-big-text    { font-size: 4vw;   }
+    .mall-text  { font-size: 1.5vw }
+    .medium-text { font-size: 2vw   }
+    .big-text    { font-size: 4vw;   }
 
-    .xxs-title-service { 
+    .title-service { 
         font-size: 4vw;
         line-height: 1.4;
         margin-bottom: 1rem;
     } 
 
-    .xxs-title-medium-oversized {
+    .title-medium-oversized {
         font-family: 'Work Sans', sans-serif;
         font-weight: bold;
         font-size: 1.8vw;
@@ -3994,13 +3994,13 @@ footer nav a {
         color: black;
     }
 
-    .xxs-footer-title {
+    .footer-title {
         font-size: 5vw;
         font-weight: 500;
         letter-spacing: -0.06rem;
     }
 
-    .xxs-footer-text {
+    .footer-text {
         font-size:4vw;
     }
 
