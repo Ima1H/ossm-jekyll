@@ -3960,6 +3960,14 @@ footer nav a {
     .xxs-text-left   { text-align: left;   }
     .xxs-text-right  { text-align: right;  }
 
+    .xxs-tall-10  { min-height: 10vh; }
+    .xxs-tall-20  { min-height: 20vh; }
+    .xxs-tall-30  { min-height: 30vh; }
+    .xxs-tall-40  { min-height: 40vh; }
+    .xxs-tall-50  { min-height: 50vh; }
+    .xxs-tall-60  { min-height: 60vh; }
+    .xxs-tall-70  { min-height: 70vh; }
+
     .xxs-padded-0  { padding: 0;     }
     .xxs-padded-05 { padding: 0.5rem; }
     .xxs-padded-1  { padding: 1rem;   }
