@@ -3015,7 +3015,7 @@ footer nav a {
 /* ------- MD Media Query (64em / 1024px) --------------- */
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
 
-@media (max-width: 74em) {
+@media (max-width: 72em) {
     body {
         border: 2px solid green;
     }
