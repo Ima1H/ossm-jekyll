@@ -3355,6 +3355,12 @@ footer nav a {
     .privacy-policy a {
         font-size: 1.8vw !important;
     }
+
+    .project-slider:hover .project-box:not(:hover) {
+        filter: grayscale(0%) opacity(100%);
+        transition: none;
+    }
+
 }
 
 
@@ -3647,8 +3653,6 @@ footer nav a {
     #close-cookie-banner {
         font-size: 2.2vw;
     }
-
-
 
 
 }
