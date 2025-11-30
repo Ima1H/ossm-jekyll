@@ -2245,7 +2245,7 @@ transform: rotate(135deg);
 ul {
     margin: .7rem 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 200;
     line-height: 1.6;
     list-style: disc;
@@ -4027,7 +4027,7 @@ footer nav a {
     }
 
     .mall-text  { font-size: 1.5vw }
-    .medium-text { font-size: 2vw   }
+    .medium-text { font-size: 5vw   }
     .big-text    { font-size: 4vw;   }
 
     .title-header-index {
@@ -4044,14 +4044,9 @@ footer nav a {
         margin-bottom: 1rem;
     } 
 
-    .title-medium-oversized {
-        font-family: 'Work Sans', sans-serif;
-        font-weight: bold;
-        font-size: 1.8vw;
-        margin-top: 0.5rem;
-        color: black;
+   .title-medium-oversized {
+        font-size: 6.3vw;
     }
-
     .footer-title {
         font-size: 5vw;
         font-weight: 500;
