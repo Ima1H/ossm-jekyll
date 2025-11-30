@@ -3280,6 +3280,14 @@ footer nav a {
     .md-margin-l-5 { margin-left: 5rem;  }
     .md-margin-r-5 { margin-right: 5rem;  }
 
+    .bg-about-us {
+        background-image: url('images/imaginate-ossm-over-ons.jpeg');
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 20rem 20rem 0rem 0rem;
+        /* opacity: 0.8; */
+    }
+    
     .md-bg-white {
         background-color: rgba(247, 240, 240, 0.8);
         padding: 1rem;
