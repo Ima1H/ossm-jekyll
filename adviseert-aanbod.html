@@ -44,10 +44,10 @@ sessies:
       - "SESSIE: We komen (max) 2u lang ter plaatse, jij stelt je vragen of toont waar je momenteel tegen aan loopt. * Terwijl wij ons advies mondeling geven, mag jij gerust notities maken."
 ---
 <!-------------------------- Header Banner  ------------------------------->
-<section class="padded-5 grid-bottom tall-70 padded-t-0">
+<section class="padded-10 mdl-padded-5 grid-bottom tall-60 md-tall-80 md-padded-6 md-padded-t-10 sm-padded-5 xs-padded-3 padded-t-0">
 
-  <div class="padded-4 col-6_xs-12 grid">
-    <div class="col-12 padded-5 padded-b-4 padded-r-7">
+  <div class="padded-4 col-6_md-12 grid xs-padded-2">
+    <div class="col-12 padded-4 padded-r-7 md-padded-l-4 md-padded-r-4 md-padded-2 xs-padded-2">
         <div class="tall-70 md-tall-50 bg-image bg-portfolio"> </div>   
     </div>
   </div> 
@@ -92,7 +92,7 @@ sessies:
 {% for sessie in page.sessies %}
 <section class="grid-middle padded-5 padded-b-10">  
 
-  <div class="col-6-bottom grid">
+  <div class="col-6-bottom_md-12-bottom grid">
     <div class="padded-l-5 padded-r-7 padded-b-0 col-12 hide-sm">
       <div class="tall-80 bg-image {{ sessie.bg_class }} has-price">
         <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
@@ -100,7 +100,7 @@ sessies:
     </div>
   </div>
 
-  <div id="{{ sessie.id }}" class="padded-5 col-6-bottom padded-b-0">           
+  <div id="{{ sessie.id }}" class="padded-5 col-6-bottom_md-12-bottom padded-b-0">           
     <div class="col-12 sm-text-center padded-b-0"> 
 
       <div class="col-12 padded-0">
