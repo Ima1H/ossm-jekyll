@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-  // ==============================
   // Accordion functionality
-  // ==============================
   $('.accordion input').on('change', function() {
     if ($(this).is(':checked')) {
       // Close other accordion sections
@@ -31,17 +29,17 @@ $(document).ready(function() {
     }
   });
 
-  // ==============================
+  
   // Hamburger menu
-  // ==============================
+  
   $('.hamburger-button').click(function() {
     $('.hamburger-button').toggleClass('active');
     $('.mobile-menu').toggleClass('active');
   });
 
-  // ==============================
+  
   // Algemene slider (home: .slider-container)
-  // ==============================
+  
   $('.slider-container').slick({
     autoplay: true,
     autoplaySpeed: 3000,
@@ -66,9 +64,9 @@ $(document).ready(function() {
     ]
   });
 
-  // ==============================
+  
   // Project Carousel (portfolio)
-  // ==============================
+  
   $('.project-slider').slick({
     autoplay: false,
     autoplaySpeed: 3000,
@@ -114,10 +112,10 @@ $(document).ready(function() {
     ]
   });
 
-  // ==============================
+  
   // Review Carousel (home)
   // Eén slide zichtbaar, zoals je mockup
-  // ==============================
+  
   $('.review-slider').slick({
     autoplay: false,
     autoplaySpeed: 3000,
@@ -134,9 +132,9 @@ $(document).ready(function() {
     adaptiveHeight: true
   });
 
-  // ==============================
+  
   // lightGallery
-  // ==============================
+  
   if (document.getElementById('lightgallery')) {
     lightGallery(document.getElementById('lightgallery'), {
       selector: 'a',
@@ -145,14 +143,14 @@ $(document).ready(function() {
     });
   }
 
-  // ==============================
+  
   // Animate on scroll
-  // ==============================
+  
   AOS.init();
 
-  // ==============================
+  
   // Filterable prices / portfolio
-  // ==============================
+  
   $('#portfolio-filter span').click(function() {
 
     // Remove class 'active' from currently active <span>
@@ -182,9 +180,9 @@ $(document).ready(function() {
     });
   });
 
-  // ==============================
+  
   // Booking module (adviseert/ontwerpt, pakketten & agenda)
-  // ==============================
+  
   (function() {
     var $mods = $('.booking-module');
     if (!$mods.length) return;
@@ -237,3 +235,57 @@ $(document).ready(function() {
         var $iframe = $('<iframe/>', {
           class: 'agenda-iframe',
           src: src,
+          title: (label || 'Agenda') + ' – ' + provider,
+          loading: 'lazy'
+        });
+
+        var $fallback = $('<p/>', { css: { margin: '0.5rem 1rem 1rem' } })
+          .html(
+            'Zie je niets? <a class="agenda-fallback-link" target="_blank" rel="noopener" href="' +
+            url +
+            '">Open in nieuw tabblad</a>.'
+          );
+
+        $host.empty().append($iframe, $fallback);
+
+        // smooth scroll
+        $('html, body').animate({ scrollTop: $host.offset().top - 80 }, 400);
+      }
+
+      // events
+      $serviceBtns.on('click', function() {
+        selectService($(this).data('service'));
+      });
+
+      $mod.find('#package-grid').on('click', '.pkg-btn', function() {
+        var $b = $(this);
+        selectPackage($b);
+        loadAgenda($b.data('url'), $b.data('provider'), $.trim($b.text()));
+      });
+
+      // Deeplink: ?service=adviseert&package=brainstormsessie
+      var params     = new URLSearchParams(window.location.search);
+      var qsService  = params.get('service');
+      var qsPackage  = params.get('package');
+
+      if (qsService) {
+        selectService(qsService);
+        if (qsPackage) {
+          var $btn = $pkgs
+            .filter('[data-service="' + qsService + '"][data-id="' + qsPackage + '"]')
+            .first();
+          if ($btn.length) {
+            selectPackage($btn);
+            loadAgenda($btn.data('url'), $btn.data('provider'), $.trim($btn.text()));
+            return; // klaar
+          }
+        }
+        return; // service stond in URL, maar geen (geldige) package
+      }
+
+      // geen deeplink → normale default
+      selectService(defaultService);
+    });
+  })();
+
+});
