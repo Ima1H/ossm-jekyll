@@ -1865,31 +1865,35 @@ header p {
 
 /* Nieuw */
 
-/* === Review slider: 2 kolommen naast elkaar === */
+/* --- FIX REVIEW SLIDER LAYOUT (Safari-proof) --- */
 
+/* Zorg dat elke slide zelf flex is */
 .review-slider .review-slide {
-  display: flex;
+  display: flex !important;
+  flex-direction: row;
   align-items: flex-start;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
 }
 
-/* Zorg dat de 2 col-blokken zich als flex-items gedragen ipv floats */
-.review-slider .review-slide > .col-6_md-12_sm-12_xs-12 {
-  float: none;
-  width: 50%;
+/* Override Gridlex columns binnen de slider */
+.review-slider .review-slide > div {
+  float: none !important;            /* override Gridlex float */
+  display: block !important;
+  width: 50% !important;             /* forceer 2 kolommen */
+  max-width: 50% !important;
+  box-sizing: border-box;
 }
 
-/* Op kleinere schermen gewoon onder elkaar stapelen */
-@media (max-width: 768px) {
-  .review-slider .review-slide {
-    flex-wrap: wrap;
-  }
-
-  .review-slider .review-slide > .col-6_md-12_sm-12_xs-12 {
-    width: 100%;
-  }
+/* voorkom dat Gridlex padding collapses veroorzaakt binnen slick */
+.review-slider .review-slide > div[class*="padded"] {
+  display: block;
 }
 
+/* Safari bugfix: slick plaatst width inline → dit verhindert het stacken */
+.review-slider .slick-slide {
+  display: flex !important;
+}
 
 
 /* Trustlocal badges */
@@ -4048,6 +4052,15 @@ footer nav a {
     .xxs-margin-b-2 { margin-bottom: 2rem; }
     .xxs-margin-l-2 { margin-left: 2rem;  }
     .xxs-margin-r-2 { margin-right: 2rem;  }
+
+    .review-slider .review-slide {
+    flex-direction: column !important;
+    }
+
+    .review-slider .review-slide > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    }
 
     .arrow-container {
         height: auto; /* Dynamisch hoogte aanpassen voor kleinere schermen */
