@@ -92,7 +92,7 @@
 <!---------------------------- Footer MD Media Query (48em / 768px) --------------------------------->
 <footer class="grid-center text-center padded-1 show-md hide-xs bg-light-grey">
 
-  <div class="col-12 md-padded-9">
+  <div class="col-12 md-padded-6">
     <div class="grid gallery margin-md">
         {% for post in site.posts limit:6 %}
           <div class="col-6 padded-1">
@@ -205,6 +205,18 @@
 
 <!---------------------------- Footer XS Media Query (48em / 768px) --------------------------------->
 <footer class="grid-center text-center padded-1 show-xs hide-sm bg-light-grey">
+
+   <div class="col-12">
+      <div class="grid gallery margin-md">
+        {% for post in site.posts limit:4 %}
+          <div class="col-6">
+            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
+              <!-- <p class="margin-b-0 text-left">{{ post.title }}</p> -->
+            </a>
+          </div>
+        {% endfor %}
+    </div>
   
   <!-- column 1 -->
   <div class="col-12-center ">
@@ -286,18 +298,6 @@
       </div>
     </div>
   </div> -->
-
-    <div class="col-12">
-      <div class="grid gallery margin-md">
-        {% for post in site.posts limit:4 %}
-          <div class="col-6">
-            <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-              <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
-              <!-- <p class="margin-b-0 text-left">{{ post.title }}</p> -->
-            </a>
-          </div>
-        {% endfor %}
-    </div>
 
 
   <!-- column coprywright and terms -->
