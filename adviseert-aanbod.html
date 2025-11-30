@@ -90,11 +90,11 @@ sessies:
 
 <!-------------------------- Advies aanbod  ------------------------------->
 {% for sessie in page.sessies %}
-<section class="grid-middle padded-10 mdl-padded-5">  
+<section class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7">  
 
   <div class="col-6-bottom_md-12-bottom grid">
     <div class="padded-l-5 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 bg-image {{ sessie.bg_class }} has-price">
+      <div class="tall-80 md-tall-70 bg-image {{ sessie.bg_class }} has-price">
         <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
       </div>
     </div>
@@ -139,7 +139,7 @@ sessies:
 <section class="grid padded-7 padded-t-2">
 
   <div id="projecten" class="grid padded-b-2">
-    <h2 class="col-12 title-medium-oversized"> PROJECTEN Interieurachitectuur </h2>
+    <h2 class="col-12 title-medium-oversized padded-l-0"> PROJECTEN Interieurachitectuur </h2>
     <div class="col-12 divider-left padded-b-0">
       <p> Benieuwd naar enkele realisaties, neem snel (of op jouw gemak) een kijkje: </p>
     </div>
@@ -150,7 +150,7 @@ sessies:
   {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %} 
   {% for post in projects %} 
     
-    <div class="col-3_md-12 padded-r-2 padded-b-5 project-container">
+    <div class="col-3_md-6_sm-12 padded-r-2 padded-b-5 project-container">
       <a class="index-project-thumb display-block button-project" 
          href="{{ post.url | relative_url }}" 
          aria-label="{{ post.title }}">
