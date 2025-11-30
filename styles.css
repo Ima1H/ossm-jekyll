@@ -3285,7 +3285,7 @@ footer nav a {
         background-image: url('images/imaginate-ossm-over-ons.jpeg');
         background-position: 50% 30%;
         background-size: cover;
-        border-radius: 0rem !important;
+        border-radius: 20rem 20rem 0rem 0rem;
         /* opacity: 0.8; */
     }
 
@@ -3293,13 +3293,13 @@ footer nav a {
         background-image: url('images/imaginate-ossm-aanbod.jpeg');
         background-position: 50% 34%;
         background-size: cover;
-        border-radius: 0rem !important;
+        border-radius:20rem 20rem 0rem 0rem;
     }
     
     .bg-portfolio {
         background-image: url('/images/bynouchka-160224-lindsay-4.jpg');
         background-position: 50% 50%;
-        border-radius: 0rem !important;
+        border-radius: 20rem 20rem 0rem 0rem;
     }
     
     .md-bg-white {
