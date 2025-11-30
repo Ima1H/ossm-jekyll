@@ -3939,11 +3939,18 @@ footer nav a {
     .xxs-text-left   { text-align: left;   }
     .xxs-text-right  { text-align: right;  }
 
+    .xxs-padded-0  { padding: 0;     }
     .xxs-padded-05 { padding: 0.5rem; }
     .xxs-padded-1  { padding: 1rem;   }
-    .xxs-padded-2  { padding: 2%;     }
-    .xxs-padded-5  { padding: 5%;     }
-    .xxs-padded-10 { padding: 10%;    }
+    .xxs-padded-2  { padding: 2rem;     }
+    .xxs-padded-3  { padding: 3rem;     }
+    .xxs-padded-4  { padding: 4rem;     }
+    .xxs-padded-5  { padding: 5rem;     }
+    .xxs-padded-6  { padding: 6rem;     }
+    .xxs-padded-7  { padding: 7rem;     }
+    .xxs-padded-8  { padding: 8rem;     }
+    .xxs-padded-9  { padding: 9rem;     }
+    .xxs-padded-10 { padding: 10rem;    }
 
     .xxs-padded-t-0 { padding-top: 0;    }
     .xxs-padded-b-0 { padding-bottom: 0; }
