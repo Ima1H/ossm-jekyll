@@ -24,9 +24,9 @@ layout: default
     </div>
   </div>
   
-  <div class="grid-spaceBetween col-8_md-12">
+  <div class="grid-spaceBetween col-8 hide-md">
     <div class="col-5-bottom bg-image position-img-1 tall-50" style="background-image: url('{{page.featured_image_1}}');"> </div>
-    <div class="col-5 bg-image position-img-2 height-50 hide-md" style="background-image: url('{{page.featured_image_2}}');"> </div>
+    <div class="col-5 bg-image position-img-2 height-50 " style="background-image: url('{{page.featured_image_2}}');"> </div>
   </div>
   
 </section>
@@ -66,7 +66,7 @@ layout: default
 
 
 <!----------------------------- Content ------------------------------->
-<section class="grid padded-16 mdl-padded-7 padded-t-0">
+<section class="grid padded-16 mdl-padded-7 padded-t-0 md-padded-t-0 md-padded-b-1">
 
     
     <div class="col-12-center padded-1 padded-t-2">
@@ -78,7 +78,7 @@ layout: default
 
 
 <!-------------------------- Pictures after  ------------------------------->
-<section class="padded-16 mdl-padded-7 gallery-project grid tall-80 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
+<section class="padded-16 mdl-padded-7 gallery-project grid tall-80 md-tall-50 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
   <a class="col-4" href="{{ page.project_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}">
     <div class="lightgallery-img bg-image bg-img-3 portrait"
          style="background-image: url('{{ page.project_image_1 | relative_url }}');"></div>
@@ -94,7 +94,7 @@ layout: default
          style="background-image: url('{{ page.project_image_3 | relative_url }}');"></div>
   </a>
 
-  <a class="col-6" href="{{ page.project_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}">
+  <a class="col-6 " href="{{ page.project_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}">
     <div class="lightgallery-img bg-image bg-img-4 landscape"
          style="background-image: url('{{ page.project_image_4 | relative_url }}');"></div>
   </a>
@@ -106,7 +106,7 @@ layout: default
 </section>
 
 <!-------------------------- Pictures after  ------------------------------->
-<section class="padded-16 mdl-padded-7 gallery-project grid tall-80 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
+<section class="padded-16 mdl-padded-7 gallery-project grid tall-80 md-tall-50 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
   <a class="col-4" href="{{ page.project_voor_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}">
     <div class="lightgallery-img bg-image bg-img-3 portrait"
          style="background-image: url('{{ page.project_voor_image_1 | relative_url }}');"></div>
