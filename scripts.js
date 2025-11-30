@@ -179,10 +179,18 @@ $(document).ready(function() {
       {
         breakpoint: 1024, // < 1024px
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },
+      {
+        breakpoint: 768, // < 768px (tablet)
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+
       {
         breakpoint: 768, // < 768px (tablet)
         settings: {
