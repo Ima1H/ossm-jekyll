@@ -101,7 +101,7 @@ sessies:
   </div>
 
   <div id="{{ sessie.id }}" class="padded-5 col-6-bottom_md-12-bottom padded-b-0">           
-    <div class="sm-text-center padded-b-0"> 
+    <div class="padded-b-0"> 
 
       <div class="col-12 padded-0">
         <h1 class="title-medium-oversized font-weight-300"> {{ sessie.title }} </h1>
@@ -150,7 +150,7 @@ sessies:
   {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %} 
   {% for post in projects %} 
     
-    <div class="col-3_md-6_sm-12 padded-r-2 padded-b-5 project-container">
+    <div class="col-3_md-6_xs-12 padded-r-2 padded-b-5 project-container">
       <a class="index-project-thumb display-block button-project" 
          href="{{ post.url | relative_url }}" 
          aria-label="{{ post.title }}">
