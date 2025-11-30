@@ -3288,6 +3288,14 @@ footer nav a {
         border-radius: 0rem !important;
         /* opacity: 0.8; */
     }
+
+    .bg-aanbod {
+        background-image: url('images/imaginate-ossm-aanbod.jpeg');
+        background-position: 50% 34%;
+        background-size: cover;
+        border-radius: 0rem !important;
+    }
+    
     
     .md-bg-white {
         background-color: rgba(247, 240, 240, 0.8);
