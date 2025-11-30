@@ -201,23 +201,56 @@ $(document).ready(function() {
     ]
   });
 
-  // Review carousel (index page)
+  //Project  Carousel
   $('.review-slider').slick({
-    autoplay: false,
-    autoplaySpeed: 3000,
-    speed: 1000,
-    arrows: true,
-    accessibility: true,
-    dots: true,
-    fade: false,
-    infinite: true,
-    pauseOnHover: true,
-    pauseOnDotsHover: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: true
+      autoplay: false,         // Do we want it to autoplay? true or false
+      autoplaySpeed: 3000,    // How long between each slide when auto-playing
+      speed: 1000,             // How fast is the transition in milliseconds
+      arrows: true,           // Do you want to show arrows to trigger each slide
+      accessibility: true,    // Enables keyboard tabbing and arrow key navigation
+      dots: true,             // Enables the dots below to show how many slides
+      fade: false,            // Changes the animate from slide to fade if true
+      infinite: false,        // When true, means that it will scroll in a circle
+      pauseOnHover: true,    // When true means the autoplay pauses when hovering
+      pauseOnDotsHover: true, // Pauses the autoplay when hovering over the dots
+    slidesToShow: 6,
+    slidesToScroll: 1, 
+    responsive: [ // responsive gallery: mobiel minder, desktop meer
+      {
+        breakpoint: 1280, // < 1280px
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1
+          // infinite: true,
+          // dots: true
+        }
+      },
+      {
+        breakpoint: 1024, // < 1024px
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768, // < 768px (tablet)
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 768, // < 768px (tablet)
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    ]
   });
 
+  
 
   lightGallery(document.getElementById('lightgallery'), {
     selector: 'a', 
