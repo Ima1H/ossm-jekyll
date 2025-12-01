@@ -1751,6 +1751,10 @@ header p {
     margin-right: auto;
 }
 
+.review-slider {
+    padding: 2% 5%;
+}
+
 /* slick-next for reviews bij project-slider */
 .review-slider .slick-prev {
     left: -90px;
