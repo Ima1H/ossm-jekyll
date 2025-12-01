@@ -1751,7 +1751,8 @@ header p {
     margin-right: auto;
 }
 
-.review-slider .slick-next {
+/* slick-next for reviews bij project-slider */
+.review-slider .slick-prev {
     right: -85px;
 }
 
