@@ -1755,14 +1755,6 @@ header p {
     padding: 2% 5%;
 }
 
-/* slick-next for reviews bij project-slider */
-.review-slider .slick-prev {
-    left: -90px;
-}
-
-.review-slider .slick-dots {
-    bottom: -65px;
-}
 
 /* Trustlocal badges */
 
