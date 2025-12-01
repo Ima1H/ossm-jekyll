@@ -1751,6 +1751,10 @@ header p {
     margin-right: auto;
 }
 
+.review-slider .slick-next {
+    right: -85px;
+}
+
 /* Trustlocal badges */
 
 ._ABCz {
