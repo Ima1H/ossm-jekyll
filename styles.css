@@ -1756,6 +1756,10 @@ header p {
     left: -90px;
 }
 
+.review-slider .slick-dots {
+    bottom: -65px;
+}
+
 /* Trustlocal badges */
 
 ._ABCz {
