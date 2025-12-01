@@ -116,8 +116,6 @@ $(document).ready(function() {
 
   
   // Review Carousel (home)
-  // Eén slide zichtbaar, zoals je mockup
-  
   $('.review-slider').slick({
     autoplay: false,
     autoplaySpeed: 3000,
@@ -131,8 +129,18 @@ $(document).ready(function() {
     pauseOnDotsHover: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    adaptiveHeight: true
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
+  
+ 
 
   
   // lightGallery

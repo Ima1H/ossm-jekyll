@@ -1,0 +1,19 @@
+<div class="padded-5">
+  <div class="review-slider padded-1">
+
+    {% for post in site.posts limit: 6 %}
+    <div class="slider-item">
+        <div class="grid-bottom card-review">
+            <img src="{{ post.featured_image | relative_url }}" class="col-6">
+            <div class="col-6 padded-5 padded-b-0">
+                <p class="small-text uppercase light-text"> #{{ post.categories | join: ', ' }} </p>
+                <h3 class="medium-text"> {{ post.client }} </h3>
+                <p>{{ post.testimonial | default: post.excerpt | strip_html }} </p>
+                <a href="{{ post.url | relative_url }}" class="button"> Bekijk het project </a>
+            </div>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>
