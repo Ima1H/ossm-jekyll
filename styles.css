@@ -1167,7 +1167,7 @@ hr {
     var(--image-url); /* fallback-variabele, maar je foto blijft inline via background-image */
   background-repeat: no-repeat, no-repeat;
   background-position: 1.5rem calc(100% - 1.5rem), center; /* logo links onder, foto gecentreerd */
-  background-size: 9rem 9rem, cover; /* logo kleiner, foto vult volledig */
+  background-size: cover; /* logo kleiner, foto vult volledig */
   background-blend-mode: normal;
 }
 
@@ -3979,6 +3979,9 @@ footer nav a {
         font-size: 4vw !important;
     }
 
+    .privacy-policy a {
+        font-size: 12px !important;
+    }
 
     #close-cookie-banner {
         font-size: 3vw !important; 

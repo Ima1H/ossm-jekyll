@@ -48,15 +48,15 @@ sessies:
 ---
 
 <!-------------------------- Header Banner  ------------------------------->
-<section class="padded-md grid-bottom tall-70 padded-t-0">
+<section class="padded-10 mdl-padded-5 grid-bottom tall-60 md-tall-80 md-padded-6 md-padded-t-10 sm-padded-5 xs-padded-3 padded-t-0">
 
-  <div class="padded-4 col-6_xs-12 grid">
-    <div class="col-12 padded-4 padded-r-7">
-        <div class="tall-70 md-tall-50 bg-image bg-ontwerpt-aanbod"> </div>   
+  <div class="padded-4 col-6_md-12 grid xs-padded-2">
+    <div class="col-12 padded-4 padded-r-7 md-padded-l-4 md-padded-r-4 md-padded-2 xs-padded-2">
+        <div class="tall-70 bg-image bg-ontwerpt-aanbod"> </div>   
     </div>
   </div> 
 
-  <div class="padded-4 col-6_xs-12"> 
+  <div class="padded-4 xs-padded-2 col-6_md-12"> 
     <h1 class="text-left title-oversized xs-title-oversized"> Ontwerpt. </h1>
     <hr class="padded-t-0">
 
@@ -87,28 +87,28 @@ sessies:
 
 <!-------------------------- Ontwerpt aanbod (loop)  ------------------------------->
 {% for sessie in page.sessies %}
-<section class="grid-middle padded-md padded-b-10">  
+<section class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">  
 
-  <div class="col-6-bottom grid">
-    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 md-tall-50 md-tall-40 bg-image {{ sessie.bg_class }} has-price">
+  <div class="col-6-bottom_md-12-bottom grid">
+    <div class="padded-l-5 padded-r-7 padded-b-0 col-12 hide-sm">
+      <div class="tall-80 md-tall-70 bg-image {{ sessie.bg_class }} has-price">
         <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
       </div>
     </div>
   </div>
 
-  <div id="{{ sessie.id }}" class="padded-5 col-6-bottom padded-b-0">           
-    <div class="col-12 sm-text-center padded-b-0"> 
+  <div id="{{ sessie.id }}" class="padded-5 xs-padded-2 col-6-bottom_md-12-bottom padded-b-0">           
+    <div class="padded-b-0"> 
 
       <div class="col-12 padded-0">
         <h1 class="title-medium-oversized font-weight-300"> {{ sessie.title }} </h1>
         <hr class="padded-t-0">
       </div>
 
-      <h2 class="black-text font-weight-200"> {{ sessie.for_who_title }}</h2>
+      <h2 class="editable black-text font-weight-200"> {{ sessie.for_who_title }}</h2>
       <p>{{ sessie.for_who_text }}</p>
 
-      <h3 class="black-text font-weight-200"> {{ sessie.what_title }} </h3>
+      <h3 class="editable black-text font-weight-200"> {{ sessie.what_title }} </h3>
       <ul class="margin-0 padded-b-2">
         {% for item in sessie.what_items %}
           <li class="text-list">
@@ -133,10 +133,10 @@ sessies:
 
 
 <!-------------------------- Projecten  ------------------------------->
-<section id="projecten" class="grid padded-10 padded-t-2">
+<section id="projecten" class="grid padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">
 
   <div class="grid padded-b-2">
-    <h2 class="title-medium-oversized"> PROJECTEN Interieurachitectuur & grafisch ontwerp</h2>
+    <h2 class="col-12 title-medium-oversized padded-l-0"> PROJECTEN Interieurachitectuur & grafisch ontwerp</h2>
     <div class="col-12 divider-left padded-b-0">
       <p>
         Benieuwd naar enkele realisaties, neem snel (of op jouw gemak) een kijkje:
