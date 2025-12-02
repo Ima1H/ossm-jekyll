@@ -274,9 +274,9 @@ about:
     </div>
 
     <!-- Carousel -->
-    <div class="review-slider project-greyed">
+    <div class="grid review-slider">
         {% for post in site.posts limit: 6 %}
-        <div class="grid slider-item">
+        <div class="grid-bottom slider-item">
             <img src="{{ post.featured_image | relative_url }}" class="col-6_md-12 padded-b-0 padded-l-0">
             <div class="col-6 padded-2 padded-b-0">
                 <p class="lowercase title-categories"> #{{ post.categories | join: ', ' }} </p>
