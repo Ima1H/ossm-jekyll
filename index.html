@@ -266,19 +266,17 @@ about:
 
 <section class="padded-10 mdl-padded-5 sm-padded-1 sm-padded-t-5">
     <!-- Kop + link rechtsboven -->
-    <div class="grid-spaceBetween">
-        <div class="padded-l col-9">
-            <div class="grid padded-b-2">
-                <h1 class="text-left title-medium-oversized"> Wat <br> klanten zeggen. </h1>
-                <hr class="padded-t-0">
-            </div>  
-        </div> 
+    <div class="col-7 padded-4 md-padded-0">
+      <h1 class="text-left title-medium-oversized">
+        Wat <br> klanten zeggen.
+      </h1>
+      <hr class="padded-t-0">
     </div>
 
     <!-- Carousel -->
     <div class="review-slider project-greyed">
         {% for post in site.posts limit: 6 %}
-        <div class="slider-item">
+        <div class="grid slider-item">
             <img src="{{ post.featured_image | relative_url }}" class="col-6_md-12 padded-b-0 padded-l-0">
             <div class="col-6 padded-2 padded-b-0">
                 <p class="lowercase title-categories"> #{{ post.categories | join: ', ' }} </p>
