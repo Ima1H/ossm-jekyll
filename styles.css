@@ -1166,7 +1166,7 @@ hr {
     url('/images/ossm-logo-mark.png'),
     var(--image-url); /* fallback-variabele, maar je foto blijft inline via background-image */
   background-repeat: no-repeat, no-repeat;
-  background-position: 1.5rem calc(100% - 1.5rem), center; /* logo links onder, foto gecentreerd */
+  background-position: calc(100%), center; /* logo links onder, foto gecentreerd */
   background-size: cover; /* logo kleiner, foto vult volledig */
   background-blend-mode: normal;
 }
