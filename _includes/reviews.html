@@ -1,10 +1,29 @@
-<div class="padded-4">
+<div class="padded-4 hide-md">
   <div class="review-slider">
 
     {% for post in site.posts limit: 6 %}
     <div class="slider-item">
         <div class="grid-bottom card-review">
-            <img src="{{ post.featured_image | relative_url }}" class="col-6_md-12 padded-b-0 padded-l-0 hide-md">
+            <img src="{{ post.featured_image | relative_url }}" class="col-6_md-12 padded-b-0 padded-l-0">
+            <div class="col-6 padded-2 padded-b-0">
+                <p class="lowercase title-categories"> #{{ post.categories | join: ', ' }} </p>
+                <h3 class="uppercase title-medium-oversized black-text font-weight-200"> {{ post.client }} </h3>
+                <p class="testimonial">{{ post.testimonial | default: post.excerpt | strip_html }} </p>
+                <a href="{{ post.url | relative_url }}" class="button"> Bekijk het project </a>
+            </div>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+<div class="padded-4 show-md">
+  <div class="review-slider">
+
+    {% for post in site.posts limit: 6 %}
+    <div class="slider-item">
+        <div class="grid-bottom card-review">
             <div class="col-6 padded-2 padded-b-0">
                 <p class="lowercase title-categories"> #{{ post.categories | join: ', ' }} </p>
                 <h3 class="uppercase title-medium-oversized black-text font-weight-200"> {{ post.client }} </h3>
