@@ -252,7 +252,7 @@ about:
            data-size="small"
            data-type="landscape"
            data-border="default"
-           data-theme="light"
+           data-theme="light" 
            data-background="transparent"
            data-google="default"></div>
     </div>
@@ -264,6 +264,32 @@ about:
       
 </section>
 
+<section class="padded-10 mdl-padded-5 sm-padded-1 sm-padded-t-5">
+    <!-- Kop + link rechtsboven -->
+    <div class="grid-spaceBetween">
+        <div class="padded-l col-9">
+            <div class="grid padded-b-2">
+                <h1 class="text-left title-medium-oversized"> Wat <br> klanten zeggen. </h1>
+                <hr class="padded-t-0">
+            </div>  
+        </div> 
+    </div>
+
+    <!-- Carousel -->
+    <div class="project-slider project-greyed">
+        {% for post in projects limit: 6 %}
+        <div class="slider-item">
+            <img src="{{ post.featured_image | relative_url }}" class="col-6_md-12 padded-b-0 padded-l-0">
+            <div class="col-6 padded-2 padded-b-0">
+                <p class="lowercase title-categories"> #{{ post.categories | join: ', ' }} </p>
+                <h3 class="uppercase title-medium-oversized black-text font-weight-200"> {{ post.client }} </h3>
+                <p class="testimonial">{{ post.testimonial | default: post.excerpt | strip_html }} </p>
+                <a href="{{ post.url | relative_url }}" class="button"> Bekijk het project </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
 
 <!-- MailerLite -->
  <section class="padded-lg padded-t-5 md-padded-6 xxs-padded-3">
