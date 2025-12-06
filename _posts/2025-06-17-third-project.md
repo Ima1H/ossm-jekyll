@@ -24,10 +24,10 @@ seo:
 
 ## Één visie, één logo.
 
-Twee mannen
-Twee zaakvoerders
-Twee smaken
-Twee stijlen
+Twee mannen <br>
+Twee zaakvoerders <br>
+Twee smaken <br>
+Twee stijlen <br>
 
 Één visie, één logo.
 
