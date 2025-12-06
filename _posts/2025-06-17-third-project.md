@@ -22,8 +22,6 @@ seo:
   hide-from-google: false
 ---
 
-## Één visie, één logo.
-
 Twee mannen <br>
 Twee zaakvoerders <br>
 Twee smaken <br>
