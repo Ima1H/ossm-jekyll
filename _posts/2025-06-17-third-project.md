@@ -1,6 +1,5 @@
 ---
-layout: 
-  - branding
+layout: branding
 categories: 
   - Grafisch ontwerp
 title: CON CREET
