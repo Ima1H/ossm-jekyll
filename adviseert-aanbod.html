@@ -90,7 +90,7 @@ sessies:
 
 <!-------------------------- Advies aanbod  ------------------------------->
 {% for sessie in page.sessies %}
-<section class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">  
+<section id="{{ sessie.id }}" class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">  
 
   <div class="col-6-bottom_md-12-bottom grid">
     <div class="padded-l-5 padded-r-7 padded-b-0 col-12 hide-sm">
@@ -100,7 +100,7 @@ sessies:
     </div>
   </div>
 
-  <div id="{{ sessie.id }}" class="padded-5 xs-padded-2 col-6-bottom_md-12-bottom padded-b-0">           
+  <div class="padded-5 xs-padded-2 col-6-bottom_md-12-bottom padded-b-0">           
     <div class="padded-b-0"> 
 
       <div class="col-12 padded-0">
@@ -135,7 +135,7 @@ sessies:
 
 
 <!-------------------------- Projects  ------------------------------->
-
+<!-- 
 <section id="projecten" class="grid padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">
 
   <div class="grid padded-b-2">
@@ -178,4 +178,4 @@ sessies:
         <h4 class="margin-b-05">Design made with soul</h4>
 
     </div>
-</section>
+</section> -->

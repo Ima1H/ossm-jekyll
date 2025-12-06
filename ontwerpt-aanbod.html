@@ -13,38 +13,23 @@ sessies:
     title: "(re)Branding"
     bg_class: "bg-rebranding"
     package: "rebranding"
-    price: "€345"
     for_who_title: "Voor wie?"
     for_who_text: >
-      (re)Branding — een verhaal dat klopt van binnen én van buiten. Of je nu aan de start staat van een nieuw avontuur of je bestaande merk nieuw leven wil inblazen, wij helpen je om een visuele identiteit te creëren die echt klopt met wie jij bent en waar je voor staat. Geen losse onderdelen, maar een sterk geheel waarin alles elkaar versterkt: jouw logo, huisstijl, website, sociale media en fotografie. We vertalen jouw verhaal, missie en persoonlijkheid in een branding die voelt als een natuurlijke verlenging van jou en je bedrijf. Samen zorgen we ervoor dat elk detail juist zit, van naam en baseline tot vormgeving, tone of voice en online uitstraling, zodat je merk niet alleen gezien wordt maar ook echt gevoeld.
-    what_title: "Wat houdt het in?"
-    what_items:
-      - "VOORBEREIDING: niet nodig"
-      - "SESSIE: We plannen samen een traject op maat uit, afgestemd op jouw verhaal, noden en groeifase. We denken mee van eerste idee tot uitgewerkt concept."
+      (re)Branding — een verhaal dat klopt van binnen én van buiten. Of je nu aan de start staat van een <strong>nieuw avontuur</strong>, of je <strong>bestaande merk</strong>, nieuw leven wil inblazen, wij helpen je om een <strong>visuele identiteit</strong> te creëren die echt klopt met wie jij bent en waar je voor staat. Geen losse onderdelen, maar een sterk geheel waarin alles elkaar versterkt: jouw <strong>logo, huisstijl, website, sociale media en fotografie.</strong> We vertalen jouw verhaal, missie en persoonlijkheid in een branding die voelt als een <strong>natuurlijke verlenging van jou en je bedrijf.</strong> Samen zorgen we ervoor dat elk detail juist zit, <strong>van naam en baseline tot vormgeving, tone of voice en online uitstraling</strong>, zodat je merk niet alleen gezien wordt maar ook echt gevoeld. Wij geloven in totaalconcepten die kloppen. Branding is zoveel meer dan een logo en kleurenpalet, en daarom bundelen we onze eigen specialiteiten met die van partners die perfect bij ons passen. Neem gerust contact op voor meer informatie?
   - id: interieurproject
     title: "Interieurproject"
     bg_class: "bg-interieurproject"
     package: "totaalproject"
-    price: "€345"
     for_who_title: "Voor wie?"
     for_who_text: >
       Heb je een ruimte waarbij je niet goed weet welke richting je uit moet gaan, of twijfel je over indeling, stijl en materialen? We analyseren je (ver)bouwplannen en stemmen het ontwerp af op jouw levensstijl, zodat je doordachte keuzes kan maken en frustraties achteraf vermijdt. Zo leg je de basis voor een interieur dat echt klopt voor jou.
-    what_title: "Wat houdt het in?"
-    what_items:
-      - "VOORBEREIDING: niet nodig"
-      - "SESSIE: We overlopen samen je plannen, wensen en vragen. Jij toont waar je tegenaan loopt, wij denken gericht mee en geven concreet advies waarmee je verder kan."
   - id: totaalconcept
     title: "Totaalconcept"
     bg_class: "bg-totaalconcept"
     package: "totaalconcept"
-    price: "€345"
     for_who_title: "Voor wie?"
     for_who_text: >
       Wil je dat interieur, branding en beleving één verhaal vormen? Een totaalconcept is ideaal voor wie zijn merk of interieur als geheel wil benaderen, van eerste indruk tot laatste detail. We kijken naar de volledige context: ruimte, merk, doelgroep en gevoel, zodat alles op elkaar afgestemd is.
-    what_title: "Wat houdt het in?"
-    what_items:
-      - "VOORBEREIDING: niet nodig"
-      - "SESSIE: We bekijken je project in zijn geheel en denken mee over de grote lijnen en belangrijke keuzes. Zo ontstaat er een duidelijk kader waarbinnen alle verdere stappen passen."
 ---
 
 <!-------------------------- Header Banner  ------------------------------->
@@ -87,7 +72,7 @@ sessies:
 
 <!-------------------------- Ontwerpt aanbod (loop)  ------------------------------->
 {% for sessie in page.sessies %}
-<section class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">  
+<section id="{{ sessie.id }}" class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">  
 
   <div class="col-6-bottom_md-12-bottom grid">
     <div class="padded-l-5 padded-r-7 padded-b-0 col-12 hide-sm">
@@ -97,7 +82,7 @@ sessies:
     </div>
   </div>
 
-  <div id="{{ sessie.id }}" class="padded-5 xs-padded-2 col-6-bottom_md-12-bottom padded-b-0">           
+  <div class="padded-5 xs-padded-2 col-6-bottom_md-12-bottom padded-b-0">           
     <div class="padded-b-0"> 
 
       <div class="col-12 padded-0">
