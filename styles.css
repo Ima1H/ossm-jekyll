@@ -122,20 +122,20 @@ html {border: none;} */
 
 .bg-aanbod {
     background-image: url('images/imaginate-ossm-22.jpg');
-    background-position: 50% 34%;
+    background-position: 50% 16%;
     background-size: cover;
     border-radius: 20rem 20rem 0rem 0rem;
 }
 
 .bg-adviseert {
-    background-image: url('images/imaginate-ossm-1.jpg');
+    background-image: url('images/bynouchka-160224-lindsay.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     /* opacity: 0.8; */
 }
 
 .bg-plananalyse {
-    background-image: url('images/imaginate-ossm-planalyse.jpeg');
+    background-image: url('/images/imaginate-ossm-83.jpg');
     background-position: 50% 34%;
     background-size: cover;
 }
@@ -147,7 +147,7 @@ html {border: none;} */
 }
 
 .bg-adviessessie {
-    background-image: url('images/imaginate-ossm-adviessessie.jpeg');
+    background-image: url('images/bynouchka-160224-lindsay-23.jpg');
     background-position: 50% 34%;
     background-size: cover;
 }
