@@ -67,13 +67,13 @@ html {border: none;} */
 }
 
 .bg-index {
-    background-image: url('images/imaginate-ossm-hi.jpg');
+    background-image: url('images/imaginate-ossm-160.jpg');
     background-position: 35% 50%;
     background-size: cover;
 }
 
 .bg-about-us {
-    background-image: url('images/imaginate-ossm-over-ons.jpeg');
+    background-image: url('images/imaginate-ossm-34.jpg');
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 20rem 20rem 0rem 0rem;
@@ -81,7 +81,7 @@ html {border: none;} */
 }
 
 .bg-mission-1 {
-    background-image: url('images/imaginate-ossm-over-ons-2.jpg');
+    background-image: url('images/imaginate-ossm-28.jpg');
     background-position: 50% 50%;
     background-size: cover;
     /* border-radius: 20rem 20rem 0rem 0rem; */
@@ -89,7 +89,7 @@ html {border: none;} */
 }
 
 .bg-mission-2 {
-    background-image: url('images/imaginate-ossm-over-ons-3.jpg');
+    background-image: url('images/imaginate-ossm-38.jpg');
     background-position: 50% 50%;
     background-size: cover;
     /* border-radius: 20rem 20rem 0rem 0rem; */
@@ -97,7 +97,7 @@ html {border: none;} */
 }
 
 .bg-work-with-us {
-    background-image: url('images/imaginate-ossm-over-ons-4.jpg');
+    background-image: url('images/imaginate-ossm-72.jpg');
     background-position: 50% 50%;
     background-size: cover;
     /* border-radius: 20rem 20rem 0rem 0rem; */
@@ -121,7 +121,7 @@ html {border: none;} */
 }
 
 .bg-aanbod {
-    background-image: url('images/imaginate-ossm-aanbod.jpeg');
+    background-image: url('images/imaginate-ossm-22.jpg');
     background-position: 50% 34%;
     background-size: cover;
     border-radius: 20rem 20rem 0rem 0rem;
@@ -153,7 +153,7 @@ html {border: none;} */
 }
 
 .bg-ontwerpt-aanbod {
-    background-image: url('images/imaginate-ossm-ontwerpt-1.jpeg');
+    background-image: url('images/imaginate-ossm-175.jpg');
     background-position: 50% 34%;
     background-size: cover;
     /* opacity: 0.8; */
@@ -3213,7 +3213,7 @@ footer nav a {
     }
 
     .bg-contact {
-        background-image: url('images/imaginate-ossm-contact.jpeg');
+        background-image: url('images/imaginate-ossm-1.jpg');
         background-position: 50% 30%;
         background-size: cover;
         border-radius: 20rem 20rem 0rem 0rem;
