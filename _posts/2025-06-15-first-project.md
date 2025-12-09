@@ -28,8 +28,11 @@ seo:
   hide-from-google: false
 ---
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!!
+Achter 'Ring Partners' te Rupelmonde staan Ellen en Isabelle, twee sterke vrouwen. 
 
-Lorem ipsum dolor, sit met consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!
+Dit vrouwelijke architectenduo had nood aan een logo en huisstijl die matcht met wie zij zijn, en waar ze voor staan. Dit mocht dan ook duidelijk overkomen in hun nieuwe logo en huisstijl.
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis, dolor eveniet ex aliquid quos eligendi eos deleniti distinctio ipsum expedita possimus fugit!
+Een vrouwelijke roze touch die versterkt wordt door het contrasterende groen. Resultaat? Een krachtig en uigepuurd logo. (Een groter contrast dan met het vorige rechthoekig beige logo kan niet.)
+
+'Ring' ze gerust eens op,
+ze zullen je met veel plezier verder helpen.

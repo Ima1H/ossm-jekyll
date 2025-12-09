@@ -2,3 +2,20 @@ collections:
  posts:
    output: true
    permalink: /projects/:year/:slug
+   _object:
+      - name: featured_image
+        type: image
+      - name: featured_image_1
+        type: image
+      - name: featured_image_2
+        type: image
+      - name: project_image_1
+        type: image
+      - name: project_image_2
+        type: image
+      - name: project_image_3
+        type: image
+      - name: project_image_4
+        type: image
+      - name: project_image_5
+        type: image
