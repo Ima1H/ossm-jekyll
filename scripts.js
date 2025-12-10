@@ -64,6 +64,56 @@ $(document).ready(function() {
     ]
   });
 
+
+  // Project Carousel (index)
+  
+  $('.project-index-slider').slick({
+    autoplay: false,
+    autoplaySpeed: 3000,
+    speed: 1000,
+    arrows: true,
+    accessibility: true,
+    dots: true,
+    fade: false,
+    infinite: false,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      }
+    ]
+  });
+
   
   // Project Carousel (portfolio)
   
