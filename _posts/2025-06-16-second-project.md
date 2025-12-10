@@ -60,5 +60,6 @@ Op de bovenverdieping gingen we aan de slag met een grondige badkamerrenovatie. 
 Ik verraste hen met een niet-alledaags ontwerp, waarbij het meubel de ruimte subtiel in twee verdeelt zodat het toilet mooi uit het zicht valt. Ook hier trokken we de serene sfeer door met wit, hout en een warme lichte beige microcementvloer en -wanden.
 
 
+
 ## Wat Erik en Monique zelf aangaven
 We vonden dat onze woning toe was aan een grondige update. Maar wisten niet goed hoe er aan te beginnen. Tijdens onze zoektocht ontdekten we de website van Soulmade. Ons overleg met Lindsay verliep zeer goed. We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden vooral zeer positief verrast door de inbreng en voorstellen van Lindsay. Zij bracht ook de nodige firma's aan waar wij ook vertrouwen in konden hebben. De werkzaamheden verliepen behoorlijk vlot en werden goed opgevolgd. De communicatie was uitstekend. De begeleiding van ontwerp tot eindresultaat is echt een opsteker voor Lindsay. We zijn zeer blij dat we met Soulmade in zee zijn gegaan en genieten nu nog alle dagen van het eindresultaat.
