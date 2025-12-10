@@ -271,7 +271,6 @@ html {border: none;} */
     cursor: pointer;
 }
 
-
 /* .container {
 	position: relative;
 	display: grid;
@@ -1983,38 +1982,32 @@ header p {
 
 /* without this the images are not the exact same height
 
-/* Zorg dat elke kaart exact even groot is */
-.project-slider .slider-item a { display: block; }
-
-.project-slider .bg-image {
-  width: 100%;
-  aspect-ratio: 3 / 4;          /* kies: 3/4 (portrait), 4/3 (landscape) of 1/1 */
-  background-size: cover;
-  background-position: center;
+/* Zorg dat elke kaart exact even groot is in beide sliders */
+.project-slider .slider-item a,
+.project-index-slider .slider-item a {
+  display: block;
 }
 
-/* (optioneel) nette gutters in Slick */
-.project-slider .slick-slide { margin: 0 12px; }
-.project-slider .slick-list  { margin: 0 -12px; } */
-
-
-
-
-/* without this the images are not the exact same height
-
-/* Zorg dat elke kaart exact even groot is */
-.project-index-slider .slider-item a { display: block; }
-
+.project-slider .bg-image,
 .project-index-slider .bg-image {
   width: 100%;
-  aspect-ratio: 3 / 4;          /* kies: 3/4 (portrait), 4/3 (landscape) of 1/1 */
+  aspect-ratio: 3 / 4;   /* 3/4 = portrait */
   background-size: cover;
   background-position: center;
 }
 
-/* (optioneel) nette gutters in Slick */
-.project-index-slider .slick-slide { margin: 0 12px; }
-.project-index-slider .slick-list  { margin: 0 -12px; } */
+/* Nette gutters in Slick */
+.project-slider .slick-slide,
+.project-index-slider .slick-slide {
+  margin: 0 12px;
+}
+
+.project-slider .slick-list,
+.project-index-slider .slick-list {
+  margin: 0 -12px;
+}
+
+
 
 /*-------------------- Accordion Styles ---------------*/
 
@@ -3276,12 +3269,7 @@ footer nav a {
         font-size: 1.8vw !important;
     }
 
-    .project-slider:hover .project-box:not(:hover) {
-        filter: grayscale(0%) opacity(100%);
-        transition: none;
-    }
-
-     .project-index-slider:hover .project-box:not(:hover) {
+    .project-slider:hover .project-box:not(:hover) .project-index-slider:hover .project-box:not(:hover){
         filter: grayscale(0%) opacity(100%);
         transition: none;
     }
