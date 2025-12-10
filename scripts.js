@@ -78,7 +78,7 @@ $(document).ready(function() {
     infinite: false,
     pauseOnHover: true,
     pauseOnDotsHover: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
