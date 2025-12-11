@@ -9,90 +9,90 @@ featured: true
 categories:
   - Interieurarchitectuur
 featured_image: /uploads/emz-14.jpg
-featured_image_1: /uploads/emz-14.jpg
-featured_image_2: /uploads/emz-9.jpg
+left_image: /uploads/emz-14.jpg
+right_image: /uploads/emz-9.jpg
 testimonial: >-
   We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden
   vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
 project_na:
-  - description_image: living
+  - description: living
     image: /uploads/emz-1.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-2.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-3.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-4.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-  - description_image: living
+  - description: living
     image: /uploads/emz-5.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-  - description_image: living
+  - description: living
     image: /uploads/emz-6.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-7.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-8.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-9.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-  - description_image: living
+  - description: living
     image: /uploads/emz-10.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-  - description_image: living
+  - description: living
     image: /uploads/emz-11.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-12.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-13.jpg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-14.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-  - description_image: living
+  - description: living
     image: /uploads/emz-20.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor: 
-  - description_image: living
+  - description: living
     image: /uploads/emz-15.jpeg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-16.jpeg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-17.jpeg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
-  - description_image: living
+  - description: living
     image: /uploads/emz-18.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-  - description_image: living
+  - description: living
     image: /uploads/emz-19.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
@@ -113,7 +113,7 @@ Erik en Monique contacteerden mij omdat ze het wel eens tijd vonden om hun wonin
 
 In de keuken zelf kozen we voor een praktische L-opstelling. Hierdoor konden we achter de hoge kastenwand een veel grotere wasberging creëren. Wat vroeger slechts één vierkante meter was, is nu een volwaardige berging met alle comfort – subtiel verscholen achter een onopvallende inloopdeur.
 
-![Berging dicht](/uploads/emz-5.jpg){: loading="lazy"}![Berging open](/uploads/emz-4.jpg)
+![Berging dicht](/uploads/emz-5.jpg){: .bg-image .portrait-project loading="lazy"}![Berging open](/uploads/emz-4.jpg)
 
 Ook in het toilet brachten we de ruimte opnieuw tot leven:  de deur werd opnieuw bekleed met spiegel voor extra licht en ruimtelijkheid, het volledige sanitair werd vernieuwd, we werkten de wanden af met stuctechnieken, er kwamen handige opbergkastjes en een grote spiegel die de compacte ruimte visueel vergroot. Daarnaast plaatsten we beneden een nieuwe stalen deur met kathedraalglas, en hingen we overal nieuwe gordijnen en houten blinds voor een warme en stijlvolle afwerking.
 
