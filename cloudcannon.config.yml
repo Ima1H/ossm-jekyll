@@ -22,3 +22,23 @@ _snippets_definitions:
   Snippet templates create a reusable structure to reduce repetition in snippets.
 # These are what you normally import in cloudcannon using _snippets_imports
 # As an example of creating one, here is a basic template for defining snippets that are liquid includes.
+
+_snippets_templates:
+  jekyll_liquid_include:
+    snippet: '{% include [[name]] [[args]] %}'
+    params:
+      name:
+        parser: literal
+        options:
+          literal:
+            # This ref needs to be supplied by the _snippet when used
+            ref: include_name
+      args:
+        parser: key_values
+        options:
+          models:
+            # This ref needs to be supplied by the _snippet when used
+            ref: named_args
+          format:
+             # This ref is pulled from the `_snippets_definitions` above
+            ref: jekyll_liquid_format
