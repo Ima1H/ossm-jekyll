@@ -15,15 +15,15 @@ testimonial: >-
 project_na:
   - description: living
     image: /uploads/emz-1.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-2.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-20.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-4.jpg
@@ -35,15 +35,15 @@ project_na:
     aspect_ratio: landscape
   - description: living
     image: /uploads/emz-6.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-7.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-8.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-9.jpg
@@ -55,15 +55,15 @@ project_na:
     aspect_ratio: landscape
   - description: living
     image: /uploads/emz-11.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-12.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-13.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-14.jpg
@@ -76,15 +76,15 @@ project_na:
 project_voor:
   - description: living
     image: /uploads/emz-15.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-16.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-17.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-18.jpeg
@@ -113,11 +113,3 @@ Voor deze klanten uit Beveren was hun rijwoning eigenlijk al grotendeels afgewer
 Ik vertrok vanuit het bestaande meubel en werkte een ontwerp uit dat meteen voor hen klopte: een combinatie van maatwerk, speelsheid, licht en warmte, waarbij elk hoekje een doel én een gezellige uitstraling kreeg. In het voorstel nam ik ook meubels, materialen en kleurenpaletten mee op, zodat ze in één oogopslag de sfeer konden voelen. De indeling zorgde ervoor dat de eetkamer eindelijk een volwaardig deel van de leefruimte werd, zonder dat het geheel zwaar of overweldigend aanvoelde.
 
 De klanten twijfelden nog tussen donker hout en licht hout, dus maakte ik aangepaste renders om beide opties te laten zien. Het resultaat is een warm en evenwichtig ontwerp waarin maatwerk en gezelligheid samenkomen.
-
-
-
-&nbsp;
-
-## Erik & Monique aan het woord
-
-We vonden dat onze woning toe was aan een grondige update. Maar wisten niet goed hoe er aan te beginnen. Tijdens onze zoektocht ontdekten we de website van Soulmade. Ons overleg met Lindsay verliep zeer goed. We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden vooral zeer positief verrast door de inbreng en voorstellen van Lindsay. Zij bracht ook de nodige firma’s aan waar wij ook vertrouwen in konden hebben. De werkzaamheden verliepen behoorlijk vlot en werden goed opgevolgd. De communicatie was uitstekend. De begeleiding van ontwerp tot eindresultaat is echt een opsteker voor Lindsay. We zijn zeer blij dat we met Soulmade in zee zijn gegaan en genieten nu nog alle dagen van het eindresultaat.

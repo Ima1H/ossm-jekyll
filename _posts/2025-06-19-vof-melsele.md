@@ -15,35 +15,35 @@ testimonial: >-
 project_na:
   - description: living
     image: /uploads/vof-6.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/vof-7.png
-    column_size: col-4_md-5_xs-12
+    image: /uploads/vof-7.jpg
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/vof-8.png
-    column_size: col-4_md-5_xs-12
+    image: /uploads/vof-8.jpg
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/vof-9.png
+    image: /uploads/vof-9.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/vof-10.png
+    image: /uploads/vof-10.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
     image: /uploads/vof-11.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/vof-12.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/vof-13.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/vof-14.jpg
@@ -55,35 +55,35 @@ project_na:
     aspect_ratio: landscape
   - description: living
     image: /uploads/vof-16.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/vof-17.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/vof-18.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
 project_voor:
   - description: living
-    image: /uploads/vof-1.jpg
-    column_size: col-4_md-5_xs-12
+    image: /uploads/vof-1.jpeg
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/vof-2.jpg
-    column_size: col-4_md-5_xs-12
+    image: /uploads/vof-2.png
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/vof-3.jpg
-    column_size: col-4_md-5_xs-12
+    image: /uploads/vof-3.png
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/vof-4.jpg
+    image: /uploads/vof-4.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/vof-5.jpg
+    image: /uploads/vof-5.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
 seo:

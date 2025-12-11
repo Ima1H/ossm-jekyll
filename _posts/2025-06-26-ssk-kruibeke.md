@@ -7,9 +7,9 @@ author: Lindsay Nevejans
 featured: true
 categories:
   - Interieurarchitectuur
-featured_image: /uploads/ssk-14.png
-left_image: /uploads/ssk-14.png
-right_image: /uploads/ssk-9.png
+featured_image: /uploads/ssk-5.png
+left_image: /uploads/ssk-5.png
+right_image: /uploads/ssk-4.png
 testimonial: >-
   Lindsay luistert goed naar de wensen en noden als bewoner van het huis, en houdt hier rekening mee in haar ontwerp!  Wij waren zeer tevreden!!
 project_na:
@@ -19,11 +19,11 @@ project_na:
     aspect_ratio: portrait
   - description: living
     image: /uploads/ssk-4.png
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/ssk-5.png
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
 project_voor:
   - description: living

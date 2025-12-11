@@ -16,15 +16,15 @@ testimonial: >-
 project_na:
   - description: living
     image: /uploads/emz-1.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-2.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-20.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-4.jpg
@@ -36,15 +36,15 @@ project_na:
     aspect_ratio: landscape
   - description: living
     image: /uploads/emz-6.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-7.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-8.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-9.jpg
@@ -56,15 +56,15 @@ project_na:
     aspect_ratio: landscape
   - description: living
     image: /uploads/emz-11.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-12.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-13.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-14.jpg
@@ -77,15 +77,15 @@ project_na:
 project_voor:
   - description: living
     image: /uploads/emz-15.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-16.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-17.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/emz-18.jpeg

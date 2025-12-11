@@ -7,9 +7,9 @@ author: Lindsay Nevejans
 featured: true
 categories:
   - Interieurarchitectuur
-featured_image: /uploads/pdk-14.jpg
-left_image: /uploads/pdk-14.jpg
-right_image: /uploads/pdk-9.jpg
+featured_image: /uploads/pdk-4.jpg
+left_image: /uploads/pdk-4.jpg
+right_image: /uploads/pdk-3.jpg
 testimonial: >-
 project_na:
   - description: living
@@ -31,15 +31,15 @@ project_na:
 project_voor:
   - description: living
     image: /uploads/pdk-15.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/pdk-16.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/pdk-17.jpeg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/pdk-18.jpeg

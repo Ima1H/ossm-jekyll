@@ -15,15 +15,15 @@ testimonial: >-
 project_na:
   - description: living
     image: /uploads/svh-4.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/svh-5.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/svh-6.jpeg
-    column_size: col-4_md-5_xs-12
+    image: /uploads/svh-6.jpg
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/svh-7.jpg
@@ -36,15 +36,15 @@ project_na:
 project_voor:
   - description: living
     image: /uploads/svh-1.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/svh-2.jpg
-    column_size: col-4_md-5_xs-12
+    column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/svh-3.jpeg
-    column_size: col-4_md-5_xs-12
+    image: /uploads/svh-3.jpg
+    column_size: col-4_xs-12
     aspect_ratio: portrait
 seo:
   title: Renovatie EMZ in Zwijndrecht
