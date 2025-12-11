@@ -2,44 +2,109 @@
 layout: project
 title: EMZ - ZWIJNDRECHT
 description: >-
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur
-  alias nihil perspiciatis.
-client: Ipsum & Lorem
-author: Jane Doe
+  Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
+client: Erik & Monique
+author: Lindsay Nevejans
 featured: true
 categories:
   - Interieurarchitectuur
-featured_image: /uploads/53-25.jpg
-featured_image_1: /uploads/53-25.jpg
-featured_image_2: /images/imaginate-ossm-1.jpg
+featured_image: /uploads/emz-14.jpg
+featured_image_1: /uploads/emz-14.jpg
+featured_image_2: /uploads/emz-9.jpg
 testimonial: >-
   We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden
   vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
-project_image_1: /images/ossm-MTH-V6_1-photo.png
-project_image_2: /images/ossm-MTH-V6_2-photo.png
-project_image_3: /images/ossm-MTH-V6_3-photo.png
-project_image_4: /images/ossm-MTH-V6_4-photo.png
-project_image_5: /images/ossm-MTH-V6_5-photo.png
-project_image_1_datatext: living
-project_image_2_datatext: keuken
-project_image_3_datatext: keuken
-project_image_4_datatext: zitplaats
-project_image_5_datatext: keuken-living
-project_voor_image_1: /images/ossm-MTH-V6_1-photo.png
-project_voor_image_2: /images/ossm-MTH-V6_2-photo.png
-project_voor_image_3: /images/ossm-MTH-V6_3-photo.png
-project_voor_image_4: /images/ossm-MTH-V6_4-photo.png
-project_voor_image_5: /images/ossm-MTH-V6_5-photo.png
-project_voor_image_1_datatext: living
-project_voor_image_2_datatext: keuken
-project_voor_image_3_datatext: keuken
-project_voor_image_4_datatext: zitplaats
-project_voor_image_5_datatext: keuken-living
+project-na:
+  - description-photo: living
+    image: /uploads/emz-1.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-2.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-3.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-4.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
+  - description-photo: living
+    image: /uploads/emz-5.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
+  - description-photo: living
+    image: /uploads/emz-6.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-7.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-8.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-9.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
+  - description-photo: living
+    image: /uploads/emz-10.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
+  - description-photo: living
+    image: /uploads/emz-11.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-12.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-13.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-14.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
+  - description-photo: living
+    image: /uploads/emz-20.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
+project-voor: 
+  - description-photo: living
+    image: /uploads/emz-15.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-16.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-17.jpg
+    column-size: col-4_md-5_xs-6
+    aspect-ratio: portrait
+  - description-photo: living
+    image: /uploads/emz-18.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: lanscape
+  - description-photo: living
+    image: /uploads/emz-19.jpg
+    column-size: col-6_xs-12
+    aspect-ratio: landscape
 seo:
-  title:
-  description:
-  social_image:
-  keywords:
+  title: Renovatie EMZ in Zwijndrecht
+  description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
+  social_image: 
+  keywords: 
+  - interieurarchitectuur
+  - renovatie
+  - zwijndrecht
+  - gezinswoning
   hide-from-google: false
 ---
 ## Project omschrijving
@@ -48,7 +113,7 @@ Erik en Monique contacteerden mij omdat ze het wel eens tijd vonden om hun wonin
 
 In de keuken zelf kozen we voor een praktische L-opstelling. Hierdoor konden we achter de hoge kastenwand een veel grotere wasberging creëren. Wat vroeger slechts één vierkante meter was, is nu een volwaardige berging met alle comfort – subtiel verscholen achter een onopvallende inloopdeur.
 
-![Berging dicht](/uploads/24-25.jpg){: loading="lazy"}![](/uploads/24-25-1.jpg)
+![Berging dicht](/uploads/emz-5.jpg){: loading="lazy"}![Berging open](/uploads/emz-4.jpg)
 
 Ook in het toilet brachten we de ruimte opnieuw tot leven:  de deur werd opnieuw bekleed met spiegel voor extra licht en ruimtelijkheid, het volledige sanitair werd vernieuwd, we werkten de wanden af met stuctechnieken, er kwamen handige opbergkastjes en een grote spiegel die de compacte ruimte visueel vergroot. Daarnaast plaatsten we beneden een nieuwe stalen deur met kathedraalglas, en hingen we overal nieuwe gordijnen en houten blinds voor een warme en stijlvolle afwerking.
 
