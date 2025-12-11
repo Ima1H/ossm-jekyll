@@ -14,88 +14,88 @@ featured_image_2: /uploads/emz-9.jpg
 testimonial: >-
   We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden
   vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
-project-na:
-  - description-photo: living
+project_na:
+  - description_image: living
     image: /uploads/emz-1.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-2.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-3.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-4.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description_image: living
     image: /uploads/emz-5.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description_image: living
     image: /uploads/emz-6.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-7.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-8.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-9.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description_image: living
     image: /uploads/emz-10.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description_image: living
     image: /uploads/emz-11.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-12.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-13.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-14.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description_image: living
     image: /uploads/emz-20.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
-project-voor: 
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+project_voor: 
+  - description_image: living
     image: /uploads/emz-15.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-16.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-17.jpg
-    column-size: col-4_md-5_xs-6
-    aspect-ratio: portrait
-  - description-photo: living
+    column_size: col-4_md-5_xs-6
+    aspect_ratio: portrait
+  - description_image: living
     image: /uploads/emz-18.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: lanscape
-  - description-photo: living
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description_image: living
     image: /uploads/emz-19.jpg
-    column-size: col-6_xs-12
-    aspect-ratio: landscape
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
 seo:
   title: Renovatie EMZ in Zwijndrecht
   description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
