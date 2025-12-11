@@ -85,7 +85,6 @@ layout: default
 
 
 <!-------------------------- Pictures before  ------------------------------->
-
 <section class="padded-16 mdl-padded-7 sm-padded-4 xs-padded-2 gallery-project grid tall-80 md-tall-30 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
 
   {% for item in page.project_na %}
@@ -103,6 +102,7 @@ layout: default
 <!-------------------------- Pictures after  ------------------------------->
 <section class="padded-16 mdl-padded-7 sm-padded-4 xs-padded-2 gallery-project grid tall-80 md-tall-30 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
 
+  <h2 class="col-12 padded-l-05"> Foto's vooraf </h2>
   {% for item in page.project_voor %}
     <a class="{{ item.column_size }}"
        href="{{ item.image | relative_url }}"
