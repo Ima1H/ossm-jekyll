@@ -1,8 +1,7 @@
 ---
 layout: project
 title: EMZ - ZWIJNDRECHT
-description: >-
-  Een frisse, lichte update voor de hele woning.
+description: Een frisse, lichte update voor de hele woning.
 client: Erik & Monique
 author: Lindsay Nevejans
 featured: true
@@ -75,7 +74,7 @@ project_na:
     image: /uploads/emz-20.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-project_voor: 
+project_voor:
   - description: living
     image: /uploads/emz-15.jpeg
     column_size: col-4_md-5_xs-6
@@ -98,13 +97,16 @@ project_voor:
     aspect_ratio: landscape
 seo:
   title: Renovatie EMZ in Zwijndrecht
-  description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
-  social_image: 
-  keywords: 
-  - interieurarchitectuur
-  - renovatie
-  - zwijndrecht
-  - gezinswoning
+  description: >-
+    Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte
+    materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en
+    rust perfect combineren.
+  social_image:
+  keywords:
+    - interieurarchitectuur
+    - renovatie
+    - zwijndrecht
+    - gezinswoning
   hide-from-google: false
 ---
 ## Project omschrijving
@@ -112,8 +114,6 @@ seo:
 Erik en Monique contacteerden mij omdat ze het wel eens tijd vonden om hun woning, die tevens altijd al een warm nest was voor hun gezin, een meer hedendaagse look te geven. Het gewenste kleurenpalet was helder: licht, rustig en zoveel mogelijk wit. We kozen daarom voor een lichte pvc-vloer in houtlook en schilderden de volledige woning in een frisse wittint. De bestaande witte kasten in de leefruimte bleven behouden, maar kregen een upgrade met een nieuw werkblad, identiek aan dat van de keuken, aangevuld met enkele houtaccenten.
 
 In de keuken zelf kozen we voor een praktische L-opstelling. Hierdoor konden we achter de hoge kastenwand een veel grotere wasberging creëren. Wat vroeger slechts één vierkante meter was, is nu een volwaardige berging met alle comfort – subtiel verscholen achter een onopvallende inloopdeur.
-
-![Berging dicht](/uploads/emz-5.jpg){: .bg-image .portrait-project loading="lazy"}![Berging open](/uploads/emz-4.jpg)
 
 Ook in het toilet brachten we de ruimte opnieuw tot leven:  de deur werd opnieuw bekleed met spiegel voor extra licht en ruimtelijkheid, het volledige sanitair werd vernieuwd, we werkten de wanden af met stuctechnieken, er kwamen handige opbergkastjes en een grote spiegel die de compacte ruimte visueel vergroot. Daarnaast plaatsten we beneden een nieuwe stalen deur met kathedraalglas, en hingen we overal nieuwe gordijnen en houten blinds voor een warme en stijlvolle afwerking.
 
