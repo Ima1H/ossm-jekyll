@@ -85,33 +85,6 @@ layout: default
 
 
 <!-------------------------- Pictures before  ------------------------------->
-<section class="padded-16 mdl-padded-7 sm-padded-4 xs-padded-2 gallery-project grid tall-80 md-tall-30 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
-
-  <a class="col-4_xs-12" href="{{ page.project_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}">
-    <div class="lightgallery-img bg-image portrait"
-         style="background-image: url('{{ page.project_image_1 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-4_xs-12" href="{{ page.project_image_2 | relative_url }}" data-sub-html="{{ page.project_image_2_datatext }}">
-    <div class="lightgallery-img bg-image portrait"
-         style="background-image: url('{{ page.project_image_2 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-4_xs-12" href="{{ page.project_image_3 | relative_url }}" data-sub-html="{{ page.project_image_3_datatext }}">
-    <div class="lightgallery-img bg-image portrait"
-         style="background-image: url('{{ page.project_image_3 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-6_xs-12" href="{{ page.project_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}">
-    <div class="lightgallery-img bg-image landscape"
-         style="background-image: url('{{ page.project_image_4 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-6_xs-12" href="{{ page.project_image_5 | relative_url }}" data-sub-html="{{ page.project_image_5_datatext }}">
-    <div class="lightgallery-img bg-image landscape"
-         style="background-image: url('{{ page.project_image_5 | relative_url }}');"></div>
-  </a>
-</section>
 
 <section class="padded-16 mdl-padded-7 sm-padded-4 xs-padded-2 gallery-project grid tall-80 md-tall-30 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
 
@@ -129,33 +102,18 @@ layout: default
 
 <!-------------------------- Pictures after  ------------------------------->
 <section class="padded-16 mdl-padded-7 sm-padded-4 xs-padded-2 gallery-project grid tall-80 md-tall-30 margin-t-5 mdl-margin-t-3 padded-t-0 mdl-padded-t-0" id="lightgallery">
-  <h2 class="col-12 padded-l-05"> Foto's vooraf </h2>
-  <a class="col-4_xs-12" href="{{ page.project_voor_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-3 portrait"
-         style="background-image: url('{{ page.project_voor_image_1 | relative_url }}');"></div>
-  </a>
 
-  <a class="col-4_xs-12" href="{{ page.project_voor_image_2 | relative_url }}" data-sub-html="{{ page.project_image_2_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-4 portrait"
-         style="background-image: url('{{ page.project_voor_image_2 | relative_url }}');"></div>
-  </a>
+  {% for item in page.project_voor %}
+    <a class="{{ item.column_size }}"
+       href="{{ item.image | relative_url }}"
+       data-sub-html="{{ item.description_image }}">
 
-  <a class="col-4_xs-12" href="{{ page.project_voor_image_3 | relative_url }}" data-sub-html="{{ page.project_image_3_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-4 portrait"
-         style="background-image: url('{{ page.project_voor_image_3 | relative_url }}');"></div>
-  </a>
+      <div class="lightgallery-img bg-image {{ item.aspect_ratio }}"
+           style="background-image: url('{{ item.image | relative_url }}');"></div>
+    </a>
+  {% endfor %}
 
-  <a class="col-6_xs-12" href="{{ page.project_voor_image_4 | relative_url }}" data-sub-html="{{ page.project_image_4_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-4 landscape"
-         style="background-image: url('{{ page.project_voor_image_4 | relative_url }}');"></div>
-  </a>
-
-  <a class="col-6_xs-12" href="{{ page.project_voor_image_5 | relative_url }}" data-sub-html="{{ page.project_image_5_datatext }}">
-    <div class="lightgallery-img bg-image bg-img-4 landscape"
-         style="background-image: url('{{ page.project_voor_image_5 | relative_url }}');"></div>
-  </a>
 </section>
-
 
 
 <!-------------------------- Services Back-up ------------------------------->
