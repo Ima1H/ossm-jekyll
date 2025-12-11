@@ -72,28 +72,28 @@ project_na:
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description_image: living
-    image: /uploads/emz-20.jpg
+    image: /uploads/emz-20.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor: 
   - description_image: living
-    image: /uploads/emz-15.jpg
+    image: /uploads/emz-15.jpeg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
   - description_image: living
-    image: /uploads/emz-16.jpg
+    image: /uploads/emz-16.jpeg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
   - description_image: living
-    image: /uploads/emz-17.jpg
+    image: /uploads/emz-17.jpeg
     column_size: col-4_md-5_xs-6
     aspect_ratio: portrait
   - description_image: living
-    image: /uploads/emz-18.jpg
+    image: /uploads/emz-18.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description_image: living
-    image: /uploads/emz-19.jpg
+    image: /uploads/emz-19.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
 seo:
