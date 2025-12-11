@@ -10,7 +10,7 @@ featured: true
 categories:
   - Interieurarchitectuur
 featured_image: /uploads/53-25.jpg
-featured_image_1: /images/imaginate-ossm-5.jpg
+featured_image_1: /uploads/53-25.jpg
 featured_image_2: /images/imaginate-ossm-1.jpg
 testimonial: >-
   We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden
