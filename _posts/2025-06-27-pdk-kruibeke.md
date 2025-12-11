@@ -7,46 +7,25 @@ author: Lindsay Nevejans
 featured: true
 categories:
   - Interieurarchitectuur
-featured_image: /uploads/pdk-4.jpg
-left_image: /uploads/pdk-4.jpg
-right_image: /uploads/pdk-3.jpg
+featured_image: /uploads/pdk-4.png
+left_image: /uploads/pdk-4.png
+right_image: /uploads/pdk-3.png
 testimonial: >-
 project_na:
   - description: living
-    image: /uploads/pdk-1.jpg
+    image: /uploads/pdk-1.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/pdk-2.jpg
+    image: /uploads/pdk-2.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/pdk-3.jpg
+    image: /uploads/pdk-3.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/pdk-4.jpg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-project_voor:
-  - description: living
-    image: /uploads/pdk-15.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/pdk-16.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/pdk-17.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/pdk-18.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/pdk-19.jpeg
+    image: /uploads/pdk-4.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
 seo:
