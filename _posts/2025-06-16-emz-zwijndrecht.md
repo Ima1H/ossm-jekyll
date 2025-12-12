@@ -1,18 +1,18 @@
 ---
 layout: project
+categories:
+  - Interieurarchitectuur
 title: EMZ - ZWIJNDRECHT
 description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
 client: Erik & Monique
-author: Lindsay Nevejans
-featured: true
-categories:
-  - Interieurarchitectuur
-featured_image: /uploads/emz-14.jpg
-left_image: /uploads/emz-14.jpg
-right_image: /uploads/emz-9.jpg
 testimonial: >-
   We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden
   vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
+author: Lindsay Nevejans
+featured: true
+featured_image: /uploads/emz-14.jpg
+left_image: /uploads/emz-14.jpg
+right_image: /uploads/emz-9.jpg
 project_na:
   - description: living
     image: /uploads/emz-1.jpg
@@ -109,8 +109,8 @@ seo:
     - gezinswoning
   hide-from-google: false
 ---
-## Project omschrijving
 
+## Project omschrijving
 Erik en Monique contacteerden mij omdat ze het wel eens tijd vonden om hun woning, die tevens altijd al een warm nest was voor hun gezin, een meer hedendaagse look te geven. Het gewenste kleurenpalet was helder: licht, rustig en zoveel mogelijk wit. We kozen daarom voor een lichte pvc-vloer in houtlook en schilderden de volledige woning in een frisse wittint. De bestaande witte kasten in de leefruimte bleven behouden, maar kregen een upgrade met een nieuw werkblad, identiek aan dat van de keuken, aangevuld met enkele houtaccenten.
 
 In de keuken zelf kozen we voor een praktische L-opstelling. Hierdoor konden we achter de hoge kastenwand een veel grotere wasberging creëren. Wat vroeger slechts één vierkante meter was, is nu een volwaardige berging met alle comfort – subtiel verscholen achter een onopvallende inloopdeur.

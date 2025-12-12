@@ -1,14 +1,14 @@
 ---
 layout: branding
-title: DE STROOPER - IJS EN GEBAK
-description: Met carte blanche ontstond een speels en uitgepuurd logo, geïnspireerd op ambachtelijk lekkers en vertaald in een iconische taart met ijsbolletjes en een subtiele pistachetint.
-client: Johan
-author: Lindsay Nevejans
-featured: true
 categories: 
   - Grafisch ontwerp
-featured_image: /uploads/dsb-1.png
+title: DE STROOPER - IJS EN GEBAK
+description: Met carte blanche ontstond een speels en uitgepuurd logo, geïnspireerd op ambachtelijk lekkers en vertaald in een iconische taart met ijsbolletjes en een subtiele pistachetint.
+client: De Strooper 
 testimonial: 
+author: Lindsay Nevejans
+featured: true
+featured_image: /uploads/dsb-1.png
 project:
   - description: Visitekaartje
     image: /uploads/dsb-1.png

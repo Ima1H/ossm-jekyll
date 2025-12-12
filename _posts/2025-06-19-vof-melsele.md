@@ -1,17 +1,17 @@
 ---
 layout: project
+categories:
+  - Interieurarchitectuur
 title: VOF - MELSELE
 description: Een kleine rijwoning kreeg een warme, volledig uitgeruste leefruimte dankzij slim maatwerk en een ontwerp dat elke centimeter optimaal benut.
 client: F. 
+testimonial: >-
+  Een kleine rijwoning kreeg een warme, volledig uitgeruste leefruimte dankzij slim maatwerk en een ontwerp dat elke centimeter optimaal benut.
 author: Lindsay Nevejans
 featured: true
-categories:
-  - Interieurarchitectuur
 featured_image: /uploads/vof-11.jpg
 left_image: /uploads/vof-11.jpg
 right_image: /uploads/vof-14.jpg
-testimonial: >-
-  Een kleine rijwoning kreeg een warme, volledig uitgeruste leefruimte dankzij slim maatwerk en een ontwerp dat elke centimeter optimaal benut.
 project_na:
   - description: living
     image: /uploads/vof-6.jpg
@@ -100,10 +100,9 @@ seo:
     - nieuwbouw
   hide-from-google: false
 ---
+
 ## Project omschrijving
-
 F. kwam bij mij terecht met de vraag om een kleine rijwoning optimaal in te richten, zodat toekomstige huurders enkel hun tafel, stoelen en zetel hoeven mee te brengen. We kozen voor maatwerk dat rust brengt: notelaar hout in combinatie met een keramieken werkblad voor een warme, kwalitatieve uitstraling, aangevuld met slimme opbergruimte die compact wonen comfortabel maakt. Op de vloer komt een lichte maar warme, vierkante tegelvloer van 80cm groot. Tussen de hal en de leefruimte plaatsen we een glazen deur deur waarbij het frame dezelfde kleur van afwerking krijgt als de grepen in de keuken. 
-
 
 Tijdens het bekijken van het 2D-plan voerden we kleine maar impactvolle verschuivingen door om de woning logischer en ruimer te laten aanvoelen.
 

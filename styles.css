@@ -1749,7 +1749,7 @@ header p {
 }
 
 .image-wrapper {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 10 / 9;
   overflow: hidden;
 }
 

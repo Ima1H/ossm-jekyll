@@ -1,33 +1,37 @@
 ---
 layout: branding
-author: Jane Doe
-title: RING PARTNERS architecten
-description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
-client: Company Jo
-featured: true
 categories: 
   - Grafisch ontwerp
-featured_image: /images/ossm-branding-2.jpg
-featured_image_1: /images/ossm-branding-2.jpg
+title: RING PARTNERS architecten
+description: Een krachtig en uitgepuurd logo voor een vrouwelijk architectenduo, waarin een zachte roze toets en contrasterend groen hun identiteit en visie versterken.
+client: Ellen & Isabelle
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
-project_image_1: /images/ossm-branding-1.png
-project_image_1_datatext: logo
-project_image_2: /images/ossm-branding-2.jpg
-project_image_2_datatext: logo
-project_image_3: /images/ossm-branding-1.png
-project_image_3_datatext: logo
-project_image_4: /images/ossm-branding-1.png
-project_image_4_datatext: logo
-project_image_5: /images/ossm-branding-2.jpg
-project_image_5_datatext: logo
+author: Lindsay Nevejans
+featured: true
+featured_image: /uploads/rpa-1.png
+featured_image_1: /uploads/rpa-1.png
+project:
+  - description: Huisstijl
+    image: /uploads/rpa-1.png
+    column_size: col-4_xs-12
+    aspect_ratio: portrait
+  - description: Huisstijl
+    image: /uploads/rpa-2.png
+    column_size: col-4_xs-12
+    aspect_ratio: portrait
+  - description: Huisstijl
+    image: /uploads/rpa-1.png
+    column_size: col-4_xs-12
+    aspect_ratio: portrait
 seo:
-  title: My first project.
-  description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consequatur alias nihil perspiciatis.
-  social_image: /images/ADS_0598.jpg
-  keywords: Company Jo
+  title: RING PARTNERS architecten
+  description: Een krachtig en uitgepuurd logo voor een vrouwelijk architectenduo, waarin een zachte roze toets en contrasterend groen hun identiteit en visie versterken.
+  social_image:
+  keywords: 
   hide-from-google: false
 ---
 
+## Project omschrijving
 Achter 'Ring Partners' te Rupelmonde staan Ellen en Isabelle, twee sterke vrouwen. 
 
 Dit vrouwelijke architectenduo had nood aan een logo en huisstijl die matcht met wie zij zijn, en waar ze voor staan. Dit mocht dan ook duidelijk overkomen in hun nieuwe logo en huisstijl.

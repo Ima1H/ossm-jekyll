@@ -1,17 +1,17 @@
 ---
 layout: project
+categories:
+  - Interieurarchitectuur
 title: SVH - VEURNE
 description: Een verouderde badkamer werd een rustig, warm en luxueus geheel dankzij doordacht maatwerk, zachte materialen en een ontwerp dat functionaliteit en persoonlijke beleving mooi samenbrengt.
 client: Sofie & Pedro
+testimonial: >-
+  We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
 author: Lindsay Nevejans
 featured: true
-categories:
-  - Interieurarchitectuur
 featured_image: /uploads/svh-7.jpg
 left_image: /uploads/svh-7.jpg
 right_image: /uploads/svh-8.jpg
-testimonial: >-
-  We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
 project_na:
   - description: living
     image: /uploads/svh-4.jpg
@@ -58,8 +58,8 @@ seo:
     - badkamer
   hide-from-google: false
 ---
-## Project omschrijving
 
+## Project omschrijving
 Sofie en haar partner kwamen bij mij aankloppen omdat ze hun badkamer echt beu waren: ouderwets, onpraktisch en totaal niet meer passend bij hoe ze wilden wonen. Ik kreeg veel vertrouwen en vrijheid om een volledig nieuw ontwerp te maken. Het enige dat vastlag, was de afvoer van het toilet, en die bepaalde meteen ook de logica van de rest van het plan. 
 
 De ruimte werd volledig gestript en heropgebouwd met hun wensen in gedachten: een ruime douche, een toilet dat licht afgezonderd staat maar toch deel blijft van de badkamer, een groot bad en liefst twee lavabo’s. Standaardwensen, maar wél met de vraag om er een badkamer van te maken die net dat tikje anders en persoonlijker aanvoelt.
