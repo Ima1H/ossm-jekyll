@@ -5,9 +5,9 @@ categories:
 title: PDK - KRUIBEKE
 description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
 client:
-testimonial: >-
+testimonial: 
 author: Lindsay Nevejans
-featured: true
+featured: false
 featured_image: /uploads/pdk-4.png
 left_image: /uploads/pdk-4.png
 right_image: /uploads/pdk-3.png
