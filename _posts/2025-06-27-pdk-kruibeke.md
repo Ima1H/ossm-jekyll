@@ -8,7 +8,7 @@ client:
 testimonial: 
 author: Lindsay Nevejans
 featured: false
-review: true
+review: false
 featured_image: /uploads/pdk-4.png
 left_image: /uploads/pdk-4.png
 right_image: /uploads/pdk-1.png
