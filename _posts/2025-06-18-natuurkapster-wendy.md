@@ -2,13 +2,13 @@
 layout: branding
 categories: 
   - Grafisch ontwerp
-title: NATUURKAPSTER WENDY
+title: NATUURKAPSTER Wendy
 description: Een persoonlijk logo voor Wendy’s kapsalon, waarin bloemen en een kapsel natuur, gezin en vakmanschap samenbrengen.
 client: Wendy
 testimonial: Lindsay is een toffe madam, en je voelt je direct op je gemak. Ze luistert naar je wensen en werkt deze ook uit. Ik ben zeer tevreden met mijn logo.
 author: Lindsay Nevejans
 featured: true
-featured_image: /uploads/wlb-2.png
+featured_image: /uploads/wlb-3.png
 project:
   - description: Visitekaartje
     image: /uploads/wlb-1.png
@@ -19,7 +19,7 @@ project:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Visitekaartje
-    image: /uploads/wlb-3png
+    image: /uploads/wlb-3.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
 seo:
