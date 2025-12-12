@@ -2,6 +2,7 @@
 layout: branding
 categories: 
   - Grafisch ontwerp
+  - Ontwerpt
 title: DE STROOPER ijs en gebak
 description: Met carte blanche ontstond een speels en uitgepuurd logo, geïnspireerd op ambachtelijk lekkers en vertaald in een iconische taart met ijsbolletjes en een subtiele pistachetint.
 client: De Strooper 

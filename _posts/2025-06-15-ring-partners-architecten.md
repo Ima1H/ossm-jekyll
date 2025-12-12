@@ -2,6 +2,7 @@
 layout: branding
 categories: 
   - Grafisch ontwerp
+  - Ontwerpt
 title: RING PARTNERS architecten
 description: Een krachtig en uitgepuurd logo voor een vrouwelijk architectenduo, waarin een zachte roze toets en contrasterend groen hun identiteit en visie versterken.
 client: Ellen & Isabelle

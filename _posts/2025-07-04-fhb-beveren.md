@@ -71,12 +71,12 @@ seo:
 ---
 
 ## Project omschrijving
-F. en H. hebben allebei wel een idee van wat ze ongeveer willen voor hun toekomstige nieuwbouwwoning, maar beseffen dat ze dit in de bouwfase best al grondig laten bekijken om later geen spijt te hebben van bepaalde keuzes. Ze vroegen advies voor het volledige gelijkvloers en de badkamer op de eerste verdieping. Hun wens? Licht, maar toch warm, in een modern landelijke stijl.
+**F. en H.** hebben allebei wel een idee van wat ze ongeveer willen voor hun **toekomstige nieuwbouwwoning**, maar beseffen dat ze dit in de **bouwfase** best al grondig laten bekijken om later geen spijt te hebben van bepaalde keuzes. Ze vroegen **advies** voor het **volledige gelijkvloers** en de **badkamer** op de eerste verdieping. Hun wens? **Licht**, maar toch **warm**, in een **modern landelijke stijl**.
 
-Omdat dit hun eerste woning is en ze nog geen meubels hebben, vroegen ze ook daarin graag een richtlijn. Meubels die hun voorkeur hadden werden opgenomen in de 3D-beelden, samen met enkele lichtsuggesties. We bekeken verschillende opstellingen, ook minder typische varianten, maar uiteindelijk kozen ze voor een vrij klassieke indeling. Het tv-/haardmeubel mocht dan weer net wat unieker zijn. Ze wilden graag dat wanneer er géén tv gekeken wordt, deze uit het zicht zit — en dat het geheel zeker niet op een klassieke tv-kast zou lijken. Missie geslaagd, denk ik!
+Omdat dit hun **eerste woning** is en ze nog geen meubels hebben, vroegen ze ook daarin graag een richtlijn. Meubels die hun voorkeur hadden werden opgenomen in de **3D-beelden**, samen met enkele **lichtsuggesties**. We bekeken verschillende **opstellingen**, ook minder typische varianten, maar uiteindelijk kozen ze voor een vrij **klassieke indeling**. Het tv-/haardmeubel mocht dan weer net wat unieker zijn. Ze wilden graag dat wanneer er géén tv gekeken wordt, deze uit het zicht zit — en dat het geheel zeker niet op een klassieke tv-kast zou lijken. Missie geslaagd, denk ik!
 
-Voor de badkamer kreeg ik carte blanche. Het enige vaste element was de locatie van de waskoker, die logisch moest aansluiten op de berging. We creëerden een inloopdouche zonder glas, maar mét een zitbankje: handig voor douchen met kindjes, later op leeftijd, én gewoon praktisch. Dit bankje werd doorgetrokken in het lavabomeubel.
-De badkamer is volledig voorzien op een druk gezinsleven, met twee spoelbakken, veel opbergruimte, én optimaal benut volume onder het schuine dak. In de kastenwand zit de waskoker bovendien mooi verborgen. Praktisch, toch?
+Voor de badkamer kreeg ik carte blanche. Het enige vaste element was de locatie van de waskoker, die logisch moest aansluiten op de berging. We creëerden een **inloopdouche zonder glas**, maar mét een **zitbankje**: handig voor douchen met kindjes, later op leeftijd, én gewoon praktisch. Dit bankje werd doorgetrokken in het **lavabomeubel**.
+De badkamer is volledig voorzien op een druk gezinsleven, met **twee spoelbakken**, **veel opbergruimte**, én optimaal benut volume onder het **schuine dak**. In de kastenwand zit de waskoker bovendien mooi **verborgen**. Praktisch, toch?
 
-Ze kozen voor een vrijstaand bad voor dat extra luxegevoel. De wandverlichting brengt subtiele hotelvibes, en de materialen zijn warm, zacht en tijdloos.
+Ze kozen voor een **vrijstaand bad** voor dat extra **luxegevoel**. De **wandverlichting** brengt subtiele **hotelvibes**, en de materialen zijn warm, zacht en tijdloos.
 
