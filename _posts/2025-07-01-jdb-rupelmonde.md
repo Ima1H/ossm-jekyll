@@ -9,9 +9,9 @@ testimonial: >-
   Jasmijn (en wij ook uiteraard) zijn heel tevreden van het eindresultaat!
 author: Lindsay Nevejans
 featured: true
-featured_image: /uploads/jdb-14.png
-left_image: /uploads/jdb-14.png
-right_image: /uploads/jdb-9.png
+featured_image: /uploads/jdb-1.png
+left_image: /uploads/jdb-1.png
+right_image: /uploads/jdb-2.png
 project_na:
   - description: living
     image: /uploads/jdb-1.png
@@ -22,7 +22,7 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/jdb-3.jpeg
+    image: /uploads/jdb-3.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living

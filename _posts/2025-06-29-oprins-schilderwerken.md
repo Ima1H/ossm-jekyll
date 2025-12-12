@@ -4,36 +4,34 @@ categories:
   - Grafisch ontwerp
 title: OPRINS Schilderwerken
 description: >- 
- Met volledige creatieve vrijheid ontstond een fris en speels logo voor Saskia, geïnspireerd op de Japanse kerselaar en perfect passend binnen de schoonheidssector.
-client: Saskia
+ Een opvallend en herkenbaar logo voor Oprins Schilderwerken, waarin naam en vakmanschap slim samensmelten tot een speels maar helder beeldmerk.
+client: OPRINS Schilderwerken
 testimonial: 
 author: Lindsay Nevejans
-featured: true
-featured_image: /images/imaginate-ossm-5.jpg
+featured: false
+featured_image: /uploads/ops-1.png
 project:
   - description: Logo en cadeaubon
-    image: /uploads/vil-1.png
+    image: /uploads/ops-1.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Logo en cadeaubon
-    image: /uploads/vil-1.png
+    image: /uploads/ops-1.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Logo en cadeaubon
-    image: /uploads/vil-1.png
+    image: /uploads/ops-1.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
 seo:
-  title: VILEAU
+  title: OPRINS Schilderwerken
   description: >-
-    Van bij de start mee vormgegeven: een zachte, betekenisvolle naam en identiteit voor Eveliens babyspa, waarin haar zoontjes, water en een subtiele spa-beleving samenkomen.
+    Een opvallend en herkenbaar logo voor Oprins Schilderwerken, waarin naam en vakmanschap slim samensmelten tot een speels maar helder beeldmerk.
   social_image:
   keywords:
-  - rebranding
-  - cadeaubon ontwerp
+  - logo ontwerp
   - grafisch ontwerp
-  - schoonheidsspecialiste
-  - kruibeke
+  - schilder
   hide-from-google: false
 ---
 

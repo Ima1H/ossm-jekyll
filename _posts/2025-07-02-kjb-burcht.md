@@ -2,75 +2,75 @@
 layout: project
 categories:
   - Interieurarchitectuur
-title: EMZ - ZWIJNDRECHT
+title: kjb - ZWIJNDRECHT
 description: Een nieuw appartement kreeg een donkere maar lichte en gezellige uitstraling dankzij doordacht maatwerk, slimme herwerking van de keuken en een 3D-ontwerp dat elke keuze tastbaar maakte.
 client: Kim
 testimonial: >-
   Ik ben zo blij om te zien hoe het er echt kan uit zien, ik had mij dit zonder de 3D beelden nooit kunnen visualiseren. Ik ben echt enthousiast!
 author: Lindsay Nevejans
 featured: true
-featured_image: /uploads/emz-14.jpg
-left_image: /uploads/emz-14.jpg
-right_image: /uploads/emz-9.jpg
+featured_image: /uploads/kjb-10.jpeg
+left_image: /uploads/kjb-10.jpeg
+right_image: /uploads/kjb-9.jpeg
 project_na:
   - description: living
-    image: /uploads/emz-1.jpg
+    image: /uploads/kjb-1.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-2.jpg
+    image: /uploads/kjb-2.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-20.jpeg
+    image: /uploads/kjb-20.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-4.jpg
+    image: /uploads/kjb-4.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/emz-5.jpg
+    image: /uploads/kjb-5.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/emz-6.jpg
+    image: /uploads/kjb-6.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-7.jpg
+    image: /uploads/kjb-7.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-8.jpg
+    image: /uploads/kjb-8.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-9.jpg
+    image: /uploads/kjb-9.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/emz-10.jpg
+    image: /uploads/kjb-10.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/emz-11.jpg
+    image: /uploads/kjb-11.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-12.jpg
+    image: /uploads/kjb-12.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-13.jpg
+    image: /uploads/kjb-13.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/emz-14.jpg
+    image: /uploads/kjb-14.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/emz-3.jpg
+    image: /uploads/kjb-3.png
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor:
