@@ -4,7 +4,10 @@
     {% for post in site.posts limit: 6 %}
     <div class="slider-item">
         <div class="grid-bottom card-review">
-            <img src="{{ post.featured_image | relative_url }}" class="landscape-wide padded-b-0 padded-l-0">
+          <div class="image-wrapper">
+            <img src="{{ post.featured_image | relative_url }}" class="padded-b-0 padded-l-0">
+          </div>  
+          <!-- <img src="{{ post.featured_image | relative_url }}"> -->
             <div class="col-6_md-12 padded-4 padded-b-0">
                 <p class="lowercase title-categories"> #{{ post.categories | join: ', ' }} </p>
                 <h3 class="uppercase title-medium-oversized black-text font-weight-200"> {{ post.client }} </h3>

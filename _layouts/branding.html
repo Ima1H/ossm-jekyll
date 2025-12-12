@@ -80,7 +80,7 @@ layout: default
 
 
 <!-------------------------- Services  ------------------------------->
-<section class="padded-10 padded-b-5 sm-padded-5 xs-padded-3 gallery-project grid tall-80 mdl-tall-60 md-tall-40 margin-t-5 padded-t-0 sm-padded-b-2" id="lightgallery">
+<!-- <section class="padded-10 padded-b-5 sm-padded-5 xs-padded-3 gallery-project grid tall-80 mdl-tall-60 md-tall-40 margin-t-5 padded-t-0 sm-padded-b-2" id="lightgallery">
   <a class="col-4_xs-12" href="{{ page.project_image_1 | relative_url }}" data-sub-html="{{ page.project_image_1_datatext }}">
     <div class="lightgallery-img bg-image bg-img-3 portrait"
          style="background-image: url('{{ page.project_image_1 | relative_url }}');"></div>
@@ -95,9 +95,20 @@ layout: default
     <div class="lightgallery-img bg-image bg-img-4 portrait"
          style="background-image: url('{{ page.project_image_3 | relative_url }}');"></div>
   </a>
+</section> -->
+
+<section class="padded-10 padded-b-5 sm-padded-5 xs-padded-3 gallery-project grid tall-80 mdl-tall-60 md-tall-40 margin-t-5 padded-t-0 sm-padded-b-2" id="lightgallery">
+  {% for item in page.project %}
+    <a class="{{ item.column_size }}"
+       href="{{ item.image | relative_url }}"
+       data-sub-html="{{ item.description }}">
+
+      <div class="lightgallery-img bg-image {{ item.aspect_ratio }}"
+           style="background-image: url('{{ item.image | relative_url }}');"></div>
+    </a>
+  {% endfor %}
+
 </section>
-
-
 <!-------------------------- Services Back-up ------------------------------->
 <!-- <section class="padded-md grid-center"> 
     <div class="col-7-center">
