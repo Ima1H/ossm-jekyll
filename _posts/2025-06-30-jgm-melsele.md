@@ -10,7 +10,7 @@ testimonial: >-
 author: Lindsay Nevejans
 featured: true
 featured_image: /uploads/jgm-2.jpeg
-left_image: /uploads/jgm-2.jpg
+left_image: /uploads/jgm-2.jpeg
 right_image: /uploads/jgm-1.jpg
 project_na:
   - description: living
@@ -18,26 +18,10 @@ project_na:
     column_size: col-6_md-5_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/jgm-2.jpg
+    image: /uploads/jgm-2.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor:
-  - description: living
-    image: /uploads/jgm-5.jpeg
-    column_size: col-6_md-5_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/jgm-6.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/jgm-7.jpeg
-    column_size: col-6_md-5_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/jgm-8.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: landscape 
 seo:
   title: Renovatie EMZ in Zwijndrecht
   description: >-

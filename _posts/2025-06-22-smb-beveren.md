@@ -9,9 +9,9 @@ testimonial: >-
   Oh hoe tof is dat! Wauw ik had niet verwacht dat dat zo uitgewerkt ging zijn, onze living  ziet er echt goed uit!'
 author: Lindsay Nevejans
 featured: true
-featured_image: /uploads/smb-14.jpg
-left_image: /uploads/smb-14.jpg
-right_image: /uploads/smb-9.jpg
+featured_image: /uploads/smb-14.png
+left_image: /uploads/smb-14.png
+right_image: /uploads/smb-9.png
 project_na:
   - description: living
     image: /uploads/smb-3.jpg
@@ -22,7 +22,7 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/smb-5.jpeg
+    image: /uploads/smb-5.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living

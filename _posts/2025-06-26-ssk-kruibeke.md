@@ -19,11 +19,11 @@ project_na:
     aspect_ratio: portrait
   - description: living
     image: /uploads/ssk-4.png
-    column_size: col-4_xs-12
+    column_size: col-6_md-5_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/ssk-5.png
-    column_size: col-4_xs-12
+    column_size: col-6_md-5_xs-12
     aspect_ratio: portrait
 project_voor:
   - description: living

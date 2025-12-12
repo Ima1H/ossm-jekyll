@@ -2,7 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
-title: kjb - ZWIJNDRECHT
+title: KJB - ZWIJNDRECHT
 description: Een nieuw appartement kreeg een donkere maar lichte en gezellige uitstraling dankzij doordacht maatwerk, slimme herwerking van de keuken en een 3D-ontwerp dat elke keuze tastbaar maakte.
 client: Kim
 testimonial: >-
@@ -22,7 +22,7 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/kjb-20.jpeg
+    image: /uploads/kjb-3.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
@@ -30,47 +30,27 @@ project_na:
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/kjb-5.png
+    image: /uploads/kjb-5.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/kjb-6.png
+    image: /uploads/kjb-6.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/kjb-7.png
+    image: /uploads/kjb-7.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/kjb-8.png
+    image: /uploads/kjb-8.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/kjb-9.png
+    image: /uploads/kjb-9.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/kjb-10.png
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/kjb-11.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/kjb-12.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/kjb-13.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/kjb-14.png
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/kjb-3.png
+    image: /uploads/kjb-11.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor:
