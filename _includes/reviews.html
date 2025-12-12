@@ -1,33 +1,32 @@
 <div class="padded-r-12 mdl-padded-r-1">
   <div class="review-slider">
 
-    {% for post in site.posts limit: 6 %}
-      {% if post.featured == true %}
-        <div class="slider-item">
-          <div class="grid-bottom card-review">
-            <div class="col-6_md-12 padded-0">
-              <div class="image-wrapper">
-                <img src="{{ post.featured_image | relative_url }}" class="padded-b-0 padded-l-0">
-              </div>  
-            </div>
+    {% assign featured_posts = site.posts | where: "featured", true | limit: 6 %}
+    {% for post in featured_posts %}
+      <div class="slider-item">
+        <div class="grid-bottom card-review">
+          <div class="col-6_md-12 padded-0">
+            <div class="image-wrapper">
+              <img src="{{ post.featured_image | relative_url }}" class="padded-b-0 padded-l-0">
+            </div>  
+          </div>
 
-            <div class="col-6_md-12 padded-4 padded-r-1 padded-b-0">
-              <p class="lowercase title-categories">
-                #{{ post.categories | join: ', ' }}
-              </p>
-              <h3 class="uppercase title-medium-oversized black-text font-weight-200">
-                {{ post.client }}
-              </h3>
-              <p class="testimonial">
-                {{ post.testimonial | default: post.excerpt | strip_html }}
-              </p>
-              <a href="{{ post.url | relative_url }}" class="button">
-                Bekijk het project
-              </a>
-            </div>
+          <div class="col-6_md-12 padded-4 padded-r-1 padded-b-0">
+            <p class="lowercase title-categories">
+              #{{ post.categories | join: ', ' }}
+            </p>
+            <h3 class="uppercase title-medium-oversized black-text font-weight-200">
+              {{ post.client }}
+            </h3>
+            <p class="testimonial">
+              {{ post.testimonial | default: post.excerpt | strip_html }}
+            </p>
+            <a href="{{ post.url | relative_url }}" class="button">
+              Bekijk het project
+            </a>
           </div>
         </div>
-      {% endif %}
+      </div>
     {% endfor %}
 
   </div>
