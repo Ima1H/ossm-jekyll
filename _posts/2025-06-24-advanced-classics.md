@@ -8,6 +8,7 @@ client: Veronique & Jochem
 testimonial: Lindsay heeft voor ons een origineel & uiterst creatief logo ontworpen. Ze heeft geluisterd naar onze ideeën en deze perfect omgezet in ons bedrijfslogo. Wij zijn zeer tevreden!
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/adv-2.png
 project:
   - description: Logo ontwerp

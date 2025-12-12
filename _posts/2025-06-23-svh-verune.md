@@ -9,6 +9,7 @@ testimonial: >-
   We kregen de nodige ruimte om met onze ideeën aan de slag te gaan. Maar werden vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/svh-7.jpg
 left_image: /uploads/svh-7.jpg
 right_image: /uploads/svh-8.jpg

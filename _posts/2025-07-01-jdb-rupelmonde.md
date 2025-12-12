@@ -8,7 +8,8 @@ client: Ouders van Jasmijn
 testimonial: >-
   Jasmijn (en wij ook uiteraard) zijn heel tevreden van het eindresultaat!
 author: Lindsay Nevejans
-featured: true
+featured: false
+review: true
 featured_image: /uploads/jdb-1.png
 left_image: /uploads/jdb-1.png
 right_image: /uploads/jdb-2.png

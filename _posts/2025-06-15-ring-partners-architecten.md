@@ -8,6 +8,7 @@ client: Ellen & Isabelle
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/rpa-2.jpg
 featured_image_1: /uploads/rpa-1.jpg
 project:

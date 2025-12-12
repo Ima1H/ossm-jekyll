@@ -9,6 +9,7 @@ testimonial: >-
   Ik ben zo blij om te zien hoe het er echt kan uit zien, ik had mij dit zonder de 3D beelden nooit kunnen visualiseren. Ik ben echt enthousiast!
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/kjb-10.jpeg
 left_image: /uploads/kjb-10.jpeg
 right_image: /uploads/kjb-9.jpeg

@@ -9,6 +9,7 @@ testimonial: >-
   Super goede ervaringen met Lindsay van Soulmade. Heel mooie ontwerpen op maat gemaakt zoals we ons hadden voorgesteld. Daarnaast communiceert Lindsay zeer vlot, open, duidelijk en ook heel eerlijk. Alles bij elkaar: zeer tevreden!
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/jgm-2.jpeg
 left_image: /uploads/jgm-2.jpeg
 right_image: /uploads/jgm-1.jpg

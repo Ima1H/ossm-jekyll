@@ -5,7 +5,8 @@
     
     <div class="col-12 padded-7 mdl-padded-3 mdl-padded-t-5">
       <div class="grid gallery">
-        {% for post in site.posts limit:6 %}
+        {% assign featured_posts = site.posts | where: "featured", true | limit: 6 %}
+        {% for post in featured_posts %}
           <div class="col">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
@@ -92,7 +93,8 @@
 
   <div class="col-12 md-padded-6">
     <div class="grid gallery margin-md">
-        {% for post in site.posts limit:6 %}
+        {% assign featured_posts = site.posts | where: "featured", true | limit: 6 %}
+        {% for post in featured_posts %}
           <div class="col-4 padded-1">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>
@@ -204,7 +206,8 @@
 
    <div class="col-12 xs-padded-b-4">
       <div class="grid gallery margin-md">
-        {% for post in site.posts limit:4 %}
+          {% assign featured_posts = site.posts | where: "featured", true | limit: 4 %}
+          {% for post in featured_posts %}
           <div class="col-6">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>

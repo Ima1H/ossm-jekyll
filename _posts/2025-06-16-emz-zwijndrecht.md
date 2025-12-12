@@ -10,6 +10,7 @@ testimonial: >-
   vooral zeer positief verrast door de inbreng en voorstellen van Lindsay.
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/emz-14.jpg
 left_image: /uploads/emz-14.jpg
 right_image: /uploads/emz-9.jpg

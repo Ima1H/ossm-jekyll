@@ -9,6 +9,7 @@ testimonial: >-
   Lindsay luistert goed naar de wensen en noden als bewoner van het huis, en houdt hier rekening mee in haar ontwerp!  Wij waren zeer tevreden!!
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/ssk-5.png
 left_image: /uploads/ssk-5.png
 right_image: /uploads/ssk-4.png

@@ -9,6 +9,7 @@ testimonial: >-
   Een kleine rijwoning kreeg een warme, volledig uitgeruste leefruimte dankzij slim maatwerk en een ontwerp dat elke centimeter optimaal benut.
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/vof-11.jpg
 left_image: /uploads/vof-11.jpg
 right_image: /uploads/vof-14.jpg

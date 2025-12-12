@@ -9,6 +9,7 @@ client: OPRINS Schilderwerken
 testimonial: 
 author: Lindsay Nevejans
 featured: false
+review: true
 featured_image: /uploads/ops-1.png
 project:
   - description: Logo en cadeaubon

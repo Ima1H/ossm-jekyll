@@ -8,6 +8,7 @@ client: Wendy
 testimonial: Lindsay is een toffe madam, en je voelt je direct op je gemak. Ze luistert naar je wensen en werkt deze ook uit. Ik ben zeer tevreden met mijn logo.
 author: Lindsay Nevejans
 featured: true
+review: true
 featured_image: /uploads/wlb-3.png
 project:
   - description: Visitekaartje
