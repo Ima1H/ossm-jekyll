@@ -8,15 +8,15 @@ client: Ellen & Isabelle
 testimonial: Het klikte meteen met Lindsay & oh wat zijn we blij met het resultaat
 author: Lindsay Nevejans
 featured: true
-featured_image: /uploads/rpa-1.png
-featured_image_1: /uploads/rpa-1.png
+featured_image: /uploads/rpa-2.jpg
+featured_image_1: /uploads/rpa-1.jpg
 project:
   - description: Huisstijl
     image: /uploads/rpa-1.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Huisstijl
-    image: /uploads/rpa-2.png
+    image: /uploads/rpa-2.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Huisstijl

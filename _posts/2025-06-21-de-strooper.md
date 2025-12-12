@@ -8,18 +8,18 @@ client: De Strooper
 testimonial: 
 author: Lindsay Nevejans
 featured: false
-featured_image: /uploads/dsb-1.png
+featured_image: /uploads/dsb-1.jpg
 project:
   - description: Visitekaartje
-    image: /uploads/dsb-1.png
+    image: /uploads/dsb-1.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Visitekaartje
-    image: /uploads/dsb-2.png
+    image: /uploads/dsb-2.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: Visitekaartje
-    image: /uploads/dsb-3.png
+    image: /uploads/dsb-3.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
 seo:
