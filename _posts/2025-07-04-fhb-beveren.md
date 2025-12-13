@@ -60,15 +60,15 @@ project_voor:
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/fhb-13.jpg
+    image: /uploads/fhb-13.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/fhb-14.jpg
+    image: /uploads/fhb-14.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/fhb-15.jpg
+    image: /uploads/fhb-15.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
 seo:
