@@ -157,18 +157,19 @@ html {border: none;} */
     background-image: url('/images/bynouchka-160224-lindsay-4.jpg');
     background-position: 50% 50%;
     background-size: cover;
+    transform: rotate(180deg);
     /* opacity: 0.8; */
 }
 
 .bg-interieurproject {
-    background-image: url('/images/imaginate-ossm-interieurproject.jpg');
+    background-image: url('/images/imaginate-ossm-52.jpg');
     background-position: 50% 50%;
     background-size: cover;
     /* opacity: 0.8; */
 }
 
 .bg-totaalconcept {
-    background-image: url('/images/imaginate-ossm-ontwerpt.jpeg');
+    background-image: url('/images/ossm-totaalconcept.png');
     background-position: 50% 50%;
     background-size: cover;
     /* opacity: 0.8; */
@@ -1971,7 +1972,7 @@ header p {
     opacity: .75;
     color: #4A494B;
     border: 2px solid #F6EA49;
-    border-radius: 50%;
+    border-radius: 43%;
     width: 40px;
     height: 40px;
     display: flex !important;
