@@ -1972,7 +1972,7 @@ header p {
     opacity: .75;
     color: #4A494B;
     border: 2px solid #F6EA49;
-    border-radius: 43%;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex !important;
