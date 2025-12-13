@@ -526,6 +526,9 @@ body {
 .padded-tb-4 { padding-top: 4rem; padding-bottom: 4rem; }
 .padded-lr-4 { padding-left: 4rem; padding-right: 4rem; }
 
+.padded-tb-5 { padding-top: 5rem; padding-bottom: 5rem; }
+.padded-lr-5 { padding-left: 5rem; padding-right: 5rem; }
+
 .padded-tb { padding-top: 5rem; padding-bottom: 5rem; }
 .padded-lr { padding-left: 5rem; padding-right: 5rem; }
 
