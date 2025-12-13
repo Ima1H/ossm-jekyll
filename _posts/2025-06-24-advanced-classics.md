@@ -2,7 +2,6 @@
 layout: branding
 categories: 
   - Grafisch ontwerp
-  - Ontwerpt
 title: ADVANCED CLASSICS
 description: Een modern logo voor een gepassioneerd duo dat oldtimers en youngtimers met zorg onderhoudt én ombouwt tot elektrische wagens, zonder in clichés te vervallen.
 client: Veronique & Jochem

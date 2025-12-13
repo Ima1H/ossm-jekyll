@@ -2,7 +2,6 @@
 layout: branding
 categories: 
   - Grafisch ontwerp
-  - Ontwerpt
 title: NATUURKAPSTER Wendy
 description: Een persoonlijk logo voor Wendy’s kapsalon, waarin bloemen en een kapsel natuur, gezin en vakmanschap samenbrengen.
 client: Wendy

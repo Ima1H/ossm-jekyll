@@ -2,7 +2,6 @@
 layout: branding
 categories: 
   - Grafisch ontwerp
-  - Ontwerpt
 title: OPRINS Schilderwerken
 description: >- 
  Een opvallend en herkenbaar logo voor Oprins Schilderwerken, waarin naam en vakmanschap slim samensmelten tot een speels maar helder beeldmerk.
