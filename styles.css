@@ -3582,7 +3582,11 @@ footer nav a {
     }
 
     .project-index-slider {
-    padding: 2% 5%; /* zelfde gevoel als .project-slider */
+        padding: 2% 0%; 
+    }
+
+    .review-slider {
+        padding: 2% 0%;
     }
 
 }
