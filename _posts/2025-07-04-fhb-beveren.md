@@ -63,7 +63,7 @@ project_voor:
     image: /uploads/fhb-13.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-    - description: living
+  - description: living
     image: /uploads/fhb-14.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
