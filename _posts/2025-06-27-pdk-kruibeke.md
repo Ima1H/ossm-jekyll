@@ -8,7 +8,7 @@ description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met 
 client:
 testimonial: 
 author: Lindsay Nevejans
-featured: false
+featured: true
 review: false
 featured_image: /uploads/pdk-4.png
 left_image: /uploads/pdk-4.png

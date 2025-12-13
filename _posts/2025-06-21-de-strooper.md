@@ -8,8 +8,8 @@ description: Met carte blanche ontstond een speels en uitgepuurd logo, geïnspir
 client: De Strooper 
 testimonial: 
 author: Lindsay Nevejans
-featured: false
-review: true
+featured: true
+review: false
 featured_image: /uploads/dsb-1.jpg
 project:
   - description: Visitekaartje
