@@ -23,3 +23,9 @@ _options:
     redo: true
     underline: true
     strike: true
+
+# Site settings
+title: imagínate
+description: ""
+url: "https://imaginate-ossm.netlify.app"
+baseurl: ""
