@@ -2369,7 +2369,7 @@ footer nav a {
 .display-block { display: block; }
 
 
-.fab {
+.fab .fa-solid{
     font-size: 1.5rem;
 }
 
