@@ -79,7 +79,7 @@ seo:
   title: Renovatie EMZ in Zwijndrecht
   description: >-
     Een lastige eetkamerzone groeide uit tot een warm en evenwichtig geheel dankzij doordacht maatwerk, lichte materialen en een indeling die de leefruimte eindelijk volledig doet kloppen.
-  social_image:
+  social_image: /uploads/smb-14.png
   keywords:
     - interieurarchitectuur
     - renovatie

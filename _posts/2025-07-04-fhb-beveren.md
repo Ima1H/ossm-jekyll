@@ -59,7 +59,7 @@ seo:
   title: FHB - Beveren
   description: >-
     Een nieuwbouwwoning werd tot in de bouwfase doordacht uitgewerkt met licht, warm advies, 3D-inzichten en maatwerk dat comfort, stijl en gezinsleven perfect verenigt.
-  social_image:
+  social_image: /uploads/fhb-10.jpg
   keywords:
     - interieurarchitectuur
     - nieuwbouw

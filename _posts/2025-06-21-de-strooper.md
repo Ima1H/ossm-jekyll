@@ -27,7 +27,7 @@ project:
 seo:
   title: DE STROOPER - IJS EN GEBAK
   description: Logo ontwerp
-  social_image:
+  social_image: /uploads/dsb-1.jpg
   keywords:
   - logo
   - branding

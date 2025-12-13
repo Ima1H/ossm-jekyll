@@ -28,7 +28,7 @@ project:
 seo:
   title: RING PARTNERS architecten
   description: Een krachtig en uitgepuurd logo voor een vrouwelijk architectenduo, waarin een zachte roze toets en contrasterend groen hun identiteit en visie versterken.
-  social_image:
+  social_image: /uploads/rpa-2.jpg
   keywords: 
   hide-from-google: false
 ---

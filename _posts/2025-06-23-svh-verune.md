@@ -52,7 +52,7 @@ seo:
   title: Renovatie EMZ in Zwijndrecht
   description: >-
     Een verouderde badkamer werd een rustig, warm en luxueus geheel dankzij doordacht maatwerk, zachte materialen en een ontwerp dat functionaliteit en persoonlijke beleving mooi samenbrengt.
-  social_image:
+  social_image: /uploads/svh-7.jpg
   keywords:
     - interieurarchitectuur
     - renovatie

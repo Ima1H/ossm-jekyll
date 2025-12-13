@@ -94,7 +94,7 @@ project_na:
     image: /uploads/dbb-20.jpg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-project_voor: 
+project_voor:  /uploads/dbb-5.jpeg
 seo:
   title: DBB - Melsele
   description: >-

@@ -206,8 +206,8 @@
 
    <div class="col-12 xs-padded-b-4">
       <div class="grid gallery margin-md">
-          {% assign featured_posts = site.posts | where: "featured", true | limit: 4 %}
-          {% for post in featured_posts %}
+          {% assign featured_posts = site.posts | where: "featured", true %}
+          {% for post in featured_posts limit: 4 %}
           <div class="col-6">
             <a class="footer-thumb display-block" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
               <div class="bg-image portrait-project" style="background-image:url('{{ post.featured_image }}');"></div>

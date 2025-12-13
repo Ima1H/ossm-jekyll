@@ -27,7 +27,7 @@ project:
 seo:
   title: ADVANCED CLASSICS
   description: Logo ontwerp
-  social_image:
+  social_image: /uploads/adv-2.png
   keywords:
   - logo
   - branding

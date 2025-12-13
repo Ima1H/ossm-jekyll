@@ -27,7 +27,7 @@ project:
 seo:
   title: NATUURKAPSTER WENDY
   description: Logo ontwerp
-  social_image:
+  social_image: /uploads/wlb-3.png
   keywords:
   - logo
   - visitekaartje

@@ -29,7 +29,7 @@ seo:
   title: OPRINS Schilderwerken
   description: >-
     Een opvallend en herkenbaar logo voor Oprins Schilderwerken, waarin naam en vakmanschap slim samensmelten tot een speels maar helder beeldmerk.
-  social_image:
+  social_image: /uploads/ops-1.png
   keywords:
   - logo ontwerp
   - grafisch ontwerp

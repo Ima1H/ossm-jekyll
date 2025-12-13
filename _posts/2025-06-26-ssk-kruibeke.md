@@ -40,7 +40,7 @@ seo:
   title: Renovatie EMZ in Zwijndrecht
   description: >-
     Een rommelige inkomhal werd een lichte, praktische en sfeervolle ruimte dankzij slim maatwerk, warme houten accenten en een indeling die perfect aansluit bij het gezinsleven.
-  social_image:
+  social_image: /uploads/ssk-5.png
   keywords:
     - interieurarchitectuur
     - renovatie

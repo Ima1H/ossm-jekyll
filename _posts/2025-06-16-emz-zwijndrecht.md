@@ -102,7 +102,7 @@ seo:
     Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte
     materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en
     rust perfect combineren.
-  social_image:
+  social_image: /uploads/emz-14.jpg
   keywords:
     - interieurarchitectuur
     - renovatie

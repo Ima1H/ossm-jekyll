@@ -67,7 +67,7 @@ seo:
   title: KJB Burcht
   description: >-
     Een nieuw appartement kreeg een donkere maar lichte en gezellige uitstraling dankzij doordacht maatwerk, slimme herwerking van de keuken en een 3D-ontwerp dat elke keuze tastbaar maakte.
-  social_image:
+  social_image: /uploads/kjb-10.jpeg
   keywords:
     - interieurarchitectuur
     - renovatie
