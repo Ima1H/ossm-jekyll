@@ -2,7 +2,6 @@
 layout: project
 categories:
   - Interieurarchitectuur
-  - Ontwerpt
 title: SVH - VEURNE
 description: Een verouderde badkamer werd een rustig, warm en luxueus geheel dankzij doordacht maatwerk, zachte materialen en een ontwerp dat functionaliteit en persoonlijke beleving mooi samenbrengt.
 client: Sofie & Pedro

@@ -2,7 +2,6 @@
 layout: project
 categories:
   - Interieurarchitectuur
-  - Advies
 title: FHB - Beveren
 description: Een nieuwbouwwoning werd tot in de bouwfase doordacht uitgewerkt met licht, warm advies, 3D-inzichten en maatwerk dat comfort, stijl en gezinsleven perfect verenigt.
 client: F. & H.

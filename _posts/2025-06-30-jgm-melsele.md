@@ -2,7 +2,6 @@
 layout: project
 categories:
   - Interieurarchitectuur
-  - Ontwerpt
 title: JGM - MELSELE
 description: Een onafgewerkte badkamer kreeg eindelijk comfort en samenhang dankzij een maatwerk lavabomeubel dat functionaliteit, rust en een tijdloze uitstraling combineert.
 client: J. en G.

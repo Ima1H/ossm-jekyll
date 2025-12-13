@@ -2,7 +2,6 @@
 layout: project
 categories:
   - Interieurarchitectuur
-  - Ontwerpt
 title: PDK - KRUIBEKE
 description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
 client:
