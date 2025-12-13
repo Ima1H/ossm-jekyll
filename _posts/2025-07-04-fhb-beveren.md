@@ -15,7 +15,7 @@ left_image: /uploads/fhb-10.jpg
 right_image: /uploads/fhb-1.jpg
 project_na:
   - description: living
-    image: /uploads/fhb-2.jpg
+    image: /uploads/fhb-9.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
@@ -43,7 +43,7 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/fhb-9.jpg
+    image: /uploads/fhb-1.jpg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
@@ -55,6 +55,22 @@ project_na:
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor:
+  - description: living
+    image: /uploads/fhb-12.jpg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description: living
+    image: /uploads/fhb-13.jpg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+    - description: living
+    image: /uploads/fhb-14.jpg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description: living
+    image: /uploads/fhb-15.jpg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
 seo:
   title: FHB - Beveren
   description: >-

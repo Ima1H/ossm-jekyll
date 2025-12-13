@@ -10,8 +10,8 @@ testimonial: >-
 author: Lindsay Nevejans
 featured: true
 review: true
-featured_image: /uploads/mth-2.png
-left_image: /uploads/mth-2.png
+featured_image: /uploads/mth-1.png
+left_image: /uploads/mth-1.png
 right_image: /uploads/mth-7.png
 project_na:
   - description: living
