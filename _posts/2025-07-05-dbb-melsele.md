@@ -94,10 +94,12 @@ project_na:
     image: /uploads/dbb-20.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-project_voor: /uploads/dbb-5.jpeg
+project_voor: 
 seo:
   title: DBB - Melsele
   description: Nog vóór de bouw startte, werd deze woning doordacht hertekend en ingericht in een warme Scandinavische stijl.
+  social_image: /uploads/dbb-5.jpeg
+  keywords:
   hide-from-google: false
 ---
 
