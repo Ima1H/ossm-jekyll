@@ -51,7 +51,7 @@ seo:
   title: MTH - HEMIKSEM
   description: >-
     Een verwaarloosde woning werd hertekend tot een warme, logische en gezinsvriendelijke thuis dankzij een nieuwe indeling, centraal geplaatste keuken en verbindend maatwerk.
-  social_image:
+  social_image: /uploads/mth-2.png
   keywords:
     - interieurarchitectuur
     - renovatie

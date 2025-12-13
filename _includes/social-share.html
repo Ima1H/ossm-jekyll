@@ -1,27 +1,60 @@
 <section class="grid-center padded-5 padded-t-0 padded-b-10">
-    <div class="col-12-center text-center">
+  <div class="col-12-center text-center">
 
-        <hr class="short text-center"> 
+    <hr class="short text-center"> 
+    <h4 class="margin-b-05">share the love</h4>
 
-        <h4 class="margin-b-05"> share the love</h4>
+    {% assign share_url = page.url | absolute_url %}
+    {% assign share_title = page.title | default: site.title %}
+    {% assign share_image = page.seo.social_image | default: page.featured_image | default: site.social_image %}
 
-        <nav>
-            <!-- <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.data.site-settings.social.twitter_username }}&related={{ site.data.site-settings.social.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
-                <i class="fa-brands fa-x-twitter padded-r-1"></i>
-            </a> -->
+    <nav class="social-share">
 
-            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Instagram">
-                <i class="fab fa-instagram padded-r-1"></i>
-            </a>
+      <!-- Instagram → copy link -->
+      <a href="#"
+         class="share-copy"
+         data-copy="{{ share_url }}"
+         title="Kopieer link om te delen op Instagram"
+         aria-label="Kopieer link voor Instagram">
+        <i class="fab fa-instagram padded-r-1"></i>
+      </a>
 
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url | uri_escape }}"
+         rel="nofollow"
+         target="_blank"
+         title="Deel op Facebook"
+         aria-label="Deel op Facebook">
+        <i class="fab fa-facebook-f padded-r-1"></i>
+      </a>
 
-            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
-                <i class="fab fa-facebook-f padded-r-1"></i>
-            </a>
-            <a href="http://pinterest.com/pin/create/link/?url={{page.url}}&description={{page.title}}" rel="nofollow" target="_blank" title="Share on Pinterest">
-            <i class="fab fa-pinterest-p"></i>
-            </a>
-        </nav>
+      <!-- Pinterest (met absolute URL + media image) -->
+      <a href="https://www.pinterest.com/pin/create/button/?url={{ share_url | uri_escape }}{% if share_image %}&media={{ share_image | absolute_url | uri_escape }}{% endif %}&description={{ share_title | uri_escape }}"
+         rel="nofollow"
+         target="_blank"
+         title="Bewaar op Pinterest"
+         aria-label="Bewaar op Pinterest">
+        <i class="fab fa-pinterest-p"></i>
+      </a>
 
-    </div>
+    </nav>
+
+  </div>
 </section>
+
+<script>
+  document.addEventListener("click", async (e) => {
+    const btn = e.target.closest(".share-copy");
+    if (!btn) return;
+
+    e.preventDefault();
+    const url = btn.getAttribute("data-copy");
+
+    try {
+      await navigator.clipboard.writeText(url);
+      alert("Link gekopieerd! Plak deze in je Instagram caption, story of bio.");
+    } catch (err) {
+      prompt("Kopieer deze link:", url);
+    }
+  });
+</script>
