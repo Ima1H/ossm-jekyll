@@ -2,6 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
+  - Ontwerpt
 title: EMZ - ZWIJNDRECHT
 description: Een warme gezinswoning kreeg een serene, hedendaagse make-over met lichte materialen, slimme indelingen en doordachte ontwerpen die functionaliteit en rust perfect combineren.
 client: Erik & Monique

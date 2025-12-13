@@ -15,11 +15,11 @@ left_image: /uploads/dbb-5.jpeg
 right_image: /uploads/dbb-6.jpeg
 project_na:
   - description: living
-    image: /uploads/dbb-1.jpg
+    image: /uploads/dbb-1.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/dbb-2.jpg
+    image: /uploads/dbb-2.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
@@ -27,19 +27,19 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/dbb-4.jpg
+    image: /uploads/dbb-4.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/dbb-5.jpg
+    image: /uploads/dbb-5.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/dbb-6.jpg
+    image: /uploads/dbb-6.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/dbb-7.jpg
+    image: /uploads/dbb-7.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
@@ -91,20 +91,13 @@ project_na:
     column_size: col-6_xs-12
     aspect_ratio: landscape
   - description: living
-    image: /uploads/dbb-20.jpg
+    image: /uploads/dbb-20.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
-project_voor:  /uploads/dbb-5.jpeg
+project_voor: /uploads/dbb-5.jpeg
 seo:
   title: DBB - Melsele
-  description: >-
-    Nog vóór de bouw startte, werd deze woning doordacht hertekend en ingericht in een warme Scandinavische stijl, met slimme planwijzigingen, verfijnd maatwerk en één harmonieus geheel van vloer tot detail.
-  social_image:
-  keywords:
-    - interieurarchitectuur
-    - renovatie
-    - zwijndrecht
-    - gezinswoning
+  description: Nog vóór de bouw startte, werd deze woning doordacht hertekend en ingericht in een warme Scandinavische stijl.
   hide-from-google: false
 ---
 

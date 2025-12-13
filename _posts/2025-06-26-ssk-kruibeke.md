@@ -2,6 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
+  - Ontwerpt
 title: SSK - KRUIBEKE
 description: Een rommelige inkomhal werd een lichte, praktische en sfeervolle ruimte dankzij slim maatwerk, warme houten accenten en een indeling die perfect aansluit bij het gezinsleven.
 client: 

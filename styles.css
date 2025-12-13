@@ -3581,6 +3581,13 @@ footer nav a {
         font-size: 2.2vw;
     }
 
+    .project-index-slider {
+    padding: 2% 5%; /* zelfde gevoel als .project-slider */
+    }
+
+    /* optioneel: minder gutters op mobiel */
+    .project-index-slider .slick-slide { margin: 0 6px; }
+    .project-index-slider .slick-list { margin: 0 -6px; }
 
 }
 

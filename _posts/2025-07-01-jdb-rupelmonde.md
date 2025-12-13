@@ -2,6 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
+  - Ontwerpt
 title: JDB - RUPELMONDE
 description: Een kleine, moeilijk in te delen kinderkamer werd omgevormd tot een volwaardige tienerkamer dankzij slim maatwerk, een mezzanine en een indeling die elke centimeter optimaal benut.
 client: Ouders van Jasmijn

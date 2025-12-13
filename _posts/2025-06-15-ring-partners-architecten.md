@@ -11,7 +11,6 @@ author: Lindsay Nevejans
 featured: true
 review: true
 featured_image: /uploads/rpa-2.jpg
-featured_image_1: /uploads/rpa-1.jpg
 project:
   - description: Huisstijl
     image: /uploads/rpa-1.png

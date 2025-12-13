@@ -2,6 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
+  - Ontwerpt
 title: KJB - ZWIJNDRECHT
 description: Een nieuw appartement kreeg een donkere maar lichte en gezellige uitstraling dankzij doordacht maatwerk, slimme herwerking van de keuken en een 3D-ontwerp dat elke keuze tastbaar maakte.
 client: Kim

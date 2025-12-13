@@ -1,8 +1,8 @@
 <div class="padded-r-12 mdl-padded-r-1">
   <div class="review-slider">
 
-    {% assign review_posts = site.posts | where: "review", true | limit: 6 %}
-    {% for post in review_posts %}
+    {% assign review_posts = site.posts | where: "review", true %}
+    {% for post in review_posts limit: 9 %}
       <div class="slider-item">
         <div class="grid-bottom card-review">
           <div class="col-6_md-12 padded-0">

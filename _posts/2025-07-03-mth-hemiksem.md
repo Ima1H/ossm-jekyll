@@ -2,6 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
+  - Ontwerpt
 title: MTH - HEMIKSEM
 description: Een verwaarloosde woning werd hertekend tot een warme, logische en gezinsvriendelijke thuis dankzij een nieuwe indeling, centraal geplaatste keuken en verbindend maatwerk.
 client: M. & T.
@@ -23,7 +24,7 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
-    image: /uploads/mth-20.png
+    image: /uploads/mth-3.png
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
