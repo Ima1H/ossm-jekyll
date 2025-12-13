@@ -3581,14 +3581,6 @@ footer nav a {
         font-size: 2.2vw;
     }
 
-    .project-index-slider {
-    padding: 2% 5%; /* zelfde gevoel als .project-slider */
-    }
-
-    /* optioneel: minder gutters op mobiel */
-    .project-index-slider .slick-slide { margin: 0 6px; }
-    .project-index-slider .slick-list { margin: 0 -6px; }
-
 }
 
 /* ------- Accordion Media Query (/ 640px) --------------- */
@@ -3719,6 +3711,11 @@ footer nav a {
     .xs-padded-b-0 { padding-bottom: 0; }
     .xs-padded-l-0 { padding-left: 0;   }
     .xs-padded-r-0 { padding-right: 0;  }
+
+    .xs-padded-t-0-5 { padding-top: 0.5rem;  }
+    .xs-padded-b-0-5 { padding-bottom: 0.5rem; }
+    .xs-padded-l-0-5 { padding-left: 0.5rem;   }
+    .xs-padded-r-0-5 { padding-right: 0.5rem;  }
 
     .xs-padded-t-1 { padding-top: 1rem;    }
     .xs-padded-b-1 { padding-bottom: 1rem; }

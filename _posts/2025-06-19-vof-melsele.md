@@ -2,6 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
+  - Ontwerpt
 title: VOF - MELSELE
 description: Een kleine rijwoning kreeg een warme, volledig uitgeruste leefruimte dankzij slim maatwerk en een ontwerp dat elke centimeter optimaal benut.
 client: F. 
