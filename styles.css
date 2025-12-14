@@ -47,6 +47,17 @@ html {border: none;} */
     background-repeat: no-repeat;
 }
 
+
+.bg-plananalyse-1 {
+  background-image: url('/images/imaginate-ossm-83.jpg');
+}
+
+.bg-plananalyse-2 {
+  background-image: url('/images/imaginate-ossm-38.jpg');
+}
+
+
+
 .bg-image-project {
     background-color: #f0f0f5;;
     background-size: cover;
