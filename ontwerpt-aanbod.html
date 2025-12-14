@@ -12,6 +12,7 @@ sessies:
   - id: rebranding
     title: "(re)Branding"
     bg_class: "bg-rebranding"
+    tall: tall-80 md-tall-70
     package: "rebranding"
     for_who_title: "Voor wie?"
     for_who_text: >
@@ -19,6 +20,7 @@ sessies:
   - id: interieurproject
     title: "Interieurproject"
     bg_class: "bg-interieurproject"
+    tall: tall-260 md-tall-200
     package: "totaalproject"
     for_who_title: "Voor wie?"
     for_who_text: >
@@ -76,7 +78,7 @@ sessies:
 
   <div class="col-6-bottom_md-12-bottom grid">
     <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 md-tall-70 bg-image {{ sessie.bg_class }} has-price">
+      <div class="{{ sessie.tall }} bg-image {{ sessie.bg_class }} has-price">
         <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
       </div>
     </div>
@@ -119,7 +121,7 @@ sessies:
 
 
 <!-------------------------- Projecten  ------------------------------->
-<section id="projecten" class="grid padded-14  padded-t-10 mdl-padded-9 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">
+<section id="projecten" class="grid padded-14 padded-t-10 mdl-padded-9 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">
 
   <div class="grid padded-b-2">
     <h2 class="col-12 title-medium-oversized padded-l-0"> PROJECTEN Interieurachitectuur & grafisch ontwerp</h2>
