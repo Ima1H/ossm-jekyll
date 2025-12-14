@@ -2,7 +2,7 @@
 layout: project
 categories:
   - Interieurarchitectuur
-title: DBB - Melsele
+title: DBB - MELSELE
 description: Nog vóór de bouw startte, werd deze woning doordacht hertekend en ingericht in een warme Scandinavische stijl, met slimme planwijzigingen, verfijnd maatwerk en één harmonieus geheel van vloer tot detail.
 client: D. & N. 
 testimonial: >-

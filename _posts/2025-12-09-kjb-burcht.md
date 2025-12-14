@@ -63,6 +63,14 @@ project_voor:
     image: /uploads/kjb-6.jpeg
     column_size: col-6_xs-12
     aspect_ratio: landscape
+  - description: living
+    image: /uploads/kjb-7.jpeg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description: living
+    image: /uploads/kjb-8.jpeg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
 seo:
   title: KJB Burcht
   description: >-
