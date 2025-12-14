@@ -1119,6 +1119,16 @@ hr {
     text-transform: uppercase;
 }
 
+.title-gdpr {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    font-size: 4.7rem;
+    margin-top: 0.5rem;
+    color: black;
+    text-transform: uppercase;
+
+}
+
 .title-header-index {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
@@ -3861,7 +3871,7 @@ footer nav a {
     }
 
     .title-oversized {
-        font-size: 14vw;
+        font-size: 5vw;
     }
 
     .footer-title {
