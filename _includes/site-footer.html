@@ -5,7 +5,7 @@
     
     <div class="col-12 padded-7 mdl-padded-3 mdl-padded-t-5">
       <div class="grid gallery">
-        <p> Meest recente projecten </p>
+        <p class="text-left"> Meest recente projecten </p>
         {% assign featured_posts = site.posts | where: "featured", true %}
         {% for post in featured_posts limit: 6 %}
           <div class="col">
@@ -94,7 +94,7 @@
 
   <div class="col-12 md-padded-6">
     <div class="grid gallery margin-md">
-        <p> Meest recente projecten </p>
+        <p class="text-left"> Meest recente projecten </p>
         {% assign featured_posts = site.posts | where: "featured", true %}
         {% for post in featured_posts limit: 6 %}
           <div class="col-4 padded-1">
@@ -207,7 +207,7 @@
 <footer class="grid-center text-center padded-1 show-xs hide-sm bg-light-grey xs-padded-t-4 xs-padded-b-4">
 
    <div class="col-12">
-      <p> Meest recente projecten </p>
+      <p class="text-left"> Meest recente projecten </p>
       <div class="grid gallery margin-md xs-padded-b-4">
           {% assign featured_posts = site.posts | where: "featured", true %}
           {% for post in featured_posts limit: 4 %}
