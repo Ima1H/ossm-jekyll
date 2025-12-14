@@ -9,7 +9,7 @@ testimonial: >-
   Oh hoe tof is dat! Wauw ik had niet verwacht dat dat zo uitgewerkt ging zijn, onze living  ziet er echt goed uit!'
 author: Lindsay Nevejans
 featured: true
-review: true
+review: false
 featured_image: /uploads/smb-14.png
 left_image: /uploads/smb-14.png
 right_image: /uploads/smb-9.png

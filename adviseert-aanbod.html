@@ -42,7 +42,8 @@ sessies:
       Een eenmalige investering die je heel wat miskopen, stress en tijd bespaart.
   - id: plananalyse
     title: "Plananalyse"
-    bg_class: "bg-plananalyse-1 bg-plananalyse-2"
+    bg_class: "bg-plananalyse-1"
+    bg_class_2: "bg-plananalyse-2"
     package: "plananalyse"
     intro: >-
       Ga je bouwen of verbouwen? Dan wil je zeker zijn dat het plan van de architect niet alleen mooi is, maar ook perfect afgestemd op jouw dagelijkse leven. Architecten zijn enorm sterk in het ontwerpen van de buitenschil, maar jouw leven speelt zich af binnenin. Met een planaanalyse ontdekken we samen waar jouw plan nog geoptimaliseerd kan worden, zodat je meteen de juiste keuzes maakt en nadien geen spijt krijgt.
@@ -141,10 +142,15 @@ sessies:
 <section id="{{ sessie.id }}" class="grid-middle padded-10 mdl-padded-5 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">  
 
   <div class="col-6-bottom_md-12-bottom grid">
-    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm">
-      <div class="tall-80 md-tall-70 bg-image {{ sessie.bg_class }} has-price">
+    <div class="padded-l-4 padded-r-7 padded-b-0 col-12 hide-sm grid">
+      <div class="col-12 tall-80 md-tall-70 bg-image {{ sessie.bg_class }} has-price">
         <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
       </div>
+      {% if sessie.sessie.bg_class_2  %}
+      <div class="col-12 tall-80 md-tall-70 bg-image {{ sessie.bg_class_2 }} has-price">
+        <!-- <span class="price-tag-l">{{ sessie.price }}</span> -->
+      </div>
+      {% endif %}
     </div>
   </div>
 
