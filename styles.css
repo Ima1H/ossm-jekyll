@@ -1962,6 +1962,9 @@ header p {
 .slick-prev {
     right: -15px;
 }
+.slick-next, .slick-prev {
+    top: 41%;
+}
 
 .slick-next::before,
 .slick-prev::before {
