@@ -13,16 +13,12 @@ featured_image: /uploads/rpa-2.jpg
 project:
   - description: Huisstijl
     image: /uploads/rpa-1.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
   - description: Huisstijl
     image: /uploads/rpa-2.jpg
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: Huisstijl
-    image: /uploads/rpa-1.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
 seo:
   title: RING PARTNERS architecten
   description: Een krachtig en uitgepuurd logo voor een vrouwelijk architectenduo, waarin een zachte roze toets en contrasterend groen hun identiteit en visie versterken.

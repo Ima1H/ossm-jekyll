@@ -13,16 +13,12 @@ featured_image: /uploads/adv-2.png
 project:
   - description: Logo ontwerp
     image: /uploads/adv-1.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
   - description: Logo ontwerp
     image: /uploads/adv-2.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: Logo ontwerp
-    image: /uploads/adv-2.png
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
 seo:
   title: ADVANCED CLASSICS
   description: Logo ontwerp
