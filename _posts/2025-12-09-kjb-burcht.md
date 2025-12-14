@@ -28,32 +28,16 @@ project_na:
     aspect_ratio: portrait
   - description: living
     image: /uploads/kjb-4.png
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/kjb-5.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/kjb-6.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/kjb-7.jpeg
-    column_size: col-4_xs-12
-    aspect_ratio: portrait
-  - description: living
-    image: /uploads/kjb-8.jpeg
     column_size: col-4_xs-12
     aspect_ratio: portrait
   - description: living
     image: /uploads/kjb-9.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
+    column_size: col-4_xs-12
+    aspect_ratio: portrait
   - description: living
     image: /uploads/kjb-11.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
+    column_size: col-4_xs-12
+    aspect_ratio: portrait
 project_voor:
   - description: living
     image: /uploads/kjb-5.jpeg
