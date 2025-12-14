@@ -96,12 +96,12 @@ layout: default
          style="background-image: url('{{ page.project_image_3 | relative_url }}');"></div>
   </a>
 </section> -->
-
+{% if page.project_voor and page.project_voor.size > 0 %}
 <section class="padded-10 padded-b-5 sm-padded-5 xs-padded-3 gallery-project grid tall-80 mdl-tall-60 md-tall-40 margin-t-5 padded-t-0 sm-padded-b-2" id="lightgallery">
   {% for item in page.project %}
     <a class="{{ item.column_size }}"
        href="{{ item.image | relative_url }}"
-       data-sub-html="{{ item.description }}">
+       data-sub-html="">
 
       <div class="lightgallery-img bg-image {{ item.aspect_ratio }}"
            style="background-image: url('{{ item.image | relative_url }}');"></div>
@@ -109,6 +109,7 @@ layout: default
   {% endfor %}
 
 </section>
+{% endif %}
 <!-------------------------- Services Back-up ------------------------------->
 <!-- <section class="padded-md grid-center"> 
     <div class="col-7-center">
