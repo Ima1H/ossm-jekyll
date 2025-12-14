@@ -151,11 +151,11 @@ sessies:
 
 <!-------------------------- Projects  ------------------------------->
 
-<section id="projecten" class="grid padded-10 mdl-padded-9 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">
+<section id="projecten" class="grid padded-40 mdl-padded-9 mdl-padded-b-7 xs-padded-3 xs-padded-b-5">
 
-  <div class="grid padded-b-2">
+  <div class="col-12 grid padded-b-2">
     <h2 class="col-12 title-medium-oversized padded-l-0"> PROJECTEN Interieurachitectuur </h2>
-    <div class="col-12 divider-left padded-b-0">
+    <div class="col-12 divider-left padded-b-0 margin-b-1">
       <p> Benieuwd naar enkele realisaties, neem snel (of op jouw gemak) een kijkje: </p>
     </div>
   </div> 
@@ -165,7 +165,7 @@ sessies:
   {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout", "project" %} 
   {% for post in projects %} 
     
-    <div class="col-3_md-6_xs-12 padded-r-2 padded-b-5 project-container">
+    <div class="col-3_md-6_xs-12 padded-l-0 padded-r-2 padded-b-5 project-container">
       <a class="index-project-thumb display-block button-project" 
          href="{{ post.url | relative_url }}" 
          aria-label="{{ post.title }}">

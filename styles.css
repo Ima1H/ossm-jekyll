@@ -2640,6 +2640,8 @@ footer nav a {
     .lg-padded-l-5 { padding-left: 5rem; }
     .lg-padded-r-5 { padding-right: 5rem; }
 
+    .lg-padded-r-5p { padding-right: 5%; }
+
     .lg-padded-t-6 { padding-top: 6rem;  }
     .lg-padded-b-6 { padding-bottom: 6rem; }
     .lg-padded-l-6 { padding-left: 6rem; }
