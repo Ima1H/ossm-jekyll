@@ -55,22 +55,6 @@ project_na:
     column_size: col-6_xs-12
     aspect_ratio: landscape
 project_voor:
-  - description: living
-    image: /uploads/fhb-12.jpg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/fhb-13.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/fhb-14.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
-  - description: living
-    image: /uploads/fhb-15.jpeg
-    column_size: col-6_xs-12
-    aspect_ratio: landscape
 seo:
   title: FHB - Beveren
   description: >-

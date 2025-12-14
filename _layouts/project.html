@@ -89,14 +89,14 @@ layout: default
 
   {% for item in page.project_na %}
     <a class="{{ item.column_size }}"
-       href="{{ item.image | relative_url }}">
+       href="{{ item.image | relative_url }}"
+       data-sub-html="">
 
       <div class="lightgallery-img bg-image {{ item.aspect_ratio }}"
            style="background-image: url('{{ item.image | relative_url }}');"></div>
     </a>
   {% endfor %}
 
-  <!-- project descroption in lightgallery: data-sub-html="{{ item.description }} -->
 </section>
 
 <!-------------------------- Pictures after  ------------------------------->
@@ -107,7 +107,8 @@ layout: default
 
   {% for item in page.project_voor %}
     <a class="{{ item.column_size }}"
-       href="{{ item.image | relative_url }}">
+       href="{{ item.image | relative_url }}"
+       data-sub-html="">
       <div class="lightgallery-img bg-image {{ item.aspect_ratio }}"
            style="background-image: url('{{ item.image | relative_url }}');"></div>
     </a>

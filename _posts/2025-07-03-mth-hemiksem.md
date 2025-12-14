@@ -47,6 +47,22 @@ project_na:
     column_size: col-4_xs-12
     aspect_ratio: portrait
 project_voor:
+  - description: living
+    image: /uploads/mth-9.jpg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description: living
+    image: /uploads/mth-10.jpeg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description: living
+    image: /uploads/mth-11.jpeg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
+  - description: living
+    image: /uploads/mth-12.jpeg
+    column_size: col-6_xs-12
+    aspect_ratio: landscape
 seo:
   title: MTH - HEMIKSEM
   description: >-
