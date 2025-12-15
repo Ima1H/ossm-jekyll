@@ -142,17 +142,17 @@ _snippets:
           type: string
         - editor_key: image_size_ratio
           type: string
-floating_image:
-  template: jekyll_liquid_include
-  inline: true
-  preview:
-    text: Floating image
-  definitions:
-    include_name: snippets/image-float.html
-    named_args:
-      - editor_key: image
-        type: string
-      - editor_key: alt
-        type: string
-      - editor_key: float_direction
-        type: string
+  floating_image:
+    template: jekyll_liquid_include
+    inline: true
+    preview:
+      text: Floating image
+    definitions:
+      include_name: snippets/image-float.html
+      named_args:
+        - editor_key: image
+          type: string
+        - editor_key: alt
+          type: string
+        - editor_key: float_direction
+          type: string
