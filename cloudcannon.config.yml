@@ -128,31 +128,31 @@ _snippets:
     definitions:
       include_name: snippets/imgGallery3.html
       named_args:
-        - editor_key: first-image
+        - editor_key: first_image
           type: string
-        - editor_key: first-alt
+        - editor_key: first_alt
           type: string
-        - editor_key: second-image
+        - editor_key: second_image
           type: string
-        - editor_key: second-alt
+        - editor_key: second_alt
           type: string
-        - editor_key: third-image
+        - editor_key: third_image
           type: string
-        - editor_key: third-alt
+        - editor_key: third_alt
           type: string
         - editor_key: image_size_ratio
           type: string
-  floating_image:
-    template: jekyll_liquid_include
-    inline: true
-    preview:
-      text: floating image
-    definitions:
-      include_name: snippets/image-float.html
-      named_args:
-        - editor_key: image
-          type: string
-        - editor_key: alt
-          type: string
-        - editor_key: float-direction
-          type: string
+floating_image:
+  template: jekyll_liquid_include
+  inline: true
+  preview:
+    text: Floating image
+  definitions:
+    include_name: snippets/image-float.html
+    named_args:
+      - editor_key: image
+        type: string
+      - editor_key: alt
+        type: string
+      - editor_key: float_direction
+        type: string
