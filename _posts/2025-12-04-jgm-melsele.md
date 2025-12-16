@@ -4,7 +4,7 @@ categories:
   - Interieurarchitectuur
 title: JGM - MELSELE
 description: Een onafgewerkte badkamer kreeg eindelijk comfort en samenhang dankzij een maatwerk lavabomeubel dat functionaliteit, rust en een tijdloze uitstraling combineert.
-client: J. en G.
+client: J. & G.
 testimonial: >-
   Super goede ervaringen met Lindsay van Soulmade. Heel mooie ontwerpen op maat gemaakt zoals we ons hadden voorgesteld. Daarnaast communiceert Lindsay zeer vlot, open, duidelijk en ook heel eerlijk. Alles bij elkaar: zeer tevreden!
 author: Lindsay Nevejans
