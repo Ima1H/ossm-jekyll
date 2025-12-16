@@ -130,7 +130,7 @@ services:
     </div>
 
     <!-- Carousel -->
-    <div class="project-slider project-greyed">
+    <div class="project-slider">
         {% assign projects = site.categories["Interieurarchitectuur"] | where: "layout","project" %}
         {% for post in projects limit:12 %}
         <div class="slider-item">
@@ -182,7 +182,7 @@ services:
     </div>
 
     <!-- Carousel -->
-    <div class="project-slider project-greyed">
+    <div class="project-slider">
         {% assign projects = site.categories["Grafisch ontwerp"] | where: "layout","branding" %}
         {% for post in projects limit:12 %}
         <div class="slider-item">
