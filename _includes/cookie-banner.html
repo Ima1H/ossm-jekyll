@@ -36,10 +36,18 @@
     function runCookiedCodes() {
         // Add tracking scripts here 
 
-        {% include personal-tracking-scripts.html %}
+        // {% include personal-tracking-scripts.html %};
+ 
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-51GB9KCQ8E');
+
        
         // End tracking scripts 
     }
+       
   
     if(readCookie('cookie-notice-accepted')=='true') {
   
