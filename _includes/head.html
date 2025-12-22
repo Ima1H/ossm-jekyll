@@ -14,15 +14,9 @@
     {% endif %}
 
     <!------------ Google Analytics ------------>
-    <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-51GB9KCQ8E"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- Google tag (gtag.js)- look in the include personal tracking scripts -->
+        
 
-        gtag('config', 'G-51GB9KCQ8E');
-        </script>
 
     <!------------  Social media sharing META Tags ------------>
     <meta property="og:title" content="{{ page.title | default: site.data.site-settings.seo.title }}">
