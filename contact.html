@@ -61,33 +61,42 @@ projects:
 <section id="contact"  class="padded-12 padded-t-10 mdl-padded-5 grid-middle tall-60 md-tall-80 md-padded-6 md-padded-t-4 sm-padded-5 sm-padded-t-8 xs-padded-2 xs-padded-t-6">
  
   <!---------------- Form  -------------------->
-  <div class="grid col-6_md-12 padded-t-0"> 
-    <h1 class="padded-l-4 padded-r-3 ml-padded-r-4 padded-b-0 xs-padded-l-2 col-12 title-medium-oversized">  Get in touch. </h2>
-    <hr class="margin-l-4 padded-r-3 padded-t-0 xs-margin-l-2">
-   <form div class="padded-l-4 padded-r-3 col-12 uppercase xs-padded-l-2" action="https://formspree.io/f/mwpjoawz" method="POST">
-  
+<div class="grid col-6_md-12 padded-t-0"> 
+  <h1 class="padded-l-4 padded-r-3 ml-padded-r-4 padded-b-0 xs-padded-l-2 col-12 title-medium-oversized">  
+    Get in touch.
+  </h1>
+  <hr class="margin-l-4 padded-r-3 padded-t-0 xs-margin-l-2">
+
+  <form class="padded-l-4 padded-r-3 col-12 uppercase xs-padded-l-2" 
+        action="https://formspree.io/f/mwpjoawz" 
+        method="POST">
+
+    <!-- Anti spam -->
+    <input type="hidden" name="_gotcha">
+    <input type="hidden" name="_subject" value="Nieuw contactformulier">
+
     <label for="_name"> Naam + Voornaam* </label>
     <input required type="text" name="_name" id="_name" placeholder="John Doe" />
 
     <label for="_adress"> Adres (straat, huisnr + gemeente)* </label>
     <input required type="text" name="_adress" id="_adress" placeholder="Populierenlaan 13 Burcht"/>
 
-     <label for="_phone-no"> GSM-nummer* </label>
-    <input required type="tel" name=”phone-no” id="_adress" placeholder="0499 61 06 04">
-    
+    <label for="phone-no"> GSM-nummer* </label>
+    <input required type="tel" name="phone-no" id="phone-no" placeholder="0499 61 06 04">
+
     <label for="_replyto"> E-mail* </label>
     <input required type="email" name="_replyto" id="_replyto" placeholder="john.doe@gmail.com" />
 
     <label for="message"> Bericht* </label>
     <textarea required name="message" id="message" placeholder="Hey Lindsay we zouden graag eens informeren over ..."></textarea>
 
-    <label for="message"> Bestand </label>
-    <input type="file">
+    <label for="file"> Bestand </label>
+    <input type="file" name="file" id="file">
 
     <button type="submit" class="button"> Verstuur </button>
-  
+
   </form> 
-  </div> 
+</div>
 
  <!---------------- Boek een afspraak  -------------------->
 
