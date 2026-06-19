@@ -5,16 +5,19 @@ _inputs:
       allow_create: true
       empty_type: array
     cascade: true
+
   tags:
     type: multiselect
     options:
       allow_create: true
       empty_type: array
     cascade: true
+
   images:
     type: array
     options:
       structures: _structures.images
+
   image_size_ratio:
     type: select
     options:
@@ -23,15 +26,19 @@ _inputs:
         - landscape
         - square
         - default
-  float-direction:
+
+  float_direction:
     type: select
     options:
       values:
         - left
         - right
+
+
 _editables:
   content:
     type: markdown
+    snippet: true
     options:
       styles: /editor.css
       blockquote: true
@@ -43,9 +50,6 @@ _editables:
       bulletedlist: true
       code: true
       table: true
-      right: right
-      center: center
-      left: left
       embed: true
       link: true
       undo: true
@@ -53,14 +57,9 @@ _editables:
       underline: true
       strike: true
       image: true
-      snippet: true
   cascade: true
 
 
-# Snippet definitions are generic variables that can be referenced in snippets
-# In this case, we're defining the common set of tokens that are relevant to
-# Jekyll/liquid tags. (This covers things like the `=` symbol between keys and values)
-# You shouldn't need to change these.
 _snippets_definitions:
   jekyll_liquid_format:
     root_value_delimiter: '='
@@ -72,16 +71,13 @@ _snippets_definitions:
     array_delimiter: ','
     string_boundary:
       - '"'
-      - ''''
+      - "'"
     forbidden_tokens:
       - '%}'
       - '-%}'
       - '}}'
       - ','
 
-# Snippet templates create a reusable structure to reduce repetition in snippets.
-# These are what you normally import in cloudcannon using _snippets_imports
-# As an example of creating one, here is a basic template for defining snippets that are liquid includes.
 
 _snippets_templates:
   jekyll_liquid_include:
@@ -91,35 +87,17 @@ _snippets_templates:
         parser: literal
         options:
           literal:
-            # This ref needs to be supplied by the _snippet when used
             ref: include_name
       args:
         parser: key_values
         options:
           models:
-            # This ref needs to be supplied by the _snippet when used
             ref: named_args
           format:
-             # This ref is pulled from the `_snippets_definitions` above
             ref: jekyll_liquid_format
 
-# Snippets defines each editor-facing snippet.
-# Here we inherit the above snippet, and specify the remaining `ref` variables.
+
 _snippets:
-  # figure:
-  #   template: jekyll_liquid_include
-  #   inline: false
-  #   preview:
-  #     text: Figure
-  #   definitions:
-  #     include_name: figure.html
-  #     named_args:
-  #       - editor_key: image
-  #         type: string
-  #       - editor_key: alt
-  #         type: string
-  #       - editor_key: caption_html
-  #         type: string
   image_grid:
     template: jekyll_liquid_include
     inline: false
@@ -129,19 +107,26 @@ _snippets:
       include_name: snippets/imgGallery3.html
       named_args:
         - editor_key: first_image
-          type: string
+          type: image
         - editor_key: first_alt
           type: string
         - editor_key: second_image
-          type: string
+          type: image
         - editor_key: second_alt
           type: string
         - editor_key: third_image
-          type: string
+          type: image
         - editor_key: third_alt
           type: string
         - editor_key: image_size_ratio
-          type: string
+          type: select
+          options:
+            values:
+              - portrait
+              - landscape
+              - square
+              - default
+
   floating_image:
     template: jekyll_liquid_include
     inline: true
@@ -151,8 +136,12 @@ _snippets:
       include_name: snippets/image-float.html
       named_args:
         - editor_key: image
-          type: string
+          type: image
         - editor_key: alt
           type: string
         - editor_key: float_direction
-          type: string
+          type: select
+          options:
+            values:
+              - left
+              - right
