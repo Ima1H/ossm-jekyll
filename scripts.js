@@ -264,7 +264,7 @@ $(document).ready(function() {
   });
 
   
-  // Booking module (adviseert/ontwerpt, pakketten & agenda)
+  // Booking module (interieur /merkbeleving, pakketten & agenda)
   
   (function() {
     var $mods = $('.booking-module');
@@ -272,7 +272,7 @@ $(document).ready(function() {
 
     $mods.each(function() {
       var $mod = $(this);
-      var defaultService = $mod.attr('data-default') || 'adviseert';
+      var defaultService = $mod.attr('data-default') || 'interieur';
       var $serviceBtns   = $mod.find('.service-btn');
       var $pkgs          = $mod.find('.pkg-btn');
       var $host          = $mod.find('#agenda-host');

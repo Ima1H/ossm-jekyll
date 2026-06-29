@@ -1,0 +1,147 @@
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+
+  images:
+    type: array
+    options:
+      structures: _structures.images
+
+  image_size_ratio:
+    type: select
+    options:
+      values:
+        - portrait
+        - landscape
+        - square
+        - default
+
+  float_direction:
+    type: select
+    options:
+      values:
+        - left
+        - right
+
+
+_editables:
+  content:
+    type: markdown
+    snippet: true
+    options:
+      styles: /editor.css
+      blockquote: true
+      horizontalrule: true
+      format: p h1 h2 h3 h4 h5 h6
+      bold: true
+      italic: true
+      numberedlist: true
+      bulletedlist: true
+      code: true
+      table: true
+      embed: true
+      link: true
+      undo: true
+      redo: true
+      underline: true
+      strike: true
+      image: true
+  cascade: true
+
+
+_snippets_definitions:
+  jekyll_liquid_format:
+    root_value_delimiter: '='
+    root_pair_delimiter:
+      - ''
+    array_boundary:
+      start: '['
+      end: ']'
+    array_delimiter: ','
+    string_boundary:
+      - '"'
+      - "'"
+    forbidden_tokens:
+      - '%}'
+      - '-%}'
+      - '}}'
+      - ','
+
+
+_snippets_templates:
+  jekyll_liquid_include:
+    snippet: '{% include [[name]] [[args]] %}'
+    params:
+      name:
+        parser: literal
+        options:
+          literal:
+            ref: include_name
+      args:
+        parser: key_values
+        options:
+          models:
+            ref: named_args
+          format:
+            ref: jekyll_liquid_format
+
+
+_snippets:
+  image_grid:
+    template: jekyll_liquid_include
+    inline: false
+    preview:
+      text: 3 image gallery
+    definitions:
+      include_name: snippets/imgGallery3.html
+      named_args:
+        - editor_key: first_image
+          type: image
+        - editor_key: first_alt
+          type: string
+        - editor_key: second_image
+          type: image
+        - editor_key: second_alt
+          type: string
+        - editor_key: third_image
+          type: image
+        - editor_key: third_alt
+          type: string
+        - editor_key: image_size_ratio
+          type: select
+          options:
+            values:
+              - portrait
+              - landscape
+              - square
+              - default
+
+  floating_image:
+    template: jekyll_liquid_include
+    inline: true
+    preview:
+      text: Floating image
+    definitions:
+      include_name: snippets/image-float.html
+      named_args:
+        - editor_key: image
+          type: image
+        - editor_key: alt
+          type: string
+        - editor_key: float_direction
+          type: select
+          options:
+            values:
+              - left
+              - right

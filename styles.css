@@ -3,7 +3,7 @@ Logo yellow - #F6EA49
 Darker grey  - #4A494B
 Dark grey - #4A4A4A
 Black  - #070808 
-Grey white - #F5F5F5
+Grey white - #f7f7f7
 Beige - #fbf8f0
 */
 
@@ -138,7 +138,7 @@ html {border: none;} */
     /* opacity: 0.8; */
 }
 
-.bg-plananalyse {
+.bg-interieurproject {
     background-image: url('/images/imaginate-ossm-228.jpg');
     background-position: 50% 34%;
     background-size: cover;
@@ -156,7 +156,7 @@ html {border: none;} */
     background-size: cover;
 }
 
-.bg-ontwerpt-aanbod {
+.bg-merkbeleving-aanbod {
     background-image: url('images/imaginate-ossm-175.jpg');
     background-position: 50% 34%;
     background-size: cover;
@@ -859,7 +859,7 @@ body {
 }
 
 .bg-light-grey {
-    background-color: #FBFBFB;
+    background-color: #f7f7f7;
 }
 
 .bg-light-greige {
@@ -968,7 +968,7 @@ body {
 .light-logo-text { color: #F6EA49; }
 .black-text     { color: #000000; } 
 .dark-text      { color: #4A4A4A; }
-.light-text     { color: #F5F5F5; }
+.light-text     { color: #f7f7f7; }
 .white-text     { color: white;   }
 .subtle-text {opacity: 0.8}
 
@@ -2217,6 +2217,24 @@ li {
     margin-bottom: 0.10rem;
 }
 
+#interieurproject ol {
+    padding-left: 0.4rem;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+#interieurproject ol + p {
+  margin-top: 1rem;
+}
+
+#interieurproject li, #interieurproject li::marker { 
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+
+
+
+
   
 /*---------------- Projects (Blog) Section Styles ------------------*/
 
@@ -2279,6 +2297,11 @@ form button {
     font-family: inherit;
 }
 
+
+/* Plan een afspraak in  */
+#contact[class*="grid-"][class*="-middle"] {
+    align-items: start;
+}
 /* Gele onderlijn voor de fallback-link onder de agenda */
 .booking-module .agenda-fallback-link {
   text-decoration: none;
@@ -2465,7 +2488,7 @@ footer nav a {
     right: 0;
     bottom: 0;
     width: calc(100% - 0rem);
-    background:  #FBFCFB;
+    background:  #f7f7f7;
     color: #4A4A4A;
     z-index: 2;
 }
@@ -2496,12 +2519,32 @@ footer nav a {
   
   
   /* Card Styles */
-  
+
   .card {
     padding: 0;
-    /* background-color: #fffdfd; */
-    /* box-shadow: 0 20px 25px -5px rgba(197, 196, 196, 0.2), 0 10px 10px -5px rgba(193, 193, 193, 0.2); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
+
+  .card .padded-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card .button {
+    margin-top: auto;
+    align-self: flex-start;
+  }
+
+  .grid-equalHeight > div {
+    display: flex;
+  }
+
+  .grid-equalHeight .card {
+    width: 100%;
+ }
 
   .card:hover {
     box-shadow: 0 20px 25px -5px rgba(89, 89, 89, 0.2), 0 10px 10px -5px rgba(89, 89, 89, 0.2);

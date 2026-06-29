@@ -64,6 +64,56 @@ $(document).ready(function() {
     ]
   });
 
+
+  // Project Carousel (index)
+  
+  $('.project-index-slider').slick({
+    autoplay: false,
+    autoplaySpeed: 3000,
+    speed: 1000,
+    arrows: true,
+    accessibility: true,
+    dots: true,
+    fade: false,
+    infinite: false,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      }
+    ]
+  });
+
   
   // Project Carousel (portfolio)
   
@@ -130,11 +180,34 @@ $(document).ready(function() {
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
+     {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
         }
       }
     ]
@@ -191,7 +264,7 @@ $(document).ready(function() {
   });
 
   
-  // Booking module (adviseert/ontwerpt, pakketten & agenda)
+  // Booking module (interieur /merkbeleving, pakketten & agenda)
   
   (function() {
     var $mods = $('.booking-module');
@@ -199,7 +272,7 @@ $(document).ready(function() {
 
     $mods.each(function() {
       var $mod = $(this);
-      var defaultService = $mod.attr('data-default') || 'adviseert';
+      var defaultService = $mod.attr('data-default') || 'interieur';
       var $serviceBtns   = $mod.find('.service-btn');
       var $pkgs          = $mod.find('.pkg-btn');
       var $host          = $mod.find('#agenda-host');

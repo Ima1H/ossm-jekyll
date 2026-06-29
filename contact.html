@@ -8,19 +8,6 @@ seo:
   twitter_card:
   keywords: 
   hide-from-google: false
-services:
- - column-size: col-4_lg-8_md-12
-   background_image: /images/bynouchka-160224-Lindsay-17.jpg
-   name-service: brainstormsessie
-   description: Zit je even vast? Tijdens dit kort maar krachtig gesprek bij jou thuis krijg je mondeling advies waarmee je zelf weer vooruit kunt. Zonder voorbereiding, wél meteen heldere richting.
-   follow-link: /adviseert-aanbod.html#brainstormsessie
-   text-button: Leer meer
-projects:
- - column-size: col-3_lg-8_md-12
-   background_image: /images/bynouchka-160224-Lindsay-17.jpg
-   name-project: project 1
-   follow-link: /brainstormsessie.html
-   text-arrow: Leer meer
 ---
 
 <!---------------------------------- Header Contact -------------------------------->
@@ -63,7 +50,7 @@ projects:
   <!---------------- Form  -------------------->
 <div class="grid col-6_md-12 padded-t-0"> 
   <h1 class="padded-l-4 padded-r-3 ml-padded-r-4 padded-b-0 xs-padded-l-2 col-12 title-medium-oversized">  
-    Get in touch.
+    Vragen? 
   </h1>
   <hr class="margin-l-4 padded-r-3 padded-t-0 xs-margin-l-2">
 
@@ -100,9 +87,9 @@ projects:
 
  <!---------------- Boek een afspraak  -------------------->
 
-  <div class="grid padded-t-0 col-6_md-12 booking-module md-padded-10 md-padded-t-6" data-default="adviseert">
+  <div id="afspraak" class="grid padded-t-0 col-6_md-12 booking-module md-padded-10 md-padded-t-6" data-default="interieur">
     <div class="">
-      <h1 class="padded-l-4 padded-r-3 md-padded-t-4 xs-padded-l-2 title-medium-oversized"> Boek een afspraak </h1>
+      <h1 class="padded-l-4 padded-r-3 md-padded-t-4 xs-padded-l-2 title-medium-oversized"> Afspraak inplannen  </h1>
       <hr class="margin-l-4 padded-r-3 padded-t-0 xs-margin-l-2">   
     </div>
 
@@ -118,37 +105,29 @@ projects:
       <!-- Stap 1: dienst -->
       <div class="padded-l-4 uppercase xs-padded-l-2">
           <div class="booking-step">
-          <p class="step-label">1. Kies een dienst</p>
+          <p class="step-label">1. Kies een optie</p>
           <div class="service-switch">
-            <!-- Adviseert eerst en actief -->
-            <button type="button" class="uppercase service-btn" data-service="adviseert" aria-selected="false">Adviseert</button>
-            <button type="button" class="uppercase service-btn" data-service="ontwerpt" aria-selected="false">Ontwerpt</button>
+            <!-- Interieur eerst en actief -->
+            <button type="button" class="uppercase service-btn" data-service="adviessesie" aria-selected="false">Adviessessie</button>
+            <button type="button" class="uppercase service-btn" data-service="kennismaking" aria-selected="false">Kennismaking</button>
           </div>
         </div>
 
         <!-- Stap 2: pakketten -->
         <div class="booking-step">
-          <p class="step-label">2. Kies een pakket</p>
+          <p class="step-label">2. Kies een wijze van afspraak</p>
           <div id="package-grid" class="package-grid">
 
             <!-- ADVISEERT (met jouw links) -->
-            <button type="button" class="pkg-btn" data-id="adviessessie" data-service="adviseert" data-provider="calendly" data-url="https://tidycal.com/ossm/adviessessie">Adviessessie</button>
-            <button type="button" class="pkg-btn" data-id="plananalyse" data-service="adviseert" data-provider="calendly" data-url="https://tidycal.com/ossm/kennismakingsgesprek-online">Plananalyse</button>
+            <a type="button" class="pkg-btn" data-id="adviessessie" data-service="adviessesie" data-provider="calendly" data-url="https://tidycal.com/ossm/adviessessie" href="https://tidycal.com/ossm/adviessessie" target="_blank">Sessie - op locatie (2u)</a>
+        
 
             <!-- ONTWERPT (laat staan of vervang met jouw echte links) -->
-            <button type="button" class="pkg-btn" data-id="rebranding" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/ossm/kennismakingsgesprek-online">(re)Branding</button>
-            <button type="button" class="pkg-btn" data-id="interieurproject" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/ossm/kennismakingsgesprek-online">Interieurproject</button>
-            <button type="button" class="pkg-btn" data-id="totaalconcept" data-service="ontwerpt" data-provider="tidycal" data-url="https://tidycal.com/ossm/kennismakingsgesprek-online">Totaalconcept</button>
+            <a type="button" class="pkg-btn" data-id="interieurproject" data-service="kennismaking" data-provider="tidycal" data-url="https://tidycal.com/ossm/kennismakingsgesprek-online" href="https://tidycal.com/ossm/kennismakingsgesprek-online" target="_blank"> Kennismakingsgesprek - online (30 min)</a>
+            <a type="button" class="pkg-btn" data-id="totaalconcept" data-service="kennismaking" data-provider="tidycal" data-url="https://tidycal.com/ossm/kennismakingsgesprek-op-locatie" href="https://tidycal.com/ossm/kennismakingsgesprek-op-locatie" target="_blank">   Kennismakingsgesprek - op locatie (1u)</a>
           </div>
         </div>
 
-        <!-- Stap 3: agenda -->
-        <div class="booking-step">
-          <p class="step-label">3. Plan je moment</p>
-          <div id="agenda-host" class="agenda-host">
-            <div class="agenda-placeholder">Selecteer een pakket om de agenda te laden.</div>
-          </div>
-        </div>
       </div>
     </div>
 
